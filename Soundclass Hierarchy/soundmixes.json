@@ -1,0 +1,1785 @@
+[
+  {
+    "soundmix_name": "DuckOnBeerEffects",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "EnvironmentParent",
+      "Music"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnOperatingMachine",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "1stAnd3rdSharedWeapons",
+      "1stPersonWeapon",
+      "3rdpersonWeapons",
+      "CharactersParent",
+      "EnemiesParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "Mining",
+      "WeaponRicochet"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnPerkActivated",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.4,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharacterFootsteps",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "RobotCommunication",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnPerkIronWillActivated",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 2.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharacterFootsteps",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "RobotCommunication",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnSpecialTerminalEvent",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.1,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "EnvironmentParent",
+      "Music_Background",
+      "Music_JukeBox",
+      "UI_IsolatedFromWorld"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnWeaponCommunication0-5",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.0,
+      "Duration": 0.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "CharactersParent",
+      "EnemiesParent",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "RobotCommunication"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnWeaponCommunication1-0",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": 1.0,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "CharactersParent",
+      "EnemiesParent",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "RobotCommunication"
+    ]
+  },
+  {
+    "soundmix_name": "DuckOnWeaponCommunication2-0",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": 2.0,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "CharactersParent",
+      "EnemiesParent",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "RobotCommunication"
+    ]
+  },
+  {
+    "soundmix_name": "Duck_InMenu_Music_and_AmbientoundMix1",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "EnvironmentParent",
+      "Music_Background",
+      "Music_JukeBox"
+    ]
+  },
+  {
+    "soundmix_name": "Duck_OtherMusicOnEndScreen_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 1.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_Boss",
+      "Music_Discovery",
+      "Music_Endwave"
+    ]
+  },
+  {
+    "soundmix_name": "MusicActionOnly_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 5.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Background",
+      "Music_Discovery"
+    ]
+  },
+  {
+    "soundmix_name": "MusicBeerEffectOnly_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_Boss",
+      "Music_Endwave"
+    ]
+  },
+  {
+    "soundmix_name": "MusicBossOnly_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_Discovery"
+    ]
+  },
+  {
+    "soundmix_name": "MusicDiscoveryOnly_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_Boss",
+      "Music_Endwave"
+    ]
+  },
+  {
+    "soundmix_name": "MusicEndwaveOnly_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_Boss",
+      "Music_Discovery"
+    ]
+  },
+  {
+    "soundmix_name": "MusicJukeBox_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_BeerEffect",
+      "Music_Discovery"
+    ]
+  },
+  {
+    "soundmix_name": "MusicMemorialHall_SoundMix1",
+    "data_values": {
+      "InitialDelay": 3.0,
+      "FadeInTime": 3.0,
+      "FadeOutTime": 2.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Action",
+      "Music_Background",
+      "Music_Discovery"
+    ]
+  },
+  {
+    "soundmix_name": "NoAmbience_SoundMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "Enemies",
+      "EnvironmentParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_Duck1stPersonFireWeaponAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonFire2ndWeaponsAutoMix",
+      "3rdpersonWeapons",
+      "EnvironmentParent",
+      "HelperWeapons",
+      "MachinesParent",
+      "RobotParent",
+      "ShieldFields"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_Duck2ndAnd3rdEnemiesAutoMix",
+    "data_values": {
+      "InitialDelay": 0.1,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 1.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "3rdEnemies",
+      "EnvironmentParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_Duck2ndEnemiesIdleAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.4,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemiesIdle"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_Duck3rdEnemiesIdleAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.4,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdEnemiesIdle"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_Duck3rdPersonWeaponFireAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_Duck3rdStepsAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.1,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdEnemiesSteps"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckArmorHitAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.05,
+      "FadeOutTime": 0.0,
+      "Duration": 0.2,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonWeapon",
+      "CharactersImpactArmor"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckEverythingOnDwarfSpeaksAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.05,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "MachinesParent",
+      "Music",
+      "Music_JukeBox",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckEverythingOnGhostAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.05,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnvironmentParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckEverythingOnMissionControlAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX",
+      "SpeakDwarf",
+      "UI"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckEverythingOnUISmallAutomix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false,
+      "EQPriority": 0
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckEverythingOnUI_LargeAutomix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": 1.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX",
+      "SpeakDwarf"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckFootstepsAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.05,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharacterFootsteps"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckHelperWeapons",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 1.0,
+      "Duration": 0.3,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "HelperWeapons"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn1stEnemiesDeath",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": 0.4,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "MachinesParent",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn1stEnemyImpactShort",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": 0.2,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "1stEnemiesIdle",
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "MachinesParent",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn1stEnemyScreamAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "1stEnemiesIdle",
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "MachinesParent",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn1stPersonSingleFire",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.1,
+      "Duration": 0.2,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "GunTower",
+      "HelperWeapons",
+      "MachinesParent",
+      "RobotParent",
+      "ShieldFields"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn1stPersonWeaponFireLoopAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "EnvironmentParent",
+      "GunTower",
+      "HelperWeapons",
+      "MachinesParent",
+      "RobotParent",
+      "ShieldFields"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn2ndEnemiesDeath1-5",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.05,
+      "FadeOutTime": 0.0,
+      "Duration": 1.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonWeapon",
+      "3rdEnemies",
+      "3rdpersonWeapons",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "SpeakDwarf"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn2ndEnemiesDeathAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemiesIdle",
+      "2ndEnemiesMiscManualMix",
+      "2ndEnemiesSteps",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "ExplosionsManualMix",
+      "GameEventsManualMix",
+      "HelperWeapons",
+      "MachinesParent",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn2ndEnemiesScreamAutoMixShort",
+    "data_values": {
+      "InitialDelay": 0.1,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonWeapon",
+      "2ndEnemiesIdle",
+      "3rdEnemies",
+      "3rdpersonWeapons",
+      "HelperWeapons",
+      "MachinesParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn3rdEnemiesCommunicationAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.3,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "EnvironmentParent",
+      "ExplosionSinus",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "Mining",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn3rdEnemiesDeath0-1",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.0,
+      "Duration": 0.1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdEnemiesCloseBite",
+      "3rdEnemiesIdle",
+      "3rdEnemiesMisc",
+      "3rdEnemiesScream",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOn3rdEnemiesDeathAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.15,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonWeapon",
+      "3rdEnemiesCloseBite",
+      "3rdEnemiesIdle",
+      "3rdEnemiesMisc",
+      "3rdEnemiesScream",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "ExplosionsManualMix",
+      "GameEventsManualMix",
+      "HelperWeapons",
+      "SpeakDwarf"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnBoscoTalkAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Enemies",
+      "ExplosionsManualMix",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnBulletPassBy",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": 0.3,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stAnd3rdSharedWeapons",
+      "1stPersonWeapon",
+      "CharactersParent",
+      "Depositing",
+      "EnemiesParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "HelperWeapons",
+      "MachinesParent",
+      "Mining",
+      "SpeakDwarfParent",
+      "WeaponRicochet"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnDown2-0",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 2.0,
+      "Duration": 2.0,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnDownStateBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX",
+      "SpeakDwarfParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnDrillVehicleAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Coils",
+      "DrillVehicleManualMix",
+      "DropPod",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "FuelCell",
+      "GameEvents",
+      "MineHead",
+      "MulesAutoMix",
+      "MulesManualMix",
+      "Pipes",
+      "RefineryMain",
+      "RobotParent",
+      "SupplyDropAutoMix",
+      "SupplyDropManualMix",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnDrillVehicleTalk",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Coils",
+      "DrillVehicleAutoMix",
+      "DrillVehicleManualMix",
+      "DropPod",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "FuelCell",
+      "GameEvents",
+      "MineHead",
+      "MulesAutoMix",
+      "MulesManualMix",
+      "Pipes",
+      "RefineryMain",
+      "RobotParent",
+      "SupplyDropAutoMix",
+      "SupplyDropManualMix",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnDropSpikeFall1-0",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 1.0,
+      "Duration": 1.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "Enemies",
+      "Enviorment_FootstepOverwrite",
+      "HelperWeapons",
+      "Mining",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnEggAlert",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 2.0,
+      "Duration": 3.0,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "Enemies",
+      "EnvironmentParent",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "Mining",
+      "RobotCommunication",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnEndScreen",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 1.0,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "CutSceneSFX",
+      "CutSceneSpeak",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "Music_JukeBox",
+      "Music_MemorialHall",
+      "PerksParent",
+      "RobotParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnEnemyCommunication0-5",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.4,
+      "Duration": 0.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "Enemies",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnEnemyCommunicationFixedTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.4,
+      "Duration": 2.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "Enemies",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnEnemyDeath3-0sec",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.4,
+      "Duration": 3.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonWeapon",
+      "3rdpersonWeapons",
+      "EnemiesProjectileImpact",
+      "HelperWeapons",
+      "MachinesParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnEnemyProjectileImpact",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.1,
+      "Duration": 0.1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersImpactArmor",
+      "CharactersImpactDwarf",
+      "Enemies",
+      "EnvironmentParent",
+      "ExplosionsDistant",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponCommunication",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnExplosionClose",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 1.5,
+      "Duration": 1.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "EnemiesParent",
+      "EnvironmentParent",
+      "GameEvents",
+      "MachinesParent",
+      "PerksParent",
+      "RobotParent",
+      "SpeakDwarfParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnExplosionDistant",
+    "data_values": {
+      "InitialDelay": 0.1,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 1.4,
+      "Duration": 0.5,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "1stAnd3rdSharedWeapons",
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "Enemies",
+      "EnvironmentParent",
+      "HelperWeapons",
+      "Mining",
+      "Music",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnExplosionGeneralLongTail0-5",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 2.0,
+      "Duration": 0.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "EnemiesParent",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnExplosionGeneralLongTailBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 2.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "EnemiesParent",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnExplosionGeneralShortTailBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "EnemiesParent",
+      "HelperWeapons",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnExplosionsAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "CharactersParent",
+      "EnemiesParent",
+      "EnemiesProjectileImpact",
+      "EnvironmentParent",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "MachinesParent",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnFrozenStateBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "DropPod",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionsDistant",
+      "ExplosionSinus",
+      "ExplosionsManualMix",
+      "FuelCell",
+      "HelperWeapons",
+      "MineHead",
+      "Mining",
+      "RobotCommunication",
+      "SupplyDropAutoMix",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnGameEventCommunication",
+    "data_values": {
+      "InitialDelay": 0.1,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "Enemies",
+      "EnvironmentParent",
+      "GameEventsManualMix",
+      "GunTower",
+      "HelperWeapons",
+      "Mining",
+      "Music",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnGrabbed",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 2.0,
+      "Duration": 3.0,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Enemies",
+      "EnemiesProjectileImpact",
+      "Enemy_Death",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "MachinesParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnHeightenedSenses",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.4,
+      "FadeOutTime": 2.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stEnemies",
+      "2ndEnemiesAttackAutoMix",
+      "2ndEnemiesDeathAutomix",
+      "2ndEnemiesDeathManualMix",
+      "2ndEnemiesGrabbersGroup",
+      "2ndEnemiesIdle",
+      "2ndEnemiesMisc",
+      "2ndEnemiesMiscManualMix",
+      "2ndEnemiesScreamAutoMix",
+      "2ndEnemiesSteps",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnemiesCommunicationGrabbersGroup",
+      "EnemiesProjectileImpact",
+      "Enemy_Death",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "RobotCommunication",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnHugeExplosion3-0",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.7,
+      "FadeOutTime": 2.0,
+      "Duration": 3.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stEnemies",
+      "2ndEnemies",
+      "3rdEnemies",
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "EnvironmentParent",
+      "FuelCell",
+      "GrabbedByEnemy",
+      "HelperWeapons",
+      "MineHead",
+      "Mining",
+      "OmmoranManualMix",
+      "RobotCommunication",
+      "ShieldFields",
+      "SpeakDwarf",
+      "SupplyDropAutoMix",
+      "WeaponCommunication",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnHydraWeedCommunication",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 1.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemiesAttackAutoMix",
+      "2ndEnemiesDeathAutomix",
+      "2ndEnemiesHydraWeedShootAutoMix",
+      "2ndEnemiesMisc",
+      "2ndEnemiesScreamAutoMix",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnImpactShort",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": 0.2,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersParent",
+      "DropPod",
+      "Enemies",
+      "EnvironmentParent",
+      "ExplosionsDistant",
+      "ExplosionSinus",
+      "HelperWeapons",
+      "Mining",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnImportant0-5sec",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.4,
+      "Duration": 1.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "HelperWeapons",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnImportant1-5sec",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.4,
+      "Duration": 1.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "HelperWeapons",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnInfectedMuleAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "ExplosionsManualMix",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnInfectedMuleBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.4,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Enemies",
+      "EnvironmentParent",
+      "ExplosionsDistant",
+      "ExplosionsManualMix",
+      "HelperWeapons",
+      "MineHead",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnInsideHotspringBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Ambience"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnInsideShieldBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionSinus",
+      "ExplosionsParent",
+      "MachinesParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnInsideSlowGrenadeBPTiming",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "DropPod",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionsDistant",
+      "ExplosionSinus",
+      "ExplosionsManualMix",
+      "FuelCell",
+      "HelperWeapons",
+      "MineHead",
+      "Mining",
+      "RobotCommunication",
+      "SupplyDropAutoMix",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnInsideWardrope",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 1.0,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "CutSceneSFX",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "MachinesParent",
+      "Music_JukeBox",
+      "Music_MemorialHall",
+      "RobotParent",
+      "SpeakDwarfParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnMachineActivityAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.5,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stEnemies",
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnemiesProjectileImpact",
+      "EnvironmentParent",
+      "ExplosionsManualMix",
+      "MulesManualMix",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnOmmoranAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stEnemies",
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnemiesCommunication",
+      "EnemiesProjectileImpact",
+      "Enemy_Death",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "OmmoranManualMix",
+      "PerksParent",
+      "RobotParent",
+      "SpeakDwarfParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnOmmoranCommunicationAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 1.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stEnemies",
+      "2ndEnemies",
+      "3rdEnemies",
+      "CharactersParent",
+      "EnemiesCommunication",
+      "EnemiesProjectileImpact",
+      "Enemy_Death",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GameEvents",
+      "MachinesParent",
+      "Music",
+      "OmmoranAutoMix",
+      "OmmoranManualMix",
+      "PerksParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnQuakeBPTimingAutoMix",
+    "data_values": {
+      "InitialDelay": 0.1,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 1.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "3rdEnemies",
+      "Ambience",
+      "CharactersParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnRicochetAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.1,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "1stPersonWeapon",
+      "3rdpersonWeapons"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnRockAttack",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.5,
+      "FadeOutTime": 1.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Enemies",
+      "EnemiesProjectileImpact",
+      "Enemy_Death",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "MachinesParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnRockAttackHighPrio",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.0,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "RockAttackAutoMix"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnShooting",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 1.0,
+      "Duration": 1.0,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "Ambience",
+      "CharactersParent",
+      "Enemies",
+      "EnvironmentParent",
+      "HelperWeapons",
+      "Mining"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnTowerFire1stAutomix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.01,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "EnvironmentParent",
+      "GameEventsManualMix",
+      "GunTower2ndAutoMix",
+      "GunTower3rdManualMix",
+      "HelperWeapons"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnTowerFire2ndAutomix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 0.01,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "3rdpersonWeapons",
+      "EnvironmentParent",
+      "GunTower3rdManualMix",
+      "HelperWeapons"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckOnWeakPoint",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.01,
+      "FadeOutTime": 1.0,
+      "Duration": 0.5,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "EnemiesParent",
+      "EnvironmentParent",
+      "ExplosionsParent",
+      "GunTower1stAutoMix",
+      "GunTower2ndAutoMix",
+      "GunTower3rdManualMix",
+      "MachinesParent",
+      "RobotCommunication",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckPlayer",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 1.0,
+      "Duration": 1.0,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "CharactersParent",
+      "Enemies",
+      "HelperWeapons",
+      "Mining",
+      "SpeakDwarf",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_DuckShieldsAutoMix",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.1,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "ShieldFields"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_FadeInSFXandMusic",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 2.0,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_FadeOutMusicAndSFX",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 2.0,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_FadeOutPromotionMusic",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 2.0,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_PromotionMenu"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_ForPromotion_FadeOutSfxAndSpaceRigMusic",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 2.0,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music_Background",
+      "Music_JukeBox",
+      "Music_MemorialHall",
+      "Music_PromotionMenu",
+      "SFX"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_GrabbedByCaveLeech",
+    "data_values": {
+      "InitialDelay": 0.1,
+      "FadeInTime": 0.1,
+      "FadeOutTime": 1.0,
+      "Duration": -1,
+      "bApplyEQ": true
+    },
+    "soundclass_names": [
+      "2ndEnemies",
+      "CharactersParent",
+      "WeaponsParent"
+    ]
+  },
+  {
+    "soundmix_name": "PSM_MuteSFXandMusic",
+    "data_values": {
+      "InitialDelay": 0.0,
+      "FadeInTime": 0.0,
+      "FadeOutTime": 0.3,
+      "Duration": -1,
+      "bApplyEQ": false
+    },
+    "soundclass_names": [
+      "Music",
+      "SFX"
+    ]
+  }
+]

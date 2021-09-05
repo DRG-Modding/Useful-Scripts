@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "TheSoundClassers",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Hax",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.25.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TheSoundClassers",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

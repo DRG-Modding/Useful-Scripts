@@ -1,0 +1,157 @@
+Master
+ | Attenuation
+ |  | SFX
+ |  |  | WeaponsParent
+ |  |  |  | 1stAnd3rdSharedWeapons
+ |  |  |  |  | SharedWeaponsReload
+ |  |  |  | 1stPersonWeapon
+ |  |  |  |  | 1stPersonWeaponFireCore
+ |  |  |  |  |  | 1stPersonFire1stWeaponsLoop
+ |  |  |  |  |  | 1stPersonFire2ndWeaponsAutoMix
+ |  |  |  |  |  | 1stPersonFire1stWeaponsSingle
+ |  |  |  |  |  | 1stPersonFire2ndWeaponsManualMix
+ |  |  |  |  | 1stPersonWeaponsTail
+ |  |  |  | 3rdpersonWeapons
+ |  |  |  |  | 3rdPersonWeaponCore
+ |  |  |  |  | 3rdPersonWeaponTail
+ |  |  |  | Mining
+ |  |  |  | HelperWeapons
+ |  |  |  | WeaponRicochet
+ |  |  |  | Depositing
+ |  |  |  |  | DepositingManMix
+ |  |  |  |  | DepositingAutoMix
+ |  |  |  | BulletPassBy
+ |  |  | CharactersParent
+ |  |  |  | CharacterFootsteps
+ |  |  |  | CharacterGeneric
+ |  |  |  | CharactersImpactArmor
+ |  |  |  | CharactersImpactDwarf
+ |  |  |  | GrabbedByEnemy
+ |  |  |  | PlayerNoDuck
+ |  |  |  | BeerEffectsAutoMix
+ |  |  |  | LowHealth
+ |  |  | EnvironmentParent
+ |  |  |  | Enviorment_FootstepOverwrite
+ |  |  |  | DropSpikeFall
+ |  |  |  | EnvironmentCommunication
+ |  |  |  | Earthquake
+ |  |  |  | EnvironmentMisc
+ |  |  |  | ShieldFields
+ |  |  |  | Ambience
+ |  |  |  | HotSprings
+ |  |  | Music_JukeBox
+ |  |  | EnemiesParent
+ |  |  |  | Enemies
+ |  |  |  |  | 1stEnemies
+ |  |  |  |  |  | 1stEnemiesIdle
+ |  |  |  |  |  | 1stEnemiesDeathAutomix
+ |  |  |  |  |  | 1stEnemiesMisc
+ |  |  |  |  |  | 1stEnemiesSteps
+ |  |  |  |  |  | 1stEnemiesScreamAutoMix
+ |  |  |  |  |  | 1stEnemiesAttackManualMix
+ |  |  |  |  |  | GhostNearSound
+ |  |  |  |  |  | 1stEnemiesAttackAutoMix
+ |  |  |  |  | 3rdEnemies
+ |  |  |  |  |  | 3rdEnemiesIdle
+ |  |  |  |  |  | 3rdEnemiesCloseBite
+ |  |  |  |  |  | 3rdEnemiesDeathAutomix
+ |  |  |  |  |  | 3rdEnemiesScream
+ |  |  |  |  |  | 3rdEnemiesSteps
+ |  |  |  |  |  | 3rdEnemiesMisc
+ |  |  |  |  |  | 3rdEnemiesDeathManualMix
+ |  |  |  |  |  | 3rdEnemiesCommunicationAutoMix
+ |  |  |  |  | 2ndEnemies
+ |  |  |  |  |  | 2ndEnemiesIdle
+ |  |  |  |  |  | 2ndEnemiesScreamAutoMix
+ |  |  |  |  |  | 2ndEnemiesSteps
+ |  |  |  |  |  | 2ndEnemiesMisc
+ |  |  |  |  |  | 2ndEnemiesDeathAutomix
+ |  |  |  |  |  | 2ndEnemiesAttackAutoMix
+ |  |  |  |  |  | 2ndEnemiesDeathManualMix
+ |  |  |  |  |  | 2ndEnemiesMiscManualMix
+ |  |  |  |  |  | 2ndEnemiesGrabbersGroup
+ |  |  |  |  |  |  | 2ndEnemiesScreamGrabbersGroupAutoMix
+ |  |  |  |  |  | 2ndEnemiesHydraWeedShootAutoMix
+ |  |  |  |  |  | 2ndEnemiesHydraWeedCommunication
+ |  |  |  |  | OmmoranHeartstone
+ |  |  |  |  |  | OmmoranManualMix
+ |  |  |  |  |  | OmmoranAutoMix
+ |  |  |  |  |  | OmmoranCommunicationAutoMix
+ |  |  |  |  |  | OmmoranCommunicationManualMix
+ |  |  |  | EnemiesCommunication
+ |  |  |  |  | EnemiesCommunicationGrabbersGroup
+ |  |  |  |  | RockAttack
+ |  |  |  |  |  | RockAttackAutoMix
+ |  |  |  |  |  | RockAttackManualMix
+ |  |  |  |  |  | RockAttackHighPrio
+ |  |  |  | EnemiesProjectileImpact
+ |  |  |  | Enemy_Death
+ |  |  | Music_MemorialHall
+ |  |  | ExplosionsParent
+ |  |  |  | ExplosionsManualMix
+ |  |  |  | ExplosionsDistant
+ |  |  |  | LargestExplosions
+ |  |  |  | ExplosionsCoreAutoMix
+ |  |  |  | ExplosionsTail
+ |  |  |  | VolatileGutsExplosions
+ |  |  | MachinesParent
+ |  |  |  | DropPod
+ |  |  |  | FuelCell
+ |  |  |  | SupplyDropAutoMix
+ |  |  |  | MineHead
+ |  |  |  | MulesAutoMix
+ |  |  |  | MulesManualMix
+ |  |  |  | SupplyDropManualMix
+ |  |  |  | DrillVehicle
+ |  |  |  |  | DrillVehicleAutoMix
+ |  |  |  |  | DrillVehicleManualMix
+ |  |  |  |  | DrillVehicleTalk
+ |  |  |  | Pipes
+ |  |  |  | Coils
+ |  |  |  | RefineryMain
+ |  |  |  | RefineryRocket
+ |  |  |  | Organ
+ |  |  | GameEvents
+ |  |  |  | GameEventsCommunicationAutoMix
+ |  |  |  | GameEventsManualMix
+ |  |  |  | GunTower
+ |  |  |  |  | GunTower1stAutoMix
+ |  |  |  |  | GunTower2ndAutoMix
+ |  |  |  |  | GunTower3rdManualMix
+ |  |  |  |  | GunTowerManualMix
+ |  |  | CutSceneSFX
+ |  |  | PerksParent
+ |  |  |  | MiscPerkManualMix
+ |  |  |  | MiscPerkAutoMix
+ |  |  |  | PerkHeightenedSenseAutoMix
+ |  |  |  | PerkIronWillAutoMix
+ |  |  | RobotParent
+ |  |  |  | RobotCommunication
+ |  |  |  |  | InfectedMuleCommunication
+ |  |  |  |  | InfectedMuleMisc
+ |  | UI
+ |  |  | UIControllerSounds
+ |  |  | SpeakParent
+ |  |  |  | MissionControl
+ |  |  |  | SpeakDwarfParent
+ |  |  |  |  | CutSceneSpeak
+ |  |  |  |  | SpeakDwarf
+ |  |  |  |  | SpeakDwarfNoDuck
+ |  |  | UI_AutoMix
+ |  |  | 2dSound
+ |  |  | ExplosionSinus
+ |  |  | UI_IsolatedFromWorld
+ |  |  | SpecialTerminalEvent
+ |  |  | UI_ManualMix
+ |  |  | UI_largeAutomix
+ |  | Music
+ |  |  | Music_Background
+ |  |  | Music_Discovery
+ |  |  | Music_Action
+ |  |  | Music_Endwave
+ |  |  | Music_Menu
+ |  |  | Music_Boss
+ |  |  | Music_PromotionMenu
+ |  |  | Music_BeerEffect
+ |  |  | Music_Menu_Endscreen
+ |  | VoiceChat

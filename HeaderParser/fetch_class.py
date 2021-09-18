@@ -21,11 +21,14 @@ def try_fetch_class(classname: str) -> (str, str) or None:
     path, name = find_class_path_and_name(classname)
     if path is None:
         return
-    #to_path = os.path.join(config.FETCH_DIR, name)
-    to_path = config.FETCH_DIR
+    if config.FETCH_INTO_SUBDIRS:
+        to_path = os.path.join(config.FETCH_DIR, name)
+    else:
+        to_path = config.FETCH_DIR
     os.makedirs(to_path, exist_ok=True)
     shutil.copy(path + ".h", to_path)
-    #shutil.copy(path + ".cpp", to_path)  # TODO: enable
+    if os.path.exists(path + ".cpp"):
+        shutil.copy(path + ".cpp", to_path)
     return os.path.join(to_path, name + ".h"), name
 
 
@@ -43,21 +46,31 @@ def fetch_parents(header_path: str, have: list[str]):
     return count
 
 
+def ui_loop(name: str = None):
+    if name is None:
+        print("Which class would you like to fetch?")
+        name = input(" > ")
+    if config.CLEAR_BEFORE_FETCH:
+        shutil.rmtree(config.FETCH_DIR, True)
+    path, realname = try_fetch_class(name)
+    if path is None:
+        print(f"{name} not found in {config.FETCH_DIR}/**!")
+        return
+    parent_count = fetch_parents(path, [strip_name(realname)])
+    print(f"Fetched {realname} and its {parent_count} included parent classes.")
+
+
+def main():
+    if config.AUTOFETCH is not None and len(config.AUTOFETCH) > 0:
+        for name in config.AUTOFETCH:
+            print(f"Fetching {name} (as set in Config.AUTOFETCH)...")
+            ui_loop(name)
+            config.CLEAR_BEFORE_FETCH = False
+    else:
+        while True:
+            ui_loop()
+
 
 if __name__ == '__main__':
-    while True:
-        print("Which class would you like to fetch?")
-        #name = input(" > ")
-        name = "fsdgamestate"
-        shutil.rmtree(config.FETCH_DIR, True)
-        path, name = try_fetch_class(name)
-        if path is None:
-            print("Not found!")
-            continue
-        parent_count = fetch_parents(path, [strip_name(name)])
-        print(f"Fetched {name} and its {parent_count} included parent classes.")
-
-        break
-
-
+    main()
 

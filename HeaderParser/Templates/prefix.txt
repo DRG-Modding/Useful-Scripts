@@ -5,7 +5,3 @@
 */
 #pragma once
 
-#include "CoreMinimal.h"
-// --- automatic includes ---
-{includes}
-// --------------------------

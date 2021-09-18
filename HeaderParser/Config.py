@@ -5,13 +5,21 @@ from Parser import DumpSelfVars
 
 class Config(DumpSelfVars):
     def __init__(self):
+        # main.py options
         self.ORIGINALS_DIR = "../../Header-Dumps/U34.5/DUMP/"
         self.WORKING_DIR = "Headers"
         self.CONFLICT_DIR = "Headers_conflict"
         self.OUTPUT_DIR = "Headers_parsed"
         self.TEMPLATE_DIR = "Templates"
-        self.FETCH_DIR = "Headers_fetched"
         self.RELOAD = False
+        self.FETCH_AFTER_RUN = True
+
+        # fetch_class.py options
+        self.FETCH_DIR = "Headers_fetched"
+        self.FETCH_INTO_SUBDIRS = False
+        self.CLEAR_BEFORE_FETCH = True
+        self.AUTOFETCH = ["AfflictionEffect"]
+
 
     def reload(self):
         """

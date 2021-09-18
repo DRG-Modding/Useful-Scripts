@@ -1,5 +1,6 @@
 from .Blocks import CodeBlock, BlockType, VirtualBlock
 from ._Data import _Data
+from .CodeBlockGenerationTools import CBT
 import os, re
 
 # Initial general block regex
@@ -43,14 +44,12 @@ class _DataLoader(_Data):
         print("Merging structs into classes... ", end="")
         for k,v in self.structs.items():
             self.classes[k] = v
-        self.structs = {}
-        print(f"{len(self.classes)} classes, {len(self.structs)} structs")
-        assert len(self.structs) == 0
+        print(f"{len(self.classes)} classes(+structs), {len(self.structs)} structs")
 
         print("Fixing type names... ", end="")
-        c = sum((block.fix_type_names(self.structs) for block in self.structs.values()))
-        c += sum((block.fix_type_names(self.structs) for block in self.classes.values()))
-        print(f"{c} changes made.")
+        #c = sum((block.fix_type_names(self.structs) for block in self.structs.values()))
+        c, invalid_fcns = (sum(x) for x in zip(*(CBT(self, block).fix_type_names() for block in self.classes.values())))
+        print(f"{c} type changes made. {invalid_fcns} invalid functions.")
 
     def _load_blocks(self, from_path: str, excluded: bool):
         for filename in os.listdir(from_path):

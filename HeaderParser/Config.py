@@ -4,6 +4,7 @@ from Parser import DumpSelfVars
 
 
 class Config(DumpSelfVars):
+
     def __init__(self):
         # main.py options
         self.ORIGINALS_DIR = "../../Header-Dumps/U34.5/DUMP/"
@@ -19,7 +20,6 @@ class Config(DumpSelfVars):
         self.FETCH_INTO_SUBDIRS = False
         self.CLEAR_BEFORE_FETCH = True
         self.AUTOFETCH = ["AfflictionEffect"]
-
 
     def reload(self):
         """

@@ -35,4 +35,4 @@ class CodeBlock(DumpSelfVars):
         self.body_members = [BlockBodyMember(match) for match in re_block_body_member.finditer(self.body_str)]
 
     def class_name(self) -> str:
-        return self.identifier.name[1:]
+        return self.identifier.name

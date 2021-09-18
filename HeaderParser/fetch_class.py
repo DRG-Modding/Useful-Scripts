@@ -21,8 +21,9 @@ def try_fetch_class(classname: str) -> (str, str) or None:
     path, name = find_class_path_and_name(classname)
     if path is None:
         return
-    to_path = os.path.join(config.FETCH_DIR, name)
-    os.makedirs(to_path, True)
+    #to_path = os.path.join(config.FETCH_DIR, name)
+    to_path = config.FETCH_DIR
+    os.makedirs(to_path, exist_ok=True)
     shutil.copy(path + ".h", to_path)
     #shutil.copy(path + ".cpp", to_path)  # TODO: enable
     return os.path.join(to_path, name + ".h"), name

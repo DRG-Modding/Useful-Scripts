@@ -36,16 +36,15 @@ class _FileGenerator(_Templates):
 
     def generate_structs(self):
         with open(os.path.join(self.config.OUTPUT_DIR, "structs.h"), "w") as f:
-            f.write(self.template("structs.h", {}))
-
+            structs = []
+            includes = []
             for struct in self.get_sorted_structs():
                 if not struct.excluded:
-                    f.write(struct.generate_struct() + "\n\n")
-
-
-            #for s in sorted((struct.generate_struct() for struct in self.structs.values()),
-            #                key=lambda x: len(re.findall("(^|\n)[^/\n]*struct", x))):
-            #    f.write(s + "\n\n")
+                    struct, inc = struct.generate_struct_and_includes(self.classes)
+                    structs.append(struct)
+                    includes += inc
+            f.write(self.template("structs.h", {"includes": sorted(set(includes))}))
+            f.write("\n\n".join(structs))
 
     def generate_classes(self):
         for cls in [c for c in self.classes.values() if not c.excluded]:

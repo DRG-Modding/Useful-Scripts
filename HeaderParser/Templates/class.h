@@ -1,0 +1,2 @@
+#include "{name}.generated.h"
+

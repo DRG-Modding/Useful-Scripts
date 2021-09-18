@@ -1,0 +1,11 @@
+/**
+* Generated automatically using HeaderParser
+* {meta_info}
+* - HeaderParser created by Glosb
+*/
+#pragma once
+
+#include "CoreMinimal.h"
+// --- automatic includes ---
+{includes}
+// --------------------------

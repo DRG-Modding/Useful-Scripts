@@ -1,7 +1,7 @@
 #from .blocks import *  # TODO: refactor each class into separate file
 from ._DataLoader import _DataLoader
 from ._FileGenerator import _FileGenerator
-from .utils import DumpSelfVars
+from .Blocks import DumpSelfVars
 
 
 class Parser(DumpSelfVars, _DataLoader, _FileGenerator):
@@ -18,8 +18,6 @@ class Parser(DumpSelfVars, _DataLoader, _FileGenerator):
 
         print("Generating enums...")
         self.generate_enums()
-        print("OK\nGenerating structs...")
-        self.generate_structs()
-        print("OK\nGenerating classes...")
+        print("OK\nGenerating classes and structs...")
         self.generate_classes()
         print("OK")

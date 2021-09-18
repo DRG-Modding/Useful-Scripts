@@ -1,4 +1,4 @@
-from .blocks import *
+from .Blocks import CodeBlock, BlockType, VirtualBlock
 from ._Data import _Data
 import os, re
 
@@ -40,6 +40,13 @@ class _DataLoader(_Data):
         self._find_classes()
         print(f"{len(self.classes)} classes.")
 
+        print("Merging structs into classes... ", end="")
+        for k,v in self.structs.items():
+            self.classes[k] = v
+        self.structs = {}
+        print(f"{len(self.classes)} classes, {len(self.structs)} structs")
+        assert len(self.structs) == 0
+
         print("Fixing type names... ", end="")
         c = sum((block.fix_type_names(self.structs) for block in self.structs.values()))
         c += sum((block.fix_type_names(self.structs) for block in self.classes.values()))
@@ -73,6 +80,7 @@ class _DataLoader(_Data):
                     break
         return different, different + existing
 
+    # Deprecated TODO: remove
     def _create_virtual_parents(self):
         """ Create "virtual" parent blocks for parent classes not found in header files """
         new = 0

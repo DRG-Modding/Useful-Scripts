@@ -1,4 +1,4 @@
-from .blocks import CodeBlock
+from .Blocks import CodeBlock
 import os
 
 

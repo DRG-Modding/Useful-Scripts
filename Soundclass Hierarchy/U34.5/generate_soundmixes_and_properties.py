@@ -34,12 +34,23 @@ def print_soundmixes():
                 export_values = data['ExportValues'][0]
                 soundmix_name = export_values['Object']
                 potential_props = export_values['Potential Properties']
-                data_values = []
+                data_values = {
+                    'InitialDelay': 0.0,
+                    'FadeInTime': 0.00,
+                    'FadeOutTime': 0.0,
+                    'Duration': -1,
+                    'bApplyEQ': False,
+                }
                 for prop in potential_props:
-                    if prop['Property'] in ['InitialDelay', 'FadeInTime', 'FadeOutTime', 'Duration', 'bApplyEQ', 'EQSettings', 'SoundClassEffects']:
-                        data_values.append(prop['Data Value'])
+                    if prop['Property'] in ['InitialDelay', 'FadeInTime', 'FadeOutTime', 'Duration', 'bApplyEQ']:
+                        if prop['Property'] == 'bApplyEQ':
+                            data_values[prop['Property']] = prop['Tag Data']
+                        else:
+                            data_values[prop['Property']] = prop['Data Value']
+                    elif prop['Property'] in ['SoundClassEffects', 'EQSettings']:
+                        continue
                     else:
-                        data_values.append(0)
+                        data_values[prop['Property']] = 0
 
                 output.append({
                     'soundmix_name' : soundmix_name,

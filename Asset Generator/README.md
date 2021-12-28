@@ -1,0 +1,1 @@
+This script stores the type, name and relative path of all BP assets into the JSON file. The main use of this is for me (Buckminsterfullerene) to load into my BP Asset Generator tool.

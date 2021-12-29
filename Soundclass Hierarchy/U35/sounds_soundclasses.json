@@ -1,0 +1,5902 @@
+[
+  {
+    "sound": "Character_Selection_-_Driller_01_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Character_Selection_-_Driller_02_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "St_Boss_Music",
+    "soundclass": "Music_Boss"
+  },
+  {
+    "sound": "St_InsterstellarNightmares_Cue",
+    "soundclass": "Music_Boss"
+  },
+  {
+    "sound": "St_Stalker_Cue",
+    "soundclass": "Music_Boss"
+  },
+  {
+    "sound": "St_Marching_Edited_A_2_Cue",
+    "soundclass": "Music_Endwave"
+  },
+  {
+    "sound": "St_OperasFascination_Cue",
+    "soundclass": "Music_Endwave"
+  },
+  {
+    "sound": "St_RobotGetAway_EditedA_01_Cue",
+    "soundclass": "Music_Endwave"
+  },
+  {
+    "sound": "St_SabotageOfMolly_Cue",
+    "soundclass": "Music_Endwave"
+  },
+  {
+    "sound": "St_SW_Edited_A_01_Cue",
+    "soundclass": "Music_Endwave"
+  },
+  {
+    "sound": "St_WhereTheyReallyDare_Cue",
+    "soundclass": "Music_Endwave"
+  },
+  {
+    "sound": "LoadingScreenMusic_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Alien_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_AxeRunner_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Carp_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Clutch_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Cold_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Crawl_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Deep_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Goodbye_SpaceRig_Cue",
+    "soundclass": "Music_MemorialHall"
+  },
+  {
+    "sound": "St_Horror_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_LOTD_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Pod_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_Slow_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_ST_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "St_ValleyOfDeath_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "ST_GameEventA_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "A_Distant_Terror_Looping_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "Dance_Of_The_Dreadnaught_Looping_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MorkiteIsADancer_Looping_1_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MountainBlaster_Looping_1_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "PetrifiedFury_Looping_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "SpaceFire_Looping_1_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "Theyre_Here_Looping_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_Boss_wave_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_DOTSA_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_HoldMyBeard_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_Hole_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_MorkiteIsADancer_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_MountainBlaster_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_NotTheBees_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_SpaceFire_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_Tick_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "St_Wave_Cue",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "Ambience_Music_Chrsitmas_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "Ambience_Music_Cue",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "Ambience_Music_DiscoBeer_Cue",
+    "soundclass": "Music_BeerEffect"
+  },
+  {
+    "sound": "Ambience_Music_DiscoBeer_Safe_Cue",
+    "soundclass": "Music_BeerEffect"
+  },
+  {
+    "sound": "BeerEffectGrow_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BeerEffectPuff_DiscoEffect_ON_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "BeerEffectPuff_Generic_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "BeerEffectShrink_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BeerEffect_BlackLockLager_Ambience_Cue",
+    "soundclass": "BeerEffectsAutoMix"
+  },
+  {
+    "sound": "BeerEffect_BlackoutStout_Down_Cue",
+    "soundclass": "2dSound"
+  },
+  {
+    "sound": "BeerEffect_Blackout_heartbeat_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BeerEffect_BuffGeneric_BuildUp_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "BeerEffect_BurningLoveBurningEnd_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BeerEffect_BurningLove_Burning_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BeerEffect_BurningLove_Ignite_Cue",
+    "soundclass": "BeerEffectsAutoMix"
+  },
+  {
+    "sound": "BeerEffect_FlintLockesDelight_ExplosionExplodingPlantExplosion_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BeerEffect_Flintlockes_FuseCue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BeerEffect_Stomach_BuildUp_Cue",
+    "soundclass": "BeerEffectsAutoMix"
+  },
+  {
+    "sound": "BeerEffect__BarrelPowerKick_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Beer_Buff_Slam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "AmbienceAzureWealdAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "Amb_CrystalCaveAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "Amb_CrystalCave_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "FungusBogStoneMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "AmbienceFungusBog_Ambix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "AmbienceHollowBoughAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "BigCarverThornsIn_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "GeneralFrozenShatter_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "GeneralFrozen_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "IceCaveAmbience_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "IceTap_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "Ice_CrackCollapse",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Ice_CrackSmall",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeImpactIceLake_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeImpactSnow_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeMiningIceLake_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeMiningIce_Dirt_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeMiningSnow_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "AmbienceLushDownPourAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "Magma_CrackCollapse",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Magma_CrackSmall",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "AmbienceMagmaCaveAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "AmbienceRadioActiveZoneAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "FragilePlatformCollapse_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "FragilePlatform_Crack_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeCrystal01Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "SaltCavePickaxeMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickaxeWhiteCrystalImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "AmbienceSandBlastedCaveAmbix_Cue",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "SandblastedPickaxe_Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "BoscoFireLoopCore_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "BoscoFireTail_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "Bosco_Revive_Electricity_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "BoscoFold1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BoscoFold2_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BoscoFold3_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "AxeAttackCharged_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "Dwarf_ArmorHit_Cue",
+    "soundclass": "CharactersImpactArmor"
+  },
+  {
+    "sound": "Dwarf_Hit_Cue",
+    "soundclass": "CharactersImpactDwarf"
+  },
+  {
+    "sound": "Dwarf_RevivedSuccesfully_01_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Dwarf_ReviveInProgress_01_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Dwarf_ShieldRegeneration_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Dwarf_ShieldRegeneration_FULL_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "Dwarf_Throw_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Dwarves_PickUpBeer_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Dwarves_UnscrewHealingCannister_Of_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Dwarves_UnscrewHealingCannister_removing_lit_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PlayerDown_Cue",
+    "soundclass": "2dSound"
+  },
+  {
+    "sound": "ReviveBottle_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyD_2_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyG_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyHandPetting_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyHeadScratch_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyH_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyLeatherA_3_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyLeatherA_5_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyLeatherB_2_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyLeatherB_3_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyLeatherC_3_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyLeatherC_5_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Victory_Crystal_Impact_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Landing_Gantry_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "FoleyBody_Land_Stereo_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "FoleyBody_BodyMove_Stereo_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Footsteps_AzureWealdGeneric_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_Crystals_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_DeepSnow_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_Dirt_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_Glass_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_HollowBoughGeneric_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_IceRock_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_IceSlindingOn_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_MetalHollow_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_Metal_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "IceSlide_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_EpoxyFloor_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_Fungus_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_HotRocks_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "Footsteps_Mud_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "PerkBeastMasterActivated_Cue",
+    "soundclass": "MiscPerkAutoMix"
+  },
+  {
+    "sound": "PerkDash_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "PerkFieldMedic_InstantRevive_Cue",
+    "soundclass": "MiscPerkManualMix"
+  },
+  {
+    "sound": "PerkHeightenedSenseDischarge_Cue",
+    "soundclass": "MiscPerkAutoMix"
+  },
+  {
+    "sound": "PerkHeightenedSenseWarning_Cue",
+    "soundclass": "PerkHeightenedSenseAutoMix"
+  },
+  {
+    "sound": "PerkHoverBoots_Loop_Cue",
+    "soundclass": "MiscPerkAutoMix"
+  },
+  {
+    "sound": "PerkHoverBoots_Stop_Cue",
+    "soundclass": "MiscPerkAutoMix"
+  },
+  {
+    "sound": "PerkImpactCompensatorDeactivated_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "PerkImpactCompensator_Armed_Cue",
+    "soundclass": "MiscPerkManualMix"
+  },
+  {
+    "sound": "PerkImpactCompensator_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "PerkJumpBoots_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "PerkPlayerOnIronWill_Cue",
+    "soundclass": "PerkIronWillAutoMix"
+  },
+  {
+    "sound": "PerkReload_Cue",
+    "soundclass": "SharedWeaponsReload"
+  },
+  {
+    "sound": "PerkSecondWind_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "PerkShieldBoost_Activation_Cue",
+    "soundclass": "MiscPerkManualMix"
+  },
+  {
+    "sound": "SeeYouInHell_Charge_Cue",
+    "soundclass": "PlayerNoDuck"
+  },
+  {
+    "sound": "SeeYouInHell_Explosion_Cue",
+    "soundclass": "PlayerNoDuck"
+  },
+  {
+    "sound": "VampireHeal_Cue",
+    "soundclass": "PlayerNoDuck"
+  },
+  {
+    "sound": "Dwarf_BeerTogehter_Splash_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "BoughtcraftNeutral_10_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_11_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_12_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_13_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_8_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtcraftNeutral_9_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtCraftSpecific_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtCraftSpecific_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtCraftSpecific_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtCraftSpecific_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtCraftSpecific_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "BoughtCraftSpecific_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_10_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_8_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelDrill_9_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_10_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_8_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelEngineer_9_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_10_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_8_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelGunner_9_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_10_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_11_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_8_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CharSelScout_9_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_01_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Egg_8_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_1_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_6_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "Flaregun_7_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "GenericStrangeSpot_01_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "GenericStrangeSpot_2_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "GenericStrangeSpot_3_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "GenericStrangeSpot_4_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "GenericStrangeSpot_5_Cue",
+    "soundclass": "SpeakDwarf"
+  },
+  {
+    "sound": "CutSceneSFX_Dwarf_LidOpening_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSpeak_BarBeing_drunk__slurring_and_grunting__05_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_01_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_02_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_03_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_04_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_06_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_09_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_BarCheeringWhenSomebodyOrdersDrinks_11_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_12_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_13_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_14_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_15_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_1_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_2_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_3_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_4_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_5_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_6_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_7_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_DefeatedHurting_9_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Dwarf_Deadrattle_Javiere_02_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Environment_Being_thrown_01_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Environment_Being_thrown_02_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Environment_Being_thrown_04_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Environment_Walking_in_Sticky_Goo_09_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Environment_Walking_in_Sticky_Goo_10_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_10_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_12_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_13_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_14_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_19_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_2_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_3_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_5_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_6_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_Saluting_9_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CutSceneSpeak_WelcomeMemberJoin_6_Cue",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "CandleBlock_Hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Chrismas_HoHoHoooo_01_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "PresentImpact_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "PresentOpening_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MiniMuleDistress_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "MiniMuleDistress_Leg_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "MiniMuleGetUp_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "MiniMuleServo_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "MiniMuleSit_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "MiniMuleSteps_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "MiniMule_LegAttach_Cue",
+    "soundclass": "MulesAutoMix"
+  },
+  {
+    "sound": "MiniMule_Reparied_Cue",
+    "soundclass": "MulesAutoMix"
+  },
+  {
+    "sound": "MiniMuleComply_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "Donkey_beep_deposit_01_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Donkey_beep_deposit_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "Donkey_beep_comply_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "Donkey_whinny_Wahwah_Cue",
+    "soundclass": "MulesManualMix"
+  },
+  {
+    "sound": "DorettaHEad_Impact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "Doretta_BeingPet_Cue",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Doretta_Talk_Damagetaken_Cue",
+    "soundclass": "DrillVehicleTalk"
+  },
+  {
+    "sound": "Doretta_Talk_Lookaround_Cue",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Drilldozer_CanisterSlideIn_Cue",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Drilldozer_CanisterSlideOut_Cue",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Drilldozer_JetEngine_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "Drilldozer_JetEngine_Start_Cue",
+    "soundclass": "DrillVehicleAutoMix"
+  },
+  {
+    "sound": "DrillingVehicle_DrillingShell_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "DrillingVehicle_Drills_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "Drilling_Vehicle_Alarm",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Drilling_Vehicle_DamageWarning",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Drilling_Vehicle_Taking_Damage_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "DrillVehicleEngine_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "DrillVehicleStart_Cue",
+    "soundclass": "DrillVehicleAutoMix"
+  },
+  {
+    "sound": "DrillVehicleStop_Cue",
+    "soundclass": "DrillVehicleAutoMix"
+  },
+  {
+    "sound": "DrillVehicleTrack_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "DrillVehicle_Cell_BlownOff_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "DrillVehicle_RubbleHard_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "DrillVehicle_RubbleSoftA_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "DrillVehicle_RubbleSoftB_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "EscortTakeFuelCanister_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "Escort_CanisterArmOpen_Cue",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Escort_Drill_Hammer_Ommoranaught_Digging_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "Escort_FuelCanister_Full_And_ReloadedIntoDrilldozer_Cue",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "Escort_FuelCanister_Full_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "Escort_Heartstone_AttatchedTo_Molly_Cue",
+    "soundclass": "MulesAutoMix"
+  },
+  {
+    "sound": "Escort_Place_FuelCanisterCanister_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "Garage_BeginOpening_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "Garrage_Slam_Cue",
+    "soundclass": "DrillVehicleManualMix"
+  },
+  {
+    "sound": "PickAxeRockEnemyImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Spider_Spawner_hit_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "Spider_StickyWeb_projectile_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "AzureButterflyBeingPet_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "AzureButterflyDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "AzureButterflyFlying_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "AzureButterflyIdle_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "CaveLeechBite_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "CaveLeechMovingArms_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "CaveLeech_movementBack_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "CaveLeech_Movement_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "ExplodingSpiderGeneralScream_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "TankExploderScream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "FesterFleaDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "FesterFleaFlyingIdle_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "FesterFleaWalkingIdle_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "GeneralDamageImpact",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "GliderBeastAttachScream_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "GliderBeastCalling_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "GliderBeastDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "GliderBeastGrabOneShotScream_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "GliderBeastWingFlap_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "GlyphidWardenBuffingLoop_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "GlyphidWardenBuffingStart_Cue",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "GlyphidWardenBuffingStop_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "DreadEgg_HeartBeat_01_Cue",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "DreadnaughtButtRegenerate_Cue",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "DreadnaughtDeathImpact_Cue",
+    "soundclass": "1stEnemiesDeathAutomix"
+  },
+  {
+    "sound": "DreadnaughtIdle_Cue",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "DreadnaughtSteps_Cue",
+    "soundclass": "1stEnemiesSteps"
+  },
+  {
+    "sound": "Dreadnaught_AttackA_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Dreadnaught_AttackClaw_Cue",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "Dreadnaught_Bite",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "Dreadnaught_ButtDestroyed_Cue",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "Dreadnaught_Death_Cue",
+    "soundclass": "1stEnemiesDeathAutomix"
+  },
+  {
+    "sound": "Dreadnaught_Digging_Cue",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "Dreadnaught_EnragedScream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Dreadnaught_FireballLaunch_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Dreadnaught_FireballLoop_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Dreadnaught_Fireball_PrepareToLaunch_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Dreadnaught_RockAttackImp_Cue",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "Dreadnaught_RockAttackPrepare_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Dreadnaught_WalkE_Hiss_Cue",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "DreadnoughtTauntScream_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "PraetorianSteps_Cue",
+    "soundclass": "2ndEnemiesSteps"
+  },
+  {
+    "sound": "SpiderGrunt_Bite",
+    "soundclass": "3rdEnemiesCloseBite"
+  },
+  {
+    "sound": "SpiderPraetorian_Bite",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "SpiderShieldTank_HornImpact_Cue",
+    "soundclass": "CharactersImpactArmor"
+  },
+  {
+    "sound": "SpiderSwarmer_Bite",
+    "soundclass": "3rdEnemiesCloseBite"
+  },
+  {
+    "sound": "SpiderTankSpawn_Gutteral_Cue",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "SpiderTankSpawn_RockCrack_Cue",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "WardenBuffingScream_cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "GlyphidPraetorianIdle_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "PraetorianDeathScream_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "PraeSpitStart_Cue",
+    "soundclass": "2ndEnemiesMiscManualMix"
+  },
+  {
+    "sound": "PraetorianSpitDripStop_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "PraetorianSpitMiddle_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "PraetorianSpitStop_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "GlyphidPraetorianWalkHiss_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "BomberBladderDestroy_Cue",
+    "soundclass": "EnemiesCommunication"
+  },
+  {
+    "sound": "BomberChatter_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "BomberSpit_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "BomberWingFlap_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "GooBomberAcidDropLoop_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "GooBomberAcidLanding_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "GooBomberDeathExploding_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "GooBomberDeathFirst_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "GooBomberDeathScream_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "GrabberAttackScreamLooping_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "GrabberBeginGrab_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "GrabberDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "GrabberEndGrab_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "GrabberGrabbedLoop_cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "GrabberHitScream_Cue1",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "GrabberIdle_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "HarvesterWorking_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "HeartstoneBeamCrystalSpawn_Cue",
+    "soundclass": "OmmoranCommunicationAutoMix"
+  },
+  {
+    "sound": "HeartstonePain_Cue",
+    "soundclass": "OmmoranCommunicationAutoMix"
+  },
+  {
+    "sound": "Heartstone_Blast_Imp_Cue",
+    "soundclass": "OmmoranCommunicationAutoMix"
+  },
+  {
+    "sound": "Heartstone_DefensiveCrystal_Grow_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "Heartstone_DefensiveLaser_Activated",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Heartstone_DefensiveLaser_ChargeUp",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "RockAttack_FloatingLoop_Cue",
+    "soundclass": "RockAttackAutoMix"
+  },
+  {
+    "sound": "RockAttack_Impact_Cue",
+    "soundclass": "RockAttackHighPrio"
+  },
+  {
+    "sound": "RockAttack_Prepare_Cue",
+    "soundclass": "RockAttackAutoMix"
+  },
+  {
+    "sound": "RockAttack_Shoot_Cue",
+    "soundclass": "RockAttackHighPrio"
+  },
+  {
+    "sound": "HeavyBossEnragedScream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "HeavyBossIdle_Cue",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "HeavyBossPain_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "HeavyBossSpawnEnemies_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "HeavyBoss_ButtClose",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "HeavyBoss_Death_Cue",
+    "soundclass": "1stEnemiesDeathAutomix"
+  },
+  {
+    "sound": "HeavyBoss_Scream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "HeavyBoss_Walk_Hiss_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "HydraWeedBuffingStart_Cue",
+    "soundclass": "2ndEnemiesHydraWeedShootAutoMix"
+  },
+  {
+    "sound": "HydraWeedBuffingStop_Cue",
+    "soundclass": "2ndEnemiesHydraWeedShootAutoMix"
+  },
+  {
+    "sound": "HydraWeedClose_cue",
+    "soundclass": "2ndEnemiesHydraWeedCommunication"
+  },
+  {
+    "sound": "HydraWeedImpactWeakCore_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "HydraWeedOpen_cue",
+    "soundclass": "2ndEnemiesHydraWeedCommunication"
+  },
+  {
+    "sound": "HydraWeedSpawnGrow_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "HydraWeed_CoreDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "HydraWeed_CoreHealthCheckpoint_Scream_Cue",
+    "soundclass": "2ndEnemiesHydraWeedCommunication"
+  },
+  {
+    "sound": "HydraWeed_Core_BuffingLoop_Cue1",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "HydraWeed_Death_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "HydraWeed_Death_NoScream_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "HydraWeed_Moving_Cue",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "HydraWeed_ProjectileImpact_cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "HydraWeed_ProjectileLoop_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "HydraWeed_Shooting_Cue",
+    "soundclass": "2ndEnemiesHydraWeedShootAutoMix"
+  },
+  {
+    "sound": "Hydraweed_SproutSpawnsProjectile_Impact_Cue",
+    "soundclass": "EnemiesProjectileImpact"
+  },
+  {
+    "sound": "HydraWeed_Sprout_Scream_Cue",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "HydraWeed_WakeUp_Cue",
+    "soundclass": "EnemiesCommunication"
+  },
+  {
+    "sound": "IceBomberAcidLanding_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "InfestationLarva_Move_cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "InfestationLarva_Spawn_cue1",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "JellyBreederDeath_Cue",
+    "soundclass": "1stEnemiesDeathAutomix"
+  },
+  {
+    "sound": "JellyBreederEggImpact_Cue",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "JellyBreederIdle_Cue",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "JellyBreederLayEgg_Cue",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "JellySwarmerAttack_Cue",
+    "soundclass": "3rdEnemiesCloseBite"
+  },
+  {
+    "sound": "JellySwarmerDeath_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "JellySwarmerIdle_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "GoldenLootbug_hit_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "Lootbug_BeeingPet__Cue",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "HeavyMacteraDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "MacteraAlert_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "MacteraDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "MacteraSpitBuildUp_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "MacteraSquirt_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "Mactera_Cue",
+    "soundclass": "Enemy_Death"
+  },
+  {
+    "sound": "MacteraSpawnHit_Cue",
+    "soundclass": "EnemiesProjectileImpact"
+  },
+  {
+    "sound": "HeavyMacteraSpawn_Idle_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "MacteraSpawn_Idle_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "Maggot_Crawl_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "Maggot_deathscream_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "VolatileGutsExplosion",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "RapidShooterBurrow_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "RapidShooterDeathScream_Cue",
+    "soundclass": "2ndEnemiesDeathManualMix"
+  },
+  {
+    "sound": "RapidShooterFire_cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "RapidShooterUnburrow_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "RapidShooter_Projectile_Impact_Cue",
+    "soundclass": "EnemiesProjectileImpact"
+  },
+  {
+    "sound": "SandSharkCirclingSubmerged_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "SandSharkCircling_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "SandSharkDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "SandSharkGrabImpact_Cue",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "SandSharkJump_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "SandSharkLanding_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "SandSharkOpenScream_Cue",
+    "soundclass": "2ndEnemiesScreamGrabbersGroupAutoMix"
+  },
+  {
+    "sound": "SandSharkOpen_Cue",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "SandSharkVulnerable_Cue",
+    "soundclass": "EnemiesCommunicationGrabbersGroup"
+  },
+  {
+    "sound": "ShieldTankHeadPunch_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "ShieldTankIdle_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "ShieldTankPrePunchScream_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "ShieldTankPreTremorScream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "ShieldTankScream_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "ShieldTankBarrageHeavy_Cue",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "ShieldTankBarrageMedium_Cue",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "ShieldTankBarragePreScream_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "SpiderGruntAttackScream_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "SpiderGruntIdle_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "SpiderGruntStabScream",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "SpiderScreamGruntFlee_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "SpiderStabAttack_Cue",
+    "soundclass": "3rdEnemiesCloseBite"
+  },
+  {
+    "sound": "SwarmerTunnelSpawn",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "SwarmerTunnelWarning",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "SpiderExploderSteps_Cue",
+    "soundclass": "3rdEnemiesSteps"
+  },
+  {
+    "sound": "SpiderGruntImpact_Cue",
+    "soundclass": "3rdEnemiesSteps"
+  },
+  {
+    "sound": "SpiderGruntSteps_Cue",
+    "soundclass": "3rdEnemiesSteps"
+  },
+  {
+    "sound": "Spider_hit_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "SpiderHoarderAlertedStart_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "SpiderHoarderDeathDropLoot_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "SpiderHoarder_ScaredEnd_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "SpiderHoarder_ScaredLoop_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "SpiderHoarder_ScreamWhenDroppingLoot_cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "Spider_Shooting_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "Spider_Shooting_Impact_Cue",
+    "soundclass": "EnemiesProjectileImpact"
+  },
+  {
+    "sound": "SpiderSpitterDeathScream_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "SpiderSpitterIdle_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "ExplodingSpiderTankGrowl_Cue",
+    "soundclass": "1stEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "GhostAmbience_Cue",
+    "soundclass": "GhostNearSound"
+  },
+  {
+    "sound": "SpiderTankAttackExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "SpiderTankExploderIdle_Cue",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "SpiderTankExplodersSteps_Cue",
+    "soundclass": "1stEnemiesSteps"
+  },
+  {
+    "sound": "SpiderTankExploder_BladderDestroy_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "SpiderTank_Exploding_Blowup_Cue",
+    "soundclass": "EnemiesCommunication"
+  },
+  {
+    "sound": "SpiderTank_Explosion_Cue",
+    "soundclass": "LargestExplosions"
+  },
+  {
+    "sound": "Spider_King_hit_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SpitballerFoldUp_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "Spitballer_BlueGooSplat_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SpitballerDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "Spitballer_ProjectileLoop_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "Spider_AttackScream_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "SwarmerAttackJump_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "SwarmerAttackLand_Cue",
+    "soundclass": "3rdEnemiesSteps"
+  },
+  {
+    "sound": "SwarmerIdle_Cue",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "SwarmerInAir_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "TwinAGrenadeSpit_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "TwinBombExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "TwinBurrow_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "TwinB_BarrageImpact_Cue",
+    "soundclass": "1stEnemiesMisc"
+  },
+  {
+    "sound": "TwinB_BarrageScream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "TwinB_GrenadePreExplosion_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "TwinFireFlame_Cue",
+    "soundclass": "1stEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "TwinHeal_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "TwinIdle_Cue",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "TwinImpact_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "Twin_A_GrenadeProjectileLoop_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "Twin_A_GrenadeProjectile_Impact_Cue",
+    "soundclass": "EnemiesProjectileImpact"
+  },
+  {
+    "sound": "Twin_B_BarrageSpit_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Twin_B_ProjectileBarrage_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Twin_B_Suckup_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "Twin_Grieving_Cue",
+    "soundclass": "1stEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "Spider_Explode_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "WoodLouseDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "WoodLouseFold_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "WoodLouseImpact_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "WoodLouseProjectileLoop_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "WoodLouseRolling_Cue",
+    "soundclass": "2ndEnemiesMisc"
+  },
+  {
+    "sound": "WoodLouseSticky_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "WoodLouseSuckup_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "WoodLouseTeeth_Cue",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "WoodLouseUnfold_Cue",
+    "soundclass": "2ndEnemiesScreamAutoMix"
+  },
+  {
+    "sound": "WoodLouseWalk_Cue",
+    "soundclass": "2ndEnemiesSteps"
+  },
+  {
+    "sound": "YounglingDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "YounglingFold_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "YounglingImpact_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "YounglingRolling_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "YounglingUnfold_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "CreepyEye_Impact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "EggSurroundings_Dig_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "EggSurroundings_Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "FloatingLightPlant_Death_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "Fungus_Death_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "Fungus_Impact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "GasCombustion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "GenericPlant_Death_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "GenericPlant_impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "GunkSeedOpens_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "PoisonGasFungus_GasRelease_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "PumpkinImpact_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Pumpkin_Destroyed_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "Pumpkin_MiningImpact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "SpiderEgg_Impact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "StickyWeb_Trigger_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "XmasBallImpact_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "XmasBallKick_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "XmasBallShatter_Cue1",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "XmasBallShatter_Small_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Xmas_CandleLights_Destroyed_Cue1",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "CactusShooterFire_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "ChactusShooter_Spike_Impact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "DebrisDestroy_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "DebrisDestroy_MediumCrystal_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "DropSpike_BreakOff_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "DropSpike_Ice_Impact_Cue",
+    "soundclass": "DropSpikeFall"
+  },
+  {
+    "sound": "DropSpike_Warning_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "Ebonut1stHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Ebonut2ndHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "EbonutGeneralHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "EbonutOpenHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "ElectricEnemyZap_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "ElectricPlant_Death_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "ElectricPlantImpact_Cue",
+    "soundclass": "EnemiesParent"
+  },
+  {
+    "sound": "GemAquarqIdle_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "GemBitterIdle_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "GemJadizIdle_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "AzureGurkenIdle_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureMagic_Crystals_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "AzureMagic_Hole_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "AzureNenupCloseSnap_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureNenupClosing_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureOrkidClose_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureOrkidOpen_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureOrkidScare_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureWealdBall_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureWeald_Generic_Plant_Death_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "AzureWeald_Generic_Plant_impact_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_CombaCharmIdle_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_FlowerIdle_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_Flower_Movement_cue1",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_Gurken_Shake_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_Nenup_MovementA_cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_Nenup_MovementB_cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_Plant_Death_Splat_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_SprayFlower_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Azure_SprayFlower_Movement_cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "CombaCharmFallImpact_CUe",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CombaCharmKick_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CombaCharmPickAxeImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "GooPlantExplode_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "KillerVineFallImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "KillerVineMoving_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "KillerVinePreAttack_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "KillerVine_Attack_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "KillerVine_DeathSplat_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "KillerVine_FinalDeathScream_Cue",
+    "soundclass": "1stEnemiesAttackManualMix"
+  },
+  {
+    "sound": "PineConeFallingImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PineConeKick_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PlatformPlant_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "RedThornPlantExplode_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "RedThornPlantFire_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "RedThornPlantImpact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "SmallThornAttack_Cue",
+    "soundclass": "3rdEnemiesMisc"
+  },
+  {
+    "sound": "ThornVineExtending_Cue",
+    "soundclass": "2ndEnemiesMiscManualMix"
+  },
+  {
+    "sound": "ThornVineRetracting_Cue",
+    "soundclass": "2ndEnemiesMiscManualMix"
+  },
+  {
+    "sound": "TumbleWeedImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "ForgeAnimA_10_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_11_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_12_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_1_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_2_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_3_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_4_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_5_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_6_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_7_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_8_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeAnimA_9_Cue",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "ForgeEngineA_1_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ForgeEngineEndingD_1_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ForgeUpMedium_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ForgeUpShort_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "AmberEndExplosion_Cue",
+    "soundclass": "OmmoranCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberGrind_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberLaserActivated",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberMechA_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberMechB_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberMechC_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberMechD_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberMechE_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberMechF_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "AmberPreComplete_Cue",
+    "soundclass": "EnemiesCommunication"
+  },
+  {
+    "sound": "GameEventStartCrumble_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GameEventsMechA_12_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GameEventsMechA_3_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GameEventsMechA_4_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GunTowerExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "GunTowerLaserActivated_Cue",
+    "soundclass": "GunTower1stAutoMix"
+  },
+  {
+    "sound": "GunTowerLineProjectile_Cue",
+    "soundclass": "GunTower3rdManualMix"
+  },
+  {
+    "sound": "GunTowerLMGFireCore_Cue",
+    "soundclass": "GunTower2ndAutoMix"
+  },
+  {
+    "sound": "GunTowerLMGFireTail_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GunTowerMechA_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GunTowerMechB_1_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerMechC_1_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerMechD_1_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerMechE_1_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerMechF_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerMechG_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerMechH_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerRadialFire_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GunTowerRise_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerStart_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerStop",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerUICount_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "GunTowerWeakPointOpen_01_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerWeakPointOpen_02_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerWeakPoint_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GunTowerWeakSpotActivatedUI_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "GunTowerZoneActivatedUI_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "GunTowerZoneDeActivatedUI_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "HomingDroneExposion",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "HomingDroneIdle_Cue",
+    "soundclass": "GameEvents"
+  },
+  {
+    "sound": "CannisterInsert_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GameEventsLaserActivated_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GameEventsLaserOpenA_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GameEventsLaserOpenB_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GameEventsLaserOpenC_1_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GameEventsLaserWarmup_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GameEvenCannisterOpen_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GameEventCannisterPressed_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "MiscSteamA_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "MiscSteamA_3_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "MiscSteamA_4_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "PowerUpSprinkerFire_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "PowerUp_Disapear_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SprinklerMiscA_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscA_2_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscA_3_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscA_4_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscB_2_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscB_3_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscB_5_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscB_6_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscC_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscD_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscD_2_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscD_3_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscD_4_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscE_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscF_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscG_1_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscH_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscI_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscJ_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "SprinklerMiscK_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "SprinklerMiscL_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "GameEventsKeyEnd_Cue",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "PickupAxePower_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "RockGruntDeath_Cue",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "RockTankDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "InfectedMuleDeathScream_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMuleDyingCollapse_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMuleGetUp_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMuleGrenadeAlam_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "InfectedMuleGrenadeFire_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleLaser_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleLastPowerDown_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMuleParasiteDeath_Cue",
+    "soundclass": "2ndEnemiesDeathAutomix"
+  },
+  {
+    "sound": "InfectedMulePowerUp_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMulePulsating_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleReadyForRepair_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMuleReadyToServe_Cue",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "InfectedMuleServo_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleSitDown_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleSteps_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "InfectedMuleWaitingRepairLoop_Cue",
+    "soundclass": "InfectedMuleMisc"
+  },
+  {
+    "sound": "Inventory_Full_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ElevatorA_1_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "IceExplodingPlantExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "SmallIceExplosion_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "CaveVine_Idle",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "CaveVine_Moving",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "CaveVine_Tracking",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "DropPodDrillOnRig_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodDrillStartOnRig_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodEccomStart_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodMainFrameStart_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodMechImpact_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodOrbitalCalcStart_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodRadiationStart_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodSpoolingUpStart_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodThrusterCali_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DroppodDoorCloseMesh_Cue1",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DroppodDoorCloseOuter_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "FuelCellCharge_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "FuelCellOpenA_1_Cue",
+    "soundclass": "FuelCell"
+  },
+  {
+    "sound": "FuelCellOpenA_2_Cue",
+    "soundclass": "FuelCell"
+  },
+  {
+    "sound": "FuelCellOpenA_3_Cue",
+    "soundclass": "FuelCell"
+  },
+  {
+    "sound": "FuelCellOpenA_4_Cue",
+    "soundclass": "FuelCell"
+  },
+  {
+    "sound": "HotSpring_SteamBoiling_Cue",
+    "soundclass": "HotSprings"
+  },
+  {
+    "sound": "HydralicDoor_down_Fast_Cue_2",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "SmallLavaGeyser_short_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "BoilingLava_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "LavaGeyser_Explosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "DrippingWaterFromCeiling_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "GeyserSandErupt_Cue",
+    "soundclass": "EnvironmentCommunication"
+  },
+  {
+    "sound": "GeyserSandIdle_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Geyser_Steam_01_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "UplinkComplete_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "UplinkTriangulation_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "LloydHereYouGo_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydIdle02A_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydIdle03A_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydIdle03A_2_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydIdle03A_3_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydIdle03A_4_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydIdle03A_5_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydNoMore_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydPourA_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "LloydWhatWillItBe_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "ActivationWait_Cue",
+    "soundclass": "GameEventsManualMix"
+  },
+  {
+    "sound": "EndMissionFail_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "MissionCompleteCombinedRewards_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "MoneyCounter_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "PayOutSlam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_ElementsA_1_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_ElementsA_2_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_ElementsA_4_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_ElementsA_5_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_MineralDealConfirm_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_MineralTradeAdd_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_MineralTradeClear_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_MineralTradeConfirm_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_MineralTradeSubtract_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "MineHead_Launch_Button_BipBipReady_Cue1",
+    "soundclass": "MineHead"
+  },
+  {
+    "sound": "MineHeadLaunch_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "LiquidMorkiteWell_Boiling_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "LiquidMorkiteWell_GasBurst_Cue",
+    "soundclass": "EnvironmentCommunication"
+  },
+  {
+    "sound": "OrderRefineryExtractor_Buildup_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "OrderRefineryExtractor_Complete_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "PipeDestroyed_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "PipeLeakingAlarm_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "PipeLeakingMorkiteSprayingOut_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "Pipe_Destroyed_Retract_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "RefineryComplete_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryEngine_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorConnect_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorIdle_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorImpact_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "RefineryExtractorOpenA_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorOpenB_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorOpenC_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorSingle_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorStart_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryExtractorStop_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryFlame_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryHatchCloseA_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryHatchCloseB_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryOilSpillA_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryPipePumpA_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryPipePumpB_1_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryPiston_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryRocketmech_Cue",
+    "soundclass": "RefineryRocket"
+  },
+  {
+    "sound": "RefineryRocket_Launch_CountdownA_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryRocket_Launch_CountdownB_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryStart_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "RefineryStop_Cue",
+    "soundclass": "RefineryMain"
+  },
+  {
+    "sound": "Refinery_Deposit_Open_Cue",
+    "soundclass": "MineHead"
+  },
+  {
+    "sound": "Refinery_Deposit_SliderClose",
+    "soundclass": "MineHead"
+  },
+  {
+    "sound": "DefendZone_NoOneInside_Alarm_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MiniMuleLeg_Impact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "AntiGravityAlarm_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "CupDrop_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "CupKick_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "Drinking_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "Engine_noise_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "GasCanister_AirLeaking_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "GravitySwitch_SwitchOnOff_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "HammerImpact_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "LowGravityStart_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "LowGravityStop_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MediBayAtmosA_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MediBayAtmosB_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MediBayAtmosC_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MiscTerminalAmbience_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "MissionGlobeAmbience_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SpaceRigAmbienceA_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SpaceRigAmbienceB_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SpaceRigAmbienceC_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Sparks_01_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "TheShopAmbience_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "WakeUpSickBay_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "BarrelSpawn_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "HoopGameComboMiss_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "HoopGameHit_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "HoopGameHoopIdle_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "HoopGameMove_Cue",
+    "soundclass": "EnvironmentMisc"
+  },
+  {
+    "sound": "HoopGameReset_Cue",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "Slap_01_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "SpringDwarf_A_01_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "DropPodDrilling_Supply_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "DropPodDrilling_Supply_Looping_Cue",
+    "soundclass": "DropPod"
+  },
+  {
+    "sound": "SupplyDrop_UseFail_01_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "SupplyDrop_Using_01_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SupplyPodCompletedUse_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "SupplyPodCallIn_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "SupplyPodImpact_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SupplyPodSpawnImpact_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "ChestSpitOut_Cue",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "Chest_BatteryPacks_Distress_Cue",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "Chest_Battery_PopsFree_Cue",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Chest_Open_Music_Cue",
+    "soundclass": "Music_Discovery"
+  },
+  {
+    "sound": "LostPackCollect_Cue",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "LostPack_Distress_Cue",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "Assignment_Completed_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Campaign_Slam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Claim_Reward_InfoScreenCoinUp_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Claim_Reward_InfoScreen_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Hud_Element_Slide_IN_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Hud_Element_Slide_OUT_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "PerkAwarded_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Promotion_granted_direction_to_memorialhall_Cue1",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Promotion_granted_direction_to_memorialhall_Out_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UpgradeAwarded_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Button_BipBipReady_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Button_Click_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "BarMenu_Beer_Pour_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Barmenu_CloseWidget",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Barmenu_NewBeerUnlocked",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveCompleted_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveMatrixCoreSlam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveOnclickLaunchButton_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveRolloverJoinButton_cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveRolloverLaunchButton_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveRollOverVideoLoop_Cue",
+    "soundclass": "SpecialTerminalEvent"
+  },
+  {
+    "sound": "DeepDiveRollOverVideoWindow_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDive_Info_Popin_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "TerminalAmbienceFocused_Cue",
+    "soundclass": "UI_IsolatedFromWorld"
+  },
+  {
+    "sound": "DeepDive_ProgressionBarUp_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDive_StageSlam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDive_Unlock_Next_Stage_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveLoadScreen_Ui_In_01_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "DeepDiveLoadScreen_Ui_In_02_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ForgedCountEnd_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ForgedCountLoop_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Forged_Matrixcore_PopUp_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Forged_Matrixcore_Slam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Forged_Matrix_RewardMorph_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Forge_Mastery_BarUp_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Forge_Mastery_Reward_CoreFlyup_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "MasteryBar_Gained_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "BiomeEnterCue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ZoneUnlocked",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Button_RollOver_Forge_Initiate_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "PromotionReward_Sign_Slam2_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "PromotionReward_Sign_Slam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Promotion_Reward_ClaimButton_Doors_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "Promotion_Reward_Slam_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "CutSceneSFX_BarrelDispenserSpawn_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_BarrelImpact_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_BuildImpact_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_CupDrop_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Drinking_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Dwarf_Beer_Splash_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Dwarf_Body_Dragged_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Dwarf_Foot_Dragged_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyBodyLand_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyBody_BodyMove_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyBody_HandSwipe_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyBody_HeavyLand_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyB_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyB_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyCrackA_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyCrackA_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyCrackA_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyC_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyC_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyD_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyE_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyE_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyE_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyE_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyF_8_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyG_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyG_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyHandClap_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyH_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyH_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyI_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyI_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherA_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherA_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherA_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherA_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherA_5_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherB_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherB_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherB_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherC_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherC_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherC_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherC_5_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherC_6_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherD_1_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherD_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherD_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherE_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherE_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherE_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherE_5_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherE_6_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherF_2_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherF_3_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherF_4_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FoleyLeatherF_5_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_FootstepsMetal_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_GeneralDeathSplat_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Glyphid_Bodymove_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Glyphid_Ground_Impact_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Glyphid_Impact_Cue",
+    "soundclass": "3rdEnemiesDeathAutomix"
+  },
+  {
+    "sound": "CutSceneSFX_Glyphid_InAir_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Glyphid_Scream_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_Pose_Drinking_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_PullBeerMug_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "CutSceneSFX_SwingAxe_Cue",
+    "soundclass": "CutSceneSFX"
+  },
+  {
+    "sound": "1stAnd3rdSharedWeapons",
+    "soundclass": "SharedWeaponsReload"
+  },
+  {
+    "sound": "1stEnemies",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "1stEnemiesAttackAutoMix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stEnemiesAttackManualMix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stEnemiesDeathAutomix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stEnemiesIdle",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stEnemiesMisc",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stEnemiesScreamAutoMix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stEnemiesSteps",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "1stPersonFire1stWeaponsLoop",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "sound": "1stPersonFire1stWeaponsSingle",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "sound": "1stPersonFire2ndWeaponsAutoMix",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "sound": "1stPersonFire2ndWeaponsManualMix",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "sound": "1stPersonWeapon",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "sound": "1stPersonWeaponFireCore",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "1stPersonWeaponsTail",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "2dSound",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "2ndEnemies",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "2ndEnemiesAttackAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesDeathAutomix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesDeathManualMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesGrabbersGroup",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesHydraWeedCommunication",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesHydraWeedShootAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesIdle",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesMisc",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesMiscManualMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesScreamAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "2ndEnemiesScreamGrabbersGroupAutoMix",
+    "soundclass": "2ndEnemiesGrabbersGroup"
+  },
+  {
+    "sound": "2ndEnemiesSteps",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "3rdEnemies",
+    "soundclass": "3rdEnemiesCloseBite"
+  },
+  {
+    "sound": "3rdEnemiesCloseBite",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesCommunicationAutoMix",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesDeathAutomix",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesDeathManualMix",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesIdle",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesMisc",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesScream",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdEnemiesSteps",
+    "soundclass": "3rdEnemies"
+  },
+  {
+    "sound": "3rdPersonWeaponCore",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "3rdpersonWeapons",
+    "soundclass": "3rdPersonWeaponCore"
+  },
+  {
+    "sound": "3rdPersonWeaponTail",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "Ambience",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Attenuation",
+    "soundclass": "Master"
+  },
+  {
+    "sound": "BeerEffectsAutoMix",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "CharacterFootsteps",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "CharacterGeneric",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "CharactersImpactArmor",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "CharactersImpactDwarf",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "CharactersParent",
+    "soundclass": "BeerEffectsAutoMix"
+  },
+  {
+    "sound": "Coils",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "CutSceneSFX",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "CutSceneSpeak",
+    "soundclass": "SpeakDwarfParent"
+  },
+  {
+    "sound": "Depositing",
+    "soundclass": "DepositingAutoMix"
+  },
+  {
+    "sound": "DepositingAutoMix",
+    "soundclass": "Depositing"
+  },
+  {
+    "sound": "DepositingManMix",
+    "soundclass": "Depositing"
+  },
+  {
+    "sound": "DrillVehicle",
+    "soundclass": "DrillVehicleAutoMix"
+  },
+  {
+    "sound": "DrillVehicleAutoMix",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "DrillVehicleManualMix",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "DrillVehicleTalk",
+    "soundclass": "DrillVehicle"
+  },
+  {
+    "sound": "DropPod",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "DropSpikeFall",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Earthquake",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "Enemies",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "EnemiesCommunication",
+    "soundclass": "EnemiesCommunicationGrabbersGroup"
+  },
+  {
+    "sound": "EnemiesCommunicationGrabbersGroup",
+    "soundclass": "EnemiesCommunication"
+  },
+  {
+    "sound": "EnemiesParent",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "EnemiesProjectileImpact",
+    "soundclass": "EnemiesParent"
+  },
+  {
+    "sound": "Enemy_Death",
+    "soundclass": "EnemiesParent"
+  },
+  {
+    "sound": "Enviorment_FootstepOverwrite",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "EnvironmentCommunication",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "EnvironmentMisc",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "EnvironmentParent",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "ExplosionsCoreAutoMix",
+    "soundclass": "ExplosionsParent"
+  },
+  {
+    "sound": "ExplosionsDistant",
+    "soundclass": "ExplosionsParent"
+  },
+  {
+    "sound": "ExplosionSinus",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "ExplosionsManualMix",
+    "soundclass": "ExplosionsParent"
+  },
+  {
+    "sound": "ExplosionsParent",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "ExplosionsTail",
+    "soundclass": "ExplosionsParent"
+  },
+  {
+    "sound": "FuelCell",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "GameEvents",
+    "soundclass": "GameEventsCommunicationAutoMix"
+  },
+  {
+    "sound": "GameEventsCommunicationAutoMix",
+    "soundclass": "GameEvents"
+  },
+  {
+    "sound": "GameEventsManualMix",
+    "soundclass": "GameEvents"
+  },
+  {
+    "sound": "GhostNearSound",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "GrabbedByEnemy",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "GunTower",
+    "soundclass": "GameEvents"
+  },
+  {
+    "sound": "GunTower1stAutoMix",
+    "soundclass": "GunTower"
+  },
+  {
+    "sound": "GunTower2ndAutoMix",
+    "soundclass": "GunTower"
+  },
+  {
+    "sound": "GunTower3rdManualMix",
+    "soundclass": "GunTower"
+  },
+  {
+    "sound": "GunTowerManualMix",
+    "soundclass": "GunTower"
+  },
+  {
+    "sound": "HelperWeapons",
+    "soundclass": "WeaponsParent"
+  },
+  {
+    "sound": "HotSprings",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "InfectedMuleCommunication",
+    "soundclass": "RobotCommunication"
+  },
+  {
+    "sound": "InfectedMuleMisc",
+    "soundclass": "RobotCommunication"
+  },
+  {
+    "sound": "LargestExplosions",
+    "soundclass": "ExplosionsParent"
+  },
+  {
+    "sound": "LowHealth",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "MachinesParent",
+    "soundclass": "Coils"
+  },
+  {
+    "sound": "Master",
+    "soundclass": "Attenuation"
+  },
+  {
+    "sound": "MineHead",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "Mining",
+    "soundclass": "WeaponsParent"
+  },
+  {
+    "sound": "MiscPerkAutoMix",
+    "soundclass": "PerksParent"
+  },
+  {
+    "sound": "MiscPerkManualMix",
+    "soundclass": "PerksParent"
+  },
+  {
+    "sound": "MissionControl",
+    "soundclass": "SpeakParent"
+  },
+  {
+    "sound": "MulesAutoMix",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "MulesManualMix",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "Music",
+    "soundclass": "Attenuation"
+  },
+  {
+    "sound": "Music_Action",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_Background",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_BeerEffect",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_Boss",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_Discovery",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_Endwave",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_JukeBox",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "Music_MemorialHall",
+    "soundclass": "SFX"
+  },
+  {
+    "sound": "Music_Menu",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "Music_PromotionMenu",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "OmmoranAutoMix",
+    "soundclass": "OmmoranHeartstone"
+  },
+  {
+    "sound": "OmmoranCommunicationAutoMix",
+    "soundclass": "OmmoranHeartstone"
+  },
+  {
+    "sound": "OmmoranCommunicationManualMix",
+    "soundclass": "OmmoranHeartstone"
+  },
+  {
+    "sound": "OmmoranHeartstone",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "OmmoranManualMix",
+    "soundclass": "OmmoranHeartstone"
+  },
+  {
+    "sound": "Organ",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "PerkHeightenedSenseAutoMix",
+    "soundclass": "PerksParent"
+  },
+  {
+    "sound": "PerkIronWillAutoMix",
+    "soundclass": "PerksParent"
+  },
+  {
+    "sound": "PerksParent",
+    "soundclass": "MiscPerkAutoMix"
+  },
+  {
+    "sound": "Pipes",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "PlayerNoDuck",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "RefineryMain",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "RefineryRocket",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "RobotCommunication",
+    "soundclass": "InfectedMuleCommunication"
+  },
+  {
+    "sound": "RobotParent",
+    "soundclass": "RobotCommunication"
+  },
+  {
+    "sound": "RockAttack",
+    "soundclass": "EnemiesCommunication"
+  },
+  {
+    "sound": "RockAttackAutoMix",
+    "soundclass": "RockAttack"
+  },
+  {
+    "sound": "RockAttackHighPrio",
+    "soundclass": "RockAttack"
+  },
+  {
+    "sound": "RockAttackManualMix",
+    "soundclass": "RockAttack"
+  },
+  {
+    "sound": "SFX",
+    "soundclass": "Attenuation"
+  },
+  {
+    "sound": "SharedWeaponsReload",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ShieldFields",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "SpeakDwarf",
+    "soundclass": "SpeakDwarfParent"
+  },
+  {
+    "sound": "SpeakDwarfNoDuck",
+    "soundclass": "SpeakDwarfParent"
+  },
+  {
+    "sound": "SpeakDwarfParent",
+    "soundclass": "CutSceneSpeak"
+  },
+  {
+    "sound": "SpeakParent",
+    "soundclass": "MissionControl"
+  },
+  {
+    "sound": "SpecialTerminalEvent",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "SupplyDropAutoMix",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "SupplyDropManualMix",
+    "soundclass": "MachinesParent"
+  },
+  {
+    "sound": "UI",
+    "soundclass": "2dSound"
+  },
+  {
+    "sound": "UIControllerSounds",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_AutoMix",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_IsolatedFromWorld",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_largeAutomix",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "UI_ManualMix",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "VoiceChat",
+    "soundclass": "Attenuation"
+  },
+  {
+    "sound": "VolatileGutsExplosions",
+    "soundclass": "ExplosionsParent"
+  },
+  {
+    "sound": "WeaponCommunication",
+    "soundclass": "Default__SoundClass"
+  },
+  {
+    "sound": "WeaponRicochet",
+    "soundclass": "WeaponsParent"
+  },
+  {
+    "sound": "WeaponsParent",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DuckOnBeerEffects",
+    "soundclass": "EnvironmentParent"
+  },
+  {
+    "sound": "DuckOnOperatingMachine",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DuckOnPerkActivated",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "DuckOnPerkIronWillActivated",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "DuckOnSpecialTerminalEvent",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "DuckOnWeaponCommunication0-5",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "DuckOnWeaponCommunication1-0",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "DuckOnWeaponCommunication2-0",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "Duck_InMenu_Music_and_AmbientoundMix1",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "MusicActionOnly_SoundMix",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "MusicBeerEffectOnly_SoundMix",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MusicBossOnly_SoundMix",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MusicDiscoveryOnly_SoundMix",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MusicEndwaveOnly_SoundMix",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MusicJukeBox_SoundMix",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "MusicMemorialHall_SoundMix1",
+    "soundclass": "Music_Action"
+  },
+  {
+    "sound": "NoAmbience_SoundMix",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_Duck1stPersonFireWeaponAutoMix",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "PSM_Duck2ndAnd3rdEnemiesAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_Duck2ndEnemiesIdleAutoMix",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "PSM_Duck3rdEnemiesIdleAutoMix",
+    "soundclass": "3rdEnemiesIdle"
+  },
+  {
+    "sound": "PSM_Duck3rdPersonWeaponFireAutoMix",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "PSM_Duck3rdStepsAutoMix",
+    "soundclass": "3rdEnemiesSteps"
+  },
+  {
+    "sound": "PSM_DuckArmorHitAutoMix",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "PSM_DuckEverythingOnDwarfSpeaksAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_DuckEverythingOnGhostAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_DuckEverythingOnMissionControlAutoMix",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_DuckEverythingOnUISmallAutomix",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_DuckEverythingOnUI_LargeAutomix",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_DuckFootstepsAutoMix",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "PSM_DuckHelperWeapons",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "PSM_DuckOn1stEnemiesDeath",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_DuckOn1stEnemyImpactShort",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "PSM_DuckOn1stEnemyScreamAutoMix",
+    "soundclass": "1stEnemiesIdle"
+  },
+  {
+    "sound": "PSM_DuckOn1stPersonSingleFire",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "PSM_DuckOn1stPersonWeaponFireLoopAutoMix",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "PSM_DuckOn2ndEnemiesDeath1-5",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "PSM_DuckOn2ndEnemiesDeathAutoMix",
+    "soundclass": "2ndEnemiesIdle"
+  },
+  {
+    "sound": "PSM_DuckOn2ndEnemiesScreamAutoMixShort",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "PSM_DuckOn3rdEnemiesCommunicationAutoMix",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOn3rdEnemiesDeath0-1",
+    "soundclass": "3rdEnemiesCloseBite"
+  },
+  {
+    "sound": "PSM_DuckOn3rdEnemiesDeathAutoMix",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "PSM_DuckOnBoscoTalkAutoMix",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnDown2-0",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_DuckOnDownStateBPTiming",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_DuckOnDrillVehicleAutoMix",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnDrillVehicleTalk",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnDropSpikeFall1-0",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnEggAlert",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnEndScreen",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnEnemyCommunication0-5",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnEnemyCommunicationFixedTiming",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnEnemyDeath3-0sec",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "PSM_DuckOnEnemyProjectileImpact",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnExplosionClose",
+    "soundclass": "EnemiesParent"
+  },
+  {
+    "sound": "PSM_DuckOnExplosionDistant",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "PSM_DuckOnExplosionGeneralLongTail0-5",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnExplosionGeneralLongTailBPTiming",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnExplosionGeneralShortTailBPTiming",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnExplosionsAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnFrozenStateBPTiming",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnGameEventCommunication",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnGrabbed",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnHeightenedSenses",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnHugeExplosion3-0",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnHydraWeedCommunication",
+    "soundclass": "2ndEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "PSM_DuckOnImpactShort",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnImportant0-5sec",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "PSM_DuckOnImportant1-5sec",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "PSM_DuckOnInfectedMuleAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnInfectedMuleBPTiming",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnInsideHotspringBPTiming",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnInsideShieldBPTiming",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnInsideSlowGrenadeBPTiming",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnMachineActivityAutoMix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnOmmoranAutoMix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnOmmoranCommunicationAutoMix",
+    "soundclass": "1stEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnQuakeBPTimingAutoMix",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_DuckOnRicochetAutoMix",
+    "soundclass": "1stPersonWeapon"
+  },
+  {
+    "sound": "PSM_DuckOnRockAttack",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckOnRockAttackHighPrio",
+    "soundclass": "RockAttackAutoMix"
+  },
+  {
+    "sound": "PSM_DuckOnShooting",
+    "soundclass": "Ambience"
+  },
+  {
+    "sound": "PSM_DuckOnTowerFire1stAutomix",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "PSM_DuckOnTowerFire2ndAutomix",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "PSM_DuckOnWeakPoint",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckPlayer",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "PSM_DuckShieldsAutoMix",
+    "soundclass": "ShieldFields"
+  },
+  {
+    "sound": "PSM_FadeInSFXandMusic",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_FadeOutMusicAndSFX",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "PSM_FadeOutPromotionMusic",
+    "soundclass": "Music_PromotionMenu"
+  },
+  {
+    "sound": "PSM_ForPromotion_FadeOutSfxAndSpaceRigMusic",
+    "soundclass": "Music_Background"
+  },
+  {
+    "sound": "PSM_GrabbedByCaveLeech",
+    "soundclass": "2ndEnemies"
+  },
+  {
+    "sound": "PSM_MuteSFXandMusic",
+    "soundclass": "Music"
+  },
+  {
+    "sound": "TipMachineAcceptA_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineConfetti_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoA_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoB_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoC_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoSingleA_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoSingleB_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoSingleD_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineServoSingleE_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineVoiceA_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineVoiceB_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineVoiceC_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineVoiceD_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineVoiceE_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "TipMachineVoiceF_1_Cue",
+    "soundclass": "CharactersParent"
+  },
+  {
+    "sound": "BuildImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "OutOfFlares_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "RicochetOverclock_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "WPN_ScannerIdle_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "WPN_ScannerPing_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "AlienEggDigFree_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "AlienEggImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "AlienEgg_NestBreakCue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "EggNestAlert_Cue",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "sound": "Amber_Break_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Amber_Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "BlockCrumble_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CollectChunk_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CoralHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CoralMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CrystalHealingMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CrystalMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CrystalsGeneric_Hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "CrystalsGeneric_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "DirtHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "DirtMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Dirt_Ice_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "GemPopsFree_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Gem_Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Generic_MetallicMineral_Hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Generic_MetallicMineral_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "GoldChime_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "GoldCoins_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "GunkSeedFallingImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "HeartStoneGemImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "HollowBoughGenericHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "HollowBoughMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "IceMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "Ice_hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "MiscHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "MorkiteMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "OilShaleMachineMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "OilShaleMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "OilShale_hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickAxe_CoolDown_Finished_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "PickUpElement_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickUp_Barleys_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickUp_Fossil_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "PickUp_Vegetation_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "RadioActiveDNA_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "RootsMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "ShieldRegenerationCooldown_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "sound": "Snow_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "StoneMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "sound": "SwingAxe_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "Throw_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ExplosionSinusDistant_Cue",
+    "soundclass": "ExplosionSinus"
+  },
+  {
+    "sound": "GeneralMechA_12_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "GeneralMechA_1_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "GeneralMechA_3_Cue",
+    "soundclass": "GameEvents"
+  },
+  {
+    "sound": "GeneralMechA_4_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "GeneralMechA_5_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "GeneralMechA_7_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "sound": "FlareImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "Lit_Fuse_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "AxeGrenadeDullImpact_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "AxeGrenadeFoldOut_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "AxeGrenadeImpact_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "AxeGrenadePickup_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "BOuncyPlasmaGrenadeDischarge_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "ClusterGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "ClusterGrenade_Breakup_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "ExplosiveReload_BeepExlode_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FreezeGrenade_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "GasDischarge_Cue",
+    "soundclass": "EnvironmentCommunication"
+  },
+  {
+    "sound": "StickyGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "IncendiaryGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "Grenade_Lure_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "Grenade_Lure_OutOfPower_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "PheromoneGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "StickyGrenade_BeepExlode_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "StickyGrenade_Beep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "StickyGrenade_SpikesExtended_Cue",
+    "soundclass": "WeaponsParent"
+  },
+  {
+    "sound": "Mine_Deploy",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "StickyMineExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "StickyMine_ArmedBeep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "StickyMine_BeepExlode_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "StickyMine_BeepExplode_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "StickyMine_LifetimeBeep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "StickyMine_Setup_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SlowGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "SlowGrenadeFieldStop_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SlowGrenade_IntoField_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "SlowGrenade_OutOfField_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "SlowGrenadeFieldConstant_Cue",
+    "soundclass": "ShieldFields"
+  },
+  {
+    "sound": "Bosco_MissileFire_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "MollyDepositEnd_Cue",
+    "soundclass": "DepositingManMix"
+  },
+  {
+    "sound": "MollyDepositing_Cue",
+    "soundclass": "DepositingAutoMix"
+  },
+  {
+    "sound": "MollyDepositStart_Cue",
+    "soundclass": "DepositingManMix"
+  },
+  {
+    "sound": "TemperatureShock_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "FuelCanister_CloseMuzzle_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FuelCanister_Impact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FuelCanister_OpenMuzzle_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "Fuel_Canister_HandlesIn_cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "OilExtractorHitNegative_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "sound": "OilExtractorHitPositive_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "OilExtractor_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "PipeBuildFinished_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "PipeConnect_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "PipelineBuilding_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "PipePlace_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "Pipeplace_start_cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "sound": "PipeSlideOff_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "sound": "PipeSlide_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "sound": "Repair_HandDrill_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SentryGunMineHeadFire_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "ShotImpact_Crystal_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ShotImpact_Dirt_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ShotImpact_MetallicMineral_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ShotImpact_Rock_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ShotImpact_Wood_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SnowBallImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SnowHandA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SnowHandB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SnowHandC_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SnowScoopA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "AssaultRifleFireCoreCombined_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "AssaultRifleFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "sound": "AssaultRifle_GunslingA",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "AssaultRifle_GunslingB",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "AutoCannonFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "BasicPistolFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "BasicPistolReload1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BasicPistolReload2_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BasicPistolReload3_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BasicPistolReload4_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BasicPistolReload5_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BoltActionFireZoom_Cue",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "sound": "BoltActionRifleFireCoreCharged_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "BoltActionRifleFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "BurstPistolFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "BurstPistolReloadA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "BurstPistolReloadB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ChargeBlasterFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "ChargeBlasterImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ChargeBlasterLargeFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "ChargeBlasterLarge_ProjectileLoop_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "sound": "ChargeBlaster_ChargedImpactExplosion__Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "sound": "ChargeBlaster_Counter_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ChargeBlaster_FullyCharged_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ChargeBlaster_Overheat_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ChargeBlaster_SpinUp_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ShotgunFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "Shotgun_Empty_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "CryoCannon_PressureRelease_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "CryoJammed_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "CryosprayChargeUp_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DetPack_Beep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DetPack_Beep_Exlode",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DoubleDrillPump_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DrillJammed_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DrillOverheat_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DrillReady_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DrillStop_01_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DrillTemperature_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "Drill_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DualfMPReloadA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DualfMPReloadB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DualfMPReloadC_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DualfMPReloadD_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DualMpFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "DualMpFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "sound": "DualMPGunslingA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DualMPGunslingB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "DualMPReloadE_1",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FlameThrowerAlmostEmpty_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FlameThrowerFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "FlameThrowerFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "sound": "FlameThrowerReloadA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FlameThrowerReloadB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FlameThrowerReloadC_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FlameThrowerReloadD_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FlameThrowExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "FlareGun_Fire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "FlareGun_Reload_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "GrenadeLauncherFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "GrenadeLauncher_Explosion_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "sound": "GrenadeLauncher_MiniNukeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "sound": "PerkEquip_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "sound": "LineCutterFirePostA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "LineCutterFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "LineCutterGunsling_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "LineCutterReloadA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "LineCutterReloadB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "LineCutter_Reload_Stereo_02_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "MiniGunFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "sound": "MiniGunJammed_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunOverheatElementA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunOverheatElementB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunOverheatGyro_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunOverHeatPitch_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "sound": "MiniGunOverheatVentA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunOverheatVentB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "MiniGunRoll_Cue",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "sound": "CreatePlatform_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "PlatformGun_Fire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "PlatformGun_Reload_Stereo_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "FP_RevolverFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "Revolver_Reload_03_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "RevolverReload1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SawedOffShotgun_Fire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "sound": "CombatShotgunV2A_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "CombatShotgunV2B_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "CombatShotgunV2C_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SentryGunFireCore_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "SentryGunHeavyFireCore_Cue1",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "sound": "SMGFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "sound": "SMGFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "sound": "SMG_Reload1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SMG_Reload3_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "SMG_Reload5_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "sound": "ZipLineGunFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  }
+]

@@ -1,0 +1,874 @@
+[
+  {
+    "weapon": "BuildImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "OutOfFlares_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "weapon": "RicochetOverclock_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "WPN_ScannerIdle_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "WPN_ScannerPing_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "AlienEggDigFree_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "AlienEggImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "AlienEgg_NestBreakCue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "EggNestAlert_Cue",
+    "soundclass": "1stEnemiesAttackAutoMix"
+  },
+  {
+    "weapon": "Amber_Break_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "Amber_Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "BlockCrumble_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CollectChunk_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CoralHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CoralMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CrystalHealingMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CrystalMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CrystalsGeneric_Hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "CrystalsGeneric_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "DirtHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "DirtMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "Dirt_Ice_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "GemPopsFree_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "Gem_Impact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "Generic_MetallicMineral_Hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "Generic_MetallicMineral_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "GoldChime_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "GoldCoins_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "weapon": "GunkSeedFallingImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "HeartStoneGemImpact_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "HollowBoughGenericHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "HollowBoughMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "IceMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "Ice_hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "MiscHit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "MorkiteMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "OilShaleMachineMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "OilShaleMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "OilShale_hit_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "PickAxe_CoolDown_Finished_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "weapon": "PickUpElement_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "PickUp_Barleys_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "PickUp_Fossil_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "PickUp_Vegetation_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "RadioActiveDNA_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "RootsMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "ShieldRegenerationCooldown_Cue",
+    "soundclass": "UI_AutoMix"
+  },
+  {
+    "weapon": "Snow_Mining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "StoneMining_Cue",
+    "soundclass": "Mining"
+  },
+  {
+    "weapon": "SwingAxe_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "Throw_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ExplosionSinusDistant_Cue",
+    "soundclass": "ExplosionSinus"
+  },
+  {
+    "weapon": "GeneralMechA_12_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "weapon": "GeneralMechA_1_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "weapon": "GeneralMechA_3_Cue",
+    "soundclass": "GameEvents"
+  },
+  {
+    "weapon": "GeneralMechA_4_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "weapon": "GeneralMechA_5_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "weapon": "GeneralMechA_7_Cue",
+    "soundclass": "SupplyDropAutoMix"
+  },
+  {
+    "weapon": "FlareImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "Lit_Fuse_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "AxeGrenadeDullImpact_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "AxeGrenadeFoldOut_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "weapon": "AxeGrenadeImpact_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "AxeGrenadePickup_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "weapon": "BOuncyPlasmaGrenadeDischarge_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "ClusterGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "ClusterGrenade_Breakup_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "ExplosiveReload_BeepExlode_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FreezeGrenade_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "GasDischarge_Cue",
+    "soundclass": "EnvironmentCommunication"
+  },
+  {
+    "weapon": "StickyGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "IncendiaryGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "Grenade_Lure_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "Grenade_Lure_OutOfPower_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "PheromoneGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "StickyGrenade_BeepExlode_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "StickyGrenade_Beep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "StickyGrenade_SpikesExtended_Cue",
+    "soundclass": "WeaponsParent"
+  },
+  {
+    "weapon": "Mine_Deploy",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "StickyMineExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "StickyMine_ArmedBeep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "StickyMine_BeepExlode_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "StickyMine_BeepExplode_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "StickyMine_LifetimeBeep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "StickyMine_Setup_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SlowGrenadeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "SlowGrenadeFieldStop_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SlowGrenade_IntoField_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "weapon": "SlowGrenade_OutOfField_Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "weapon": "SlowGrenadeFieldConstant_Cue",
+    "soundclass": "ShieldFields"
+  },
+  {
+    "weapon": "Bosco_MissileFire_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "weapon": "MollyDepositEnd_Cue",
+    "soundclass": "DepositingManMix"
+  },
+  {
+    "weapon": "MollyDepositing_Cue",
+    "soundclass": "DepositingAutoMix"
+  },
+  {
+    "weapon": "MollyDepositStart_Cue",
+    "soundclass": "DepositingManMix"
+  },
+  {
+    "weapon": "TemperatureShock_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "FuelCanister_CloseMuzzle_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FuelCanister_Impact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FuelCanister_OpenMuzzle_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "Fuel_Canister_HandlesIn_cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "OilExtractorHitNegative_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "weapon": "OilExtractorHitPositive_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "weapon": "OilExtractor_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "weapon": "PipeBuildFinished_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "weapon": "PipeConnect_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "weapon": "PipelineBuilding_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "weapon": "PipePlace_Cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "weapon": "Pipeplace_start_cue",
+    "soundclass": "Pipes"
+  },
+  {
+    "weapon": "PipeSlideOff_Cue",
+    "soundclass": "CharacterFootsteps"
+  },
+  {
+    "weapon": "PipeSlide_Cue",
+    "soundclass": "CharacterGeneric"
+  },
+  {
+    "weapon": "Repair_HandDrill_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SentryGunMineHeadFire_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "weapon": "ShotImpact_Crystal_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ShotImpact_Dirt_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ShotImpact_MetallicMineral_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ShotImpact_Rock_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ShotImpact_Wood_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SnowBallImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SnowHandA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SnowHandB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SnowHandC_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SnowScoopA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "AssaultRifleFireCoreCombined_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "weapon": "AssaultRifleFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "weapon": "AssaultRifle_GunslingA",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "AssaultRifle_GunslingB",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "AutoCannonFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "weapon": "BasicPistolFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "BasicPistolReload1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "BasicPistolReload2_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "BasicPistolReload3_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "BasicPistolReload4_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "BasicPistolReload5_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "BoltActionFireZoom_Cue",
+    "soundclass": "1stPersonWeaponFireCore"
+  },
+  {
+    "weapon": "BoltActionRifleFireCoreCharged_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "BoltActionRifleFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "BurstPistolFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "BurstPistolReloadA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "BurstPistolReloadB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ChargeBlasterFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "ChargeBlasterImpact_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ChargeBlasterLargeFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "ChargeBlasterLarge_ProjectileLoop_Cue",
+    "soundclass": "Enemies"
+  },
+  {
+    "weapon": "ChargeBlaster_ChargedImpactExplosion__Cue",
+    "soundclass": "ExplosionsManualMix"
+  },
+  {
+    "weapon": "ChargeBlaster_Counter_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ChargeBlaster_FullyCharged_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ChargeBlaster_Overheat_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ChargeBlaster_SpinUp_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ShotgunFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "Shotgun_Empty_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "CryoCannon_PressureRelease_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "CryoJammed_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "CryosprayChargeUp_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DetPack_Beep_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DetPack_Beep_Exlode",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DoubleDrillPump_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DrillJammed_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DrillOverheat_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DrillReady_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DrillStop_01_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DrillTemperature_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "Drill_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DualfMPReloadA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DualfMPReloadB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DualfMPReloadC_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DualfMPReloadD_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DualMpFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "DualMpFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "weapon": "DualMPGunslingA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DualMPGunslingB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "DualMPReloadE_1",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FlameThrowerAlmostEmpty_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FlameThrowerFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "FlameThrowerFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "weapon": "FlameThrowerReloadA_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FlameThrowerReloadB_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FlameThrowerReloadC_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FlameThrowerReloadD_1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FlameThrowExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "FlareGun_Fire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "FlareGun_Reload_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "GrenadeLauncherFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "GrenadeLauncher_Explosion_Cue",
+    "soundclass": "3rdEnemiesScream"
+  },
+  {
+    "weapon": "GrenadeLauncher_MiniNukeExplosion_Cue",
+    "soundclass": "ExplosionsCoreAutoMix"
+  },
+  {
+    "weapon": "PerkEquip_Cue",
+    "soundclass": "UI"
+  },
+  {
+    "weapon": "LineCutterFirePostA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "LineCutterFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "LineCutterGunsling_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "LineCutterReloadA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "LineCutterReloadB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "LineCutter_Reload_Stereo_02_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunFireCore_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "weapon": "MiniGunFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "weapon": "MiniGunJammed_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunOverheatElementA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunOverheatElementB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunOverheatGyro_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunOverHeatPitch_Cue",
+    "soundclass": "1stPersonFire1stWeaponsLoop"
+  },
+  {
+    "weapon": "MiniGunOverheatVentA_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunOverheatVentB_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "MiniGunRoll_Cue",
+    "soundclass": "3rdpersonWeapons"
+  },
+  {
+    "weapon": "CreatePlatform_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "PlatformGun_Fire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "PlatformGun_Reload_Stereo_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "FP_RevolverFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "Revolver_Reload_03_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "RevolverReload1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SawedOffShotgun_Fire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  },
+  {
+    "weapon": "CombatShotgunV2A_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "CombatShotgunV2B_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "CombatShotgunV2C_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SentryGunFireCore_Cue",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "weapon": "SentryGunHeavyFireCore_Cue1",
+    "soundclass": "HelperWeapons"
+  },
+  {
+    "weapon": "SMGFireCore_Cue",
+    "soundclass": "1stPersonFire2ndWeaponsAutoMix"
+  },
+  {
+    "weapon": "SMGFireTail_Cue",
+    "soundclass": "1stPersonWeaponsTail"
+  },
+  {
+    "weapon": "SMG_Reload1_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SMG_Reload3_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "SMG_Reload5_Cue",
+    "soundclass": "1stAnd3rdSharedWeapons"
+  },
+  {
+    "weapon": "ZipLineGunFire_Cue",
+    "soundclass": "1stPersonFire1stWeaponsSingle"
+  }
+]

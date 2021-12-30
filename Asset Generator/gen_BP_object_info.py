@@ -5,13 +5,39 @@ import re
 PATH = r'C:/../../../../Github Projects/Header-Dumps/U35.63118/DUMP/' # Replace with your path to dumped files
 OUTPUT_PATH = r'C:/../../../../Github Projects/Useful-Scripts/Asset Generator/' # Replace with your path to where you want the output file to be saved
 
+def check_startswith(string):
+    WHITELIST_START = ['BP_', 'ENE_', 'BPL_', 'OBJ_', 'LIB_', 'PRJ_', 'WPN_']
+    for start in WHITELIST_START:
+        if string.startswith(start): return True
+    return False
+
+def check_contains(string, type):
+    BLACKLIST_PROPERTIES = ['ubergraph', 'onloaded_']
+    BLACKLIST_FUNCTIONS = ['recieve', 'receive', 'ubergraph', 'onloaded_']
+    if type == 'property':
+        for property in BLACKLIST_PROPERTIES:
+            if property in string.lower(): return True
+        return False
+    elif type == 'function':
+        for function in BLACKLIST_FUNCTIONS:
+            if function in string.lower(): return True
+        return False
+
+def check_len(array):
+    if len(array) == 0: return None
+    return array
+
 def match_variables(line, properties, type):
     match = re.search(type + r'\s(.*);\s\/\/(.*)+', line)
     if match:
         # If variable is an uber, ignore
         name = match.group(1)
-        lname = name.lower()
-        if not ('ubergraph' in lname or 'OnLoaded_' in name):
+        if not check_contains(name, 'property'):
+            # If type is 'enum' then it is an enum class type
+            if 'enum' in type:
+                names = name.split(' ')
+                name = names[-1]
+                type = type + ' ' + ' '.join(names[:-1])
             # Remove the '\\' from before the '*' if it exists
             type = type.replace('\\', '')
             properties.append({
@@ -26,9 +52,7 @@ def match_functions(line, functions, type):
     if match:
         # If function is a recieve, bind or ubergraph, ignore
         name = match.group(1)
-        lname = name.lower()
-        if not ('recieve' in lname or 'ubergraph' in lname\
-        or 'OnLoaded_' in name or 'receive' in lname):
+        if not check_contains(name, 'function'):
             # Add the args of the function
             args = match.group(2).split(', ')
             if args is not None:
@@ -54,22 +78,16 @@ def match_functions(line, functions, type):
             function_properties = check_len(function_properties)
             functions.append({
                 'name': name,
+                'type': type,
                 'args': function_properties
             })
     return functions
-
-def check_len(array):
-    if len(array) == 0: return None
-    return array
 
 def output():
     output = []
     for asset_file in os.listdir(PATH):
         if asset_file.endswith('.h'):
-            if asset_file.startswith('BP_') or asset_file.startswith('ENE_')\
-            or asset_file.startswith('BPL_') or asset_file.startswith('OBJ_')\
-            or asset_file.startswith('LIB_') or asset_file.startswith('PRJ_')\
-            or asset_file.startswith('WPN_'):
+            if check_startswith(asset_file):
                 # Open asset file
                 with open(PATH + asset_file) as f:
                     data = f.read()
@@ -85,7 +103,6 @@ def output():
                 for line in lines:
                     if line == '' or line == '};': continue
                     line = line.replace('\t', '')
-                    
                     type = line.split(' ')[0]
                     # Check for pointer which fucks up the regex
                     if type[-1] == '*': type = type.replace('*', '\*')
@@ -95,7 +112,6 @@ def output():
 
                     # Match functions
                     functions = match_functions(line, functions, type)
-
                 properties = check_len(properties)
                 functions = check_len(functions)
                 output.append({

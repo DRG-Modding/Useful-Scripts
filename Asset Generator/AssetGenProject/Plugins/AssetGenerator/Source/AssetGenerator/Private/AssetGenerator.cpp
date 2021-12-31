@@ -45,13 +45,41 @@ void FAssetGeneratorModule::ShutdownModule()
 
 void FAssetGeneratorModule::PluginButtonClicked()
 {
-	// Put your "OnButtonClicked" stuff here
-	FText DialogText = FText::Format(
-							LOCTEXT("PluginButtonDialogText", "Add code to {0} in {1} to override this button's actions"),
-							FText::FromString(TEXT("FAssetGeneratorModule::PluginButtonClicked()")),
-							FText::FromString(TEXT("AssetGenerator.cpp"))
-					   );
-	FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+	// Does user wish to run first or second operation?
+	FText DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Do you wish to run asset generator first?"));
+	if (FMessageDialog::Open(EAppMsgType::YesNo, DialogText) == EAppReturnType::Yes)
+	{
+		DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Running asset generator operation."));
+		FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+
+		// Run asset generator operation
+		
+		
+		// Show success of asset generation
+		DialogText = FText::Format(
+								LOCTEXT("PluginButtonDialogText", "Successfully finished creation of {0} assets in given locations.{1}"),
+								AssetNames.Max(),
+								FText::FromString(TEXT("\nDo you wish to continue to the next operation?")));
+		
+		// Allow user to cancel next operation
+		if (FMessageDialog::Open(EAppMsgType::OkCancel, DialogText) == EAppReturnType::Cancel)
+		{
+			DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Cancelled the next operation."));
+			FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+		} else
+		{
+			DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Running stub filler operation."));
+			FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+
+			// Run stub filler operation
+		}
+	} else
+	{
+		DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Running stub filler operation."));
+		FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+
+		// Run stub filler operation
+	}
 }
 
 void FAssetGeneratorModule::RegisterMenus()

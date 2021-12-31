@@ -11,19 +11,23 @@ class FMenuBuilder;
 class FAssetGeneratorModule : public IModuleInterface
 {
 public:
-
 	/** IModuleInterface implementation */
 	virtual void StartupModule() override;
 	virtual void ShutdownModule() override;
 	
 	/** This function will be bound to Command. */
 	void PluginButtonClicked();
-	
-private:
 
+	TArray<FString> AssetNames;
+	TArray<FString> AssetLocations;
+
+private:
 	void RegisterMenus();
 
-
-private:
 	TSharedPtr<class FUICommandList> PluginCommands;
+	FString DialogName = "Open";
+	FString DefaultPath = "C:";
+	FString DefaultFile = "";
+	FString FileTypes = ".json";
+	uint32 Flags = 0;
 };

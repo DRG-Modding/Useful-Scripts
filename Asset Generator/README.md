@@ -1,3 +1,5 @@
 The main use of these scripts is for me (Buckminsterfullerene) to load into my BP Asset Generator tool.
 - BP_names_and_locations - This script stores the type, name and relative path of all BP assets into the JSON file.
 - gen_BP_object_info - This script generates the name, inheritance, property and functions information from all the BP files from the Guttir C++ header dumper, into the JSON file.
+
+Use BP_object_info_ue4ss.json to see *exactly* how to dummy your assets in your project. This will act as a solid stopgap until I finish my plugin that automatically generates all dummy BP assets with their events, functions, properties and delegates. The reason there is a UE4SS version, is that the script I have uses the C++ header dumps from the Guttir dumper I modified, which does not force load every asset into memory, meaning that it misses over **50%** of the assets. UE4SS does not miss any, however.

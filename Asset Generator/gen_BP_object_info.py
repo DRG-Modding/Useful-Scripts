@@ -12,8 +12,8 @@ def check_startswith(string):
     return False
 
 def check_contains(string, type):
-    BLACKLIST_PROPERTIES = ['ubergraph', 'onloaded_']
-    BLACKLIST_FUNCTIONS = ['recieve', 'receive', 'ubergraph', 'onloaded_']
+    BLACKLIST_PROPERTIES = ['ubergraph', 'onloaded_', 'defaultsceneroot']
+    BLACKLIST_FUNCTIONS = ['ubergraph', 'onloaded_', 'receivebeginplay', 'receivedestroyed', 'receivetick', 'userconstructionscript', 'ontick_']
     if type == 'property':
         for property in BLACKLIST_PROPERTIES:
             if property in string.lower(): return True
@@ -22,10 +22,6 @@ def check_contains(string, type):
         for function in BLACKLIST_FUNCTIONS:
             if function in string.lower(): return True
         return False
-
-def check_len(array):
-    if len(array) == 0: return None
-    return array
 
 def match_variables(line, properties, type):
     match = re.search(type + r'\s(.*);\s\/\/(.*)+', line)
@@ -38,8 +34,7 @@ def match_variables(line, properties, type):
                 names = name.split(' ')
                 name = names[-1]
                 type = type + ' ' + ' '.join(names[:-1])
-            # Remove the '\\' from before the '*' if it exists
-            type = type.replace('\\', '')
+            type = type.replace('*', '')
             properties.append({
                 'name': name,
                 'type': type
@@ -71,11 +66,12 @@ def match_functions(line, functions, type):
                     except IndexError:
                         arg_type, arg_name = arg, ''
                     if arg != '':
+                        arg_type = arg_type.replace('*', '')
                         function_properties.append({
                             'name': arg_name,
                             'type': arg_type
                         })
-            function_properties = check_len(function_properties)
+            type = type.replace('*', '')
             functions.append({
                 'name': name,
                 'type': type,
@@ -104,21 +100,18 @@ def output():
                     if line == '' or line == '};': continue
                     line = line.replace('\t', '')
                     type = line.split(' ')[0]
-                    # Check for pointer which fucks up the regex
-                    if type[-1] == '*': type = type.replace('*', '\*')
+                    type = type.replace('*', '')
 
                     # Match variables
                     properties = match_variables(line, properties, type)
 
                     # Match functions
                     functions = match_functions(line, functions, type)
-                properties = check_len(properties)
-                functions = check_len(functions)
                 output.append({
                     'bp_name': name,
                     'inherits': inherits,
-                    'properties': properties,
-                    'functions': functions
+                    'functions': functions,
+                    'properties': properties
                 })
 
     with open(OUTPUT_PATH + 'BP_object_info.json', 'w+') as file:

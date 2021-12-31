@@ -1,0 +1,12 @@
+AssetGenProject/.idea/*
+AssetGenProject/.vs/*
+AssetGenProject/Binaries/*
+AssetGenProject/Config/*
+AssetGenProject/DerivedDataCache/*
+AssetGenProject/Intermediate/*
+AssetGenProject/Plugins/AssetGenerator/Binaries/*
+AssetGenProject/Plugins/AssetGenerator/Intermediate/*
+AssetGenProject/Saved/*
+AssetGenProject/Source/*
+AssetGenProject/AssetGenProject.sln
+AssetGenProject/AssetGenProject.uproject

@@ -3,6 +3,8 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "AssetGenOperation.h"
+#include "Misc/FileHelper.h"
 #include "Modules/ModuleManager.h"
 
 class FToolBarBuilder;
@@ -18,16 +20,18 @@ public:
 	/** This function will be bound to Command. */
 	void PluginButtonClicked();
 
-	TArray<FString> AssetNames;
-	TArray<FString> AssetLocations;
+	TArray<FString> SelectedFileNames;
 
 private:
 	void RegisterMenus();
-
+	bool OpenDialogMenu();
+	FString LoadFile();
+	
+	const FString& DialogName = "Open";
+	const FString& DefaultPath = "C:";
+	const FString& DefaultFile = "";
+	const FString& FileTypes = ".json";
+	const uint32 Flags = 0;
+	
 	TSharedPtr<class FUICommandList> PluginCommands;
-	FString DialogName = "Open";
-	FString DefaultPath = "C:";
-	FString DefaultFile = "";
-	FString FileTypes = ".json";
-	uint32 Flags = 0;
 };

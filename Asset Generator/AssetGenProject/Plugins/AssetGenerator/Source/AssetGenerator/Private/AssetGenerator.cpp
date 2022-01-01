@@ -5,6 +5,8 @@
 #include "AssetGeneratorCommands.h"
 #include "Misc/MessageDialog.h"
 #include "ToolMenus.h"
+#include "DesktopPlatform/Public/DesktopPlatformModule.h"
+#include "DesktopPlatform/Public/IDesktopPlatform.h"
 
 static const FName AssetGeneratorTabName("AssetGenerator");
 
@@ -53,12 +55,15 @@ void FAssetGeneratorModule::PluginButtonClicked()
 		FMessageDialog::Open(EAppMsgType::Ok, DialogText);
 
 		// Run asset generator operation
-		
+		if (OpenDialogMenu())
+		{
+			FString FileContents = LoadFile();
+			AssetGenOperation::ParseJSON(FileContents);
+		}
 		
 		// Show success of asset generation
 		DialogText = FText::Format(
-								LOCTEXT("PluginButtonDialogText", "Successfully finished creation of {0} assets in given locations.{1}"),
-								AssetNames.Max(),
+								LOCTEXT("PluginButtonDialogText", "Successfully finished creation of assets in given locations.{1}"),
 								FText::FromString(TEXT("\nDo you wish to continue to the next operation?")));
 		
 		// Allow user to cancel next operation
@@ -105,6 +110,40 @@ void FAssetGeneratorModule::RegisterMenus()
 			}
 		}
 	}
+}
+
+bool FAssetGeneratorModule::OpenDialogMenu()
+{
+	IDesktopPlatform* FileManager = FDesktopPlatformModule::Get();
+	FileManager->OpenFileDialog(0, DialogName, DefaultPath, DefaultFile, FileTypes, Flags,SelectedFileNames);
+	if (SelectedFileNames.Num() > 1 && !FileManager)
+	{
+		UE_LOG(LogTemp, Error, TEXT("FileManipulation: Please only select one file!"));
+		return false;
+	}
+	UE_LOG(LogTemp, Display, TEXT("FileManipulation: File %s loaded."), SelectedFileNames[0]);
+	return true;
+}
+
+FString FAssetGeneratorModule::LoadFile()
+{
+	IPlatformFile& FileManager = FPlatformFileManager::Get().GetPlatformFile();
+	FString FileContent;
+	if (FileManager.FileExists(*SelectedFileNames[0]))
+	{
+		if (FFileHelper::LoadFileToString(FileContent, *SelectedFileNames[0], FFileHelper::EHashOptions::None))
+		{
+			UE_LOG(LogTemp, Display, TEXT("FileManipulation: Text From File: %s"), *FileContent);
+		} else
+		{
+			UE_LOG(LogTemp, Error, TEXT("FileManipulation: Could not load text from file for some reason."));
+		}
+	} else
+	{
+		UE_LOG(LogTemp, Error, TEXT("FileManipulation: Could not read file because it was not found."));
+		UE_LOG(LogTemp, Error, TEXT("FileManipulation: Expected file location: %s"), *SelectedFileNames[0]);
+	}
+	return FileContent;
 }
 
 #undef LOCTEXT_NAMESPACE

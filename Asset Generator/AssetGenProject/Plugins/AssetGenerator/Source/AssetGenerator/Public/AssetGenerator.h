@@ -4,6 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "AssetGenOperation.h"
+#include "AssetGeneratorStyle.h"
+#include "AssetGeneratorCommands.h"
+#include "Utils.h"
+#include "Misc/MessageDialog.h"
+#include "ToolMenus.h"
+#include "DesktopPlatform/Public/DesktopPlatformModule.h"
+#include "DesktopPlatform/Public/IDesktopPlatform.h"
 #include "Misc/FileHelper.h"
 #include "Modules/ModuleManager.h"
 

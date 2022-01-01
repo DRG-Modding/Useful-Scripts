@@ -1,12 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "AssetGenerator.h"
-#include "AssetGeneratorStyle.h"
-#include "AssetGeneratorCommands.h"
-#include "Misc/MessageDialog.h"
-#include "ToolMenus.h"
-#include "DesktopPlatform/Public/DesktopPlatformModule.h"
-#include "DesktopPlatform/Public/IDesktopPlatform.h"
 
 static const FName AssetGeneratorTabName("AssetGenerator");
 
@@ -48,41 +42,32 @@ void FAssetGeneratorModule::ShutdownModule()
 void FAssetGeneratorModule::PluginButtonClicked()
 {
 	// Does user wish to run first or second operation?
-	FText DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Do you wish to run asset generator first?"));
-	if (FMessageDialog::Open(EAppMsgType::YesNo, DialogText) == EAppReturnType::Yes)
+	if (Utils::GetSelectedButtonFromDialog("Do you wish to run asset generator first?", EAppMsgType::YesNo,
+	                                       EAppReturnType::Yes))
 	{
-		DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Running asset generator operation."));
-		FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+		Utils::OpenMessageDialog(EAppMsgType::Ok, "Running asset generator operation.");
 
 		// Run asset generator operation
 		if (OpenDialogMenu())
 		{
-			FString FileContents = LoadFile();
-			AssetGenOperation::ParseJSON(FileContents);
+			AssetGenOperation::ParseJSON(LoadFile());
 		}
 		
-		// Show success of asset generation
-		DialogText = FText::Format(
-								LOCTEXT("PluginButtonDialogText", "Successfully finished creation of assets in given locations.{1}"),
-								FText::FromString(TEXT("\nDo you wish to continue to the next operation?")));
-		
 		// Allow user to cancel next operation
-		if (FMessageDialog::Open(EAppMsgType::OkCancel, DialogText) == EAppReturnType::Cancel)
+		if (Utils::GetSelectedButtonFromDialog(R"(Successfully finished creation of assets in given locations.
+			Do you wish to continue to the next operation?)", EAppMsgType::OkCancel, EAppReturnType::Cancel))
 		{
-			DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Cancelled the next operation."));
-			FMessageDialog::Open(EAppMsgType::Ok, DialogText);
+			Utils::OpenMessageDialog(EAppMsgType::Ok, "Cancelled the next operation.");
 		} else
 		{
-			DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Running stub filler operation."));
-			FMessageDialog::Open(EAppMsgType::Ok, DialogText);
-
+			Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
+	
 			// Run stub filler operation
 		}
 	} else
 	{
-		DialogText = FText::Format(LOCTEXT("PluginButtonDialogText", "Running stub filler operation."));
-		FMessageDialog::Open(EAppMsgType::Ok, DialogText);
-
+		Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
+		
 		// Run stub filler operation
 	}
 }
@@ -121,7 +106,7 @@ bool FAssetGeneratorModule::OpenDialogMenu()
 		UE_LOG(LogTemp, Error, TEXT("FileManipulation: Please only select one file!"));
 		return false;
 	}
-	UE_LOG(LogTemp, Display, TEXT("FileManipulation: File %s loaded."), SelectedFileNames[0]);
+	UE_LOG(LogTemp, Display, TEXT("FileManipulation: File %s loaded."), *SelectedFileNames[0]);
 	return true;
 }
 

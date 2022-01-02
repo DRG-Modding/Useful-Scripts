@@ -45,8 +45,6 @@ void FAssetGeneratorModule::PluginButtonClicked()
 	if (Utils::GetSelectedButtonFromDialog("Do you wish to run asset generator first?", EAppMsgType::YesNo,
 	                                       EAppReturnType::Yes))
 	{
-		Utils::OpenMessageDialog(EAppMsgType::Ok, "Running asset generator operation.");
-
 		// Run asset generator operation
 		if (OpenDialogMenu())
 		{

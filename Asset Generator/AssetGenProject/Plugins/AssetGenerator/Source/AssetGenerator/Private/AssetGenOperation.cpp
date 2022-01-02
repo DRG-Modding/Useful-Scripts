@@ -1,5 +1,7 @@
 ﻿#include "AssetGenOperation.h"
 
+TArray<FInfo> AssetGenOperation::Objects;
+
 UClass* AssetGenOperation::GetAssetClass(FString AssetType)
 {
 	if (AssetType == "BP" || AssetType == "ENE" || AssetType == "OBJ" || AssetType == "PRJ" || AssetType == "WPN")
@@ -26,7 +28,8 @@ UFactory* AssetGenOperation::GetAssetFactory(FString AssetType)
 	}
 	if (AssetType == "BPL" || AssetType == "LIB")
 	{
-		return NewObject<UBlueprintFunctionLibraryFactory>();
+		return nullptr;
+		// return NewObject<UBlueprintFunctionLibraryFactory>();
 	}
 	if (AssetType == "WPN")
 	{
@@ -64,31 +67,34 @@ void AssetGenOperation::GenerateAssets(const FString JsonString)
 	// Create assets in the Content for each object
 	for (int i = 0; i < Objects.Num(); i++)
 	{
-		FString Path = FPaths::ProjectContentDir() + Objects[i].Path;
-		UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Asset path: %s"), *Path);
+		// FString Path = FPaths::ProjectContentDir() + Objects[i].Path;
+		FString Path = FString(UTF8_TO_TCHAR("/")) + Objects[i].Path;
+		UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Asset path: %s"), *Path);
 		FString Name = Objects[i].Name;
 		UClass* AssetClassType = GetAssetClass(Objects[i].Type);
 		UFactory* AssetFactoryType = GetAssetFactory(Objects[i].Type);
 		if (AssetClassType != nullptr && AssetFactoryType != nullptr)
 		{
 			FAssetToolsModule& AssetToolsModule = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools");
-			AssetToolsModule.Get().CreateAsset(Name, Path, AssetClassType, AssetFactoryType);
+			UObject* NewAsset = AssetToolsModule.Get().CreateAsset(Name, Path, AssetClassType, AssetFactoryType);
 			UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Created asset: %s"), *Name);
+			// Save the asset
+			if (NewAsset != nullptr)
+			{
+				UPackage* Package = NewAsset->GetOutermost();
+				Package->MarkPackageDirty();
+				FString PackageFileName = FPackageName::LongPackageNameToFilename(Package->GetName(), FPackageName::GetAssetPackageExtension());
+				FString PackageFilePath = FPaths::ConvertRelativePathToFull(FPaths::ProjectContentDir() + Path);
+				FString PackageFile = PackageFilePath + "/" + PackageFileName;
+				if (FPackageName::DoesPackageExist(Package->GetName()))
+				{
+					UPackage::SavePackage(Package, nullptr, RF_Standalone, *PackageFile);
+					UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Saved package: %s"), *PackageFile);
+				}
+			}
 		} else
 		{
 			UE_LOG(LogTemp, Error, TEXT("AssetGenOperation: Failed to create asset: %s"), *Name);
 		}
-		
-		// FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>(TEXT("AssetRegistry"));
-		// IAssetRegistry& AssetRegistry = AssetRegistryModule.Get();
-		// FString AssetPath = Path;
-		// FString AssetName = Name;
-		// FString AssetPackageName = FPackageName::FilenameToLongPackageName(AssetPath);
-		// if (!AssetRegistry.GetAssetsByPackageName(AssetPackageName, nullptr, EAssetFlags::DefaultObject, true).Num())
-		// {
-		// 	FAssetToolsModule& AssetToolsModule = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools");
-		// 	IAssetTools& AssetTools = AssetToolsModule.Get();
-		// 	AssetTools.CreateAsset(AssetName, AssetPath, Type);
-		// }
 	}
 }

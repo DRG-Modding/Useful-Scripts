@@ -27,6 +27,7 @@ public class AssetGenerator : ModuleRules
 			{
 				"Core",
 				"Json",
+				"AssetTools",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

@@ -2,5396 +2,5396 @@
   {
     "type": "BP",
     "name": "BP_RadarDish01",
-    "path": "Content\\Art\\BasicArtAssets\\Tech\\"
+    "path": "Game/Art/BasicArtAssets/Tech/"
   },
   {
     "type": "BP",
     "name": "BP_RadarDish02",
-    "path": "Content\\Art\\BasicArtAssets\\Tech\\"
+    "path": "Game/Art/BasicArtAssets/Tech/"
   },
   {
     "type": "BP",
     "name": "BP_RotatingSpotlight01",
-    "path": "Content\\Art\\BasicArtAssets\\Tech\\"
+    "path": "Game/Art/BasicArtAssets/Tech/"
   },
   {
     "type": "BP",
     "name": "BP_E3trailer_AsteroidField",
-    "path": "Content\\Art\\Cinematics\\E3trailer2017\\"
+    "path": "Game/Art/Cinematics/E3trailer2017/"
   },
   {
     "type": "BP",
     "name": "BP_Widget_DropPod_AltitudeMeter",
-    "path": "Content\\Art\\DropPod\\Widgets\\"
+    "path": "Game/Art/DropPod/Widgets/"
   },
   {
     "type": "BP",
     "name": "BP_Widget_DropPod_BiomeRadar",
-    "path": "Content\\Art\\DropPod\\Widgets\\"
+    "path": "Game/Art/DropPod/Widgets/"
   },
   {
     "type": "BP",
     "name": "BP_Widget_DropPod_Complexity",
-    "path": "Content\\Art\\DropPod\\Widgets\\"
+    "path": "Game/Art/DropPod/Widgets/"
   },
   {
     "type": "BP",
     "name": "BP_Widget_DropPod_DangerLevel",
-    "path": "Content\\Art\\DropPod\\Widgets\\"
+    "path": "Game/Art/DropPod/Widgets/"
   },
   {
     "type": "BP",
     "name": "BP_Widget_DropPod_GarbageGen",
-    "path": "Content\\Art\\DropPod\\Widgets\\"
+    "path": "Game/Art/DropPod/Widgets/"
   },
   {
     "type": "BP",
     "name": "BP_Widget_DropPod_MissionType",
-    "path": "Content\\Art\\DropPod\\Widgets\\"
+    "path": "Game/Art/DropPod/Widgets/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Pumpkin",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_PumpkinFace_Item",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_Pumpkin_Item",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_CandleBlock",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_GiftBox_Weightless",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Bauble01",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_Phys_GiftBox01",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_XmasBauble_Item",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_XmasCandleBlock_Item",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_XmasGift_Item",
-    "path": "Content\\Art\\Environments\\Holiday"
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
     "name": "BP_Bulkhead01",
-    "path": "Content\\Art\\Environments\\ShipTesting\\"
+    "path": "Game/Art/Environments/ShipTesting/"
   },
   {
     "type": "BP",
     "name": "BP_Hologram",
-    "path": "Content\\Art\\Environments\\ShipTesting\\"
+    "path": "Game/Art/Environments/ShipTesting/"
   },
   {
     "type": "BP",
     "name": "BP_JukeBox",
-    "path": "Content\\Art\\Environments\\ShipTesting\\"
+    "path": "Game/Art/Environments/ShipTesting/"
   },
   {
     "type": "BP",
     "name": "BP_Skysphere_HoxxesStars",
-    "path": "Content\\Art\\Environments\\Space\\"
+    "path": "Game/Art/Environments/Space/"
   },
   {
     "type": "BP",
     "name": "BP_AsteroidField",
-    "path": "Content\\Art\\Environments\\Space\\HoxxesMK2\\"
+    "path": "Game/Art/Environments/Space/HoxxesMK2/"
   },
   {
     "type": "BP",
     "name": "BP_Hoxxes01",
-    "path": "Content\\Art\\Environments\\Space\\HoxxesMK2\\"
+    "path": "Game/Art/Environments/Space/HoxxesMK2/"
   },
   {
     "type": "BP",
     "name": "BP_CabinOwnerSign",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Hologram_Hoxxes",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Kickable_Base",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_LightPost01",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_MedbaySign",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_MissionControl_MemorialHallWelcome",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_MissionControl_TrespassingWarning",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_MonitorPanel",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_MonitorPanel_NoMesh",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Barrel01",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Barrel01_Red",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Barrel_Cutie",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Barrel_Hoop",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Crate_F",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Hammer",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_SpaceRig_Cabin01",
-    "path": "Content\\Art\\Environments\\SpaceRig\\"
+    "path": "Game/Art/Environments/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_SpinningFan01",
-    "path": "Content\\Art\\Environments\\SpaceRig\\Big"
+    "path": "Game/Art/Environments/SpaceRig/Big"
   },
   {
     "type": "BP",
     "name": "BP_ModularLamp",
-    "path": "Content\\Art\\Environments\\SpaceRig\\Furniture\\"
+    "path": "Game/Art/Environments/SpaceRig/Furniture/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Newsstand",
-    "path": "Content\\Art\\Environments\\SpaceRig\\Newsstand\\"
+    "path": "Game/Art/Environments/SpaceRig/Newsstand/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_Newsstand_FreeBeer",
-    "path": "Content\\Art\\Environments\\SpaceRig\\Newsstand\\"
+    "path": "Game/Art/Environments/SpaceRig/Newsstand/"
   },
   {
     "type": "BP",
     "name": "BP_ConfettiPlane",
-    "path": "Content\\Art\\Environments\\SpaceRig\\PartyStreamers\\"
+    "path": "Game/Art/Environments/SpaceRig/PartyStreamers/"
   },
   {
     "type": "BP",
     "name": "BP_SpringDwarfMiner",
-    "path": "Content\\Art\\Environments\\SpaceRig\\SpringDwarf\\"
+    "path": "Game/Art/Environments/SpaceRig/SpringDwarf/"
   },
   {
     "type": "BP",
     "name": "BP_TruckerBalls",
-    "path": "Content\\Art\\Environments\\SpaceRig\\SpringDwarf\\"
+    "path": "Game/Art/Environments/SpaceRig/SpringDwarf/"
   },
   {
     "type": "BP",
     "name": "BP_TipJarUsable",
-    "path": "Content\\Art\\Environments\\SpaceRig\\TipMachine\\"
+    "path": "Game/Art/Environments/SpaceRig/TipMachine/"
   },
   {
     "type": "BP",
     "name": "BP_TIpJar_Base_Blueprint",
-    "path": "Content\\Art\\Environments\\SpaceRig\\TipMachine\\"
+    "path": "Game/Art/Environments/SpaceRig/TipMachine/"
   },
   {
     "type": "BP",
     "name": "BP_SpaceRig_Exterior",
-    "path": "Content\\Art\\Environments\\SpaceRig"
+    "path": "Game/Art/Environments/SpaceRig"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_CharSelect",
-    "path": "Content\\Art\\PostProcess\\"
+    "path": "Game/Art/PostProcess/"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_SpaceRig",
-    "path": "Content\\Art\\PostProcess\\"
+    "path": "Game/Art/PostProcess/"
   },
   {
     "type": "BP",
     "name": "BP_TextField_Screen_SeeThrough",
-    "path": "Content\\Art\\"
+    "path": "Game/Art/"
   },
   {
     "type": "BP",
     "name": "BP_DynamicReverb",
-    "path": "Content\\Audio\\"
+    "path": "Game/Audio/"
   },
   {
     "type": "BP",
     "name": "BP_AudioVolume_DiscoverCave",
-    "path": "Content\\Audio\\SoundControl\\"
+    "path": "Game/Audio/SoundControl/"
   },
   {
     "type": "BP",
     "name": "BP_AudioVolume_Reverb_MediemCave",
-    "path": "Content\\Audio\\SoundControl\\"
+    "path": "Game/Audio/SoundControl/"
   },
   {
     "type": "BP",
     "name": "BP_ReverbVolume",
-    "path": "Content\\Audio\\SoundControl\\"
+    "path": "Game/Audio/SoundControl/"
   },
   {
     "type": "BP",
     "name": "BP_AudioControl",
-    "path": "Content\\Audio\\Test\\"
+    "path": "Game/Audio/Test/"
   },
   {
     "type": "WPN",
     "name": "WPN_ScannerIdle_Cue",
-    "path": "Content\\Audio\\WeaponsNTools\\"
+    "path": "Game/Audio/WeaponsNTools/"
   },
   {
     "type": "WPN",
     "name": "WPN_ScannerPing_Cue",
-    "path": "Content\\Audio\\WeaponsNTools\\"
+    "path": "Game/Audio/WeaponsNTools/"
   },
   {
     "type": "WPN",
     "name": "WPN_CryoSprayFireCore_Cue",
-    "path": "Content\\Audio\\WeaponsNTools\\"
+    "path": "Game/Audio/WeaponsNTools/"
   },
   {
     "type": "WPN",
     "name": "WPN_CryoSprayFireOverclock_Cue",
-    "path": "Content\\Audio\\WeaponsNTools\\"
+    "path": "Game/Audio/WeaponsNTools/"
   },
   {
     "type": "WPN",
     "name": "WPN_CryoSprayFireTail_Cue",
-    "path": "Content\\Audio\\WeaponsNTools\\"
+    "path": "Game/Audio/WeaponsNTools/"
   },
   {
     "type": "WPN",
     "name": "WPN_CryoSprayRePressure_Cue",
-    "path": "Content\\Audio\\WeaponsNTools\\"
+    "path": "Game/Audio/WeaponsNTools/"
   },
   {
     "type": "BP",
     "name": "BP_Bosco_Character",
-    "path": "Content\\Character\\"
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
     "name": "BP_DrillerCharacter",
-    "path": "Content\\Character\\"
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
     "name": "BP_EngineerCharacter",
-    "path": "Content\\Character\\"
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
     "name": "BP_GunnerCharacter",
-    "path": "Content\\Character\\"
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
     "name": "BP_NavigatorCharacter",
-    "path": "Content\\Character\\"
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerCharacter",
-    "path": "Content\\Character\\"
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
     "name": "BP_FSDCameraManager",
-    "path": "Content\\Character\\Camera\\"
+    "path": "Game/Character/Camera/"
   },
   {
     "type": "BP",
     "name": "BP_MapRenderTarget2D",
-    "path": "Content\\Character\\Camera\\"
+    "path": "Game/Character/Camera/"
   },
   {
     "type": "BP",
     "name": "BP_SelfiePoint",
-    "path": "Content\\Character\\Camera\\"
+    "path": "Game/Character/Camera/"
   },
   {
     "type": "BP",
     "name": "BP_Endscreen_Drone",
-    "path": "Content\\Character\\CharacterSelection\\"
+    "path": "Game/Character/CharacterSelection/"
   },
   {
     "type": "BP",
     "name": "BP_Endscreen_Lamp",
-    "path": "Content\\Character\\CharacterSelection\\"
+    "path": "Game/Character/CharacterSelection/"
   },
   {
     "type": "BP",
     "name": "BP_MisComp_FXspawner",
-    "path": "Content\\Character\\CharacterSelection\\"
+    "path": "Game/Character/CharacterSelection/"
   },
   {
     "type": "BP",
     "name": "BP_BoscoInventory",
-    "path": "Content\\Character\\InventoryLists\\"
+    "path": "Game/Character/InventoryLists/"
   },
   {
     "type": "BP",
     "name": "BP_DrillerInventory",
-    "path": "Content\\Character\\InventoryLists\\"
+    "path": "Game/Character/InventoryLists/"
   },
   {
     "type": "BP",
     "name": "BP_EngineerInventory",
-    "path": "Content\\Character\\InventoryLists\\"
+    "path": "Game/Character/InventoryLists/"
   },
   {
     "type": "BP",
     "name": "BP_GenericHeroInventory",
-    "path": "Content\\Character\\InventoryLists\\"
+    "path": "Game/Character/InventoryLists/"
   },
   {
     "type": "BP",
     "name": "BP_GunnerInventory",
-    "path": "Content\\Character\\InventoryLists\\"
+    "path": "Game/Character/InventoryLists/"
   },
   {
     "type": "BP",
     "name": "BP_ScoutInventory",
-    "path": "Content\\Character\\InventoryLists\\"
+    "path": "Game/Character/InventoryLists/"
   },
   {
     "type": "LIB",
     "name": "LIB_RumbleFunctions",
-    "path": "Content\\Character\\Rumble\\"
+    "path": "Game/Character/Rumble/"
   },
   {
     "type": "BP",
     "name": "BP_AttachedState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_DeadState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_DownedState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_EnemyControlState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_FallingState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_FlyingState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_FrozenState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_GrabbedState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_NoMovementState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_ParalyzedState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_PassedOut",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_PhotographyState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_PilotingState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_PushingState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_TrackMovementState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_UsingState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_WalkingState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_ZipLineState",
-    "path": "Content\\Character\\States\\"
+    "path": "Game/Character/States/"
   },
   {
     "type": "BP",
     "name": "BP_TutorialManager_Base",
-    "path": "Content\\Character\\Tutorials\\"
+    "path": "Game/Character/Tutorials/"
   },
   {
     "type": "BP",
     "name": "BP_Tutorial_Hint_BrokenMiniMule",
-    "path": "Content\\Character\\Tutorials\\"
+    "path": "Game/Character/Tutorials/"
   },
   {
     "type": "BP",
     "name": "BP_DwarfVanityItemTester",
-    "path": "Content\\Character\\Vanity2\\"
+    "path": "Game/Character/Vanity2/"
   },
   {
     "type": "BP",
     "name": "BP_IconGenerationManager",
-    "path": "Content\\Character\\Vanity2\\"
+    "path": "Game/Character/Vanity2/"
   },
   {
     "type": "BP",
     "name": "BP_IconGenerator",
-    "path": "Content\\Character\\Vanity2\\"
+    "path": "Game/Character/Vanity2/"
   },
   {
     "type": "BP",
     "name": "BP_PickaxeIconGenerator",
-    "path": "Content\\Character\\Vanity2\\"
+    "path": "Game/Character/Vanity2/"
   },
   {
     "type": "BP",
     "name": "BP_EndscreenBarrel",
-    "path": "Content\\CharacterStructure\\Gear"
+    "path": "Game/CharacterStructure/Gear"
   },
   {
     "type": "BP",
     "name": "BP_Crystal_VictoryScreen",
-    "path": "Content\\CharacterStructure\\Gear"
+    "path": "Game/CharacterStructure/Gear"
   },
   {
     "type": "BP",
     "name": "BP_DualMug",
-    "path": "Content\\CharacterStructure\\Gear"
+    "path": "Game/CharacterStructure/Gear"
   },
   {
     "type": "BP",
     "name": "BP_SingleMug",
-    "path": "Content\\CharacterStructure\\Gear"
+    "path": "Game/CharacterStructure/Gear"
   },
   {
     "type": "BP",
     "name": "BP_Swarmer_Attachment",
-    "path": "Content\\CharacterStructure\\Gear"
+    "path": "Game/CharacterStructure/Gear"
   },
   {
     "type": "ENE",
     "name": "ENE_Flea",
-    "path": "Content\\Critters\\FesterFlea\\Flea\\"
+    "path": "Game/Critters/FesterFlea/Flea/"
   },
   {
     "type": "ENE",
     "name": "ENE_FlyingCritterBase",
-    "path": "Content\\Critters\\FlyingCritterBase\\"
+    "path": "Game/Critters/FlyingCritterBase/"
   },
   {
     "type": "ENE",
     "name": "ENE_GliderBeast",
-    "path": "Content\\Critters\\GliderBeast\\"
+    "path": "Game/Critters/GliderBeast/"
   },
   {
     "type": "ENE",
     "name": "ENE_Harvester",
-    "path": "Content\\Critters\\Harvester\\"
+    "path": "Game/Critters/Harvester/"
   },
   {
     "type": "ENE",
     "name": "ENE_Jelly_Passive",
-    "path": "Content\\Critters\\JellyPlatform\\"
+    "path": "Game/Critters/JellyPlatform/"
   },
   {
     "type": "ENE",
     "name": "ENE_Jelly_Passive_Mother",
-    "path": "Content\\Critters\\JellyPlatform\\"
+    "path": "Game/Critters/JellyPlatform/"
   },
   {
     "type": "ENE",
     "name": "ENE_LootBug",
-    "path": "Content\\Critters\\LootBug\\"
+    "path": "Game/Critters/LootBug/"
   },
   {
     "type": "ENE",
     "name": "ENE_LootBug_Gold",
-    "path": "Content\\Critters\\LootBug\\"
+    "path": "Game/Critters/LootBug/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Hoarder",
-    "path": "Content\\Critters\\LootBug\\Hoarder\\"
+    "path": "Game/Critters/LootBug/Hoarder/"
   },
   {
     "type": "BP",
     "name": "BP_GreenMaggot_AcidCloud",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "ENE",
     "name": "ENE_Maggot",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "ENE",
     "name": "ENE_Maggot_Azure",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "ENE",
     "name": "ENE_Maggot_Green1",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "ENE",
     "name": "ENE_Maggot_HollowBough_Grub",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "ENE",
     "name": "ENE_Maggot_Normal",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "ENE",
     "name": "ENE_Maggot_Red1",
-    "path": "Content\\Critters\\Maggot\\"
+    "path": "Game/Critters/Maggot/"
   },
   {
     "type": "BP",
     "name": "BP_BurrowAttackComponent",
-    "path": "Content\\Enemies\\Attacks\\"
+    "path": "Game/Enemies/Attacks/"
   },
   {
     "type": "BP",
     "name": "BP_ConeAttackBase",
-    "path": "Content\\Enemies\\Attacks\\"
+    "path": "Game/Enemies/Attacks/"
   },
   {
     "type": "BP",
     "name": "BP_Damage_Cloud_Base",
-    "path": "Content\\Enemies\\BaseItems\\"
+    "path": "Game/Enemies/BaseItems/"
   },
   {
     "type": "BP",
     "name": "BP_CaveLeechPlacementCarver",
-    "path": "Content\\Enemies\\CaveLeech\\"
+    "path": "Game/Enemies/CaveLeech/"
   },
   {
     "type": "ENE",
     "name": "ENE_CaveLeech",
-    "path": "Content\\Enemies\\CaveLeech\\"
+    "path": "Game/Enemies/CaveLeech/"
   },
   {
     "type": "BP",
     "name": "BP_EnemySpawner",
-    "path": "Content\\Enemies\\EnemySpawner\\"
+    "path": "Game/Enemies/EnemySpawner/"
   },
   {
     "type": "BP",
     "name": "BP_SpawnerEyeComponent",
-    "path": "Content\\Enemies\\EnemySpawner\\"
+    "path": "Game/Enemies/EnemySpawner/"
   },
   {
     "type": "ENE",
     "name": "ENE_SpiderSpawner",
-    "path": "Content\\Enemies\\EnemySpawner\\"
+    "path": "Game/Enemies/EnemySpawner/"
   },
   {
     "type": "BP",
     "name": "BP_BomberAcidPuddle",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "BP",
     "name": "BP_BomberAcidPuddle_Ice",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "ENE",
     "name": "ENE_Bomber",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "ENE",
     "name": "ENE_Bomber_Child",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "ENE",
     "name": "ENE_Bomber_Fire",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "ENE",
     "name": "ENE_Bomber_Ice",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_AcidDrop",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_AcidDrop_Ice",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_BomberGoo",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_BomberIce",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Bomber_Fire",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ExplosiveBombDrop",
-    "path": "Content\\Enemies\\FlyingBug\\Bomber\\"
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "ENE",
     "name": "ENE_Grabber",
-    "path": "Content\\Enemies\\FlyingBug\\Grabber\\"
+    "path": "Game/Enemies/FlyingBug/Grabber/"
   },
   {
     "type": "BP",
     "name": "BP_Mactera_Heavy_ProjectileAttack",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Blowfly_Amber",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Mactera_Shooter_Base",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Mactera_Shooter_HeavyVeteran",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Mactera_Shooter_Normal",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Mactera_TripleShooter",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Mactera_Shooter",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_TripleShooter",
-    "path": "Content\\Enemies\\FlyingBug\\Shooter\\"
+    "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_HydraWeed_Core",
-    "path": "Content\\Enemies\\HydraWeed\\"
+    "path": "Game/Enemies/HydraWeed/"
   },
   {
     "type": "ENE",
     "name": "ENE_ShootingPlant_Small",
-    "path": "Content\\Enemies\\HydraWeed\\"
+    "path": "Game/Enemies/HydraWeed/"
   },
   {
     "type": "ENE",
     "name": "ENE_SmallShootingPlant_RegenPod",
-    "path": "Content\\Enemies\\HydraWeed\\"
+    "path": "Game/Enemies/HydraWeed/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_HydraWeedSpawn",
-    "path": "Content\\Enemies\\HydraWeed\\"
+    "path": "Game/Enemies/HydraWeed/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_HydraWeedSpawn_HealingPod",
-    "path": "Content\\Enemies\\HydraWeed\\"
+    "path": "Game/Enemies/HydraWeed/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_HydraWeed_Shooter",
-    "path": "Content\\Enemies\\HydraWeed\\"
+    "path": "Game/Enemies/HydraWeed/"
   },
   {
     "type": "ENE",
     "name": "ENE_InfestationLarva",
-    "path": "Content\\Enemies\\InfestationLarva\\"
+    "path": "Game/Enemies/InfestationLarva/"
   },
   {
     "type": "ENE",
     "name": "ENE_Jelly_Spawn_Child",
-    "path": "Content\\Enemies\\Jellyfish\\"
+    "path": "Game/Enemies/Jellyfish/"
   },
   {
     "type": "ENE",
     "name": "ENE_Jelly_Swarmer",
-    "path": "Content\\Enemies\\Jellyfish\\"
+    "path": "Game/Enemies/Jellyfish/"
   },
   {
     "type": "ENE",
     "name": "ENE_Jelly_Swarmer_Child",
-    "path": "Content\\Enemies\\Jellyfish\\"
+    "path": "Game/Enemies/Jellyfish/"
   },
   {
     "type": "ENE",
     "name": "ENE_JellyBreeder",
-    "path": "Content\\Enemies\\Jelly"
+    "path": "Game/Enemies/Jelly"
   },
   {
     "type": "PRJ",
     "name": "PRJ_BreederEgg",
-    "path": "Content\\Enemies\\Jelly"
+    "path": "Game/Enemies/Jelly"
   },
   {
     "type": "BP",
     "name": "BP_InfectedMulePreplacement",
-    "path": "Content\\Enemies\\MuleInfected\\"
+    "path": "Game/Enemies/MuleInfected/"
   },
   {
     "type": "ENE",
     "name": "ENE_InfectedMule",
-    "path": "Content\\Enemies\\MuleInfected\\"
+    "path": "Game/Enemies/MuleInfected/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_FriendlyInfectedMuleGrenade",
-    "path": "Content\\Enemies\\MuleInfected\\"
+    "path": "Game/Enemies/MuleInfected/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_InfectedMuleGrenade",
-    "path": "Content\\Enemies\\MuleInfected\\"
+    "path": "Game/Enemies/MuleInfected/"
   },
   {
     "type": "ENE",
     "name": "ENE_Parasite",
-    "path": "Content\\Enemies\\MuleInfected\\Parasite\\"
+    "path": "Game/Enemies/MuleInfected/Parasite/"
   },
   {
     "type": "ENE",
     "name": "ENE_Shark",
-    "path": "Content\\Enemies\\Shark\\"
+    "path": "Game/Enemies/Shark/"
   },
   {
     "type": "ENE",
     "name": "ENE_ShootingPlant",
-    "path": "Content\\Enemies\\ShootingPlant\\"
+    "path": "Game/Enemies/ShootingPlant/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ShootingPlant",
-    "path": "Content\\Enemies\\ShootingPlant\\"
+    "path": "Game/Enemies/ShootingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_BurrowComponent",
-    "path": "Content\\Enemies\\Spider\\"
+    "path": "Game/Enemies/Spider/"
   },
   {
     "type": "BP",
     "name": "BP_GlyphidImpactAudio",
-    "path": "Content\\Enemies\\Spider\\"
+    "path": "Game/Enemies/Spider/"
   },
   {
     "type": "ENE",
     "name": "ENE_PF_SpiderBase",
-    "path": "Content\\Enemies\\Spider\\"
+    "path": "Game/Enemies/Spider/"
   },
   {
     "type": "ENE",
     "name": "ENE_SpiderBase_Large",
-    "path": "Content\\Enemies\\Spider\\"
+    "path": "Game/Enemies/Spider/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Buffer",
-    "path": "Content\\Enemies\\Spider\\Buffer\\"
+    "path": "Game/Enemies/Spider/Buffer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Charger",
-    "path": "Content\\Enemies\\Spider\\Charger\\"
+    "path": "Game/Enemies/Spider/Charger/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Exploding",
-    "path": "Content\\Enemies\\Spider\\Exploder\\"
+    "path": "Game/Enemies/Spider/Exploder/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Exploding_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Exploder\\"
+    "path": "Game/Enemies/Spider/Exploder/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Exploding_Warning",
-    "path": "Content\\Enemies\\Spider\\Exploder\\"
+    "path": "Game/Enemies/Spider/Exploder/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Exploding_Warning_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Exploder\\"
+    "path": "Game/Enemies/Spider/Exploder/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_ExploderTank",
-    "path": "Content\\Enemies\\Spider\\ExploderTank\\"
+    "path": "Game/Enemies/Spider/ExploderTank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_ExploderTank_Ghost",
-    "path": "Content\\Enemies\\Spider\\ExploderTank\\"
+    "path": "Game/Enemies/Spider/ExploderTank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_ExploderTank_King",
-    "path": "Content\\Enemies\\Spider\\ExploderTank\\"
+    "path": "Game/Enemies/Spider/ExploderTank/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ExploderTankClusterBomb",
-    "path": "Content\\Enemies\\Spider\\ExploderTank\\"
+    "path": "Game/Enemies/Spider/ExploderTank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Drone",
-    "path": "Content\\Enemies\\Spider\\Flyer\\"
+    "path": "Game/Enemies/Spider/Flyer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Base",
-    "path": "Content\\Enemies\\Spider\\Grunt\\"
+    "path": "Game/Enemies/Spider/Grunt/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Ice",
-    "path": "Content\\Enemies\\Spider\\Grunt\\"
+    "path": "Game/Enemies/Spider/Grunt/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Normal",
-    "path": "Content\\Enemies\\Spider\\Grunt\\"
+    "path": "Game/Enemies/Spider/Grunt/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Grunt\\"
+    "path": "Game/Enemies/Spider/Grunt/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Attacker",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Attacker\\"
+    "path": "Game/Enemies/Spider/Grunt/Attacker/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Attacker_Ice",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Attacker\\"
+    "path": "Game/Enemies/Spider/Grunt/Attacker/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Attacker_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Attacker\\"
+    "path": "Game/Enemies/Spider/Grunt/Attacker/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Guard",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Guard\\"
+    "path": "Game/Enemies/Spider/Grunt/Guard/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Guard_Ice",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Guard\\"
+    "path": "Game/Enemies/Spider/Grunt/Guard/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Guard_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Guard\\"
+    "path": "Game/Enemies/Spider/Grunt/Guard/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Grunt_Rock",
-    "path": "Content\\Enemies\\Spider\\Grunt\\Rock\\"
+    "path": "Game/Enemies/Spider/Grunt/Rock/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_Exploder_Leg",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_Grunt_Leg",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_Leg_Base",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_RapidShooter_Leg",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_Shooter_Leg",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_Spitter_Leg",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_TankAmber_Leg_",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_Tank_Leg",
-    "path": "Content\\Enemies\\Spider\\Particles\\"
+    "path": "Game/Enemies/Spider/Particles/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_RapidShooter",
-    "path": "Content\\Enemies\\Spider\\RapidShooter\\"
+    "path": "Game/Enemies/Spider/RapidShooter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_RapidShooter",
-    "path": "Content\\Enemies\\Spider\\RapidShooter\\"
+    "path": "Game/Enemies/Spider/RapidShooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Amber_Shooter",
-    "path": "Content\\Enemies\\Spider\\Shooter\\"
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Shooter",
-    "path": "Content\\Enemies\\Spider\\Shooter\\"
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Shooter_Ground",
-    "path": "Content\\Enemies\\Spider\\Shooter\\"
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Shooter_Normal",
-    "path": "Content\\Enemies\\Spider\\Shooter\\"
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Shooter",
-    "path": "Content\\Enemies\\Spider\\Shooter\\"
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Shooter_Ground",
-    "path": "Content\\Enemies\\Spider\\Shooter\\"
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "BP",
     "name": "BP_ShooterQueen_Projectile_AcidCloud",
-    "path": "Content\\Enemies\\Spider\\Shooter\\ShooterQueen\\"
+    "path": "Game/Enemies/Spider/Shooter/ShooterQueen/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Shooter_Queen",
-    "path": "Content\\Enemies\\Spider\\Shooter\\ShooterQueen\\"
+    "path": "Game/Enemies/Spider/Shooter/ShooterQueen/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Shooter_Queen",
-    "path": "Content\\Enemies\\Spider\\Shooter\\ShooterQueen\\"
+    "path": "Game/Enemies/Spider/Shooter/ShooterQueen/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Spitter",
-    "path": "Content\\Enemies\\Spider\\Spitter\\"
+    "path": "Game/Enemies/Spider/Spitter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Spitter",
-    "path": "Content\\Enemies\\Spider\\Spitter\\"
+    "path": "Game/Enemies/Spider/Spitter/"
   },
   {
     "type": "BP",
     "name": "BP_RadioactiveGlyphidDeathGas",
-    "path": "Content\\Enemies\\Spider\\Swarmer\\"
+    "path": "Game/Enemies/Spider/Swarmer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Swarmer",
-    "path": "Content\\Enemies\\Spider\\Swarmer\\"
+    "path": "Game/Enemies/Spider/Swarmer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Swarmer_Ice",
-    "path": "Content\\Enemies\\Spider\\Swarmer\\"
+    "path": "Game/Enemies/Spider/Swarmer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Swarmer_Pheromoned",
-    "path": "Content\\Enemies\\Spider\\Swarmer\\"
+    "path": "Game/Enemies/Spider/Swarmer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Swarmer_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Swarmer\\"
+    "path": "Game/Enemies/Spider/Swarmer/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Spawn",
-    "path": "Content\\Enemies\\Spider\\Swarmer\\Spawn\\"
+    "path": "Game/Enemies/Spider/Swarmer/Spawn/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_AcidCloud",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_FrostCloud",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_RadiationCloud",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Base",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Generic",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Ice",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Normal2",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Radioactive",
-    "path": "Content\\Enemies\\Spider\\Tank\\"
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Amber",
-    "path": "Content\\Enemies\\Spider\\Tank\\Amber\\"
+    "path": "Game/Enemies/Spider/Tank/Amber/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Rock",
-    "path": "Content\\Enemies\\Spider\\Tank\\Rock\\"
+    "path": "Game/Enemies/Spider/Tank/Rock/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_ShieldTank",
-    "path": "Content\\Enemies\\Spider\\Tank\\ShieldTank\\"
+    "path": "Game/Enemies/Spider/Tank/ShieldTank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Boss_Base",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\"
+    "path": "Game/Enemies/Spider/TankBoss/"
   },
   {
     "type": "BP",
     "name": "BP_SentinelGoo_Puddle",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossHeavy\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Boss_Heavy",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossHeavy\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Boss_HeavySpawn",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossHeavy\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Boss_Heavy",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossHeavy\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Boss_Heavy_FireballBallistics",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossHeavy\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
     "type": "BP",
     "name": "BP_Boss_AoEAttack",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTank\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTank/"
   },
   {
     "type": "BP",
     "name": "BP_Spider_TankBoss_Armor",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTank\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTank/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Tank_Boss",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTank\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTank/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Tank_Boss",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTank\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTank/"
   },
   {
     "type": "BP",
     "name": "BP_Meet_Attack",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Boss_TwinA",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Boss_TwinB",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Boss_TwinBase",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Boss_Twin_Stomp",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Boss_Twin_Mine",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Boss_Twin_Multifireball",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\BossTwins\\"
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Spider_Tank_Boss_Eggshot",
-    "path": "Content\\Enemies\\Spider\\TankBoss\\EggShot\\"
+    "path": "Game/Enemies/Spider/TankBoss/EggShot/"
   },
   {
     "type": "BP",
     "name": "BP_StabberVine_Claw",
-    "path": "Content\\Enemies\\StabberVine\\"
+    "path": "Game/Enemies/StabberVine/"
   },
   {
     "type": "BP",
     "name": "BP_StabberVine_Tentacle",
-    "path": "Content\\Enemies\\StabberVine\\"
+    "path": "Game/Enemies/StabberVine/"
   },
   {
     "type": "ENE",
     "name": "ENE_StabberVines",
-    "path": "Content\\Enemies\\StabberVine\\"
+    "path": "Game/Enemies/StabberVine/"
   },
   {
     "type": "ENE",
     "name": "ENE_StabberVines2",
-    "path": "Content\\Enemies\\StabberVine\\"
+    "path": "Game/Enemies/StabberVine/"
   },
   {
     "type": "ENE",
     "name": "ENE_Woodlouse",
-    "path": "Content\\Enemies\\Woodlouse\\"
+    "path": "Game/Enemies/Woodlouse/"
   },
   {
     "type": "ENE",
     "name": "ENE_Woodlouse_Youngling",
-    "path": "Content\\Enemies\\Woodlouse\\"
+    "path": "Game/Enemies/Woodlouse/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_WoodlouseAttack",
-    "path": "Content\\Enemies\\Woodlouse\\"
+    "path": "Game/Enemies/Woodlouse/"
   },
   {
     "type": "ENE",
     "name": "ENE_Snowball",
-    "path": "Content\\Enemies\\Woodlouse\\Snowball\\"
+    "path": "Game/Enemies/Woodlouse/Snowball/"
   },
   {
     "type": "BP",
     "name": "BP_GameData",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_GameInstance",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_GameMode",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_GameState",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_GS_Tutorial",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_NetworkPlayerController",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_NetworkPlayGameMode",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerController",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerControllerBase",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerStart",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerState",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerState_Tutorial",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "BP",
     "name": "BP_SpectatorBase",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "LIB",
     "name": "LIB_Game",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "LIB",
     "name": "LIB_Game_SpaceRig",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "LIB",
     "name": "LIB_Game_UI",
-    "path": "Content\\Game\\"
+    "path": "Game/Game/"
   },
   {
     "type": "LIB",
     "name": "LIB_PlayerControllerBase",
-    "path": "Content\\Game\\Libs\\"
+    "path": "Game/Game/Libs/"
   },
   {
     "type": "BP",
     "name": "BP_Actor_Macros",
-    "path": "Content\\Game\\Macros\\"
+    "path": "Game/Game/Macros/"
   },
   {
     "type": "BP",
     "name": "BP_Audio_Macros",
-    "path": "Content\\Game\\Macros\\"
+    "path": "Game/Game/Macros/"
   },
   {
     "type": "BP",
     "name": "BP_Component_Macros",
-    "path": "Content\\Game\\Macros\\"
+    "path": "Game/Game/Macros/"
   },
   {
     "type": "BP",
     "name": "BP_GameMacros",
-    "path": "Content\\Game\\Macros\\"
+    "path": "Game/Game/Macros/"
   },
   {
     "type": "BP",
     "name": "BP_CabinController",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_GameState_SpaceRig",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_MemorialScreenSpeedButton",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerController_SpaceRig",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_PlayerState_SpaceRig",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_SpacerigSpectator",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_SpaceRig_GamemOde",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_SR_PlayerControllerBase",
-    "path": "Content\\Game\\SpaceRig\\"
+    "path": "Game/Game/SpaceRig/"
   },
   {
     "type": "BP",
     "name": "BP_StartMenu_GameMode",
-    "path": "Content\\Game\\StartMenu\\"
+    "path": "Game/Game/StartMenu/"
   },
   {
     "type": "LIB",
     "name": "LIB_Text",
-    "path": "Content\\Game\\Text\\"
+    "path": "Game/Game/Text/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass",
-    "path": "Content\\GameElements\\Bar\\"
+    "path": "Game/GameElements/Bar/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_Standard",
-    "path": "Content\\GameElements\\Bar\\"
+    "path": "Game/GameElements/Bar/"
   },
   {
     "type": "BP",
     "name": "BP_IntoxicationComponent",
-    "path": "Content\\GameElements\\Bar\\"
+    "path": "Game/GameElements/Bar/"
   },
   {
     "type": "BP",
     "name": "BP_SpaceRig_Bartender",
-    "path": "Content\\GameElements\\Bar\\"
+    "path": "Game/GameElements/Bar/"
   },
   {
     "type": "LIB",
     "name": "LIB_Intoxication",
-    "path": "Content\\GameElements\\Bar\\"
+    "path": "Game/GameElements/Bar/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_ArkenStout",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_BackbreakerStout",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_BlacklockLager",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_BlackoutStout",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_BlackreachBlonde",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_BurningLove",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_DarkMorkite",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_DUMMY",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_FlintlockLager",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_GlyphidSlammer",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_GlyphidSlammer_Support",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_Gutwrecker",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_LeafloversSpecial",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_MacteraBrew",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_OilyOafBrew",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_PotsOGold",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_RedRockBlaster",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_RockMaltbearer",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_RockyMountain",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_SeasonedMoonrider",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_SkullCrusherAle",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_SlayerStout",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_SmartStout",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_TunnelRat",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_UnderhillDeluxe",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_BarGlass_WormholeSpecial",
-    "path": "Content\\GameElements\\Bar\\Drinkables\\"
+    "path": "Game/GameElements/Bar/Drinkables/"
   },
   {
     "type": "BP",
     "name": "BP_WormholeLocation_Base",
-    "path": "Content\\GameElements\\Bar\\DrinkEffects\\Wormhole"
+    "path": "Game/GameElements/Bar/DrinkEffects/Wormhole"
   },
   {
     "type": "BP",
     "name": "BP_WormholeLocation_OutsideBase",
-    "path": "Content\\GameElements\\Bar\\DrinkEffects\\Wormhole"
+    "path": "Game/GameElements/Bar/DrinkEffects/Wormhole"
   },
   {
     "type": "BP",
     "name": "BP_CampaignManager",
-    "path": "Content\\GameElements\\Campaign\\"
+    "path": "Game/GameElements/Campaign/"
   },
   {
     "type": "BP",
     "name": "BP_Donkey",
-    "path": "Content\\GameElements\\Donkey\\"
+    "path": "Game/GameElements/Donkey/"
   },
   {
     "type": "BP",
     "name": "BP_DonkeyDestinationMarker",
-    "path": "Content\\GameElements\\Donkey\\"
+    "path": "Game/GameElements/Donkey/"
   },
   {
     "type": "BP",
     "name": "BP_Donkey_Escort",
-    "path": "Content\\GameElements\\Donkey\\"
+    "path": "Game/GameElements/Donkey/"
   },
   {
     "type": "BP",
     "name": "BP_Donkey_Salvage",
-    "path": "Content\\GameElements\\Donkey\\"
+    "path": "Game/GameElements/Donkey/"
   },
   {
     "type": "BP",
     "name": "BP_Bosco",
-    "path": "Content\\GameElements\\Drone\\"
+    "path": "Game/GameElements/Drone/"
   },
   {
     "type": "BP",
     "name": "BP_BoscoAbillityProjectile",
-    "path": "Content\\GameElements\\Drone\\"
+    "path": "Game/GameElements/Drone/"
   },
   {
     "type": "BP",
     "name": "BP_BoscoStateDisplay",
-    "path": "Content\\GameElements\\Drone\\"
+    "path": "Game/GameElements/Drone/"
   },
   {
     "type": "BP",
     "name": "BP_Bosco_Rocket_Frag",
-    "path": "Content\\GameElements\\Drone\\"
+    "path": "Game/GameElements/Drone/"
   },
   {
     "type": "BP",
     "name": "BP_Bosco_Rocket_Ice",
-    "path": "Content\\GameElements\\Drone\\"
+    "path": "Game/GameElements/Drone/"
   },
   {
     "type": "BP",
     "name": "BP_AmberEvent",
-    "path": "Content\\GameElements\\GameEvents\\AmberEvent\\"
+    "path": "Game/GameElements/GameEvents/AmberEvent/"
   },
   {
     "type": "BP",
     "name": "BP_CoreInfuser_Rewards_Selector",
-    "path": "Content\\GameElements\\GameEvents\\CoreInfuser\\"
+    "path": "Game/GameElements/GameEvents/CoreInfuser/"
   },
   {
     "type": "BP",
     "name": "BP_MultiStageEventStarter",
-    "path": "Content\\GameElements\\GameEvents\\EventStart\\"
+    "path": "Game/GameElements/GameEvents/EventStart/"
   },
   {
     "type": "BP",
     "name": "BP_BarrelDispenser",
-    "path": "Content\\GameElements\\GameEvents\\ExplosiveBarrelsEvent\\"
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
     "type": "BP",
     "name": "BP_BarrelDispenserBeacon",
-    "path": "Content\\GameElements\\GameEvents\\ExplosiveBarrelsEvent\\"
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveBarrel",
-    "path": "Content\\GameElements\\GameEvents\\ExplosiveBarrelsEvent\\"
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveBarrelDispenser_Platform",
-    "path": "Content\\GameElements\\GameEvents\\ExplosiveBarrelsEvent\\"
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveBarrelsEvent",
-    "path": "Content\\GameElements\\GameEvents\\ExplosiveBarrelsEvent\\"
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
     "type": "BP",
     "name": "BP_LaserEventStarter",
-    "path": "Content\\GameElements\\GameEvents\\ExplosiveBarrelsEvent\\"
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
     "type": "BP",
     "name": "BP_GuntowerActivationPlatfrom",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/"
   },
   {
     "type": "BP",
     "name": "BP_GuntowerEvent",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/"
   },
   {
     "type": "BP",
     "name": "BP_Guntower_Module_LMG",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "BP",
     "name": "BP_TowerModuleController",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "BP",
     "name": "BP_Guntower_Module_Homing",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "PRJ",
     "name": "PRJ_HomingDrone",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "BP",
     "name": "BP_Guntower_Module_RadialFire_new",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "PRJ",
     "name": "PRJ_GuntowerLineProjectile",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "BP",
     "name": "BP_Guntower_Module_RandomFire",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "BP",
     "name": "BP_GuntowerWeakpoint",
-    "path": "Content\\GameElements\\GameEvents\\GuntowerEvent\\GunTower"
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
     "type": "BP",
     "name": "BP_RewardDispenser",
-    "path": "Content\\GameElements\\GameEvents\\RewardDispenser\\"
+    "path": "Game/GameElements/GameEvents/RewardDispenser/"
   },
   {
     "type": "BP",
     "name": "BP_RewardFrame",
-    "path": "Content\\GameElements\\GameEvents\\RewardDispenser\\"
+    "path": "Game/GameElements/GameEvents/RewardDispenser/"
   },
   {
     "type": "BP",
     "name": "BP_RewardUsableComponent",
-    "path": "Content\\GameElements\\GameEvents\\RewardDispenser\\"
+    "path": "Game/GameElements/GameEvents/RewardDispenser/"
   },
   {
     "type": "BP",
     "name": "BP_MatrixCore_Tester",
-    "path": "Content\\GameElements\\GameEvents\\RewardDispenser\\MatrixCore\\"
+    "path": "Game/GameElements/GameEvents/RewardDispenser/MatrixCore/"
   },
   {
     "type": "BP",
     "name": "BP_ReturningPromotionKey",
-    "path": "Content\\GameElements\\GameEvents\\RewardDispenser\\PromotionKey\\"
+    "path": "Game/GameElements/GameEvents/RewardDispenser/PromotionKey/"
   },
   {
     "type": "BP",
     "name": "BP_RockEnemiesEvent",
-    "path": "Content\\GameElements\\GameEvents\\RockEnemies\\"
+    "path": "Game/GameElements/GameEvents/RockEnemies/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_PowerupSphere",
-    "path": "Content\\GameElements\\GameEvents\\RockEnemies\\"
+    "path": "Game/GameElements/GameEvents/RockEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_AutoReloadPerkActivation",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_BerzerkComp",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_BugThingComponent",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_DashActivation",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_DownedBomb",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_DownedBombDamage",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_ExpertDepositorLogic",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_EyeForEye_SYIHpassive_PerkComponent",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_HeightenedSenses",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_HeightenedSense_Discharge",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_HoverBootsBurnTrigger",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_ImpactCompensators",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_IronWillActivation",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_JumpBoots",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_MarathonGuy_SprintBoost",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_MarathonGuy_SprintBoostTime",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_QuickRecoveryLogic",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_RedSugarRocksLogic",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_ResupplierLogic",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_SeeYouInHellField",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_ShieldLinkComponent",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_ThornsComponent",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_VampireComponent",
-    "path": "Content\\GameElements\\KPI\\Perks\\"
+    "path": "Game/GameElements/KPI/Perks/"
   },
   {
     "type": "BP",
     "name": "BP_BeastMaster",
-    "path": "Content\\GameElements\\KPI\\Perks\\BeastMaster\\"
+    "path": "Game/GameElements/KPI/Perks/BeastMaster/"
   },
   {
     "type": "BP",
     "name": "BP_PetAttackerPositioning",
-    "path": "Content\\GameElements\\KPI\\Perks\\BeastMaster\\"
+    "path": "Game/GameElements/KPI/Perks/BeastMaster/"
   },
   {
     "type": "BP",
     "name": "BP_PetComponent",
-    "path": "Content\\GameElements\\KPI\\Perks\\BeastMaster\\"
+    "path": "Game/GameElements/KPI/Perks/BeastMaster/"
   },
   {
     "type": "BP",
     "name": "BP_PetUsable",
-    "path": "Content\\GameElements\\KPI\\Perks\\BeastMaster\\"
+    "path": "Game/GameElements/KPI/Perks/BeastMaster/"
   },
   {
     "type": "BP",
     "name": "BP_PetUseSphere",
-    "path": "Content\\GameElements\\KPI\\Perks\\BeastMaster\\"
+    "path": "Game/GameElements/KPI/Perks/BeastMaster/"
   },
   {
     "type": "BP",
     "name": "BP_FracturedMissionDNA",
-    "path": "Content\\GameElements\\Missions\\"
+    "path": "Game/GameElements/Missions/"
   },
   {
     "type": "BP",
     "name": "BP_RefineryDNA",
-    "path": "Content\\GameElements\\Missions\\"
+    "path": "Game/GameElements/Missions/"
   },
   {
     "type": "BP",
     "name": "BP_TutorialHeadline",
-    "path": "Content\\GameElements\\Missions\\"
+    "path": "Game/GameElements/Missions/"
   },
   {
     "type": "BP",
     "name": "BP_ExterminationContract",
-    "path": "Content\\GameElements\\Missions\\Mutators\\EliminationContract\\"
+    "path": "Game/GameElements/Missions/Mutators/EliminationContract/"
   },
   {
     "type": "BP",
     "name": "BP_LowGravity",
-    "path": "Content\\GameElements\\Missions\\Mutators\\LowGravity\\"
+    "path": "Game/GameElements/Missions/Mutators/LowGravity/"
   },
   {
     "type": "BP",
     "name": "BP_OxygenRich",
-    "path": "Content\\GameElements\\Missions\\Mutators\\OxygenRich\\"
+    "path": "Game/GameElements/Missions/Mutators/OxygenRich/"
   },
   {
     "type": "BP",
     "name": "BP_ExploderInfestation",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ExploderInfestation\\"
+    "path": "Game/GameElements/Missions/Warnings/ExploderInfestation/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveEnemiesDamageHuge",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ExplosiveEnemies\\"
+    "path": "Game/GameElements/Missions/Warnings/ExplosiveEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveEnemiesDamageLarge",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ExplosiveEnemies\\"
+    "path": "Game/GameElements/Missions/Warnings/ExplosiveEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveEnemiesDamageMedium",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ExplosiveEnemies\\"
+    "path": "Game/GameElements/Missions/Warnings/ExplosiveEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveEnemiesDamageSmall",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ExplosiveEnemies\\"
+    "path": "Game/GameElements/Missions/Warnings/ExplosiveEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveEnemiesDamageTiny",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ExplosiveEnemies\\"
+    "path": "Game/GameElements/Missions/Warnings/ExplosiveEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_GhostMutator",
-    "path": "Content\\GameElements\\Missions\\Warnings\\Ghost\\"
+    "path": "Game/GameElements/Missions/Warnings/Ghost/"
   },
   {
     "type": "BP",
     "name": "BP_OxygenComponent",
-    "path": "Content\\GameElements\\Missions\\Warnings\\NoOxygen\\"
+    "path": "Game/GameElements/Missions/Warnings/NoOxygen/"
   },
   {
     "type": "BP",
     "name": "BP_OxygenTank",
-    "path": "Content\\GameElements\\Missions\\Warnings\\NoOxygen\\"
+    "path": "Game/GameElements/Missions/Warnings/NoOxygen/"
   },
   {
     "type": "BP",
     "name": "BP_OxygenTankSound",
-    "path": "Content\\GameElements\\Missions\\Warnings\\NoOxygen\\"
+    "path": "Game/GameElements/Missions/Warnings/NoOxygen/"
   },
   {
     "type": "BP",
     "name": "BP_RegenerativeMissionBP",
-    "path": "Content\\GameElements\\Missions\\Warnings\\RegenerativeEnemies\\"
+    "path": "Game/GameElements/Missions/Warnings/RegenerativeEnemies/"
   },
   {
     "type": "BP",
     "name": "BP_ShieldDisruption",
-    "path": "Content\\GameElements\\Missions\\Warnings\\ShieldDisruption\\"
+    "path": "Game/GameElements/Missions/Warnings/ShieldDisruption/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_Gather_AlienEggs",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_MineMorkite_linear",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_PointExtraction",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_Tutorial",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Find_ApocaBloom",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Find_BooloCap",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Find_Ebonut",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Find_Fossil",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Find_Gunkseed",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_KillFleas_5",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Mine_Dystrum",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_2nd_Mine_Hollomite",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_FindItems_Base",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_Gather_Base",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_Resource_Base",
-    "path": "Content\\GameElements\\Objectives\\"
+    "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_DD_AlienEggs",
-    "path": "Content\\GameElements\\Objectives\\DeepDive\\"
+    "path": "Game/GameElements/Objectives/DeepDive/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_DD_Elimination_Eggs",
-    "path": "Content\\GameElements\\Objectives\\DeepDive\\"
+    "path": "Game/GameElements/Objectives/DeepDive/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_DD_Morkite",
-    "path": "Content\\GameElements\\Objectives\\DeepDive\\"
+    "path": "Game/GameElements/Objectives/DeepDive/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_Defense",
-    "path": "Content\\GameElements\\Objectives\\Defense\\"
+    "path": "Game/GameElements/Objectives/Defense/"
   },
   {
     "type": "BP",
     "name": "BP_Elimination_RadarPoint",
-    "path": "Content\\GameElements\\Objectives\\Elimination\\"
+    "path": "Game/GameElements/Objectives/Elimination/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_Eliminate_Eggs",
-    "path": "Content\\GameElements\\Objectives\\Elimination\\"
+    "path": "Game/GameElements/Objectives/Elimination/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_Elimination_Base",
-    "path": "Content\\GameElements\\Objectives\\Elimination\\"
+    "path": "Game/GameElements/Objectives/Elimination/"
   },
   {
     "type": "BP",
     "name": "BP_BossFight_Heartstone",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_CompleteMissionScreen_DorettaHead",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_DorettaHead",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_EscortCannisterUsable",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_EscortDestination",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_EscortGarage",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_EscortGarage_Beacon",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_EscortMule",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_EscortRefuelTarget",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_GarageCarver",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_Heartstone_Claw",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_Heartstone_DefensiveCrystal",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_Escort",
-    "path": "Content\\GameElements\\Objectives\\Escort\\"
+    "path": "Game/GameElements/Objectives/Escort/"
   },
   {
     "type": "BP",
     "name": "BP_CaterpillarTrack",
-    "path": "Content\\GameElements\\Objectives\\Escort\\DrillDozer\\"
+    "path": "Game/GameElements/Objectives/Escort/DrillDozer/"
   },
   {
     "type": "BP",
     "name": "BP_CaterpillarTrack_Left",
-    "path": "Content\\GameElements\\Objectives\\Escort\\DrillDozer\\"
+    "path": "Game/GameElements/Objectives/Escort/DrillDozer/"
   },
   {
     "type": "BP",
     "name": "BP_CaterpillarTrack_Right",
-    "path": "Content\\GameElements\\Objectives\\Escort\\DrillDozer\\"
+    "path": "Game/GameElements/Objectives/Escort/DrillDozer/"
   },
   {
     "type": "ENE",
     "name": "ENE_FlyingSmartRock",
-    "path": "Content\\GameElements\\Objectives\\Escort\\FlyingSmartRocks\\"
+    "path": "Game/GameElements/Objectives/Escort/FlyingSmartRocks/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_FlyingSmartRock",
-    "path": "Content\\GameElements\\Objectives\\Escort\\FlyingSmartRocks\\"
+    "path": "Game/GameElements/Objectives/Escort/FlyingSmartRocks/"
   },
   {
     "type": "BP",
     "name": "BP_RefineryLanding",
-    "path": "Content\\GameElements\\Objectives\\Refinery\\"
+    "path": "Game/GameElements/Objectives/Refinery/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_Refinery",
-    "path": "Content\\GameElements\\Objectives\\Refinery\\"
+    "path": "Game/GameElements/Objectives/Refinery/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_RepairMinimules",
-    "path": "Content\\GameElements\\Objectives\\Reparation\\"
+    "path": "Game/GameElements/Objectives/Reparation/"
   },
   {
     "type": "BP",
     "name": "BP_DBR_Salvage_OldSupplyPod",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_MiniMule_Salvage",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_SalvageFuelCells_Beacon",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_Salvage_FuelPod",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_Salvage_FuelPoint",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_Salvage_Point",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_Salvage_Point_Base",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_Salvage_Point_Uplink",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_1st_Salvage",
-    "path": "Content\\GameElements\\Objectives\\Salvage\\"
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
     "name": "BP_ResourcePouch",
-    "path": "Content\\GameElements\\Resources\\"
+    "path": "Game/GameElements/Resources/"
   },
   {
     "type": "BP",
     "name": "BP_BismorChunk",
-    "path": "Content\\GameElements\\Resources\\Carved\\Bismor\\"
+    "path": "Game/GameElements/Resources/Carved/Bismor/"
   },
   {
     "type": "BP",
     "name": "BP_HollomiteChunk",
-    "path": "Content\\GameElements\\Resources\\Carved\\Hollomite\\"
+    "path": "Game/GameElements/Resources/Carved/Hollomite/"
   },
   {
     "type": "BP",
     "name": "BP_MagniteChunk",
-    "path": "Content\\GameElements\\Resources\\Carved\\Magnite\\"
+    "path": "Game/GameElements/Resources/Carved/Magnite/"
   },
   {
     "type": "BP",
     "name": "BP_OilShaleChunk",
-    "path": "Content\\GameElements\\Resources\\Carved\\OilShale\\"
+    "path": "Game/GameElements/Resources/Carved/OilShale/"
   },
   {
     "type": "BP",
     "name": "BP_RedSugarChunk",
-    "path": "Content\\GameElements\\Resources\\Carved\\RedSugar\\"
+    "path": "Game/GameElements/Resources/Carved/RedSugar/"
   },
   {
     "type": "BP",
     "name": "BP_UmaniteChunk",
-    "path": "Content\\GameElements\\Resources\\Carved\\Umanite\\"
+    "path": "Game/GameElements/Resources/Carved/Umanite/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Base",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\"
+    "path": "Game/GameElements/Resources/Collectibles/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Simple",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\"
+    "path": "Game/GameElements/Resources/Collectibles/"
   },
   {
     "type": "BP",
     "name": "BP_Apoca_Bloom",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\ApocaBloom\\"
+    "path": "Game/GameElements/Resources/Collectibles/ApocaBloom/"
   },
   {
     "type": "BP",
     "name": "BP_Barley1_1",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley2_1",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley2_2",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley2_3",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley2_4",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley3_1",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley3_2",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley3_3",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley3_4",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley4_1",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley4_2",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley4_3",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Barley4_4",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Barley_B1",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Barley_B2",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Barley_B3",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Barley_B4",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Collectible_Barley_Base",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Barley\\"
+    "path": "Game/GameElements/Resources/Collectibles/Barley/"
   },
   {
     "type": "BP",
     "name": "BP_Boolo_Cap",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\BooloCap\\"
+    "path": "Game/GameElements/Resources/Collectibles/BooloCap/"
   },
   {
     "type": "BP",
     "name": "BP_Ebonut",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Ebonut\\"
+    "path": "Game/GameElements/Resources/Collectibles/Ebonut/"
   },
   {
     "type": "BP",
     "name": "BP_Fossil",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\Fossil\\"
+    "path": "Game/GameElements/Resources/Collectibles/Fossil/"
   },
   {
     "type": "BP",
     "name": "BP_GunkSeed",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\GunkSeed\\"
+    "path": "Game/GameElements/Resources/Collectibles/GunkSeed/"
   },
   {
     "type": "BP",
     "name": "BP_GunkSeed_Hanger",
-    "path": "Content\\GameElements\\Resources\\Collectibles\\GunkSeed\\"
+    "path": "Game/GameElements/Resources/Collectibles/GunkSeed/"
   },
   {
     "type": "BP",
     "name": "BP_AlienEgg",
-    "path": "Content\\GameElements\\Resources\\Embedded\\AlienEgg\\"
+    "path": "Game/GameElements/Resources/Embedded/AlienEgg/"
   },
   {
     "type": "BP",
     "name": "BP_Compressed_Gold",
-    "path": "Content\\GameElements\\Resources\\Embedded\\CompressedGold\\"
+    "path": "Game/GameElements/Resources/Embedded/CompressedGold/"
   },
   {
     "type": "BP",
     "name": "BP_EnorChunk",
-    "path": "Content\\GameElements\\Resources\\Embedded\\EnorPearl\\"
+    "path": "Game/GameElements/Resources/Embedded/EnorPearl/"
   },
   {
     "type": "BP",
     "name": "BP_EnorEmd",
-    "path": "Content\\GameElements\\Resources\\Embedded\\EnorPearl\\"
+    "path": "Game/GameElements/Resources/Embedded/EnorPearl/"
   },
   {
     "type": "BP",
     "name": "BP_EscortGem_Heartstone",
-    "path": "Content\\GameElements\\Resources\\Embedded\\EscortGem\\"
+    "path": "Game/GameElements/Resources/Embedded/EscortGem/"
   },
   {
     "type": "BP",
     "name": "BP_AmberChunk",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_Gem",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_Gem_Aquarq",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_Gem_Bittergem",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_Gem_Jadiz",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_HydraWeedCoreFragment",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_HydraWeedCoreFragment_01",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_HydraWeedCoreFragment_02",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_HydraWeedCoreFragment_03",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_JadizChunk",
-    "path": "Content\\GameElements\\Resources\\Embedded\\Gems\\"
+    "path": "Game/GameElements/Resources/Embedded/Gems/"
   },
   {
     "type": "BP",
     "name": "BP_MuleLeg",
-    "path": "Content\\GameElements\\Resources\\Embedded\\MuleLeg\\"
+    "path": "Game/GameElements/Resources/Embedded/MuleLeg/"
   },
   {
     "type": "BP",
     "name": "BP_UnknownArtifact",
-    "path": "Content\\GameElements\\Resources\\Embedded\\UnknownArtifact\\"
+    "path": "Game/GameElements/Resources/Embedded/UnknownArtifact/"
   },
   {
     "type": "BP",
     "name": "BP_CroppaChunk",
-    "path": "Content\\GameElements\\Resources\\Veins\\ResourceChunks\\"
+    "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
   },
   {
     "type": "BP",
     "name": "BP_DystrumChunk",
-    "path": "Content\\GameElements\\Resources\\Veins\\ResourceChunks\\"
+    "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
   },
   {
     "type": "BP",
     "name": "BP_GoldChunk",
-    "path": "Content\\GameElements\\Resources\\Veins\\ResourceChunks\\"
+    "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
   },
   {
     "type": "BP",
     "name": "BP_IronChunk",
-    "path": "Content\\GameElements\\Resources\\Veins\\ResourceChunks\\"
+    "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
   },
   {
     "type": "BP",
     "name": "BP_MorkiteChunk",
-    "path": "Content\\GameElements\\Resources\\Veins\\ResourceChunks\\"
+    "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
   },
   {
     "type": "BP",
     "name": "BP_NitraChunk",
-    "path": "Content\\GameElements\\Resources\\Veins\\ResourceChunks\\"
+    "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
   },
   {
     "type": "BP",
     "name": "BP_HoloLid",
-    "path": "Content\\GameElements\\Treasure\\"
+    "path": "Game/GameElements/Treasure/"
   },
   {
     "type": "BP",
     "name": "BP_RepairTreasureboxItem",
-    "path": "Content\\GameElements\\Treasure\\"
+    "path": "Game/GameElements/Treasure/"
   },
   {
     "type": "BP",
     "name": "BP_TreasureBox",
-    "path": "Content\\GameElements\\Treasure\\"
+    "path": "Game/GameElements/Treasure/"
   },
   {
     "type": "BP",
     "name": "BP_LostPack",
-    "path": "Content\\GameElements\\Treasure\\LostPack\\"
+    "path": "Game/GameElements/Treasure/LostPack/"
   },
   {
     "type": "BP",
     "name": "BP_LostPackDebrisPart",
-    "path": "Content\\GameElements\\Treasure\\LostPack\\"
+    "path": "Game/GameElements/Treasure/LostPack/"
   },
   {
     "type": "BP",
     "name": "BP_LostPackStart",
-    "path": "Content\\GameElements\\Treasure\\LostPack\\"
+    "path": "Game/GameElements/Treasure/LostPack/"
   },
   {
     "type": "BP",
     "name": "BP_DeepCSGWorld",
-    "path": "Content\\Landscape\\"
+    "path": "Game/Landscape/"
   },
   {
     "type": "BP",
     "name": "BP_ProceduralController",
-    "path": "Content\\Landscape\\"
+    "path": "Game/Landscape/"
   },
   {
     "type": "BP",
     "name": "BP_WeatherEffect",
-    "path": "Content\\Landscape\\Biomes\\"
+    "path": "Game/Landscape/Biomes/"
   },
   {
     "type": "BP",
     "name": "BP_HangingMistCloud_Azure",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_AzureWeald",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_Flower_Insect_swarm",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_CombaCharm",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_CombaCharm_Egg",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_MagicCrystal_A",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_MagicCrystal_B",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_MagicCrystal_Base",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_MagicCrystal_C",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_MagicHole",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_MagicHoleBottomDebris",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_UmbraSeeker",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_VoidBasket",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_1",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_Ground_01",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_SingleGround_04",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_SingleGround_05",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_SingleGround_06",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_Single_04",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_Single_05",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HugeRoots_Single_06",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_HureRoots_Base",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_ThinHangingRoots_SM_AzureWealdVines_02",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_ThinHangingRoots_SM_AzureWealdVines_03",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Azure_ThinHangingRoots_SM_AzureWealdVines_04",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_New_HeavyRain_Crystal",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_CrystalCaves",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_FungusBogs",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_HollowBough",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_RedThornFlower_Alone",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "PRJ",
     "name": "PRJ_RedThorn",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_1",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_2",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_3",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_4",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_5",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_Double_1",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_Double_2",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PeelingBark_Double_3",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_WallMaggot",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_WallMaggot_Deep",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_New_SnowStorm",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_IceCaves",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_New_HeavyRain_Lush",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_LushDownpour",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_MagmaCaves",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Quake",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_RadioactiveZone",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_SaltCaves",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_NewSandstorm",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_SandblastedCorridors",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_PostProcessing_Tutorial",
-    "path": "Content\\Landscape\\Biomes\\Biomes"
+    "path": "Game/Landscape/Biomes/Biomes"
   },
   {
     "type": "BP",
     "name": "BP_Branch_A",
-    "path": "Content\\Landscape\\CaveAssets\\Foliage\\DeadTrees\\"
+    "path": "Game/Landscape/CaveAssets/Foliage/DeadTrees/"
   },
   {
     "type": "BP",
     "name": "BP_DeadTree_A",
-    "path": "Content\\Landscape\\CaveAssets\\Foliage\\DeadTrees\\"
+    "path": "Game/Landscape/CaveAssets/Foliage/DeadTrees/"
   },
   {
     "type": "BP",
     "name": "BP_DrippingPlant",
-    "path": "Content\\Landscape\\CaveAssets\\Foliage\\DrippingPlant\\"
+    "path": "Game/Landscape/CaveAssets/Foliage/DrippingPlant/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_DrippingPlant",
-    "path": "Content\\Landscape\\CaveAssets\\Foliage\\DrippingPlant\\"
+    "path": "Game/Landscape/CaveAssets/Foliage/DrippingPlant/"
   },
   {
     "type": "BPL",
     "name": "BPL_ProceduralLevelSetup",
-    "path": "Content\\Landscape\\ProceduralLevelSetups\\"
+    "path": "Game/Landscape/ProceduralLevelSetups/"
   },
   {
     "type": "BP",
     "name": "BP_DamageTriggerComponent",
-    "path": "Content\\LevelElements\\Components\\"
+    "path": "Game/LevelElements/Components/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Base",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Escape_Base",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Escape_Damaged",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Escape_Escort",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Escape_NoMule",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Escape_Normal",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Landing",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_LandingZone",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Landing_Escort",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Landing_NoMule",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Landing_Salvage",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_DropPod_Rig",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_Drop_CamShake",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_SpawnDroppodLocationItem",
-    "path": "Content\\LevelElements\\Droppod\\"
+    "path": "Game/LevelElements/Droppod/"
   },
   {
     "type": "BP",
     "name": "BP_MineHead",
-    "path": "Content\\LevelElements\\Minehead\\"
+    "path": "Game/LevelElements/Minehead/"
   },
   {
     "type": "BP",
     "name": "BP_Minehead_LandingZone",
-    "path": "Content\\LevelElements\\Minehead\\"
+    "path": "Game/LevelElements/Minehead/"
   },
   {
     "type": "BP",
     "name": "BP_Motherlode_MiningHeadDropLocation",
-    "path": "Content\\LevelElements\\Minehead\\"
+    "path": "Game/LevelElements/Minehead/"
   },
   {
     "type": "BP",
     "name": "BP_SpotLightInteractive",
-    "path": "Content\\LevelElements\\Minehead\\"
+    "path": "Game/LevelElements/Minehead/"
   },
   {
     "type": "BP",
     "name": "BP_Extractor_Lamp",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_LocalWaveTrigger",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Pipeline_StatusLamp",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_Depositor",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_Extractor",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_Extractor_Blueprint",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_Lamp",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_LandingZone",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_ProgressBar",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_ProjectorLight",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_Rocketlamp",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_Target",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Refinery_WarningLight",
-    "path": "Content\\LevelElements\\Refinery\\"
+    "path": "Game/LevelElements/Refinery/"
   },
   {
     "type": "BP",
     "name": "BP_Extractor_Shell",
-    "path": "Content\\LevelElements\\Refinery\\Extractor\\"
+    "path": "Game/LevelElements/Refinery/Extractor/"
   },
   {
     "type": "BP",
     "name": "BP_AttackablePiplinesegmentActor",
-    "path": "Content\\LevelElements\\Refinery\\Pipeline\\"
+    "path": "Game/LevelElements/Refinery/Pipeline/"
   },
   {
     "type": "BP",
     "name": "BP_PipeGrindingConnector",
-    "path": "Content\\LevelElements\\Refinery\\Pipeline\\"
+    "path": "Game/LevelElements/Refinery/Pipeline/"
   },
   {
     "type": "BP",
     "name": "BP_Pipeline_Build_Hologram",
-    "path": "Content\\LevelElements\\Refinery\\Pipeline\\"
+    "path": "Game/LevelElements/Refinery/Pipeline/"
   },
   {
     "type": "BP",
     "name": "BP_Pipeline_Movement",
-    "path": "Content\\LevelElements\\Refinery\\Pipeline\\"
+    "path": "Game/LevelElements/Refinery/Pipeline/"
   },
   {
     "type": "BP",
     "name": "BP_Pipeline_Segment",
-    "path": "Content\\LevelElements\\Refinery\\Pipeline\\"
+    "path": "Game/LevelElements/Refinery/Pipeline/"
   },
   {
     "type": "BP",
     "name": "BP_Pipeline_Start",
-    "path": "Content\\LevelElements\\Refinery\\Pipeline\\"
+    "path": "Game/LevelElements/Refinery/Pipeline/"
   },
   {
     "type": "BP",
     "name": "BP_SandblastedRockIsland",
-    "path": "Content\\LevelElements\\RoomObjects\\Carvers\\"
+    "path": "Game/LevelElements/RoomObjects/Carvers/"
   },
   {
     "type": "BP",
     "name": "BP_SandblastedRockIsland_2",
-    "path": "Content\\LevelElements\\RoomObjects\\Carvers\\"
+    "path": "Game/LevelElements/RoomObjects/Carvers/"
   },
   {
     "type": "BP",
     "name": "BP_SandblastedRockIsland_3",
-    "path": "Content\\LevelElements\\RoomObjects\\Carvers\\"
+    "path": "Game/LevelElements/RoomObjects/Carvers/"
   },
   {
     "type": "BP",
     "name": "BP_SandblastedRockIsland_4",
-    "path": "Content\\LevelElements\\RoomObjects\\Carvers\\"
+    "path": "Game/LevelElements/RoomObjects/Carvers/"
   },
   {
     "type": "BP",
     "name": "BP_CozyTreeHollow_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\CozyTreeHollows\\"
+    "path": "Game/LevelElements/RoomObjects/CozyTreeHollows/"
   },
   {
     "type": "BP",
     "name": "BP_CozyTreeHollow_Double_A",
-    "path": "Content\\LevelElements\\RoomObjects\\CozyTreeHollows\\"
+    "path": "Game/LevelElements/RoomObjects/CozyTreeHollows/"
   },
   {
     "type": "BP",
     "name": "BP_CozyTreeHollow_Double_B",
-    "path": "Content\\LevelElements\\RoomObjects\\CozyTreeHollows\\"
+    "path": "Game/LevelElements/RoomObjects/CozyTreeHollows/"
   },
   {
     "type": "BP",
     "name": "BP_CozyTreeHollow_Single",
-    "path": "Content\\LevelElements\\RoomObjects\\CozyTreeHollows\\"
+    "path": "Game/LevelElements/RoomObjects/CozyTreeHollows/"
   },
   {
     "type": "BP",
     "name": "BP_CozyTreeHollow_Tripple",
-    "path": "Content\\LevelElements\\RoomObjects\\CozyTreeHollows\\"
+    "path": "Game/LevelElements/RoomObjects/CozyTreeHollows/"
   },
   {
     "type": "BP",
     "name": "BP_CreepyEyes",
-    "path": "Content\\LevelElements\\RoomObjects\\CreepyEyes\\"
+    "path": "Game/LevelElements/RoomObjects/CreepyEyes/"
   },
   {
     "type": "BP",
     "name": "BP_FossilsBase",
-    "path": "Content\\LevelElements\\RoomObjects\\Fossils\\"
+    "path": "Game/LevelElements/RoomObjects/Fossils/"
   },
   {
     "type": "BP",
     "name": "BP_Fossil_BigLizard_Rib01",
-    "path": "Content\\LevelElements\\RoomObjects\\Fossils\\"
+    "path": "Game/LevelElements/RoomObjects/Fossils/"
   },
   {
     "type": "BP",
     "name": "BP_Fossil_BigLizard_Ribcage",
-    "path": "Content\\LevelElements\\RoomObjects\\Fossils\\"
+    "path": "Game/LevelElements/RoomObjects/Fossils/"
   },
   {
     "type": "BP",
     "name": "BP_Fossil_BigLizard_Skull01",
-    "path": "Content\\LevelElements\\RoomObjects\\Fossils\\"
+    "path": "Game/LevelElements/RoomObjects/Fossils/"
   },
   {
     "type": "BP",
     "name": "BP_HangingDustCloud",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/"
   },
   {
     "type": "BP",
     "name": "BP_RainFallLocal",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/"
   },
   {
     "type": "BP",
     "name": "BP_Geyser_Air",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\AirGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/AirGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_BombSpitter",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\BombSpitter\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/BombSpitter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_BombSpitter",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\BombSpitter\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/BombSpitter/"
   },
   {
     "type": "BP",
     "name": "BP_CactusShooterPlant",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\CactusShooter\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/CactusShooter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_CactusSpike",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\CactusShooter\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/CactusShooter/"
   },
   {
     "type": "BP",
     "name": "BP_CHimneyGeyser01_Carved",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ChimneyGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_ChimneyGeyser02_Carved",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ChimneyGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_ChimneyGeyser03_Carved",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ChimneyGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_Chimney_Geyser_Carved_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ChimneyGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_DropSpike_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\DropSpike\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/DropSpike/"
   },
   {
     "type": "BP",
     "name": "BP_DropSpike_Ice",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\DropSpike\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/DropSpike/"
   },
   {
     "type": "BP",
     "name": "BP_DropSpike_Salt",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\DropSpike\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/DropSpike/"
   },
   {
     "type": "BP",
     "name": "BP_Electrobeam",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ElectricPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ElectricPlant/"
   },
   {
     "type": "ENE",
     "name": "ENE_ElectricPlantVThree",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ElectricPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ElectricPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingGooPlant_Fast_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingGooPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingGooPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingGooPlant_Fast_Large",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingGooPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingGooPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingGooPlant_Fast_Medium",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingGooPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingGooPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingGooPlant_Puddle",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingGooPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingGooPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlantA_Large",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlantA_Medium",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlantA_Small",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlant_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlant_Large",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlant_Medium",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingPlant_Small",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\ExplodingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/ExplodingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_FragilePlatform",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\FragilePlatform\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/FragilePlatform/"
   },
   {
     "type": "BP",
     "name": "BP_Geyser_Frost",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\FrostGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/FrostGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_Geyser_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\Geyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/Geyser/"
   },
   {
     "type": "BP",
     "name": "BP_Glacier_2",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\Glacier\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/Glacier/"
   },
   {
     "type": "BP",
     "name": "BP_IceCrevasse_Trap",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\IceCrevasse\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/IceCrevasse/"
   },
   {
     "type": "BP",
     "name": "BP_IceCrevasse_Trap_Big",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\IceCrevasse\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/IceCrevasse/"
   },
   {
     "type": "BP",
     "name": "BP_ExplodingIcePlant",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\IceExplosivePlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/IceExplosivePlant/"
   },
   {
     "type": "ENE",
     "name": "ENE_InsectSwarm",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/"
   },
   {
     "type": "ENE",
     "name": "ENE_InsectSwarm_Spawner",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/"
   },
   {
     "type": "ENE",
     "name": "ENE_BoughWasp_Nest_Medium",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\HollowBoughVersion\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/HollowBoughVersion/"
   },
   {
     "type": "ENE",
     "name": "ENE_BoughWasp_Nest_Medium2",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\HollowBoughVersion\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/HollowBoughVersion/"
   },
   {
     "type": "ENE",
     "name": "ENE_BoughWasp_Nest_Medium3",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\HollowBoughVersion\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/HollowBoughVersion/"
   },
   {
     "type": "ENE",
     "name": "ENE_BoughWasp_Nest_Small",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\HollowBoughVersion\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/HollowBoughVersion/"
   },
   {
     "type": "ENE",
     "name": "ENE_BoughWasp_Swarm",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\InsectSwarm\\HollowBoughVersion\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/InsectSwarm/HollowBoughVersion/"
   },
   {
     "type": "BP",
     "name": "BP_Geyser_Lava",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\LavaGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/LavaGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_SmallLavaGeyser",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\LavaGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/LavaGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_SmallLavaGeyserFiledOrigin",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\LavaGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/LavaGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_PoisonGasFungus",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\PoisonGasFungus\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/PoisonGasFungus/"
   },
   {
     "type": "BP",
     "name": "BP_PoisonGasFungus_PoisonGasCloud",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\PoisonGasFungus\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/PoisonGasFungus/"
   },
   {
     "type": "BP",
     "name": "BP_MagmaQuakeCrevasse_Trap",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\QuakeCrevasse\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/QuakeCrevasse/"
   },
   {
     "type": "BP",
     "name": "BP_Geyser_Sand",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SandGeyser\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SandGeyser/"
   },
   {
     "type": "BP",
     "name": "BP_SeaUrchin",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SeaUrchin\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SeaUrchin/"
   },
   {
     "type": "BP",
     "name": "BP_DreadnoughtEgg",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SpiderEgg\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpiderEgg/"
   },
   {
     "type": "BP",
     "name": "BP_SpiderEgg",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SpiderEgg\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpiderEgg/"
   },
   {
     "type": "BP",
     "name": "BP_SpiderEgg2",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SpiderEgg\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpiderEgg/"
   },
   {
     "type": "BP",
     "name": "BP_SpiderEgg3",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SpiderEgg\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpiderEgg/"
   },
   {
     "type": "BP",
     "name": "BP_SpiderEgg_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SpiderEgg\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpiderEgg/"
   },
   {
     "type": "BP",
     "name": "BP_SpikeyPlant",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SpikyPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpikyPlant/"
   },
   {
     "type": "BP",
     "name": "BP_StickySpiderWeb",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\StickySpiderWeb\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/StickySpiderWeb/"
   },
   {
     "type": "BP",
     "name": "BP_StickySpiderWeb_New",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\StickySpiderWeb\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/StickySpiderWeb/"
   },
   {
     "type": "BP",
     "name": "BP_StickySpiderWeb_New_Big",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\StickySpiderWeb\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/StickySpiderWeb/"
   },
   {
     "type": "BP",
     "name": "BP_StickySpiderWeb_New_Corner",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\StickySpiderWeb\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/StickySpiderWeb/"
   },
   {
     "type": "BP",
     "name": "BP_SuckingPlant_",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SuckingPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SuckingPlant/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnel",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnelsBase",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnels_variant_1",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnels_variant_2",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnels_variant_3",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnels_variant_4",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnels_variant_5",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_SwarmerTunnels_variant_6",
-    "path": "Content\\LevelElements\\RoomObjects\\Hazards\\SwarmerTunnel\\"
+    "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
     "type": "BP",
     "name": "BP_ElevatorPlant",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\ElevatorPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/ElevatorPlant/"
   },
   {
     "type": "BP",
     "name": "BP_FloatingLightPlant2",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\FloatingLightPlant\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/FloatingLightPlant/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalRockPillar_1",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_GlowingBlueCrystal_1",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_GlowingBlueCrystal_2",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_GlowingBlueCrystal_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_RadioactiveGlowinggGreenCrystal_Hazard",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_GlowingRedCrystal_1",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\RedCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/RedCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_GlowingRedCrystal_2",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowingLightCrystals\\RedCrystals\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowingLightCrystals/RedCrystals/"
   },
   {
     "type": "BP",
     "name": "BP_GlowingPlant",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\GlowTrees\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/GlowTrees/"
   },
   {
     "type": "BP",
     "name": "BP_HotSpring",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\HotSpring\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/HotSpring/"
   },
   {
     "type": "BP",
     "name": "BP_IceLight",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\IceLights\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/IceLights/"
   },
   {
     "type": "BP",
     "name": "BP_PlatformIcePlant",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\PlatformIcePlant\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/PlatformIcePlant/"
   },
   {
     "type": "BP",
     "name": "BP_PlatformMushroom_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\PlatformMushrooms\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/PlatformMushrooms/"
   },
   {
     "type": "BP",
     "name": "BP_PLatformMushroom_L",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\PlatformMushrooms\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/PlatformMushrooms/"
   },
   {
     "type": "BP",
     "name": "BP_PLatformMushroom_M",
-    "path": "Content\\LevelElements\\RoomObjects\\Helpers\\PlatformMushrooms\\"
+    "path": "Game/LevelElements/RoomObjects/Helpers/PlatformMushrooms/"
   },
   {
     "type": "BP",
     "name": "BP_BrokenDNA_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\BrokenDNA\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/BrokenDNA/"
   },
   {
     "type": "BP",
     "name": "BP_BrokenDNA_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\BrokenDNA\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/BrokenDNA/"
   },
   {
     "type": "BP",
     "name": "BP_BrokenDNA_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\BrokenDNA\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/BrokenDNA/"
   },
   {
     "type": "BP",
     "name": "BP_BrokenDNA_4_AutoRot",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\BrokenDNA\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/BrokenDNA/"
   },
   {
     "type": "BP",
     "name": "BP_BrokenDNA_5_AutoRot",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\BrokenDNA\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/BrokenDNA/"
   },
   {
     "type": "BP",
     "name": "BP_BrokenDNA_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\BrokenDNA\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/BrokenDNA/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalArch_01",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\CrystalArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/CrystalArches/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalArch_01_Big",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\CrystalArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/CrystalArches/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalArch_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\CrystalArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/CrystalArches/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalArch_2_Big",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\CrystalArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/CrystalArches/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalArch_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\CrystalArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/CrystalArches/"
   },
   {
     "type": "BP",
     "name": "BP_HumongousFungus_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\HumongousFungus\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/HumongousFungus/"
   },
   {
     "type": "BP",
     "name": "BP_HumongousFungus_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\HumongousFungus\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/HumongousFungus/"
   },
   {
     "type": "BP",
     "name": "BP_HumongousFungus_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\HumongousFungus\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/HumongousFungus/"
   },
   {
     "type": "BP",
     "name": "BP_HumongousFungus_4",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\HumongousFungus\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/HumongousFungus/"
   },
   {
     "type": "BP",
     "name": "BP_HumongousFungus_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\HumongousFungus\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/HumongousFungus/"
   },
   {
     "type": "BP",
     "name": "BP_IceFormation_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\IceFormation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/IceFormation/"
   },
   {
     "type": "BP",
     "name": "BP_IceFormation_Claw_A",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\IceFormation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/IceFormation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_2Platuaes_B",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\IceFormation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/IceFormation/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_4",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_5",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_6",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_LargeCoral_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCoral\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCoral/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormationsSpikyBunch_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_01",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_01Rot",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_02",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_02Rot",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_02Small",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_03Rot",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_03_Small",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_04",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_04Rot",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_05",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_06",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillars_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillar_Solo_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillar_Solo_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormations_SlantedPillar_Solo_Skinny",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormation_SpikyBunch_01",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormation_SpikyBunch_02",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormation_SpikyBunch_03",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_CrystalFormation_SpikyBunch_04",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_HugeCrystalStar_1_Double",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_HugeCrystalStar_2_Double",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_HugeCrystalStar_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_HugeCrystalStar_4_Low",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_HugeCrystalStar_5_Double",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_HugeCrystalStar_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\LargeCrystalFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/LargeCrystalFormations/"
   },
   {
     "type": "BP",
     "name": "BP_MangroveRock_01",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_MangroveRock_02",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_MangroveRock_03",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_MangroveRock_04",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_MangroveRock_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_SmallMangroveRoot_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_SmallMangroveRoot_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_SmallMangroveRoot_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_SmallMangroveRoot_4",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\MangroveRockStructures\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/MangroveRockStructures/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_3_Fallen",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_4",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_4_Fallen",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_5-small",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_5",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_6-Tall",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_6",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_NausicaaTreeTrunk_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\NausicaaTreeTrunks\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/NausicaaTreeTrunks/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Stone_009",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Stone_010",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Stone_011",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Stone_014",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Stone_12",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_RockFormation_Stone_13",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Rockformation\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Rockformation/"
   },
   {
     "type": "BP",
     "name": "BP_HugeRoots_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Roots\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Roots/"
   },
   {
     "type": "BP",
     "name": "BP_HugeRoots_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Roots\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Roots/"
   },
   {
     "type": "BP",
     "name": "BP_HureRoots_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\Roots\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/Roots/"
   },
   {
     "type": "BP",
     "name": "BP_SaltColumnGrowth_02",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SaltFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SaltFormations/"
   },
   {
     "type": "BP",
     "name": "BP_SaltFormations_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SaltFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SaltFormations/"
   },
   {
     "type": "BP",
     "name": "BP_SaltFormation_Large_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SaltFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SaltFormations/"
   },
   {
     "type": "BP",
     "name": "BP_SaltFormation_Large_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SaltFormations\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SaltFormations/"
   },
   {
     "type": "BP",
     "name": "BP_AzureWealdArch_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_AzureWealdArch_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_AzureWealdArch_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_SandArch_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_SandArch_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_SandArch_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_SandArch_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\SandArches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/SandArches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeThornBranch_1_NEW",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeThornBranch_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeStabbyThorn",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeThornBranch_2_NEW",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeThornBranch_3_NEW",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_ThornVinesChokingWoodRoots_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_ThornVinesChokingWoodRoots_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_ThornVinesChokingWoodRoots_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_ThornVinesChokingWoodRoots_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_LargeStabbyThorn",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeLongRoot_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeLongRoot_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeLongRoot_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeRoots_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeTrippleRoot_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_HugeTrippleRoot_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeHollowLog_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeLongRootLoop_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeLongRootLoop_2",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeLongRootLoop_3",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeLongRootLoop_4",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeRootHole_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_LargeRootKnob_1",
-    "path": "Content\\LevelElements\\RoomObjects\\HugeCarvers\\WoodBranches\\"
+    "path": "Game/LevelElements/RoomObjects/HugeCarvers/WoodBranches/"
   },
   {
     "type": "BP",
     "name": "BP_Phys_KickableObject_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/"
   },
   {
     "type": "BP",
     "name": "BP_PhysicsPineCone",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalPinecones\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalPinecones/"
   },
   {
     "type": "BP",
     "name": "BP_PhysicsPineCone_Small",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalPinecones\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalPinecones/"
   },
   {
     "type": "BP",
     "name": "BP_PineconeSpawner_3",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalPinecones\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalPinecones/"
   },
   {
     "type": "BP",
     "name": "BP_PineconeSpawner_4",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalPinecones\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalPinecones/"
   },
   {
     "type": "BP",
     "name": "BP_PineconeSpawner_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalPinecones\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalPinecones/"
   },
   {
     "type": "BP",
     "name": "BP_PhysicsTumbleweed",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalTumbleWeed\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalTumbleWeed/"
   },
   {
     "type": "BP",
     "name": "BP_TumbleweedSpawner",
-    "path": "Content\\LevelElements\\RoomObjects\\LoosePhysicalObjects\\PhysicalTumbleWeed\\"
+    "path": "Game/LevelElements/RoomObjects/LoosePhysicalObjects/PhysicalTumbleWeed/"
   },
   {
     "type": "BP",
     "name": "BP_AnimatedFoliage_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_Foliage_OpenOnProximity",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_LongStemFungus",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_MorchellaFungus",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_NetFungus",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_PassiveFoliage_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_ShortStemFungus",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_SlimyFungus",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_SlimyFungus_XL",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/"
   },
   {
     "type": "BP",
     "name": "BP_CoralTongue_Animated",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\CoralTongue\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/CoralTongue/"
   },
   {
     "type": "BP",
     "name": "BP_CribrariaPlant_A",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\CribrariaPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/CribrariaPlant/"
   },
   {
     "type": "BP",
     "name": "BP_CribrariaPlant_B",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\CribrariaPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/CribrariaPlant/"
   },
   {
     "type": "BP",
     "name": "BP_CribrariaPlant_C",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\CribrariaPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/CribrariaPlant/"
   },
   {
     "type": "BP",
     "name": "BP_Mushroom_01",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\HarmlessSporesMushroom\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/HarmlessSporesMushroom/"
   },
   {
     "type": "BP",
     "name": "BP_Mushroom_02",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\HarmlessSporesMushroom\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/HarmlessSporesMushroom/"
   },
   {
     "type": "BP",
     "name": "BP_Mushroom_03",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\HarmlessSporesMushroom\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/HarmlessSporesMushroom/"
   },
   {
     "type": "BP",
     "name": "BP_Mushroom_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\HarmlessSporesMushroom\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/HarmlessSporesMushroom/"
   },
   {
     "type": "BP",
     "name": "BP_MouthPlant",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\MouthPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/MouthPlant/"
   },
   {
     "type": "BP",
     "name": "BP_PingPongPlant_A",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\PingPongPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/PingPongPlant/"
   },
   {
     "type": "BP",
     "name": "BP_PingPongPlant_B",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\PingPongPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/PingPongPlant/"
   },
   {
     "type": "BP",
     "name": "BP_RadioactiveBlobPlant_01",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\RadioactiveBlobPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/RadioactiveBlobPlant/"
   },
   {
     "type": "BP",
     "name": "BP_RadioactiveBlobPlant_02",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\RadioactiveBlobPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/RadioactiveBlobPlant/"
   },
   {
     "type": "BP",
     "name": "BP_WormPlant_Animated_Magma",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\WormPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/WormPlant/"
   },
   {
     "type": "BP",
     "name": "BP_WormPlant_Animated_Radioactive",
-    "path": "Content\\LevelElements\\RoomObjects\\PassiveFoliage\\WormPlant\\"
+    "path": "Game/LevelElements/RoomObjects/PassiveFoliage/WormPlant/"
   },
   {
     "type": "BP",
     "name": "BP_CaveVine",
-    "path": "Content\\LevelElements\\RoomObjects\\SmartCaveVine\\"
+    "path": "Game/LevelElements/RoomObjects/SmartCaveVine/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Base",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_BendThroughGround_01",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_BendThroughGround_02",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_BendThroughGround_03",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Large_01",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Large_02",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Large_03",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Large_04",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Small_01",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Small_02",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_Small_03",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_ThroughGround_01",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_CreeperVine_ThroughGround_02",
-    "path": "Content\\LevelElements\\RoomObjects\\ThornBranches\\"
+    "path": "Game/LevelElements/RoomObjects/ThornBranches/"
   },
   {
     "type": "BP",
     "name": "BP_GravitySwitch",
-    "path": "Content\\LevelElements\\Spacerig\\"
+    "path": "Game/LevelElements/Spacerig/"
   },
   {
     "type": "BP",
     "name": "BP_DrinksBox",
-    "path": "Content\\LevelElements\\Spacerig\\Bar\\DrinksDispenser\\Assets\\"
+    "path": "Game/LevelElements/Spacerig/Bar/DrinksDispenser/Assets/"
   },
   {
     "type": "BP",
     "name": "BP_BarrelSpawner",
-    "path": "Content\\LevelElements\\Spacerig\\Bar\\Hoops\\"
+    "path": "Game/LevelElements/Spacerig/Bar/Hoops/"
   },
   {
     "type": "BP",
     "name": "BP_HoopsGame",
-    "path": "Content\\LevelElements\\Spacerig\\Bar\\Hoops\\"
+    "path": "Game/LevelElements/Spacerig/Bar/Hoops/"
   },
   {
     "type": "BP",
     "name": "BP_SphereTrigger",
-    "path": "Content\\LevelElements\\Triggers\\"
+    "path": "Game/LevelElements/Triggers/"
   },
   {
     "type": "BP",
     "name": "BP_TriggerBase",
-    "path": "Content\\LevelElements\\Triggers\\"
+    "path": "Game/LevelElements/Triggers/"
   },
   {
     "type": "BP",
     "name": "BP_SpecialTutorialCrystal",
-    "path": "Content\\LevelElements\\Tutorial\\"
+    "path": "Game/LevelElements/Tutorial/"
   },
   {
     "type": "BP",
     "name": "BP_TutorialComponent",
-    "path": "Content\\LevelElements\\Tutorial\\"
+    "path": "Game/LevelElements/Tutorial/"
   },
   {
     "type": "BP",
     "name": "BP_TutorialDroppodLocation",
-    "path": "Content\\LevelElements\\Tutorial\\"
+    "path": "Game/LevelElements/Tutorial/"
   },
   {
     "type": "BP",
     "name": "BP_TutorialTriggerManager",
-    "path": "Content\\LevelElements\\Tutorial\\"
+    "path": "Game/LevelElements/Tutorial/"
   },
   {
     "type": "BP",
     "name": "BP_Portal",
-    "path": "Content\\Maps\\UILevels\\"
+    "path": "Game/Maps/UILevels/"
   },
   {
     "type": "BP",
     "name": "BP_DeepDive_SEQ_DropPod",
-    "path": "Content\\Maps\\UILevels\\Assets\\"
+    "path": "Game/Maps/UILevels/Assets/"
   },
   {
     "type": "BP",
     "name": "BP_Count_Randoms",
-    "path": "Content\\Maps\\UILevels\\Assets\\HUD\\"
+    "path": "Game/Maps/UILevels/Assets/HUD/"
   },
   {
     "type": "BP",
     "name": "BP_Count_Randoms_Widget",
-    "path": "Content\\Maps\\UILevels\\Assets\\HUD\\"
+    "path": "Game/Maps/UILevels/Assets/HUD/"
   },
   {
     "type": "BP",
     "name": "BP_DepthCount",
-    "path": "Content\\Maps\\UILevels\\Assets\\HUD\\"
+    "path": "Game/Maps/UILevels/Assets/HUD/"
   },
   {
     "type": "BP",
     "name": "BP_DepthCountWidget",
-    "path": "Content\\Maps\\UILevels\\Assets\\HUD\\"
+    "path": "Game/Maps/UILevels/Assets/HUD/"
   },
   {
     "type": "BP",
     "name": "BP_Ping_Widget",
-    "path": "Content\\Maps\\UILevels\\Assets\\HUD\\"
+    "path": "Game/Maps/UILevels/Assets/HUD/"
   },
   {
     "type": "LIB",
     "name": "LIB_LoaderImages",
-    "path": "Content\\Maps\\UILevels\\ScreenShots\\"
+    "path": "Game/Maps/UILevels/ScreenShots/"
   },
   {
     "type": "BP",
     "name": "BP_FriendStatus",
-    "path": "Content\\UI\\"
+    "path": "Game/UI/"
   },
   {
     "type": "BP",
     "name": "BP_MissionStatScreen",
-    "path": "Content\\UI\\"
+    "path": "Game/UI/"
   },
   {
     "type": "BP",
     "name": "BP_Nametag_Actor",
-    "path": "Content\\UI\\"
+    "path": "Game/UI/"
   },
   {
     "type": "BP",
     "name": "BP_Screen",
-    "path": "Content\\UI\\"
+    "path": "Game/UI/"
   },
   {
     "type": "BP",
     "name": "BP_UIScreenTest",
-    "path": "Content\\UI\\"
+    "path": "Game/UI/"
   },
   {
     "type": "LIB",
     "name": "LIB_Input",
-    "path": "Content\\UI\\"
+    "path": "Game/UI/"
   },
   {
     "type": "LIB",
     "name": "LIB_MenuColors",
-    "path": "Content\\UI\\Art\\WidgetParts\\"
+    "path": "Game/UI/Art/WidgetParts/"
   },
   {
     "type": "LIB",
     "name": "LIB_PerkColors",
-    "path": "Content\\UI\\Art\\WidgetParts\\"
+    "path": "Game/UI/Art/WidgetParts/"
   },
   {
     "type": "BP",
     "name": "BP_BaseSpaceRigConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_BoscoConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_ChangeCharacterConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_CharCustomizationConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_CheatConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_CraftingConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DeepDiveConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DeepDiveConsole_CharSelect",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DropPodScreen",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_Empty",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_ForgeConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_ForgeScreen",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_HUD_SpaceRig",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_JobsConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_MapConsoleTMP",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_MemorialQuotes",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_MemorialWall",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_MissionStats",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_MotivationalQuotes",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_PickaxeConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_QuickJoinGameConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_SelectCharacterOnlyConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_ShootingRangeConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_TradingConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_TutorialConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DiscordConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DiscordConsoleWhite",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DiscordEoMConsole",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DiscordInstantUsable",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_DeathStats",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_ConsoleKPI",
-    "path": "Content\\UI\\HUD"
+    "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_TextDisplay",
-    "path": "Content\\UI\\IngameTextDisplay\\"
+    "path": "Game/UI/IngameTextDisplay/"
   },
   {
     "type": "BP",
     "name": "BP_HUD",
-    "path": "Content\\UI\\MainOnscreenHUD\\"
+    "path": "Game/UI/MainOnscreenHUD/"
   },
   {
     "type": "BP",
     "name": "BP_UITesting",
-    "path": "Content\\UI\\MainOnscreenHUD\\"
+    "path": "Game/UI/MainOnscreenHUD/"
   },
   {
     "type": "BP",
     "name": "BP_Invitation",
-    "path": "Content\\UI\\Menu"
+    "path": "Game/UI/Menu"
   },
   {
     "type": "BP",
     "name": "BP_MinersManualData",
-    "path": "Content\\UI\\Menu"
+    "path": "Game/UI/Menu"
   },
   {
     "type": "BP",
     "name": "BP_HologramBiome",
-    "path": "Content\\UI\\Menu"
+    "path": "Game/UI/Menu"
   },
   {
     "type": "BP",
     "name": "BP_Promotion_Console",
-    "path": "Content\\UI\\MENU"
+    "path": "Game/UI/MENU"
   },
   {
     "type": "BP",
     "name": "BP_CharacterShowroomController",
-    "path": "Content\\UI\\Showroom\\"
+    "path": "Game/UI/Showroom/"
   },
   {
     "type": "BP",
     "name": "BP_Character_ShowroomStage",
-    "path": "Content\\UI\\Showroom\\"
+    "path": "Game/UI/Showroom/"
   },
   {
     "type": "BP",
     "name": "BP_EnemyShowroomController",
-    "path": "Content\\UI\\Showroom\\"
+    "path": "Game/UI/Showroom/"
   },
   {
     "type": "BP",
     "name": "BP_PostGetOpacityFromDepth",
-    "path": "Content\\UI\\Showroom\\"
+    "path": "Game/UI/Showroom/"
   },
   {
     "type": "BP",
     "name": "BP_ShowRoomItem",
-    "path": "Content\\UI\\Showroom\\"
+    "path": "Game/UI/Showroom/"
   },
   {
     "type": "BP",
     "name": "BP_ShowroomStage",
-    "path": "Content\\UI\\Showroom\\"
+    "path": "Game/UI/Showroom/"
   },
   {
     "type": "LIB",
     "name": "LIB_ToolTips",
-    "path": "Content\\UI\\ToolTips\\"
+    "path": "Game/UI/ToolTips/"
   },
   {
     "type": "BPL",
     "name": "BPL_UpgradeHelpers",
-    "path": "Content\\WeaponsNTools\\"
+    "path": "Game/WeaponsNTools/"
   },
   {
     "type": "BPL",
     "name": "BPL_Armor",
-    "path": "Content\\WeaponsNTools\\Armor\\"
+    "path": "Game/WeaponsNTools/Armor/"
   },
   {
     "type": "BP",
     "name": "BP_Armor_Driller",
-    "path": "Content\\WeaponsNTools\\Armor\\"
+    "path": "Game/WeaponsNTools/Armor/"
   },
   {
     "type": "BP",
     "name": "BP_Armor_Engineer",
-    "path": "Content\\WeaponsNTools\\Armor\\"
+    "path": "Game/WeaponsNTools/Armor/"
   },
   {
     "type": "BP",
     "name": "BP_Armor_Gunner",
-    "path": "Content\\WeaponsNTools\\Armor\\"
+    "path": "Game/WeaponsNTools/Armor/"
   },
   {
     "type": "BP",
     "name": "BP_Armor_Scout",
-    "path": "Content\\WeaponsNTools\\Armor\\"
+    "path": "Game/WeaponsNTools/Armor/"
   },
   {
     "type": "WPN",
     "name": "WPN_AssaultRifle",
-    "path": "Content\\WeaponsNTools\\AssaultRifle\\"
+    "path": "Game/WeaponsNTools/AssaultRifle/"
   },
   {
     "type": "BP",
     "name": "BP_ElectricReloadComponent",
-    "path": "Content\\WeaponsNTools\\AssaultRifle\\Overclocks\\OC"
+    "path": "Game/WeaponsNTools/AssaultRifle/Overclocks/OC"
   },
   {
     "type": "WPN",
     "name": "WPN_Autocannon",
-    "path": "Content\\WeaponsNTools\\Autocannon\\"
+    "path": "Game/WeaponsNTools/Autocannon/"
   },
   {
     "type": "BP",
     "name": "BP_ItemMarker_Base",
-    "path": "Content\\WeaponsNTools\\BaseBlueprints\\"
+    "path": "Game/WeaponsNTools/BaseBlueprints/"
   },
   {
     "type": "WPN",
     "name": "WPN_M1000",
-    "path": "Content\\WeaponsNTools\\BoltActionRifle\\"
+    "path": "Game/WeaponsNTools/BoltActionRifle/"
   },
   {
     "type": "WPN",
     "name": "WPN_BurstPistol",
-    "path": "Content\\WeaponsNTools\\BurstFirePistol\\"
+    "path": "Game/WeaponsNTools/BurstFirePistol/"
   },
   {
     "type": "BP",
     "name": "BP_BRT_Bomb",
-    "path": "Content\\WeaponsNTools\\BurstFirePistol\\Overclocks\\OCBonusPenalty\\"
+    "path": "Game/WeaponsNTools/BurstFirePistol/Overclocks/OCBonusPenalty/"
   },
   {
     "type": "BP",
     "name": "BP_CreateBombOnHit",
-    "path": "Content\\WeaponsNTools\\BurstFirePistol\\Overclocks\\OCBonusPenalty\\"
+    "path": "Game/WeaponsNTools/BurstFirePistol/Overclocks/OCBonusPenalty/"
   },
   {
     "type": "BP",
     "name": "BP_DamageOnReloadComponent_BRT",
-    "path": "Content\\WeaponsNTools\\BurstFirePistol\\Overclocks\\OCBonusPenalty\\"
+    "path": "Game/WeaponsNTools/BurstFirePistol/Overclocks/OCBonusPenalty/"
   },
   {
     "type": "BP",
     "name": "BP_Zhukov_IceMines",
-    "path": "Content\\WeaponsNTools\\BurstFirePistol\\Overclocks\\OCBonusPenalty\\"
+    "path": "Game/WeaponsNTools/BurstFirePistol/Overclocks/OCBonusPenalty/"
   },
   {
     "type": "BP",
     "name": "BP_PersistentExplosionEffect_EPC",
-    "path": "Content\\WeaponsNTools\\ChargeBlaster\\"
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ChargedBlasterShot",
-    "path": "Content\\WeaponsNTools\\ChargeBlaster\\"
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_NormalBlasterShot",
-    "path": "Content\\WeaponsNTools\\ChargeBlaster\\"
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
   },
   {
     "type": "WPN",
     "name": "WPN_ChargeBlaster",
-    "path": "Content\\WeaponsNTools\\ChargeBlaster\\"
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
   },
   {
     "type": "WPN",
     "name": "WPN_CombatShotgun",
-    "path": "Content\\WeaponsNTools\\CombatShotgun\\"
+    "path": "Game/WeaponsNTools/CombatShotgun/"
   },
   {
     "type": "BP",
     "name": "BP_StickyFrost",
-    "path": "Content\\WeaponsNTools\\Cryospray\\"
+    "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Crye_SnowBall",
-    "path": "Content\\WeaponsNTools\\Cryospray\\"
+    "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Cryocannon",
-    "path": "Content\\WeaponsNTools\\Cryospray\\"
+    "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
     "type": "WPN",
     "name": "WPN_Cryospray",
-    "path": "Content\\WeaponsNTools\\Cryospray\\"
+    "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
     "type": "BP",
     "name": "BP_DetPack_Charge",
-    "path": "Content\\WeaponsNTools\\DetPack\\"
+    "path": "Game/WeaponsNTools/DetPack/"
   },
   {
     "type": "BP",
     "name": "BP_Detpack_LoadoutProxy",
-    "path": "Content\\WeaponsNTools\\DetPack\\"
+    "path": "Game/WeaponsNTools/DetPack/"
   },
   {
     "type": "WPN",
     "name": "WPN_DetPack_Detonator",
-    "path": "Content\\WeaponsNTools\\DetPack\\"
+    "path": "Game/WeaponsNTools/DetPack/"
   },
   {
     "type": "WPN",
     "name": "WPN_DetPack_Detonator_Driller",
-    "path": "Content\\WeaponsNTools\\DetPack\\"
+    "path": "Game/WeaponsNTools/DetPack/"
   },
   {
     "type": "WPN",
     "name": "WPN_DoubleDrills",
-    "path": "Content\\WeaponsNTools\\Drills\\"
+    "path": "Game/WeaponsNTools/Drills/"
   },
   {
     "type": "WPN",
     "name": "WPN_DualMPs",
-    "path": "Content\\WeaponsNTools\\DualMachinePistols\\"
+    "path": "Game/WeaponsNTools/DualMachinePistols/"
   },
   {
     "type": "BP",
     "name": "BP_CreateBombOnHit_DualMP",
-    "path": "Content\\WeaponsNTools\\DualMachinePistols\\Overclocks\\OC"
+    "path": "Game/WeaponsNTools/DualMachinePistols/Overclocks/OC"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveReloadComponent_DualMP",
-    "path": "Content\\WeaponsNTools\\DualMachinePistols\\Overclocks\\OC"
+    "path": "Game/WeaponsNTools/DualMachinePistols/Overclocks/OC"
   },
   {
     "type": "WPN",
     "name": "WPN_Extractor",
-    "path": "Content\\WeaponsNTools\\Extractor\\"
+    "path": "Game/WeaponsNTools/Extractor/"
   },
   {
     "type": "WPN",
     "name": "WPN_OilExtractor",
-    "path": "Content\\WeaponsNTools\\Extractor\\"
+    "path": "Game/WeaponsNTools/Extractor/"
   },
   {
     "type": "BP",
     "name": "BP_StickyFlame",
-    "path": "Content\\WeaponsNTools\\FlameThrower\\"
+    "path": "Game/WeaponsNTools/FlameThrower/"
   },
   {
     "type": "WPN",
     "name": "WPN_FlameThrower",
-    "path": "Content\\WeaponsNTools\\FlameThrower\\"
+    "path": "Game/WeaponsNTools/FlameThrower/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_FlareGun_Projectile01",
-    "path": "Content\\WeaponsNTools\\FlareGun\\"
+    "path": "Game/WeaponsNTools/FlareGun/"
   },
   {
     "type": "WPN",
     "name": "WPN_FlareGun",
-    "path": "Content\\WeaponsNTools\\FlareGun\\"
+    "path": "Game/WeaponsNTools/FlareGun/"
   },
   {
     "type": "BP",
     "name": "BP_FuelLine_EndPoint",
-    "path": "Content\\WeaponsNTools\\FuelLineBuilder\\"
+    "path": "Game/WeaponsNTools/FuelLineBuilder/"
   },
   {
     "type": "BP",
     "name": "BP_FuelLine_Segment",
-    "path": "Content\\WeaponsNTools\\FuelLineBuilder\\"
+    "path": "Game/WeaponsNTools/FuelLineBuilder/"
   },
   {
     "type": "BP",
     "name": "BP_FuelLine_StartPoint",
-    "path": "Content\\WeaponsNTools\\FuelLineBuilder\\"
+    "path": "Game/WeaponsNTools/FuelLineBuilder/"
   },
   {
     "type": "WPN",
     "name": "WPN_FuelLine_Builder",
-    "path": "Content\\WeaponsNTools\\FuelLineBuilder\\"
+    "path": "Game/WeaponsNTools/FuelLineBuilder/"
   },
   {
     "type": "WPN",
     "name": "WPN_Gatling",
-    "path": "Content\\WeaponsNTools\\GatlingGun\\"
+    "path": "Game/WeaponsNTools/GatlingGun/"
   },
   {
     "type": "WPN",
     "name": "WPN_GrapplingGun",
-    "path": "Content\\WeaponsNTools\\GrapplingGun\\"
+    "path": "Game/WeaponsNTools/GrapplingGun/"
   },
   {
     "type": "BP",
     "name": "BP_MiniNuke_RadiationCloud",
-    "path": "Content\\WeaponsNTools\\GrenadeLauncher\\"
+    "path": "Game/WeaponsNTools/GrenadeLauncher/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_GrenadeLauncher",
-    "path": "Content\\WeaponsNTools\\GrenadeLauncher\\"
+    "path": "Game/WeaponsNTools/GrenadeLauncher/"
   },
   {
     "type": "WPN",
     "name": "WPN_GrenadeLauncher",
-    "path": "Content\\WeaponsNTools\\GrenadeLauncher\\"
+    "path": "Game/WeaponsNTools/GrenadeLauncher/"
   },
   {
     "type": "BP",
     "name": "BP_Grenade_Axe_Stuck",
-    "path": "Content\\WeaponsNTools\\Grenades\\Axe\\"
+    "path": "Game/WeaponsNTools/Grenades/Axe/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_GrenadeAxe",
-    "path": "Content\\WeaponsNTools\\Grenades\\Axe\\"
+    "path": "Game/WeaponsNTools/Grenades/Axe/"
   },
   {
     "type": "BP",
     "name": "BP_Grenade_IFG_Area_Base",
-    "path": "Content\\WeaponsNTools\\Grenades\\IFG\\"
+    "path": "Game/WeaponsNTools/Grenades/IFG/"
   },
   {
     "type": "BP",
     "name": "BP_Grenade_IFG_Area_SlowAndWeak",
-    "path": "Content\\WeaponsNTools\\Grenades\\IFG\\"
+    "path": "Game/WeaponsNTools/Grenades/IFG/"
   },
   {
     "type": "BP",
     "name": "BP_Grenade_Incendiary_Flame",
-    "path": "Content\\WeaponsNTools\\Grenades\\Incendiary\\"
+    "path": "Game/WeaponsNTools/Grenades/Incendiary/"
   },
   {
     "type": "BP",
     "name": "BP_LureTarget",
-    "path": "Content\\WeaponsNTools\\Grenades\\Lure\\"
+    "path": "Game/WeaponsNTools/Grenades/Lure/"
   },
   {
     "type": "BP",
     "name": "BP_Grenade_Neurotoxin_Cloud",
-    "path": "Content\\WeaponsNTools\\Grenades\\Neurotoxin\\"
+    "path": "Game/WeaponsNTools/Grenades/Neurotoxin/"
   },
   {
     "type": "BP",
     "name": "BP_PheromoneAttackerPositioning",
-    "path": "Content\\WeaponsNTools\\Grenades\\Pheromone\\"
+    "path": "Game/WeaponsNTools/Grenades/Pheromone/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_Grenade_StickySmall",
-    "path": "Content\\WeaponsNTools\\Grenades\\StickySmall\\"
+    "path": "Game/WeaponsNTools/Grenades/StickySmall/"
   },
   {
     "type": "BP",
     "name": "BP_HandheldTablet_Off",
-    "path": "Content\\WeaponsNTools\\HandheldTablet\\"
+    "path": "Game/WeaponsNTools/HandheldTablet/"
   },
   {
     "type": "BP",
     "name": "BP_HandheldTablet_UseProgress",
-    "path": "Content\\WeaponsNTools\\HandheldTablet\\"
+    "path": "Game/WeaponsNTools/HandheldTablet/"
   },
   {
     "type": "BP",
     "name": "BP_LasePointer_SecondaryMarker",
-    "path": "Content\\WeaponsNTools\\LaserPointer\\"
+    "path": "Game/WeaponsNTools/LaserPointer/"
   },
   {
     "type": "BP",
     "name": "BP_LaserPointerWaypoint",
-    "path": "Content\\WeaponsNTools\\LaserPointer\\"
+    "path": "Game/WeaponsNTools/LaserPointer/"
   },
   {
     "type": "BP",
     "name": "BP_LaserPointer_Marker",
-    "path": "Content\\WeaponsNTools\\LaserPointer\\"
+    "path": "Game/WeaponsNTools/LaserPointer/"
   },
   {
     "type": "BP",
     "name": "BP_PointOfInterest",
-    "path": "Content\\WeaponsNTools\\LaserPointer\\"
+    "path": "Game/WeaponsNTools/LaserPointer/"
   },
   {
     "type": "WPN",
     "name": "WPN_LaserPointer",
-    "path": "Content\\WeaponsNTools\\LaserPointer\\"
+    "path": "Game/WeaponsNTools/LaserPointer/"
   },
   {
     "type": "BP",
     "name": "BP_PersistentExplosionEffect_LineCutter",
-    "path": "Content\\WeaponsNTools\\LineCutter\\"
+    "path": "Game/WeaponsNTools/LineCutter/"
   },
   {
     "type": "BP",
     "name": "BP_PlasmaTrail_LineCutter",
-    "path": "Content\\WeaponsNTools\\LineCutter\\"
+    "path": "Game/WeaponsNTools/LineCutter/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_LineCutter2",
-    "path": "Content\\WeaponsNTools\\LineCutter\\"
+    "path": "Game/WeaponsNTools/LineCutter/"
   },
   {
     "type": "WPN",
     "name": "WPN_LineCutter",
-    "path": "Content\\WeaponsNTools\\LineCutter\\"
+    "path": "Game/WeaponsNTools/LineCutter/"
   },
   {
     "type": "WPN",
     "name": "WPN_Pickaxe",
-    "path": "Content\\WeaponsNTools\\Pickaxe\\"
+    "path": "Game/WeaponsNTools/Pickaxe/"
   },
   {
     "type": "WPN",
     "name": "WPN_Pickaxe_Driller",
-    "path": "Content\\WeaponsNTools\\Pickaxe\\Driller\\"
+    "path": "Game/WeaponsNTools/Pickaxe/Driller/"
   },
   {
     "type": "WPN",
     "name": "WPN_Pickaxe_Engineer",
-    "path": "Content\\WeaponsNTools\\Pickaxe\\Eng\\"
+    "path": "Game/WeaponsNTools/Pickaxe/Eng/"
   },
   {
     "type": "WPN",
     "name": "WPN_Pickaxe_Gunner",
-    "path": "Content\\WeaponsNTools\\Pickaxe\\Gunner\\"
+    "path": "Game/WeaponsNTools/Pickaxe/Gunner/"
   },
   {
     "type": "BP",
     "name": "BP_PickaxeRandomizer",
-    "path": "Content\\WeaponsNTools\\Pickaxe\\PickAxe"
+    "path": "Game/WeaponsNTools/Pickaxe/PickAxe"
   },
   {
     "type": "WPN",
     "name": "WPN_Pickaxe_Scout",
-    "path": "Content\\WeaponsNTools\\Pickaxe\\Scout\\"
+    "path": "Game/WeaponsNTools/Pickaxe/Scout/"
   },
   {
     "type": "BP",
     "name": "BP_PipelineBuilder_Marker",
-    "path": "Content\\WeaponsNTools\\PipelineBuilder\\"
+    "path": "Game/WeaponsNTools/PipelineBuilder/"
   },
   {
     "type": "WPN",
     "name": "WPN_PipelineBuilder",
-    "path": "Content\\WeaponsNTools\\PipelineBuilder\\"
+    "path": "Game/WeaponsNTools/PipelineBuilder/"
   },
   {
     "type": "WPN",
     "name": "WPN_Pistol_A",
-    "path": "Content\\WeaponsNTools\\Pistol\\"
+    "path": "Game/WeaponsNTools/Pistol/"
   },
   {
     "type": "BP",
     "name": "BP_ExplosiveReloadComponent",
-    "path": "Content\\WeaponsNTools\\Pistol\\Overclocks\\OC"
+    "path": "Game/WeaponsNTools/Pistol/Overclocks/OC"
   },
   {
     "type": "PRJ",
     "name": "PRJ_PlatformMaker",
-    "path": "Content\\WeaponsNTools\\PlatformGun\\"
+    "path": "Game/WeaponsNTools/PlatformGun/"
   },
   {
     "type": "WPN",
     "name": "WPN_PlatformGun",
-    "path": "Content\\WeaponsNTools\\PlatformGun\\"
+    "path": "Game/WeaponsNTools/PlatformGun/"
   },
   {
     "type": "WPN",
     "name": "WPN_Revolver",
-    "path": "Content\\WeaponsNTools\\Revolver\\"
+    "path": "Game/WeaponsNTools/Revolver/"
   },
   {
     "type": "BP",
     "name": "BP_Shotgun_A_Shell",
-    "path": "Content\\WeaponsNTools\\SawedOffShotgun\\"
+    "path": "Game/WeaponsNTools/SawedOffShotgun/"
   },
   {
     "type": "BP",
     "name": "BP_Shotgun_A_ShellTP",
-    "path": "Content\\WeaponsNTools\\SawedOffShotgun\\"
+    "path": "Game/WeaponsNTools/SawedOffShotgun/"
   },
   {
     "type": "WPN",
     "name": "WPN_SawedOffShotgun",
-    "path": "Content\\WeaponsNTools\\SawedOffShotgun\\"
+    "path": "Game/WeaponsNTools/SawedOffShotgun/"
   },
   {
     "type": "BP",
     "name": "BP_EletrocutedSentry",
-    "path": "Content\\WeaponsNTools\\SentryGun\\"
+    "path": "Game/WeaponsNTools/SentryGun/"
   },
   {
     "type": "BP",
     "name": "BP_SentryLoadoutProxy",
-    "path": "Content\\WeaponsNTools\\SentryGun\\"
+    "path": "Game/WeaponsNTools/SentryGun/"
   },
   {
     "type": "BP",
     "name": "BP_Sentry_PlasmaBeam",
-    "path": "Content\\WeaponsNTools\\SentryGun\\"
+    "path": "Game/WeaponsNTools/SentryGun/"
   },
   {
     "type": "BP",
     "name": "BP_TurretEMPDischarge",
-    "path": "Content\\WeaponsNTools\\SentryGun\\"
+    "path": "Game/WeaponsNTools/SentryGun/"
   },
   {
     "type": "BP",
     "name": "BP_SentryGun_Moveable",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryGun_Moveable_Heavy",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryGun_MoveMarker",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryGun_MoveMarker_Heavy",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryGun_Redeployable",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryGun_Redeployable_Heavy",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryItem_PlaceMarker",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_SentryItem_PlaceMarker_Heavy",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "PRJ",
     "name": "PRJ_SentryOvercharge_Projectile",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "WPN",
     "name": "WPN_RecallableSentryGun",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_Minehead_Sentry",
-    "path": "Content\\WeaponsNTools\\SentryGun\\SentryGun"
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
     "name": "BP_ShieldGenerator_LoadoutProxy",
-    "path": "Content\\WeaponsNTools\\ShieldGenerator\\"
+    "path": "Game/WeaponsNTools/ShieldGenerator/"
   },
   {
     "type": "BP",
     "name": "BP_ShieldRegenerator",
-    "path": "Content\\WeaponsNTools\\ShieldGenerator\\"
+    "path": "Game/WeaponsNTools/ShieldGenerator/"
   },
   {
     "type": "BP",
     "name": "BP_ShieldRegenerator_Mover",
-    "path": "Content\\WeaponsNTools\\ShieldGenerator\\"
+    "path": "Game/WeaponsNTools/ShieldGenerator/"
   },
   {
     "type": "WPN",
     "name": "WPN_ShieldRegeneratorItem",
-    "path": "Content\\WeaponsNTools\\ShieldGenerator\\"
+    "path": "Game/WeaponsNTools/ShieldGenerator/"
   },
   {
     "type": "WPN",
     "name": "WPN_SMG_OneHand",
-    "path": "Content\\WeaponsNTools\\SMG\\"
+    "path": "Game/WeaponsNTools/SMG/"
   },
   {
     "type": "BP",
     "name": "BP_OldSupplyPod_FailSmokeCloud",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_OldSupplyPod_Salvage",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_SupplyPod_Ammo",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_SupplyPod_Beacon",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_SupplyPod_Marker",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_SupplyPod_Spawn",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_SupplyPod_Spawn_Beacon",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_TunnelBlocker",
-    "path": "Content\\WeaponsNTools\\SupplyPod\\"
+    "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
     "type": "BP",
     "name": "BP_Snowball",
-    "path": "Content\\WeaponsNTools\\Throwable\\Snowball\\"
+    "path": "Game/WeaponsNTools/Throwable/Snowball/"
   },
   {
     "type": "BP",
     "name": "BP_SnowballItem",
-    "path": "Content\\WeaponsNTools\\Throwable\\Snowball\\"
+    "path": "Game/WeaponsNTools/Throwable/Snowball/"
   },
   {
     "type": "BP",
     "name": "BP_SnowPile",
-    "path": "Content\\WeaponsNTools\\Throwable\\Snowball\\"
+    "path": "Game/WeaponsNTools/Throwable/Snowball/"
   },
   {
     "type": "BP",
     "name": "BP_ZipLineConnector",
-    "path": "Content\\WeaponsNTools\\ZipLineGun\\"
+    "path": "Game/WeaponsNTools/ZipLineGun/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ZipLineGun",
-    "path": "Content\\WeaponsNTools\\ZipLineGun\\"
+    "path": "Game/WeaponsNTools/ZipLineGun/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ZipLineGun_Fast",
-    "path": "Content\\WeaponsNTools\\ZipLineGun\\"
+    "path": "Game/WeaponsNTools/ZipLineGun/"
   },
   {
     "type": "PRJ",
     "name": "PRJ_ZipLineGun_Safe",
-    "path": "Content\\WeaponsNTools\\ZipLineGun\\"
+    "path": "Game/WeaponsNTools/ZipLineGun/"
   },
   {
     "type": "WPN",
     "name": "WPN_ZipLineGun",
-    "path": "Content\\WeaponsNTools\\ZipLineGun\\"
+    "path": "Game/WeaponsNTools/ZipLineGun/"
   }
 ]

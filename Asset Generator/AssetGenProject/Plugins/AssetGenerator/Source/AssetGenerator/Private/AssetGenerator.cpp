@@ -50,7 +50,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 		// Run asset generator operation
 		if (OpenDialogMenu())
 		{
-			AssetGenOperation::ParseJSON(LoadFile());
+			AssetGenOperation::GenerateAssets(LoadFile());
 		}
 		
 		// Allow user to cancel next operation

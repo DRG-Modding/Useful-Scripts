@@ -13,10 +13,7 @@ public:
 	
 	static bool GetSelectedButtonFromDialog(const FString Text, EAppMsgType::Type Buttons, EAppReturnType::Type CheckSelected)
 	{
-		if (FMessageDialog::Open(Buttons, FText::FromString(Text)) == CheckSelected)
-		{
-			return true;
-		}
+		if (FMessageDialog::Open(Buttons, FText::FromString(Text)) == CheckSelected) { return true; }
 		return false;
 	}
 };

@@ -46,23 +46,22 @@ void FAssetGeneratorModule::PluginButtonClicked()
 	                                       EAppReturnType::Yes))
 	{
 		// Run asset generator operation
-		if (OpenDialogMenu())
-		{
-			AssetGenOperation::GenerateAssets(LoadFile());
-		}
+		if (OpenDialogMenu()) { AssetGenOperation::GenerateAssets(LoadFile()); }
 		
 		// Allow user to cancel next operation
 		if (Utils::GetSelectedButtonFromDialog(R"(Successfully finished creation of assets in given locations.
 			Do you wish to continue to the next operation?)", EAppMsgType::OkCancel, EAppReturnType::Cancel))
 		{
 			Utils::OpenMessageDialog(EAppMsgType::Ok, "Cancelled the next operation.");
-		} else
+		} 
+		else
 		{
 			Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
 	
 			// Run stub filler operation
 		}
-	} else
+	} 
+	else
 	{
 		Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
 		
@@ -117,7 +116,8 @@ FString FAssetGeneratorModule::LoadFile()
 		if (FFileHelper::LoadFileToString(FileContent, *SelectedFileNames[0], FFileHelper::EHashOptions::None))
 		{
 			UE_LOG(LogTemp, Display, TEXT("FileManipulation: Text From File: %s"), *FileContent);
-		} else
+		} 
+		else
 		{
 			UE_LOG(LogTemp, Error, TEXT("FileManipulation: Could not load text from file for some reason."));
 		}

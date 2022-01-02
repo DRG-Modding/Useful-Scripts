@@ -54,10 +54,7 @@ void AssetGenOperation::ParseJSON(const FString JsonString)
 			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("path")), Info.Path);
 			Objects.Add(Info);
 		}
-	} else
-	{
-		UE_LOG(LogTemp, Error, TEXT("JSON Parse: Failed to deserialise!"));
-	}
+	} else { UE_LOG(LogTemp, Error, TEXT("JSON Parse: Failed to deserialise!")); }
 }
 
 void AssetGenOperation::GenerateAssets(const FString JsonString)
@@ -78,6 +75,7 @@ void AssetGenOperation::GenerateAssets(const FString JsonString)
 			FAssetToolsModule& AssetToolsModule = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools");
 			UObject* NewAsset = AssetToolsModule.Get().CreateAsset(Name, Path, AssetClassType, AssetFactoryType);
 			UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Created asset: %s"), *Name);
+
 			// Save the asset
 			if (NewAsset != nullptr)
 			{
@@ -92,9 +90,6 @@ void AssetGenOperation::GenerateAssets(const FString JsonString)
 					UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Saved package: %s"), *PackageFile);
 				}
 			}
-		} else
-		{
-			UE_LOG(LogTemp, Error, TEXT("AssetGenOperation: Failed to create asset: %s"), *Name);
-		}
+		} else { UE_LOG(LogTemp, Error, TEXT("AssetGenOperation: Failed to create asset: %s"), *Name); }
 	}
 }

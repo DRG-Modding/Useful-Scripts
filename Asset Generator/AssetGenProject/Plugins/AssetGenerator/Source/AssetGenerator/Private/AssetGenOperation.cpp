@@ -7,9 +7,9 @@ UClass* AssetGenOperation::GetAssetClass(FString AssetType)
     if (AssetType == "Announcement" || AssetType == "Basic" || AssetType == "HUD" || AssetType == "ITEM" 
     	|| AssetType == "LCD" || AssetType == "MENU" || AssetType == "Options" || AssetType == "Popup" 
     	|| AssetType == "TOOLTIP" || AssetType == "UI" || AssetType == "WeaponDisplay" || AssetType == "Widget" 
-    	|| AssetType == "WND") {
-    	return UWidget::StaticClass();
-    	// return UUserWidget::StaticClass(); 
+    	|| AssetType == "WND")
+    {
+    	return UWidgetBlueprint::StaticClass();
     }
 	if (AssetType == "BP" || AssetType == "ENE" || AssetType == "OBJ" || AssetType == "PRJ" || AssetType == "WPN")
 	{
@@ -23,8 +23,17 @@ UClass* AssetGenOperation::GetAssetClass(FString AssetType)
 	{
 		return UDataAsset::StaticClass();
 	}
-	if (AssetType == "ABP") {
-        return UAnimationAsset::StaticClass();
+	if (AssetType == "ABP")
+	{
+		return UAnimBlueprint::StaticClass(); 
+    }
+	if (AssetType == "ENUM")
+	{
+		return UEnum::StaticClass();
+	}
+	if (AssetType == "SK")
+    {
+    	return USkeleton::StaticClass();
     }
 	UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Unknown asset type: %s"), *AssetType);
 	return nullptr;
@@ -51,9 +60,21 @@ UFactory* AssetGenOperation::GetAssetFactory(FString AssetType)
 	{
 		return NewObject<UDataAssetFactory>();
 	}
-	if (AssetType == "ABP") {
-        return NewObject<UAnimBlueprintFactory>();
+	if (AssetType == "ABP")
+	{
+		return nullptr;
+        // return NewObject<UAnimBlueprintFactory>();
     }
+	if (AssetType == "ENUM") 
+	{
+		return nullptr;
+		// return NewObject<UEnumFactory>();
+	}
+	if (AssetType == "SK")
+	{
+		// return NewObject<USkeletonFactory>();
+		return nullptr;
+	}
 	UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Unknown asset type: %s"), *AssetType);
 	return nullptr;
 }

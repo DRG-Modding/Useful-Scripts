@@ -2,8 +2,8 @@ import json
 import os
 import re
 
-PATH = r'C:/../../../../Github Projects/Header-Dumps/U35.63118/DUMP/' # Replace with your path to dumped files
-OUTPUT_PATH = r'C:/../../../../Github Projects/Useful-Scripts/Asset Generator/' # Replace with your path to where you want the output file to be saved
+PATH = r'C:/Users/../OneDrive/Documents/Github Projects/Header-Dumps/U35.63118/DUMP/' # Replace with your path to dumped files
+OUTPUT_PATH = r'C:/Users/../OneDrive/Documents/Github Projects/Useful-Scripts/Asset Generator/' # Replace with your path to where you want the output file to be saved
 
 def check_startswith(string):
     WHITELIST_START = ['BP_', 'ENE_', 'BPL_', 'OBJ_', 'LIB_', 'PRJ_', 'WPN_']

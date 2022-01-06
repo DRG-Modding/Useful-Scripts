@@ -1,114 +1,70 @@
 ﻿#include "AssetGenOperation.h"
+#include "AssetGenUtils.h"
+#include "AssetRegistryModule.h"
+#include "AssetToolsModule.h"
+#include "Misc/Paths.h"
+#include "Blueprint/UserWidget.h"
+#include "K2Node_FunctionEntry.h"
+#include "Dom/JsonObject.h"
+#include "Kismet2/BlueprintEditorUtils.h"
+#include "BlueprintCompilationManager.h"
+#include "EdGraphSchema_K2_Actions.h"
+#include "K2Node_CallParentFunction.h"
+#include "K2Node_CustomEvent.h"
+#include "K2Node_Event.h"
+#include "K2Node_FunctionResult.h"
+#include "Engine/SimpleConstructionScript.h"
+#include "Kismet2/KismetEditorUtilities.h"
 
-TArray<FInfo> AssetGenOperation::Objects;
-
-UClass* AssetGenOperation::GetAssetClass(FString AssetType)
+FName AssetGenOperation::GetAssetFName()
 {
-    if (AssetType == "Announcement" || AssetType == "Basic" || AssetType == "HUD" || AssetType == "ITEM" 
-    	|| AssetType == "LCD" || AssetType == "MENU" || AssetType == "Options" || AssetType == "Popup" 
-    	|| AssetType == "TOOLTIP" || AssetType == "UI" || AssetType == "WeaponDisplay" || AssetType == "Widget" 
-    	|| AssetType == "WND")
-    {
-    	return UWidgetBlueprint::StaticClass();
-    }
-	if (AssetType == "BP" || AssetType == "ENE" || AssetType == "OBJ" || AssetType == "PRJ" || AssetType == "WPN")
-	{
-		return UBlueprint::StaticClass();
-	}
-	if (AssetType == "BPL" || AssetType == "LIB")
-	{
-		return UBlueprintFunctionLibrary::StaticClass();
-	}
-	if (AssetType == "WPN")
-	{
-		return UDataAsset::StaticClass();
-	}
-	if (AssetType == "ABP")
-	{
-		return UAnimBlueprint::StaticClass(); 
-    }
-	if (AssetType == "ENUM")
-	{
-		return UEnum::StaticClass();
-	}
-	if (AssetType == "SK")
-    {
-    	return USkeleton::StaticClass();
-    }
-	UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Unknown asset type: %s"), *AssetType);
-	return nullptr;
+	return FName(Objects[ObjectIndex].Name);
 }
 
-UFactory* AssetGenOperation::GetAssetFactory(FString AssetType)
+const TCHAR* AssetGenOperation::GetPackageName()
 {
-	if (AssetType == "Announcement" || AssetType == "Basic" || AssetType == "HUD" || AssetType == "ITEM" 
-		|| AssetType == "LCD" || AssetType == "MENU" || AssetType == "Options" || AssetType == "Popup" 
-		|| AssetType == "TOOLTIP" || AssetType == "UI" || AssetType == "WeaponDisplay" || AssetType == "Widget" 
-		|| AssetType == "WND") {
-		return NewObject<UWidgetBlueprintFactory>(); 
-    }
-	if (AssetType == "BP" || AssetType == "ENE" || AssetType == "OBJ" || AssetType == "PRJ" || AssetType == "WPN")
-	{
-		return NewObject<UBlueprintFactory>();
-	}
-	if (AssetType == "BPL" || AssetType == "LIB")
-	{
-		return nullptr;
-		// return NewObject<UBlueprintFunctionLibraryFactory>();
-	}
-	if (AssetType == "WPN")
-	{
-		return NewObject<UDataAssetFactory>();
-	}
-	if (AssetType == "ABP")
-	{
-		return nullptr;
-        // return NewObject<UAnimBlueprintFactory>();
-    }
-	if (AssetType == "ENUM") 
-	{
-		return nullptr;
-		// return NewObject<UEnumFactory>();
-	}
-	if (AssetType == "SK")
-	{
-		// return NewObject<USkeletonFactory>();
-		return nullptr;
-	}
-	UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Unknown asset type: %s"), *AssetType);
-	return nullptr;
+	return *Objects[ObjectIndex].Path;
 }
 
-void AssetGenOperation::ParseJSON(const FString JsonString)
+UBlueprint* AssetGenOperation::CreateBlueprint(UClass* ParentClass, UPackage* Package)
 {
-	TArray<TSharedPtr<FJsonValue>> Json;
-	TSharedRef<TJsonReader<>> JsonReader = TJsonReaderFactory<>::Create(JsonString);
-	if (FJsonSerializer::Deserialize<>(JsonReader, Json, FJsonSerializer::EFlags::None)) 
-	{
-		for (int i = 0; i < Json.Num(); i++)
-		{
-			FInfo Info;
-			const TSharedPtr<FJsonObject> JsonObject = Json[i]->AsObject();
-			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("type")), Info.Type);
-			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("name")), Info.Name);
-			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("path")), Info.Path);
-			Objects.Add(Info);
-		}
-	} else { UE_LOG(LogTemp, Error, TEXT("JSON Parse: Failed to deserialise!")); }
+	EBlueprintType BlueprintType = BPTYPE_Normal;
+	if (ParentClass->HasAnyClassFlags(CLASS_Const)) { BlueprintType = BPTYPE_Const; }
+	if (ParentClass == UBlueprintFunctionLibrary::StaticClass())
+	{ BlueprintType = BPTYPE_FunctionLibrary; }
+	if (ParentClass == UInterface::StaticClass())
+	{ BlueprintType = BPTYPE_Interface; }
+	return FKismetEditorUtilities::CreateBlueprint(ParentClass, Package, GetAssetFName(), BlueprintType, 
+	UBlueprint::StaticClass(), UBlueprintGeneratedClass::StaticClass());
 }
 
-void AssetGenOperation::GenerateAssets(const FString JsonString)
+void AssetGenOperation::CreateAssetPackage() {
+	// const int32 SuperStructIndex = GetAssetData()->GetIntegerField(TEXT("SuperStruct"));
+	// UClass* ParentClass = Cast<UClass>(GetObjectSerializer()->DeserializeObject(SuperStructIndex));
+	//
+	// if (ParentClass == NULL) {
+	// 	UE_LOG(LogTemp, Error, TEXT("AssetGenOperation: Cannot resolve parent class %s for blueprint %s"), *ParentClass, *GetAssetFName().ToString());
+	// 	ParentClass = GetFallbackParentClass();
+	// }
+	//
+	// UPackage* NewPackage = CreatePackage(*GetPackageName());
+	// UBlueprint* NewBlueprint = CreateNewBlueprint(NewPackage, ParentClass);
+	// SetPackageAndAsset(NewPackage, NewBlueprint, false);
+	//
+	// UpdateDeserializerBlueprintClassObject(true);
+	// MarkAssetChanged();
+}
+
+void AssetGenOperation::GenerateAssets()
 {
-	ParseJSON(JsonString);
-	
 	// Create assets in the Content for each object
 	for (int i = 0; i < Objects.Num(); i++)
 	{
 		FString Path = FString(UTF8_TO_TCHAR("/")) + Objects[i].Path;
 		UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Asset path: %s"), *Path);
 		FString Name = Objects[i].Name;
-		UClass* AssetClassType = GetAssetClass(Objects[i].Type);
-		UFactory* AssetFactoryType = GetAssetFactory(Objects[i].Type);
+		UClass* AssetClassType = AssetGenUtils::GetAssetClass(Objects[i].Type);
+		UFactory* AssetFactoryType = AssetGenUtils::GetAssetFactory(Objects[i].Type);
 		if (AssetClassType != nullptr && AssetFactoryType != nullptr)
 		{
 			FAssetToolsModule& AssetToolsModule = FModuleManager::LoadModuleChecked<FAssetToolsModule>("AssetTools");

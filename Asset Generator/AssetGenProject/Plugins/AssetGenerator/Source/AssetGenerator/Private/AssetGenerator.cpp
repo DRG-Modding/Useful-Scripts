@@ -46,7 +46,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 	                                       EAppReturnType::Yes))
 	{
 		// Run asset generator operation
-		if (OpenDialogMenu()) { AssetGenOperation::GenerateAssets(LoadFile()); }
+		if (OpenDialogMenu()) { }
 		
 		// Allow user to cancel next operation
 		if (Utils::GetSelectedButtonFromDialog(R"(Successfully finished creation of assets in given locations.
@@ -59,7 +59,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 			Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
 	
 			// Run stub filler operation
-			if (OpenDialogMenu()) { StubFillerOperation::FillStubs(LoadFile()); }
+			if (OpenDialogMenu()) { }
 		}
 	} 
 	else
@@ -67,7 +67,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 		Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
 		
 		// Run stub filler operation
-		if (OpenDialogMenu()) { StubFillerOperation::FillStubs(LoadFile()); }
+		if (OpenDialogMenu()) { }
 	}
 }
 

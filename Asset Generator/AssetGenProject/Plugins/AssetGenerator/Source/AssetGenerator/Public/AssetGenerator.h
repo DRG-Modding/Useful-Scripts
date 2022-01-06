@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AssetGenOperation.h"
+#include "StubFillerOperation.h"
 #include "AssetGeneratorStyle.h"
 #include "AssetGeneratorCommands.h"
 #include "Utils.h"

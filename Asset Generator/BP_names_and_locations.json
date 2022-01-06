@@ -20,6 +20,16 @@
     "path": "Game/Art/Cinematics/E3trailer2017/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_DroppodAirlock",
+    "path": "Game/Art/DropPod/Assets/Airlock/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_DroppodRamp",
+    "path": "Game/Art/DropPod/Assets/Ramp/"
+  },
+  {
     "type": "BP",
     "name": "BP_Widget_DropPod_AltitudeMeter",
     "path": "Game/Art/DropPod/Widgets/"
@@ -48,6 +58,51 @@
     "type": "BP",
     "name": "BP_Widget_DropPod_MissionType",
     "path": "Game/Art/DropPod/Widgets/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_AltitudeMeter",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_BiomeRadar",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_Complexity",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_DangerLevel",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_DangerLevel_TextString",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_GarbageGen",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_MissionType",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_DropPod_SeatMonitor",
+    "path": "Game/Art/DropPod/s/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Halloween_CandleBlock",
+    "path": "Game/Art/Environments/Holiday"
   },
   {
     "type": "BP",
@@ -112,6 +167,11 @@
   {
     "type": "BP",
     "name": "BP_JukeBox",
+    "path": "Game/Art/Environments/ShipTesting/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_Jukebox02",
     "path": "Game/Art/Environments/ShipTesting/"
   },
   {
@@ -245,6 +305,11 @@
     "path": "Game/Art/Environments/SpaceRig/SpringDwarf/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_TipMachine",
+    "path": "Game/Art/Environments/SpaceRig/TipMachine/"
+  },
+  {
     "type": "BP",
     "name": "BP_TipJarUsable",
     "path": "Game/Art/Environments/SpaceRig/TipMachine/"
@@ -253,6 +318,16 @@
     "type": "BP",
     "name": "BP_TIpJar_Base_Blueprint",
     "path": "Game/Art/Environments/SpaceRig/TipMachine/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_TipMachine_Display",
+    "path": "Game/Art/Environments/SpaceRig/TipMachine/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Dice",
+    "path": "Game/Art/Environments/SpaceRig/TrashKit/"
   },
   {
     "type": "BP",
@@ -270,14 +345,289 @@
     "path": "Game/Art/PostProcess/"
   },
   {
+    "type": "HUD",
+    "name": "HUD_Bar_Back",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Bar_Front",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Blood",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_CaveLeechSense",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Chilled",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Electricity",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Generic01",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Pheromones",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Radioactive",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Shield",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_ShieldBoost02",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_StickyGoo",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_StickyGoo_2",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageOverlay_Webbed",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DirectionalDamage",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Diamond",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Donkey",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Donkey_White",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Drilldozer",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Drilldozer_Garage",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Drone",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Droppod",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Droppod_Transparent",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Dwarf",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_ExclamationMark",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_ExplosiveBarrel",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_HackingPod",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_PushButton_Outline",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Spawner",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_Star",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Icon_SupplyPod",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_Questionmark",
+    "path": "Game/Art/UI/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ComboBox01",
+    "path": "Game/Art//"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Crosshair_Basic01",
+    "path": "Game/Art/UI/Crosshairs/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Crosshair_Basic02",
+    "path": "Game/Art/UI/Crosshairs/"
+  },
+  {
     "type": "BP",
     "name": "BP_TextField_Screen_SeeThrough",
+    "path": "Game/Art/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Testing_MainMenu",
     "path": "Game/Art/"
   },
   {
     "type": "BP",
     "name": "BP_DynamicReverb",
     "path": "Game/Audio/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_1_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_2_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_4_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_5_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MineralDealConfirm_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MineralTradeAdd_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MineralTradeClear_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MineralTradeConfirm_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MineralTradeSubtract_Cue",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_1",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/MenuesButtons/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_2",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/MenuesButtons/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_3",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/MenuesButtons/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_4",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/MenuesButtons/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ElementsA_5",
+    "path": "Game/Audio/SFX/MenusButtonsEtc/MenuesButtons/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_ScannerIdle_Cue",
+    "path": "Game/Audio/SFX/WeaponsNTools/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_ScannerPing_Cue",
+    "path": "Game/Audio/SFX/WeaponsNTools/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_CryoSprayFireCore_Cue",
+    "path": "Game/Audio/SFX/WeaponsNTools/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_CryoSprayFireOverclock_Cue",
+    "path": "Game/Audio/SFX/WeaponsNTools/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_CryoSprayFireTail_Cue",
+    "path": "Game/Audio/SFX/WeaponsNTools/"
   },
   {
     "type": "BP",
@@ -295,39 +645,44 @@
     "path": "Game/Audio/SoundControl/"
   },
   {
+    "type": "UI",
+    "name": "UI_AutoMix",
+    "path": "Game/Audio/SoundControl/SoundClasses/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_IsolatedFromWorld",
+    "path": "Game/Audio/SoundControl/SoundClasses/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_largeAutomix",
+    "path": "Game/Audio/SoundControl/SoundClasses/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ManualMix",
+    "path": "Game/Audio/SoundControl/SoundClasses/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Submix",
+    "path": "Game/Audio/SoundControl/SubMixes/"
+  },
+  {
     "type": "BP",
-    "name": "BP_AudioControl",
+    "name": "BP_AudioControl_LowHealth",
     "path": "Game/Audio/Test/"
   },
   {
-    "type": "WPN",
-    "name": "WPN_ScannerIdle_Cue",
-    "path": "Game/Audio/WeaponsNTools/"
+    "type": "ABP",
+    "name": "ABP_FP_Dwarf",
+    "path": "Game/Character/"
   },
   {
-    "type": "WPN",
-    "name": "WPN_ScannerPing_Cue",
-    "path": "Game/Audio/WeaponsNTools/"
-  },
-  {
-    "type": "WPN",
-    "name": "WPN_CryoSprayFireCore_Cue",
-    "path": "Game/Audio/WeaponsNTools/"
-  },
-  {
-    "type": "WPN",
-    "name": "WPN_CryoSprayFireOverclock_Cue",
-    "path": "Game/Audio/WeaponsNTools/"
-  },
-  {
-    "type": "WPN",
-    "name": "WPN_CryoSprayFireTail_Cue",
-    "path": "Game/Audio/WeaponsNTools/"
-  },
-  {
-    "type": "WPN",
-    "name": "WPN_CryoSprayRePressure_Cue",
-    "path": "Game/Audio/WeaponsNTools/"
+    "type": "ABP",
+    "name": "ABP_TP_Dwarf",
+    "path": "Game/Character/"
   },
   {
     "type": "BP",
@@ -388,6 +743,11 @@
     "type": "BP",
     "name": "BP_MisComp_FXspawner",
     "path": "Game/Character/CharacterSelection/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CharacterTeleportPlacement",
+    "path": "Game/Character/Cheats/"
   },
   {
     "type": "BP",
@@ -521,6 +881,11 @@
   },
   {
     "type": "BP",
+    "name": "BP_TutorialManager_Spacerig",
+    "path": "Game/Character/Tutorials/"
+  },
+  {
+    "type": "BP",
     "name": "BP_Tutorial_Hint_BrokenMiniMule",
     "path": "Game/Character/Tutorials/"
   },
@@ -546,7 +911,112 @@
   },
   {
     "type": "BP",
+    "name": "BP_WeaponIconGenerator",
+    "path": "Game/Character/Vanity2/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Armor_Dlc04_Driller",
+    "path": "Game/Character/Vanity2/Armor/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Armor_Dlc04_Engineer",
+    "path": "Game/Character/Vanity2/Armor/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Armor_Dlc04_Gunner",
+    "path": "Game/Character/Vanity2/Armor/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Armor_Dlc04_Scout",
+    "path": "Game/Character/Vanity2/Armor/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_Halloween2021_PickAxe",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_PartyHat_YearThree_Skeleton",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_Rig_FlappyHat",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_XmasHat_Bauble_2021",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_XmasHat_Rigged",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_XmasHat_Snowman_2020_Skeleton",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_XmasHat_Sock_2020",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_XmasHat_TopHat_2020",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Vanity_Headwear_XmasHat_Tree_2021",
+    "path": "Game/Character/Vanity2/Headwear/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Forge",
+    "path": "Game/CharacterStructure/Forge/"
+  },
+  {
+    "type": "BP",
     "name": "BP_EndscreenBarrel",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Barrel_A",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Crystal_A_Skeleton",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_LootbugVictory_A_Skeleton",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_MugDual_A",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_MugSingle",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Swarmer_Attachment",
     "path": "Game/CharacterStructure/Gear"
   },
   {
@@ -561,6 +1031,11 @@
   },
   {
     "type": "BP",
+    "name": "BP_LootbugAttach",
+    "path": "Game/CharacterStructure/Gear"
+  },
+  {
+    "type": "BP",
     "name": "BP_SingleMug",
     "path": "Game/CharacterStructure/Gear"
   },
@@ -570,9 +1045,79 @@
     "path": "Game/CharacterStructure/Gear"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Beard_Rig_A",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Beard_Rig_B",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Beard_Rig_C",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Beard_Rig_D",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Hair_Rig_A",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Hair_Rig_B",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Hair_Rig_E",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Moustache_Rig_A",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Moustache_Rig_B",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Sideburns_Rig_A",
+    "path": "Game/CharacterStructure/Rig/Facial"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_ButterFly_Wings",
+    "path": "Game/Critters/Butterfly/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FesterFlea",
+    "path": "Game/Critters/FesterFlea/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FleaWings",
+    "path": "Game/Critters/FesterFlea/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Flea",
     "path": "Game/Critters/FesterFlea/Flea/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FlyingCritterBase",
+    "path": "Game/Critters/FlyingCritterBase/"
   },
   {
     "type": "ENE",
@@ -580,9 +1125,24 @@
     "path": "Game/Critters/FlyingCritterBase/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_GliderBeast_AnimBlueprint",
+    "path": "Game/Critters/GliderBeast/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_GliderBeast_MinerManual",
+    "path": "Game/Critters/GliderBeast/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_GliderBeast",
     "path": "Game/Critters/GliderBeast/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Harvester",
+    "path": "Game/Critters/Harvester/"
   },
   {
     "type": "ENE",
@@ -600,6 +1160,11 @@
     "path": "Game/Critters/JellyPlatform/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_LootBugTest",
+    "path": "Game/Critters/LootBug/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_LootBug",
     "path": "Game/Critters/LootBug/"
@@ -608,6 +1173,11 @@
     "type": "ENE",
     "name": "ENE_LootBug_Gold",
     "path": "Game/Critters/LootBug/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_SpiderHoarder",
+    "path": "Game/Critters/LootBug/Hoarder/"
   },
   {
     "type": "ENE",
@@ -651,6 +1221,31 @@
   },
   {
     "type": "BP",
+    "name": "BP_DataCell",
+    "path": "Game/Critters/Prospector/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_DirtChunk",
+    "path": "Game/Critters/Prospector/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_Prospector",
+    "path": "Game/Critters/Prospector/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Prospector",
+    "path": "Game/Critters/Prospector/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Prospector_Shield",
+    "path": "Game/Critters/Prospector/Assets/"
+  },
+  {
+    "type": "BP",
     "name": "BP_BurrowAttackComponent",
     "path": "Game/Enemies/Attacks/"
   },
@@ -666,6 +1261,16 @@
   },
   {
     "type": "BP",
+    "name": "BP_Damage_Cloud_Flamable_Base",
+    "path": "Game/Enemies/BaseItems/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_CaveLeech",
+    "path": "Game/Enemies/CaveLeech/"
+  },
+  {
+    "type": "BP",
     "name": "BP_CaveLeechPlacementCarver",
     "path": "Game/Enemies/CaveLeech/"
   },
@@ -676,18 +1281,23 @@
   },
   {
     "type": "BP",
-    "name": "BP_EnemySpawner",
+    "name": "BP_SpawnerEyeComponent",
     "path": "Game/Enemies/EnemySpawner/"
   },
   {
-    "type": "BP",
-    "name": "BP_SpawnerEyeComponent",
+    "type": "ENE",
+    "name": "ENE_EnemySpawner",
     "path": "Game/Enemies/EnemySpawner/"
   },
   {
     "type": "ENE",
     "name": "ENE_SpiderSpawner",
     "path": "Game/Enemies/EnemySpawner/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Bomber",
+    "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
     "type": "BP",
@@ -750,6 +1360,11 @@
     "path": "Game/Enemies/FlyingBug/Bomber/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Grabber",
+    "path": "Game/Enemies/FlyingBug/Grabber/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Grabber",
     "path": "Game/Enemies/FlyingBug/Grabber/"
@@ -757,6 +1372,16 @@
   {
     "type": "BP",
     "name": "BP_Mactera_Heavy_ProjectileAttack",
+    "path": "Game/Enemies/FlyingBug/Shooter/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Mactera_Shooter_Attack_Elite",
+    "path": "Game/Enemies/FlyingBug/Shooter/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Mactera_TrippleShooter_Attack_Elite",
     "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
@@ -787,6 +1412,11 @@
   {
     "type": "PRJ",
     "name": "PRJ_Mactera_Shooter",
+    "path": "Game/Enemies/FlyingBug/Shooter/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_Mactera_Shooter_Elite",
     "path": "Game/Enemies/FlyingBug/Shooter/"
   },
   {
@@ -825,6 +1455,36 @@
     "path": "Game/Enemies/HydraWeed/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_HydraShooter_ESI",
+    "path": "Game/Enemies/HydraWeed/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HydraWeed_Hearth",
+    "path": "Game/Enemies/HydraWeed/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HydraWeed_RegenPod",
+    "path": "Game/Enemies/HydraWeed/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HydraWeed_Shooter",
+    "path": "Game/Enemies/HydraWeed/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_SlugShowroom",
+    "path": "Game/Enemies/InfestationLarva/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Slug_A",
+    "path": "Game/Enemies/InfestationLarva/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_InfestationLarva",
     "path": "Game/Enemies/InfestationLarva/"
@@ -843,6 +1503,26 @@
     "type": "ENE",
     "name": "ENE_Jelly_Swarmer_Child",
     "path": "Game/Enemies/Jellyfish/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_JellyFish_Egg_A",
+    "path": "Game/Enemies/Jellyfish/JellyFish"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_Jelly_Buffer",
+    "path": "Game/Enemies/Jellyfish/Jelly"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_JellyBreederShowroom",
+    "path": "Game/Enemies/Jelly"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_JellyBreeder_A_Skeleton_AnimBlueprint",
+    "path": "Game/Enemies/Jelly"
   },
   {
     "type": "ENE",
@@ -875,14 +1555,89 @@
     "path": "Game/Enemies/MuleInfected/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_InfectedMule",
+    "path": "Game/Enemies/MuleInfected/Animations/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_InfectedMuleTurret",
+    "path": "Game/Enemies/MuleInfected/Animations/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Parasite",
     "path": "Game/Enemies/MuleInfected/Parasite/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_PatrolBot",
+    "path": "Game/Enemies/RivalTech/PatrolBot/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_HackedPatrolBotComponent",
+    "path": "Game/Enemies/RivalTech/PatrolBot/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_PatrolBot_Wheel",
+    "path": "Game/Enemies/RivalTech/PatrolBot/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_PatrolBot",
+    "path": "Game/Enemies/RivalTech/PatrolBot/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_PatrolBot_Caretaker",
+    "path": "Game/Enemies/RivalTech/PatrolBot/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PatrolBotLaser_Flying",
+    "path": "Game/Enemies/RivalTech/PatrolBot/Projectiles/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PatrolBotLaser_Flying_Hacked",
+    "path": "Game/Enemies/RivalTech/PatrolBot/Projectiles/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PatrolBotLaser_Hacked",
+    "path": "Game/Enemies/RivalTech/PatrolBot/Projectiles/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PatrolBotLaser_New",
+    "path": "Game/Enemies/RivalTech/PatrolBot/Projectiles/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PatrolBotRocket",
+    "path": "Game/Enemies/RivalTech/PatrolBot/Projectiles/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_Shredder",
+    "path": "Game/Enemies/RivalTech/Shredder/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Shredder",
+    "path": "Game/Enemies/RivalTech/Shredder/Assets/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Shark",
     "path": "Game/Enemies/Shark/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_CaveShark",
+    "path": "Game/Enemies/Shark/Animations/"
   },
   {
     "type": "ENE",
@@ -893,6 +1648,26 @@
     "type": "PRJ",
     "name": "PRJ_ShootingPlant",
     "path": "Game/Enemies/ShootingPlant/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider",
+    "path": "Game/Enemies/Spider/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Locomotion",
+    "path": "Game/Enemies/Spider/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Shooting",
+    "path": "Game/Enemies/Spider/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Showroom",
+    "path": "Game/Enemies/Spider/"
   },
   {
     "type": "BP",
@@ -916,13 +1691,38 @@
   },
   {
     "type": "ENE",
+    "name": "ENE_Spider_Alarm",
+    "path": "Game/Enemies/Spider/Alarm/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_Spider_Alarm_Base",
+    "path": "Game/Enemies/Spider/Alarm/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Buffer",
+    "path": "Game/Enemies/Spider/Buffer/"
+  },
+  {
+    "type": "ENE",
     "name": "ENE_Spider_Buffer",
     "path": "Game/Enemies/Spider/Buffer/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Charger",
+    "path": "Game/Enemies/Spider/Charger/"
   },
   {
     "type": "ENE",
     "name": "ENE_Spider_Charger",
     "path": "Game/Enemies/Spider/Charger/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Exploder",
+    "path": "Game/Enemies/Spider/Exploder/"
   },
   {
     "type": "ENE",
@@ -943,6 +1743,16 @@
     "type": "ENE",
     "name": "ENE_Spider_Exploding_Warning_Radioactive",
     "path": "Game/Enemies/Spider/Exploder/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_ExploderTank",
+    "path": "Game/Enemies/Spider/ExploderTank/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_ExploderTank_Ghost",
+    "path": "Game/Enemies/Spider/ExploderTank/"
   },
   {
     "type": "ENE",
@@ -968,6 +1778,16 @@
     "type": "ENE",
     "name": "ENE_Spider_Drone",
     "path": "Game/Enemies/Spider/Flyer/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Grunt",
+    "path": "Game/Enemies/Spider/Grunt/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Grunt_Pet",
+    "path": "Game/Enemies/Spider/Grunt/"
   },
   {
     "type": "ENE",
@@ -1070,9 +1890,19 @@
     "path": "Game/Enemies/Spider/RapidShooter/"
   },
   {
+    "type": "ENE",
+    "name": "ENE_Spider_RapidShooter_Elite",
+    "path": "Game/Enemies/Spider/RapidShooter/"
+  },
+  {
     "type": "PRJ",
     "name": "PRJ_Spider_RapidShooter",
     "path": "Game/Enemies/Spider/RapidShooter/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Shooter",
+    "path": "Game/Enemies/Spider/Shooter/"
   },
   {
     "type": "ENE",
@@ -1092,6 +1922,11 @@
   {
     "type": "ENE",
     "name": "ENE_Spider_Shooter_Normal",
+    "path": "Game/Enemies/Spider/Shooter/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_Spider_Shooter_Normal_Elite",
     "path": "Game/Enemies/Spider/Shooter/"
   },
   {
@@ -1120,6 +1955,11 @@
     "path": "Game/Enemies/Spider/Shooter/ShooterQueen/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Spider_Spitter",
+    "path": "Game/Enemies/Spider/Spitter/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Spider_Spitter",
     "path": "Game/Enemies/Spider/Spitter/"
@@ -1128,6 +1968,11 @@
     "type": "PRJ",
     "name": "PRJ_Spider_Spitter",
     "path": "Game/Enemies/Spider/Spitter/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Swarmer",
+    "path": "Game/Enemies/Spider/Swarmer/"
   },
   {
     "type": "BP",
@@ -1158,6 +2003,11 @@
     "type": "ENE",
     "name": "ENE_Spider_Spawn",
     "path": "Game/Enemies/Spider/Swarmer/Spawn/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_ShieldTank",
+    "path": "Game/Enemies/Spider/Tank/"
   },
   {
     "type": "BP",
@@ -1191,7 +2041,7 @@
   },
   {
     "type": "ENE",
-    "name": "ENE_Spider_Tank_Normal2",
+    "name": "ENE_Spider_Tank_Normal",
     "path": "Game/Enemies/Spider/Tank/"
   },
   {
@@ -1210,14 +2060,29 @@
     "path": "Game/Enemies/Spider/Tank/Rock/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Spider_Tank",
+    "path": "Game/Enemies/Spider/Tank/ShieldTank/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Spider_ShieldTank",
     "path": "Game/Enemies/Spider/Tank/ShieldTank/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Spider_Boss",
+    "path": "Game/Enemies/Spider/TankBoss/"
+  },
+  {
     "type": "ENE",
     "name": "ENE_Spider_Boss_Base",
     "path": "Game/Enemies/Spider/TankBoss/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Boss_Heavy",
+    "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
     "type": "BP",
@@ -1245,13 +2110,18 @@
     "path": "Game/Enemies/Spider/TankBoss/BossHeavy/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Spider_Boss_Adult",
+    "path": "Game/Enemies/Spider/TankBoss/BossTank/"
+  },
+  {
     "type": "BP",
     "name": "BP_Boss_AoEAttack",
     "path": "Game/Enemies/Spider/TankBoss/BossTank/"
   },
   {
     "type": "BP",
-    "name": "BP_Spider_TankBoss_Armor",
+    "name": "BP_Spider_TankBoss_FracturedArmor",
     "path": "Game/Enemies/Spider/TankBoss/BossTank/"
   },
   {
@@ -1263,6 +2133,11 @@
     "type": "PRJ",
     "name": "PRJ_Spider_Tank_Boss",
     "path": "Game/Enemies/Spider/TankBoss/BossTank/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spider_Boss_Twin",
+    "path": "Game/Enemies/Spider/TankBoss/BossTwins/"
   },
   {
     "type": "BP",
@@ -1310,11 +2185,6 @@
     "path": "Game/Enemies/StabberVine/"
   },
   {
-    "type": "BP",
-    "name": "BP_StabberVine_Tentacle",
-    "path": "Game/Enemies/StabberVine/"
-  },
-  {
     "type": "ENE",
     "name": "ENE_StabberVines",
     "path": "Game/Enemies/StabberVine/"
@@ -1323,6 +2193,16 @@
     "type": "ENE",
     "name": "ENE_StabberVines2",
     "path": "Game/Enemies/StabberVine/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_StabberVine_Tentacle",
+    "path": "Game/Enemies/StabberVine/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_WoodlouseNew",
+    "path": "Game/Enemies/Woodlouse/"
   },
   {
     "type": "ENE",
@@ -1451,6 +2331,11 @@
   },
   {
     "type": "BP",
+    "name": "BP_MOD_MakeElite",
+    "path": "Game/Game/Modding/Components/"
+  },
+  {
+    "type": "BP",
     "name": "BP_CabinController",
     "path": "Game/Game/SpaceRig/"
   },
@@ -1495,9 +2380,24 @@
     "path": "Game/Game/StartMenu/"
   },
   {
+    "type": "BP",
+    "name": "BP_TracerManager",
+    "path": "Game/Game/SubSystems/"
+  },
+  {
     "type": "LIB",
     "name": "LIB_Text",
     "path": "Game/Game/Text/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Messages",
+    "path": "Game/Game/Text/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Bartender",
+    "path": "Game/GameElements/Bar/"
   },
   {
     "type": "BP",
@@ -1665,9 +2565,89 @@
     "path": "Game/GameElements/Bar/DrinkEffects/Wormhole"
   },
   {
+    "type": "UI",
+    "name": "UI_Bar_AbyssBarSignenu",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_BackgroundMenu",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_BackgroundMenu_Item",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_BackgroundMenu_ItemSpecialBig",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_DrinkCost",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_DrinkCostPrice",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_Inventory",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_LockWarning",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_OrderMenu",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_OrderMenu_Item",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_OrderMenu_ItemSpecial",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_OrderMenu_Preview",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_PlayerRankWarning",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_SupporterLabel",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Bar_UnlockBeerPopup",
+    "path": "Game/GameElements/Bar//"
+  },
+  {
     "type": "BP",
     "name": "BP_CampaignManager",
     "path": "Game/GameElements/Campaign/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Donkey",
+    "path": "Game/GameElements/Donkey/"
   },
   {
     "type": "BP",
@@ -1686,8 +2666,18 @@
   },
   {
     "type": "BP",
+    "name": "BP_Donkey_Facility",
+    "path": "Game/GameElements/Donkey/"
+  },
+  {
+    "type": "BP",
     "name": "BP_Donkey_Salvage",
     "path": "Game/GameElements/Donkey/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Bosco",
+    "path": "Game/GameElements/Drone/"
   },
   {
     "type": "BP",
@@ -1715,13 +2705,48 @@
     "path": "Game/GameElements/Drone/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Drone_Cinematic",
+    "path": "Game/GameElements/Drone/Drone"
+  },
+  {
     "type": "BP",
     "name": "BP_AmberEvent",
     "path": "Game/GameElements/GameEvents/AmberEvent/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Amber_Depositbox",
+    "path": "Game/GameElements/GameEvents/AmberEvent/Models/"
+  },
+  {
     "type": "BP",
     "name": "BP_CoreInfuser_Rewards_Selector",
+    "path": "Game/GameElements/GameEvents/CoreInfuser/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CoreInfuser_Rewards_Animator",
+    "path": "Game/GameElements/GameEvents/CoreInfuser/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CoreInfuser_Rewards_Background",
+    "path": "Game/GameElements/GameEvents/CoreInfuser/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CoreInfuser_Rewards_Selector",
+    "path": "Game/GameElements/GameEvents/CoreInfuser/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CoreInfuser_Reward_Background",
+    "path": "Game/GameElements/GameEvents/CoreInfuser/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CoreInfuser_Reward_Icon",
     "path": "Game/GameElements/GameEvents/CoreInfuser/"
   },
   {
@@ -1760,6 +2785,21 @@
     "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_LaserStarter",
+    "path": "Game/GameElements/GameEvents/ExplosiveBarrelsEvent/Models/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_DestoyedModule",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_GuntowerBase",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/"
+  },
+  {
     "type": "BP",
     "name": "BP_GuntowerActivationPlatfrom",
     "path": "Game/GameElements/GameEvents/GuntowerEvent/"
@@ -1770,6 +2810,21 @@
     "path": "Game/GameElements/GameEvents/GuntowerEvent/"
   },
   {
+    "type": "UI",
+    "name": "UI_GuntowerProgressBar",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Guntower_ProgressBar_ModuleIcon",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_GunTower_LMG_Skeleton_AnimBlueprint",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
+  },
+  {
     "type": "BP",
     "name": "BP_Guntower_Module_LMG",
     "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
@@ -1777,6 +2832,11 @@
   {
     "type": "BP",
     "name": "BP_TowerModuleController",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HomingModule",
     "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
@@ -1790,6 +2850,11 @@
     "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
+    "type": "ABP",
+    "name": "ABP_RadialFire_Module",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
+  },
+  {
     "type": "BP",
     "name": "BP_Guntower_Module_RadialFire_new",
     "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
@@ -1797,6 +2862,11 @@
   {
     "type": "PRJ",
     "name": "PRJ_GuntowerLineProjectile",
+    "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_RandomFire_Module",
     "path": "Game/GameElements/GameEvents/GuntowerEvent/GunTower"
   },
   {
@@ -1825,6 +2895,21 @@
     "path": "Game/GameElements/GameEvents/RewardDispenser/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_EventRewardFrame",
+    "path": "Game/GameElements/GameEvents/RewardDispenser/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_RewardDispenser",
+    "path": "Game/GameElements/GameEvents/RewardDispenser/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_EventStarterButton",
+    "path": "Game/GameElements/GameEvents/RewardDispenser/EventButtons/"
+  },
+  {
     "type": "BP",
     "name": "BP_MatrixCore_Tester",
     "path": "Game/GameElements/GameEvents/RewardDispenser/MatrixCore/"
@@ -1843,6 +2928,16 @@
     "type": "PRJ",
     "name": "PRJ_PowerupSphere",
     "path": "Game/GameElements/GameEvents/RockEnemies/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_PowerupSprinkler",
+    "path": "Game/GameElements/GameEvents/RockEnemies/Models/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_ItemDispenserBase",
+    "path": "Game/GameElements/ItemDispenser/"
   },
   {
     "type": "BP",
@@ -1986,6 +3081,16 @@
   },
   {
     "type": "BP",
+    "name": "BP_SmallGenerator",
+    "path": "Game/GameElements/Misc/Generator/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Generator",
+    "path": "Game/GameElements/Misc/Generator/GeneratorRig/"
+  },
+  {
+    "type": "BP",
     "name": "BP_FracturedMissionDNA",
     "path": "Game/GameElements/Missions/"
   },
@@ -2075,13 +3180,53 @@
     "path": "Game/GameElements/Missions/Warnings/ShieldDisruption/"
   },
   {
+    "type": "BP",
+    "name": "BP_Swarmageddon",
+    "path": "Game/GameElements/Missions/Warnings/Swarmageddon/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CameraDrone_Flare",
+    "path": "Game/GameElements/MovieMode/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CameraDrone_FlareProjectile",
+    "path": "Game/GameElements/MovieMode/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CameraDrone_Spline",
+    "path": "Game/GameElements/MovieMode/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CameraDrone_SplineMesh",
+    "path": "Game/GameElements/MovieMode/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_MovieMode_VanityCharacter",
+    "path": "Game/GameElements/MovieMode/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_PlayerCameraDrone",
+    "path": "Game/GameElements/MovieMode/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerDrone",
+    "path": "Game/GameElements/MovieMode/UI/"
+  },
+  {
     "type": "OBJ",
-    "name": "OBJ_1st_Gather_AlienEggs",
+    "name": "OBJ_1st_Extraction",
     "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
-    "name": "OBJ_1st_MineMorkite_linear",
+    "name": "OBJ_1st_Gather_AlienEggs",
     "path": "Game/GameElements/Objectives/"
   },
   {
@@ -2121,7 +3266,7 @@
   },
   {
     "type": "OBJ",
-    "name": "OBJ_2nd_KillFleas_5",
+    "name": "OBJ_2nd_KillFleas",
     "path": "Game/GameElements/Objectives/"
   },
   {
@@ -2136,17 +3281,17 @@
   },
   {
     "type": "OBJ",
+    "name": "OBJ_Extraction_Base",
+    "path": "Game/GameElements/Objectives/"
+  },
+  {
+    "type": "OBJ",
     "name": "OBJ_FindItems_Base",
     "path": "Game/GameElements/Objectives/"
   },
   {
     "type": "OBJ",
     "name": "OBJ_Gather_Base",
-    "path": "Game/GameElements/Objectives/"
-  },
-  {
-    "type": "OBJ",
-    "name": "OBJ_Resource_Base",
     "path": "Game/GameElements/Objectives/"
   },
   {
@@ -2166,13 +3311,13 @@
   },
   {
     "type": "OBJ",
-    "name": "OBJ_1st_Defense",
-    "path": "Game/GameElements/Objectives/Defense/"
+    "name": "OBJ_DD_Defense",
+    "path": "Game/GameElements/Objectives/DeepDive/Defense/"
   },
   {
-    "type": "BP",
-    "name": "BP_Elimination_RadarPoint",
-    "path": "Game/GameElements/Objectives/Elimination/"
+    "type": "OBJ",
+    "name": "OBJ_DD_RepairMinimules",
+    "path": "Game/GameElements/Objectives/DeepDive/Reparation/"
   },
   {
     "type": "OBJ",
@@ -2250,6 +3395,16 @@
     "path": "Game/GameElements/Objectives/Escort/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_DrillDozer",
+    "path": "Game/GameElements/Objectives/Escort/DrillDozer/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_DrillDozer_Drill",
+    "path": "Game/GameElements/Objectives/Escort/DrillDozer/"
+  },
+  {
     "type": "BP",
     "name": "BP_CaterpillarTrack",
     "path": "Game/GameElements/Objectives/Escort/DrillDozer/"
@@ -2276,7 +3431,382 @@
   },
   {
     "type": "BP",
+    "name": "BP_Electrical_Antenna",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_FacilityCore_DataRack",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_FacilityElectricAttack",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_FacilityTentacleManager",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_MainFacility_DataVault",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Mainfacility_ShieldEmitter_ForceFieldProjector",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_MainFacility_ShieldEmitter_Hologram",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_ShieldBattery",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "OBJ",
+    "name": "OBJ_1st_Facility",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_Facility_Barrier_Base",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_Facility_Laser_Base",
+    "path": "Game/GameElements/Objectives/Facility/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Caretaker",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_CaretakerEye",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CaretakerActionBase",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CaretakerDroneAction_UNUSED",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CaretakerMortarAction",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CaretakerShredderAction",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CaretakerTurretAction",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Caretaker_AoE_Attack",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityCaretaker",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_CaretakerBarrier",
+    "path": "Game/GameElements/Objectives/Facility/Caretaker/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FacilityTurret",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_FacilityTurretDrone",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_FacilityTurretDrone_Sniper",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_TurretbaseDebris",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTurret_Barrier",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTurret_Base",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTurret_Burst",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTurret_Sniper",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTurret_Spinning",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_FacilityturretLaser_Burst",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_FacilityTurretLaser_Sniper",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_Turret_Barrier",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FacilityTurret_Barrier",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FacilityTurret_Burst",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FacilityTurret_Sniper",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Facility_TurretDrone",
+    "path": "Game/GameElements/Objectives/Facility/DefenseTurret/Turret"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Tentacle_Head",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Facility_Tentacle_SpawnPoint",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_TentacleBurrowAttack",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_TentacleMeleeAttack",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Tentacle_RangedAttack",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTentacle",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTentacle_Burrowing",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "ENE",
+    "name": "ENE_FacilityTentacle_End",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_FacilityTentacleProjectile",
+    "path": "Game/GameElements/Objectives/Facility/DefensiveTentacles/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_MainFacility_PowerCable",
+    "path": "Game/GameElements/Objectives/Facility/GeneratorLine/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Phase_Bomb_Skeleton_AnimBlueprint",
+    "path": "Game/GameElements/Objectives/Facility/PhaseBomb/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_PhaseBomb",
+    "path": "Game/GameElements/Objectives/Facility/PhaseBomb/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Facility_PowerStation_GeneratorBase",
+    "path": "Game/GameElements/Objectives/Facility/ShieldGenerator/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Facility_PowerStation_ShieldGenerator",
+    "path": "Game/GameElements/Objectives/Facility/ShieldGenerator/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_MainShieldActvator",
+    "path": "Game/GameElements/Objectives/Facility/ShieldGenerator/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_DropToTerrainDebris_Base",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_HackerJunk_Base",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_HackerJunk_Box",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_HackerJunk_Can",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_HackingPod",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_HackingPodDrillDebris",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_TetherDispenser",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_TetherDispenserBeacon",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_TransmitterNode",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_FixDispenser",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HackingPod",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_TetherDispenser",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_TransmitterNode",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingPod_Screen_Base",
+    "path": "Game/GameElements/Objectives/Facility/Tethers/Assets/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Facility_Objective",
+    "path": "Game/GameElements/Objectives/Facility/UI/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Facility_Objective_Caretaker",
+    "path": "Game/GameElements/Objectives/Facility//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Facility_Objective_PowerStation",
+    "path": "Game/GameElements/Objectives/Facility//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Facility_Objective_ShieldEmitter",
+    "path": "Game/GameElements/Objectives/Facility//"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_MainFacility",
+    "path": "Game/GameElements/Objectives/Facility/Vault/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_TentacleHatch",
+    "path": "Game/GameElements/Objectives/Facility/Vault/TentacleHatch/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FacilityShieldEMitter",
+    "path": "Game/GameElements/Objectives/Facility/VaultShieldEmitter/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_ProspectorDataDeposit",
+    "path": "Game/GameElements/Objectives/HackBuilding/"
+  },
+  {
+    "type": "BP",
     "name": "BP_RefineryLanding",
+    "path": "Game/GameElements/Objectives/Refinery/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Refinery_Objective",
     "path": "Game/GameElements/Objectives/Refinery/"
   },
   {
@@ -2285,9 +3815,14 @@
     "path": "Game/GameElements/Objectives/Refinery/"
   },
   {
-    "type": "OBJ",
-    "name": "OBJ_1st_RepairMinimules",
-    "path": "Game/GameElements/Objectives/Reparation/"
+    "type": "ABP",
+    "name": "ABP_FuelCell",
+    "path": "Game/GameElements/Objectives/Salvage/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_MiniMule",
+    "path": "Game/GameElements/Objectives/Salvage/"
   },
   {
     "type": "BP",
@@ -2358,6 +3893,11 @@
     "type": "BP",
     "name": "BP_OilShaleChunk",
     "path": "Game/GameElements/Resources/Carved/OilShale/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_QuantriteChunk",
+    "path": "Game/GameElements/Resources/Carved/Quantrite/"
   },
   {
     "type": "BP",
@@ -2613,6 +4153,11 @@
     "type": "BP",
     "name": "BP_NitraChunk",
     "path": "Game/GameElements/Resources/Veins/ResourceChunks/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_TreasureBox",
+    "path": "Game/GameElements/Treasure/"
   },
   {
     "type": "BP",
@@ -2950,6 +4495,11 @@
     "path": "Game/LevelElements/Components/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Mulebay",
+    "path": "Game/LevelElements/Droppod/"
+  },
+  {
     "type": "BP",
     "name": "BP_DropPod_Base",
     "path": "Game/LevelElements/Droppod/"
@@ -3018,6 +4568,11 @@
     "type": "BP",
     "name": "BP_SpawnDroppodLocationItem",
     "path": "Game/LevelElements/Droppod/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Minehead",
+    "path": "Game/LevelElements/Minehead/"
   },
   {
     "type": "BP",
@@ -3110,6 +4665,11 @@
     "path": "Game/LevelElements/Refinery/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Refinery_Extractor",
+    "path": "Game/LevelElements/Refinery/Extractor/"
+  },
+  {
     "type": "BP",
     "name": "BP_Extractor_Shell",
     "path": "Game/LevelElements/Refinery/Extractor/"
@@ -3143,6 +4703,36 @@
     "type": "BP",
     "name": "BP_Pipeline_Start",
     "path": "Game/LevelElements/Refinery/Pipeline/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PipelineContext",
+    "path": "Game/LevelElements/Refinery/Pipeline/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Pipeline_Connector",
+    "path": "Game/LevelElements/Refinery/Pipeline/Assets/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Refinery",
+    "path": "Game/LevelElements/Refinery/Refinery/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Refinery_Depositor",
+    "path": "Game/LevelElements/Refinery/Refinery/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RefineryUsebutton",
+    "path": "Game/LevelElements/Refinery/Widgets/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_UseButton_Monitor",
+    "path": "Game/LevelElements/Refinery/s/"
   },
   {
     "type": "BP",
@@ -3195,6 +4785,11 @@
     "path": "Game/LevelElements/RoomObjects/CreepyEyes/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_EyeBase",
+    "path": "Game/LevelElements/RoomObjects/CreepyEyes/Animations/"
+  },
+  {
     "type": "BP",
     "name": "BP_FossilsBase",
     "path": "Game/LevelElements/RoomObjects/Fossils/"
@@ -3230,6 +4825,11 @@
     "path": "Game/LevelElements/RoomObjects/Hazards/AirGeyser/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_BombSpitter",
+    "path": "Game/LevelElements/RoomObjects/Hazards/BombSpitter/"
+  },
+  {
     "type": "BP",
     "name": "BP_BombSpitter",
     "path": "Game/LevelElements/RoomObjects/Hazards/BombSpitter/"
@@ -3238,6 +4838,11 @@
     "type": "PRJ",
     "name": "PRJ_BombSpitter",
     "path": "Game/LevelElements/RoomObjects/Hazards/BombSpitter/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_CactusShooterPlant",
+    "path": "Game/LevelElements/RoomObjects/Hazards/CactusShooter/"
   },
   {
     "type": "BP",
@@ -3262,6 +4867,16 @@
   {
     "type": "BP",
     "name": "BP_ChimneyGeyser03_Carved",
+    "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_ChimneyGeyser04_Carved",
+    "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_ChimneyGeyser05_Carved",
     "path": "Game/LevelElements/RoomObjects/Hazards/ChimneyGeyser/"
   },
   {
@@ -3485,6 +5100,16 @@
     "path": "Game/LevelElements/RoomObjects/Hazards/SpiderEgg/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_SpikeyPlant_A",
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpikyPlant/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Spike_B",
+    "path": "Game/LevelElements/RoomObjects/Hazards/SpikyPlant/"
+  },
+  {
     "type": "BP",
     "name": "BP_SpikeyPlant",
     "path": "Game/LevelElements/RoomObjects/Hazards/SpikyPlant/"
@@ -3508,6 +5133,11 @@
     "type": "BP",
     "name": "BP_StickySpiderWeb_New_Corner",
     "path": "Game/LevelElements/RoomObjects/Hazards/StickySpiderWeb/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_SuckingPlant",
+    "path": "Game/LevelElements/RoomObjects/Hazards/SuckingPlant/"
   },
   {
     "type": "BP",
@@ -3555,9 +5185,19 @@
     "path": "Game/LevelElements/RoomObjects/Hazards/SwarmerTunnel/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_ElevatorPlant",
+    "path": "Game/LevelElements/RoomObjects/Helpers/ElevatorPlant/"
+  },
+  {
     "type": "BP",
     "name": "BP_ElevatorPlant",
     "path": "Game/LevelElements/RoomObjects/Helpers/ElevatorPlant/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FloatingLightPlant_A",
+    "path": "Game/LevelElements/RoomObjects/Helpers/FloatingLightPlant/"
   },
   {
     "type": "BP",
@@ -4445,6 +6085,11 @@
     "path": "Game/LevelElements/Spacerig/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_DrunksBox",
+    "path": "Game/LevelElements/Spacerig/Bar/DrinksDispenser/Assets/"
+  },
+  {
     "type": "BP",
     "name": "BP_DrinksBox",
     "path": "Game/LevelElements/Spacerig/Bar/DrinksDispenser/Assets/"
@@ -4458,6 +6103,26 @@
     "type": "BP",
     "name": "BP_HoopsGame",
     "path": "Game/LevelElements/Spacerig/Bar/Hoops/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Hoop_History",
+    "path": "Game/LevelElements/Spacerig/Bar/Hoops/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Hoop_HistoryLine",
+    "path": "Game/LevelElements/Spacerig/Bar/Hoops/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Spacerig_Spaceball",
+    "path": "Game/LevelElements/Spacerig/Spacerig"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Spacerig_Spaceball_Goal",
+    "path": "Game/LevelElements/Spacerig/Spacerig"
   },
   {
     "type": "BP",
@@ -4531,6 +6196,11 @@
   },
   {
     "type": "BP",
+    "name": "BP_DLC_Audio",
+    "path": "Game/Movies/DLC/"
+  },
+  {
+    "type": "BP",
     "name": "BP_FriendStatus",
     "path": "Game/UI/"
   },
@@ -4555,9 +6225,354 @@
     "path": "Game/UI/"
   },
   {
+    "type": "HUD",
+    "name": "HUD_PlayerDown",
+    "path": "Game/UI/"
+  },
+  {
     "type": "LIB",
     "name": "LIB_Input",
     "path": "Game/UI/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LogLine",
+    "path": "Game//"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_CollectedEverything",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_Controller",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_Label",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_PickaxePart",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_Schematic",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_Skin",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_Vanity",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Announcement",
+    "name": "Announcement_VictoryPose",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Icons_Triangle_DailyAdventure_White",
+    "path": "Game/UI/Art/Icons/Icons"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Block_Filled",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Block_Filled_Divide",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Block_Filled_Outline",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Block_Outline_Divide",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Large_Triangle_Filled",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Large_Triangle_Filled_Divide_BG",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Large_Triangle_Outline",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Large_Triangle_Outline_Divide",
+    "path": "Game/UI/Art/Job"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_AnimatedNumber",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ArrowButton02",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BoolUserSetting",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonCutCorner",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonLargeImage",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonMultiline",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonScalable",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonScalable2",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonTab",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ButtonWithControls",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_CheckBox",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Dropdown",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_DropdownItem",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ExpandableMenu",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_FlatButton",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_FlatGradientButton",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_HoverBox",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_HUD_BracketWindowBig",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_HUD_BracketWindowBig_Single",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_HUD_BracketWindowSmall",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_HUD_BracketWindowSmall_Single",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_IconWithOutline",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Image",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_InputSpecific_Widget",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_InputSwitcher",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_MenuLabel",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_ColorBar",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_ColorBarVertical",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_LargeWindowNoHeader",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_LargeWindowWithHeader",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_LargeWindowWithHeaderWhite",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_MinimalWindow",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_SmallWindowWithHeader",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_SmallWindowWithHeader_Redesign",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Menu_WindowBG",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Option",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_OptionSlider",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_OptionSmall",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_OptionSwitcher",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_PasswordField",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Popup_YesNoPrompt",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_RadioButton",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ResourceICon",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ScrollArrow",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ScrollArrow2",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ScrollBarBox",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Slider",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_TextInputField",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Window_CutCorner",
+    "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Window_CutCorner_Gradient",
+    "path": "Game/UI/Art/WidgetParts/"
   },
   {
     "type": "LIB",
@@ -4568,6 +6583,241 @@
     "type": "LIB",
     "name": "LIB_PerkColors",
     "path": "Game/UI/Art/WidgetParts/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PlayerSpeaking",
+    "path": "Game//Art/WidgetParts/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PlayerSpeaking_List",
+    "path": "Game//Art/WidgetParts/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PlayerSpeaking_WithName",
+    "path": "Game//Art/WidgetParts/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_Base",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_CharacterSelectMovie",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_DoubleLength",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_HalfLength",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_SpaceRig_PersonalCharacterLevel",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_Stats",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_UpgradesBig_Bar",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_UpgradesBig_SingleIcon",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_UpgradesBig_SingleIcon_Connector",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_UpgradesSmall_Bar",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_UpgradesSmall_SingleIcon",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_UpgradesSmall_SingleIcon_Connector",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "Popup",
+    "name": "Popup_GearUpgrade_Buy",
+    "path": "Game/UI/CharacterSelectionMK2/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RetirementInfo",
+    "path": "Game//CharacterSelectionMK2/Retirement/"
+  },
+  {
+    "type": "WND",
+    "name": "WND_CharacterRetirement",
+    "path": "Game/UI/CharacterSelectionMK2/Retirement/"
+  },
+  {
+    "type": "WND",
+    "name": "WND_RetirementRewards",
+    "path": "Game/UI/CharacterSelectionMK2/Retirement/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Chat",
+    "path": "Game/UI/Chat/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ChatLine",
+    "path": "Game/UI/Chat/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ClaimableRewards_Entry",
+    "path": "Game//ClaimableRewards/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ClaimableRewards_View",
+    "path": "Game//ClaimableRewards/"
+  },
+  {
+    "type": "WND",
+    "name": "WND_ClaimableRewards",
+    "path": "Game/UI/ClaimableRewards/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_FriendList",
+    "path": "Game//FriendInvites/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_FriendListEntry",
+    "path": "Game//FriendInvites/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_FriendsAndInvites",
+    "path": "Game//FriendInvites/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EarlyAccessHats_Banner",
+    "path": "Game//FSDEvents/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EventBanner_Halloween",
+    "path": "Game//FSDEvents/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EventBanner_SteamAwards2020",
+    "path": "Game//FSDEvents/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EventBanner_Xmas",
+    "path": "Game//FSDEvents/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Year03_Banner",
+    "path": "Game//FSDEvents/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_MoviePanel",
+    "path": "Game/UI/Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_AdvancedLabel",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_BlackOverlay",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Character_Supplies",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CurvedCanvas",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_FocusableCanvas",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_FPS",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_GlowBackground",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_NetInfo",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RunningMultiText",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RunningText",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ScalableLevelDisplay",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ScalableMissionStats",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_TickerText",
+    "path": "Game//Global"
+  },
+  {
+    "type": "UI",
+    "name": "UI_WhiteOverlay",
+    "path": "Game//Global"
   },
   {
     "type": "BP",
@@ -4641,11 +6891,6 @@
   },
   {
     "type": "BP",
-    "name": "BP_MapConsoleTMP",
-    "path": "Game/UI/HUD"
-  },
-  {
-    "type": "BP",
     "name": "BP_MemorialQuotes",
     "path": "Game/UI/HUD"
   },
@@ -4666,12 +6911,22 @@
   },
   {
     "type": "BP",
+    "name": "BP_News_Monitor",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "BP",
     "name": "BP_PickaxeConsole",
     "path": "Game/UI/HUD"
   },
   {
     "type": "BP",
     "name": "BP_QuickJoinGameConsole",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "BP",
+    "name": "BP_SeasonsConsole",
     "path": "Game/UI/HUD"
   },
   {
@@ -4695,6 +6950,111 @@
     "path": "Game/UI/HUD"
   },
   {
+    "type": "HUD",
+    "name": "HUD_SpaceRig",
+    "path": "Game/UI/"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_SpaceRig_ClassLevel",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_SpaceRig_ClassName",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_SpaceRig_PersonalCharacterLevel",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_SpaceRig_PlayerRank",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "ITEM",
+    "name": "ITEM_SpaceRig_TeamMember",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_BeerBuff_SpaceRig",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_BuildID",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ConsoleMemorialLine",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_NameTags",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_TeamDisplay",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_ForgeAvailableMessage",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_PendingMachineEventReward",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_PromotionDirections",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_SpaceRig_Chat",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RewardResource",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RewardResourcesBox",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RewardSchematic",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RewardUnlock",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RewardUnlock_Vanity",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_AssignmentMissionComplete",
+    "path": "Game/UI/HUD"
+  },
+  {
     "type": "BP",
     "name": "BP_DiscordConsole",
     "path": "Game/UI/HUD"
@@ -4715,9 +7075,94 @@
     "path": "Game/UI/HUD"
   },
   {
+    "type": "UI",
+    "name": "UI_CommunityRewardResource",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RewardResourceAditive",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_DiscordCommunity",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_Forge",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_ForgingMasteryBar",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_Completed",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_Details",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_LevelIcon",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_MasteryBar",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_MasteryReward",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_Schematic",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_SchematicIconBG",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_SchematicList",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_SchematicList_Separator",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Forge_Schematic_OwnerIcon",
+    "path": "Game//HUD"
+  },
+  {
     "type": "BP",
     "name": "BP_DeathStats",
     "path": "Game/UI/HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_DeathStats_View",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfirmaryStats_Item",
+    "path": "Game//HUD"
   },
   {
     "type": "BP",
@@ -4725,9 +7170,229 @@
     "path": "Game/UI/HUD"
   },
   {
+    "type": "UI",
+    "name": "UI_AvailablePerkPoints",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_KPI_Tab",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Milestone_Item",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MileStone_Tier",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Milestone_View",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionStats_Categories",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionStats_Category",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionStats_Item",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionStats_View",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionStat_Preview",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionStat_PreviewItem",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PerkBackground",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PerkIcon",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perks_Buy",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perks_Column_Items",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perks_Column_Unlocks",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perks_Column_Unlocks_Arrow",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perks_Item",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perks_View",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Perk_ToolTip",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_KPI",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MissionBar",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MissionBar_DeepDive",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MissionBar_Normal",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "LCD",
+    "name": "LCD_CampaignProgress",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "LCD",
+    "name": "LCD_MissionReadout_Biome",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "LCD",
+    "name": "LCD_MissionReadout_Data",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "LCD",
+    "name": "LCD_MissionReadout_Garbage01",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "LCD",
+    "name": "LCD_MissionReadout_HazCompLen",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "LCD",
+    "name": "LCD_MissionReadout_NoMissionSelected",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionReadOut_Base",
+    "path": "Game//HUD"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Modding_Downloads",
+    "path": "Game/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Modding_Downloads_Entry",
+    "path": "Game/UI/"
+  },
+  {
+    "type": "WND",
+    "name": "WND_TooManyModsEnabled",
+    "path": "Game/UI/HUD"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_SpaceRig_Notification",
+    "path": "Game/UI/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_SpaceRig_NotificationsManager",
+    "path": "Game/UI/"
+  },
+  {
     "type": "BP",
     "name": "BP_TextDisplay",
     "path": "Game/UI/IngameTextDisplay/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_TextDisplay",
+    "path": "Game/UI/IngameTextDisplay/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Gamepad_CustomizeControls",
+    "path": "Game/UI/Keybindings/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Gamepad_KeyBinding",
+    "path": "Game/UI/Keybindings/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Gamepad_KeyCapture",
+    "path": "Game/UI/Keybindings/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Gamepad_SwapThumbsticks",
+    "path": "Game/UI/Keybindings/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_MouseKeyboard_CustomizeControls",
+    "path": "Game/UI/Keybindings/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_MouseKeyboard_KeyBinding",
+    "path": "Game/UI/Keybindings/"
+  },
+  {
+    "type": "Options",
+    "name": "Options_MouseKeyboard_KeyCapture",
+    "path": "Game/UI/Keybindings/"
   },
   {
     "type": "BP",
@@ -4740,8 +7405,708 @@
     "path": "Game/UI/MainOnscreenHUD/"
   },
   {
+    "type": "HUD",
+    "name": "HUD_ActionHoldProgress",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ActorContext_Manager",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ActorTrackingIcon",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Altimeter",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_AmmoCount",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Armor_Base",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Armor_Player",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CharacterTrackingIcon",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Countdown_Extraction",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageClass_Indicator",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DamageClass_Item",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DownedBomb_Activation",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_FieldMedic",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_FlareIcon",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Flares",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Flashlight",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Frozen",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_GameTags",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_GameTags_Entry",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_GrenadeIcon",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Grenades",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Health_Base",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Health_Player",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_HeightenedSenses_Activation",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Hold_Activation",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Inventory_ItemCount",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_IronWill_Activation",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ItemBar_ExtraButtons",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Main",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_MapTool",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_MicrophoneIndicator",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Milestone_Manager",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Milestone_Notification",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_MutatorsAndWarnings_3",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_OptionalHudElement",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Pickaxe",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerClass_Icon",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerClass_Label",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerInfo",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerMic",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerName_Label",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerTemperature",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ThrowCarriable",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_WeaponName",
+    "path": "Game/UI/MainOnscreen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BoscoAmmoRefillsLable",
+    "path": "Game/UI/MainOnscreen/Bosco/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BoscoRevivesLable",
+    "path": "Game/UI/MainOnscreen/Bosco/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_BossFight_NeutralEvent",
+    "path": "Game/UI/MainOnscreenHUD/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BossFight_BaseEntry",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BossFight_Entry",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BossFight_Heartstone",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BossFight_Manager",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BossFight_NeutralEvent",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Hacking_DataDeposit",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Hacking_Powerstation",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Progressbar_Hacking_Base",
+    "path": "Game/UI/MainOnscreen/BossFight/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HorizontalSegments",
+    "path": "Game//MainOnscreenHUD/BossFight/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CoolDownManager",
+    "path": "Game/UI/MainOnscreen/CooldownDisplay/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CooldownWidget",
+    "path": "Game/UI/MainOnscreen/CooldownDisplay/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Directional_Damage_Indicator",
+    "path": "Game/UI/MainOnscreen/DamageIndicator/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Directional_Damage_IndicatorV2",
+    "path": "Game/UI/MainOnscreen/DamageIndicator/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EscortMuleStatus",
+    "path": "Game/UI/MainOnscreen/DrillingVehicle/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting_Affliction",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting_AfflictionBox",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting_HealthBar",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting_HealthBar_Elite",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting_Old",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_EnemyTargeting_Temperature",
+    "path": "Game/UI/MainOnscreen/EnemyHealthBar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Defend_Event",
+    "path": "Game/UI/MainOnscreen/Events/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_GameEvent_Generic",
+    "path": "Game/UI/MainOnscreen/Events/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Salvage_Defend",
+    "path": "Game/UI/MainOnscreen/Events/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Salvage_Defend_PlayerSlot",
+    "path": "Game/UI/MainOnscreen/Events/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Itembar",
+    "path": "Game/UI/MainOnscreen/Items/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Itembar_Icon",
+    "path": "Game/UI/MainOnscreen/Items/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ItemWheel",
+    "path": "Game/UI/MainOnscreen/Items/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Itemwheel_Icon",
+    "path": "Game/UI/MainOnscreen/Items/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_MinersManualNotification",
+    "path": "Game/UI/MainOnscreen/MinersManualNotifications/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_MinersManualNotification_Manager",
+    "path": "Game/UI/MainOnscreen/MinersManualNotifications/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ObjectiveBox_Item",
+    "path": "Game/UI/MainOnscreen/Objectives/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ObjectivesBox",
+    "path": "Game/UI/MainOnscreen/Objectives/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Oxygen",
+    "path": "Game/UI/MainOnscreen/Oxygen/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_ActivatablePerks",
+    "path": "Game/UI/MainOnscreen/Perks/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerPerks",
+    "path": "Game/UI/MainOnscreen/Perks/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_PlayerPerks_Icon",
+    "path": "Game/UI/MainOnscreen/Perks/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Resources_Player",
+    "path": "Game/UI/MainOnscreen/Resources/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Resources_Player_Icon",
+    "path": "Game/UI/MainOnscreen/Resources/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Resources_Team",
+    "path": "Game/UI/MainOnscreen/Resources/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Resources_Team_Icon",
+    "path": "Game/UI/MainOnscreen/Resources/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Label",
+    "path": "Game/UI/MainOnscreenHUD/Standard/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_DefaultLabel",
+    "path": "Game/UI/MainOnscreen/Standard/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ImageTinted",
+    "path": "Game//MainOnscreenHUD/Standard/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BoscoAbillityCounter",
+    "path": "Game/UI/MainOnscreen/Team"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_BoscoAbillityIcon",
+    "path": "Game/UI/MainOnscreen/Team"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TeamDisplay_Bosco",
+    "path": "Game/UI/MainOnscreen/Team"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TeamDisplay_Small",
+    "path": "Game/UI/MainOnscreen/Team"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TeamDisplay_SmallItem",
+    "path": "Game/UI/MainOnscreen/Team"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CallingMolly",
+    "path": "Game//MainOnscreenHUD/Team"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Warning_Manager",
+    "path": "Game/UI/MainOnscreen/Warnings/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_XP",
+    "path": "Game/UI/MainOnscreen/XP/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ForceSeasonEvent",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ForceSpecialEvent",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_MissionCheat",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EggHunt_Cheat",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Elimination_Cheat",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Extraction_Cheat",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Facility_Cheat",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionCheat_Base",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Salvage_Cheat",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Crafting_Unlock",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_Credits",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_EscapeMenu",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_PatchNotes",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_Modding",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Modding_SortBy",
+    "path": "Game//Menu"
+  },
+  {
     "type": "BP",
     "name": "BP_Invitation",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_JobsEntry",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_JobsEntryV2",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_JobsEntry_WeeklyV2",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Jobs_Entry_Base",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Jobs_Entry_Weekly",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Assignment_Popup",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_Loadout",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_UpgradeScreen",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_MasteryIcon",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_Overclock_Item",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_UpgradeIcon",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_DLC_Indicator",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HorizontalResourceBar",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MasteryReward",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MasteryUnlockLine",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Skins",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ClassInfo_CharacterIcon",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ClassInfo_CharacterSelector",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_CutCorner",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_CutCorner_Gradient",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_CutCorner_W_Image",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_Square_Outlined",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_Square_Outline_Flat",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_Window_W_Header",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Hover_Bracket",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Hover_Bracket_Small",
     "path": "Game/UI/Menu"
   },
   {
@@ -4750,14 +8115,1249 @@
     "path": "Game/UI/Menu"
   },
   {
+    "type": "Lore",
+    "name": "Lore_Content_Equipment_Details",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_Info_Tab_Group",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_Info_Tab_W_Icon",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_Itm_Flora",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_KillCount",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_ProgressBar",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_Statistics",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_Text_Header",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Content_Weaknesses",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_DamageTypeIcon",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Enlarge_Subject",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_InfoBox",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_InfoBoxAttack",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_InfoBox_W_Icon",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_ITM_MissionStep",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_ITM_MissionStepRow",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_List_Element",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_List_Filler",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_List_Header",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_ResourcesPage",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Resources_Content_Frame",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Resources_Content_ResourceInfo",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Switch_Selection",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BG_SquaredArrow",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BoxCorner",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_BoxCorner_Outline_4px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Box_Outline",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Box_Outline_2px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Double_Square_Corner_BG_64px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Brackets",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_4px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_6px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_BG",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_BG_64px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_Both_Sides",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_Both_Sides_BG",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_Filled_4px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_Filled_4px_Small",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Filled_6px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Info",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Text_W_ExposedImage_BG_L",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Text_W_ExposedImage_BG_R",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Text_W_ExposedImage_L",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Text_W_ExposedImage_R",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Text_W_Image_L_01",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Basics_Text_W_Image_R_1",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_CombatTip",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_CreatureInfo",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_DamageType",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Flora",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_PictureOverText",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Text",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Text_Without_BG",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Text_W_Image",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_Text_W_Tabs",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_WindowTextAndIcon",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Lore",
+    "name": "Lore_Container_WindowWithIcon_Right",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionComplete_CharacterBox",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionComplete_CombinedRewardLine",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionComplete_CombinedRewards",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionComplete_RankLevel",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MissionComplete_RewardColumn",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MissionComplete_Manager",
+    "path": "Game/UI/Menu"
+  },
+  {
     "type": "BP",
     "name": "BP_HologramBiome",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MisSel_BiomeDescription",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MisSel_MissionDescription",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_MisSel_MissionOptions",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_MatrixCore",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_AllowMetric",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_AppearOffline",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_CameraShake",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Chat_FadeTime",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Chat_FontSize",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Console_QualitySetting",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ControlLayout",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Controller_AimAcceleration_Outer",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Controller_AimDeadZone",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Controller_AimSensitivity",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Controller_ForceFeedbackScale",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Ctrl_InvertMouse",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_DisableJukeboxMusic",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_DisableMasterEQ",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_DownedTurnDirection",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_DX12",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_FOV",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_FullScreen",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_FullScreen_Resolutions",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_FullScreen_UWP",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_GameServerName",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_GFX_Gamma",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_GFX_HDR_Gamma",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_GFX_MaxFPS",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_GFX_Sharpening",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_GrapplingHookEquipPrevious",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_HDR",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Headbob",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_HoldToSprint",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_InputAudioSource",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_InvertFlightControls",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_InvertMouseWheel",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Language",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_LocalizationDebug",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Mic_Amplitude",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_MouseSmooting",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_MouseX_Sensitivity",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_MouseY_Sensitivity",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Mouse_SeparateAxis",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_OutputAudioSource",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_PhotosensitivityMode",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_PreventLatejoinCharacterDuplication",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ProfanityFilter",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_PushToTalk",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ResetProgress",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_RestoreSave",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_AntiAliasing",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_AntiAliasingType",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_Debris",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_Effects",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_Overall",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_PostProcess",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_ResolutioScale",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_Shadows",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_Textures",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Scalability_ViewDistance",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ShowFPS",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ShowInfoScreen",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ShowNetInfo",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ShowSubtitles",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ShowUIAnimations",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_SoundOnChatMessage",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_Audio",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_Controls",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_Gameplay",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_GFX",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_GFX_Console",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_GFX_Steam",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_Privacy",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_Saves",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_Tab_UI",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ToggleLaserpointer",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ToggleTerrainScanner",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_TutorialHints",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_UIScale_Slider",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_UseStreamerProgram",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_VoiceChat",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_VolumeSlider",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_VSync",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_ZiplineGunEquipPrevious",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_HUD_Element",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_HUD_ElementPresetItem",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_HUD_ElementPresets",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_SaveGame_CharacterClass",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_SaveGame_Entry",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_SaveGame_Browser",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_SonyINput",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_SonyInputBoolOption",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_SonyInputFloatOption",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_SonyInputLightOption",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Options",
+    "name": "Options_SonyInputMotionAxisMappingOption",
     "path": "Game/UI/Menu"
   },
   {
     "type": "BP",
     "name": "BP_Promotion_Console",
     "path": "Game/UI/MENU"
+  },
+  {
+    "type": "WND",
+    "name": "WND_CharacterPromotions",
+    "path": "Game/UI/MENU"
+  },
+  {
+    "type": "Popup",
+    "name": "Popup_ModdedSave",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Popup",
+    "name": "Popup_MoreThanOneMainSave",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Popup",
+    "name": "Popup_Saveslots",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "BP",
+    "name": "BP_ShowroomStageSeason",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "BP",
+    "name": "BP_SingleTokenReward",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_Season_BlankNode",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_Season_EventBonus",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_Season_Levels",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_Season_Reward",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_DLC_Season",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_SeasonChallenges",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_SeasonEventBonus",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_SeasonLevels",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_SeasonOverview",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Season_RewardClaimed",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_TreeOfVanity",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Challenge",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Filled",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_FilledHD",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Footer",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Outline_2px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Outline_2pxHD",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Outline_2px_02",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Outline_5px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Cornered_Square_Outline_5px_Var2",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Current_Season_Lvl_Selector",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_SeasonEvent_BG_Filled",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_SeasonEvent_BG_Outline",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_Square_Corner_BG_10px",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_ServerEntry_Biome",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_ServerEntry_Mods",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_ServerEntry_Team",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_ServerWorkEnvironment",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_JoinFailed",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Joining",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_JoiningModded",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_JoiningPassword",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_DisconnectScreen",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Disconnect_Screen_Base",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EarlyAccessThankYou",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_EarlyAccessThankYou_Bullet",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_DLCwidget",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_DLCwidget_Setup",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_AnniversaryYearTwo",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_DawnOfTheDread_DLC04",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_DLC03var02",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_DLC_Season01",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_Merch_June2020",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_SteamAwards2019",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Overlay_Xmas2019",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_InfoScreen_Xbox",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_NetworkErrorScreen",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PatchNotes",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PendingRewardScreen",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PendingReward_RewardLine",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_StartScreen",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_StartScreen_TextWidget",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TabPlayerListEntryV2",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TabPlayerListEntry_InteractableV2",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TabPlayerList_InteractableV2",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_LockedTemplate",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_SpaceRigTemplate",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_DailyDealOnTerminal",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Trading_DailyDeal",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "WND",
+    "name": "WND_Trading_Resources",
+    "path": "Game/UI/Menu"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RandomizeIcon",
+    "path": "Game//Menu"
+  },
+  {
+    "type": "TOOLTIP",
+    "name": "TOOLTIP_Mod_Joining",
+    "path": "Game/UI/Modding/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ModdingProgressBar",
+    "path": "Game//Modding/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Cursor",
+    "path": "Game//Mouse"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Cursor_Controller",
+    "path": "Game//Mouse"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Cursor_Mouse",
+    "path": "Game//Mouse"
+  },
+  {
+    "type": "Options",
+    "name": "Options_AnonymousMetrics",
+    "path": "Game/UI/PopUp"
+  },
+  {
+    "type": "Options",
+    "name": "Options_PersonalMetrics",
+    "path": "Game/UI/PopUp"
+  },
+  {
+    "type": "MENU",
+    "name": "MENU_Profiling",
+    "path": "Game/UI/Profiling/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar2",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_Donkey",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_EscapePod",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_EscortMule",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_FuelDrop",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_Player",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_Resupply",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_RadarPoint_Spawner",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_AngleMarker",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Radar_WorldCorners",
+    "path": "Game/UI/Radar/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_LightningSquare01",
+    "path": "Game/UI/ScreenOverlays/"
   },
   {
     "type": "BP",
@@ -4781,18 +9381,168 @@
   },
   {
     "type": "BP",
-    "name": "BP_ShowRoomItem",
+    "name": "BP_ShowroomStage",
     "path": "Game/UI/Showroom/"
   },
   {
-    "type": "BP",
-    "name": "BP_ShowroomStage",
+    "type": "WND",
+    "name": "WND_ShowroomTest",
     "path": "Game/UI/Showroom/"
+  },
+  {
+    "type": "Popup",
+    "name": "Popup_ReconnectController",
+    "path": "Game/UI/System/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_OnlineRestricted_Entry",
+    "path": "Game//System/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_SteamLoading",
+    "path": "Game//System/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_TrialExpired",
+    "path": "Game//System/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_UpdateAvailable",
+    "path": "Game//System/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LoadingTips",
+    "path": "Game//Tips/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ToolTip",
+    "path": "Game/UI/ToolTips/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ToolTip_CutCorner",
+    "path": "Game/UI/ToolTips/"
+  },
+  {
+    "type": "Basic",
+    "name": "Basic_ToolTip_HeadlineAndText",
+    "path": "Game/UI/ToolTips/"
   },
   {
     "type": "LIB",
     "name": "LIB_ToolTips",
     "path": "Game/UI/ToolTips/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TutorialLevelManager",
+    "path": "Game/UI/Tutorial/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_TutorialWidget",
+    "path": "Game/UI/Tutorial/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_AssaultRifle",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Base_AmmoCount",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Basic_AmmoCount",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Charge",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_FlameThrower",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Overheat",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_SentryGun_Generic_AmmoCount",
+    "path": "Game/UI/s/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_ProgressBar",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_CircularProgressBar",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RichTextInput",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RichTextInput_Text",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RichTextTest",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_GradientMasked_Base",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_GradientMasked_Canvas",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_GradientMasked_Image",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MaskedCanvas",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MaskedImage",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RoundedCanvas",
+    "path": "Game//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_RoundedImage",
+    "path": "Game//"
   },
   {
     "type": "BPL",
@@ -4825,6 +9575,11 @@
     "path": "Game/WeaponsNTools/Armor/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_AssaultRifle_B",
+    "path": "Game/WeaponsNTools/AssaultRifle/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_AssaultRifle",
     "path": "Game/WeaponsNTools/AssaultRifle/"
@@ -4833,6 +9588,16 @@
     "type": "BP",
     "name": "BP_ElectricReloadComponent",
     "path": "Game/WeaponsNTools/AssaultRifle/Overclocks/OC"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_AutoCannon",
+    "path": "Game/WeaponsNTools/Autocannon/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Autocannon_AmmoCount",
+    "path": "Game/WeaponsNTools/Autocannon/"
   },
   {
     "type": "WPN",
@@ -4845,9 +9610,29 @@
     "path": "Game/WeaponsNTools/BaseBlueprints/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_BoltActionRifle_A_Skeleton_AnimBlueprint",
+    "path": "Game/WeaponsNTools/BoltActionRifle/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_BoltActionRifle_AmmoCount",
+    "path": "Game/WeaponsNTools/BoltActionRifle/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_M1000",
     "path": "Game/WeaponsNTools/BoltActionRifle/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_BurstPistol",
+    "path": "Game/WeaponsNTools/BurstFirePistol/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_BurstPistol_AmmoCount",
+    "path": "Game/WeaponsNTools/BurstFirePistol/"
   },
   {
     "type": "WPN",
@@ -4875,6 +9660,11 @@
     "path": "Game/WeaponsNTools/BurstFirePistol/Overclocks/OCBonusPenalty/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_ChargeBlaster",
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
+  },
+  {
     "type": "BP",
     "name": "BP_PersistentExplosionEffect_EPC",
     "path": "Game/WeaponsNTools/ChargeBlaster/"
@@ -4890,14 +9680,49 @@
     "path": "Game/WeaponsNTools/ChargeBlaster/"
   },
   {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_ChargeBlaster_AmmoCounter",
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_ChargeBlaster_Charge",
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_ChargeBlaster_Heat",
+    "path": "Game/WeaponsNTools/ChargeBlaster/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_ChargeBlaster",
     "path": "Game/WeaponsNTools/ChargeBlaster/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_CombatShotgun_A",
+    "path": "Game/WeaponsNTools/CombatShotgun/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_CombatShotgun_PoisonPlatforms",
+    "path": "Game/WeaponsNTools/CombatShotgun/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_CombatShotgun_AmmoCount",
+    "path": "Game/WeaponsNTools/CombatShotgun/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_CombatShotgun",
     "path": "Game/WeaponsNTools/CombatShotgun/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_CryoSpray",
+    "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
     "type": "BP",
@@ -4915,18 +9740,23 @@
     "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_CryoSpray_Ammo",
+    "path": "Game/WeaponsNTools/Cryospray/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_Cryospray",
     "path": "Game/WeaponsNTools/Cryospray/"
   },
   {
-    "type": "BP",
-    "name": "BP_DetPack_Charge",
+    "type": "ABP",
+    "name": "ABP_Detonator",
     "path": "Game/WeaponsNTools/DetPack/"
   },
   {
     "type": "BP",
-    "name": "BP_Detpack_LoadoutProxy",
+    "name": "BP_DetPack_Charge",
     "path": "Game/WeaponsNTools/DetPack/"
   },
   {
@@ -4940,9 +9770,39 @@
     "path": "Game/WeaponsNTools/DetPack/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_HeavyDual_Drill_L",
+    "path": "Game/WeaponsNTools/Drills/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HeavyDual_Drill_R",
+    "path": "Game/WeaponsNTools/Drills/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Drill_AmmoCount",
+    "path": "Game/WeaponsNTools/Drills/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Drill_Heat",
+    "path": "Game/WeaponsNTools/Drills/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_DoubleDrills",
     "path": "Game/WeaponsNTools/Drills/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_DualMachinePistols",
+    "path": "Game/WeaponsNTools/DualMachinePistols/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_DualSMG_AmmoCount",
+    "path": "Game/WeaponsNTools/DualMachinePistols/"
   },
   {
     "type": "WPN",
@@ -4960,6 +9820,16 @@
     "path": "Game/WeaponsNTools/DualMachinePistols/Overclocks/OC"
   },
   {
+    "type": "HUD",
+    "name": "HUD_ExtractorTrackingIcon",
+    "path": "Game/WeaponsNTools/Extractor/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_OilExtractor_Bar",
+    "path": "Game/WeaponsNTools/Extractor/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_Extractor",
     "path": "Game/WeaponsNTools/Extractor/"
@@ -4968,6 +9838,11 @@
     "type": "WPN",
     "name": "WPN_OilExtractor",
     "path": "Game/WeaponsNTools/Extractor/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_FlameThrower_A",
+    "path": "Game/WeaponsNTools/FlameThrower/"
   },
   {
     "type": "BP",
@@ -4980,8 +9855,18 @@
     "path": "Game/WeaponsNTools/FlameThrower/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Flaregun_A",
+    "path": "Game/WeaponsNTools/FlareGun/"
+  },
+  {
     "type": "PRJ",
     "name": "PRJ_FlareGun_Projectile01",
+    "path": "Game/WeaponsNTools/FlareGun/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_FlareGun_AmmoCount",
     "path": "Game/WeaponsNTools/FlareGun/"
   },
   {
@@ -5005,9 +9890,24 @@
     "path": "Game/WeaponsNTools/FuelLineBuilder/"
   },
   {
+    "type": "HUD",
+    "name": "HUD_FuelLine_Context",
+    "path": "Game/WeaponsNTools/FuelLineBuilder/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_FuelLine_Builder",
+    "path": "Game/WeaponsNTools/FuelLineBuilder/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_FuelLine_Builder",
     "path": "Game/WeaponsNTools/FuelLineBuilder/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_GatlingGun_AmmoCount",
+    "path": "Game/WeaponsNTools/GatlingGun/"
   },
   {
     "type": "WPN",
@@ -5015,9 +9915,104 @@
     "path": "Game/WeaponsNTools/GatlingGun/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Gatling",
+    "path": "Game/WeaponsNTools/GatlingGun/Animation/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_GooCannon_Cannister",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_GooCannon_Cannister_TP",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_GooCannon_GooPuddle",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_GooCannon_GooPuddle_ImprovedPoison",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_GooCannon_GooPuddle_ImprovedSlow",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_BaseBigGooProjectile",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_BaseGooProjectile",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_BaseNormalGooProjectile",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_BigGooProjectile",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_BigGooProjectile_Trail",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_BigGoo_Buckshot",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_GooProjectile_Fragment_Base",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_GooProjectile_Fragment_GooBomoberSpecial",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_GooProjectile_Fragment_Normal",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_NormalGooProjectile",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_GooCannon",
+    "path": "Game/WeaponsNTools/GooCannon/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_GooCannon_B_Skeleton_AnimBlueprint",
+    "path": "Game/WeaponsNTools/GooCannon/Animations/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_GrapplingGun",
     "path": "Game/WeaponsNTools/GrapplingGun/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_GrenadeLauncher_A",
+    "path": "Game/WeaponsNTools/GrenadeLauncher/"
   },
   {
     "type": "BP",
@@ -5027,6 +10022,11 @@
   {
     "type": "PRJ",
     "name": "PRJ_GrenadeLauncher",
+    "path": "Game/WeaponsNTools/GrenadeLauncher/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_GrenadeLauncher_AmmoCounter",
     "path": "Game/WeaponsNTools/GrenadeLauncher/"
   },
   {
@@ -5080,6 +10080,71 @@
     "path": "Game/WeaponsNTools/Grenades/StickySmall/"
   },
   {
+    "type": "UI",
+    "name": "UI_HackingTool_BG",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_PressButton_Content",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_PressButton_Filled",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_PressButton_Outline",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_Progress_BulletPoint",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Icon_Hacking_Chip_Filled",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Icon_Hacking_Chip_Filled_Sqaure",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_Icon_Hacking_Chip_Outline",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_Header_Alert",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/Header"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_Header_Line",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/Header"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_Header_TextBlock",
+    "path": "Game/WeaponsNTools/HackingTool/Assets/Header"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_Background",
+    "path": "Game/WeaponsNTools/HackingTool//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_HackingTool_Controller",
+    "path": "Game/WeaponsNTools/HackingTool//"
+  },
+  {
     "type": "BP",
     "name": "BP_HandheldTablet_Off",
     "path": "Game/WeaponsNTools/HandheldTablet/"
@@ -5087,6 +10152,11 @@
   {
     "type": "BP",
     "name": "BP_HandheldTablet_UseProgress",
+    "path": "Game/WeaponsNTools/HandheldTablet/"
+  },
+  {
+    "type": "Widget",
+    "name": "Widget_HandheldTablet_UseProgress",
     "path": "Game/WeaponsNTools/HandheldTablet/"
   },
   {
@@ -5110,9 +10180,34 @@
     "path": "Game/WeaponsNTools/LaserPointer/"
   },
   {
+    "type": "HUD",
+    "name": "HUD_LaserPointerDisplay",
+    "path": "Game/WeaponsNTools/LaserPointer/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_LaserPointerScanProgress",
+    "path": "Game/WeaponsNTools/LaserPointer/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_LaserPointerTrackingIcon",
+    "path": "Game/WeaponsNTools/LaserPointer/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PointOfInterest",
+    "path": "Game/WeaponsNTools/LaserPointer/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_LaserPointer",
     "path": "Game/WeaponsNTools/LaserPointer/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_LineCutter",
+    "path": "Game/WeaponsNTools/LineCutter/"
   },
   {
     "type": "BP",
@@ -5130,9 +10225,119 @@
     "path": "Game/WeaponsNTools/LineCutter/"
   },
   {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_LineCutter_CurrentClip",
+    "path": "Game/WeaponsNTools/LineCutter/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_LineCutter_Total",
+    "path": "Game/WeaponsNTools/LineCutter/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_LineCutter",
     "path": "Game/WeaponsNTools/LineCutter/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_LockOnRifle_A",
+    "path": "Game/WeaponsNTools/LockOnRifle/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_LockOnRifle_AoE",
+    "path": "Game/WeaponsNTools/LockOnRifle/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_LockOnRifle_AmmoCount",
+    "path": "Game/WeaponsNTools/LockOnRifle/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_LockOnRifle",
+    "path": "Game/WeaponsNTools/LockOnRifle/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_LockOnBeam",
+    "path": "Game/WeaponsNTools/LockOnRifle/LockOnBeam/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Cro_LockOnRifle",
+    "path": "Game/WeaponsNTools/LockOnRifle/UI/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LockOn_Counter",
+    "path": "Game/WeaponsNTools/LockOnRifle//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LockOn_Counter_Entry",
+    "path": "Game/WeaponsNTools/LockOnRifle//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LockOn_Crosshair",
+    "path": "Game/WeaponsNTools/LockOnRifle//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LockOn_Scanning",
+    "path": "Game/WeaponsNTools/LockOnRifle//"
+  },
+  {
+    "type": "UI",
+    "name": "UI_LockOn_TargetCounter",
+    "path": "Game/WeaponsNTools/LockOnRifle//"
+  },
+  {
+    "type": "BP",
+    "name": "BP_Micro_Missile_Mag",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_MicroMissile",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_MicroMissile_Buck",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_MicroMissile_Mine_Head",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_MicroMissile_PlasmaBurster",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_MicroMissileLauncher",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_MicroMissileLauncher_A_Skeleton_AnimBlueprint",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/Animations/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_MicroMissileLauncher_Charge",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher//"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_MicroMissileLauncher",
+    "path": "Game/WeaponsNTools/MicroMissileLauncher/UI/"
   },
   {
     "type": "WPN",
@@ -5165,14 +10370,44 @@
     "path": "Game/WeaponsNTools/Pickaxe/Scout/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Pipeline_Builder",
+    "path": "Game/WeaponsNTools/PipelineBuilder/"
+  },
+  {
     "type": "BP",
     "name": "BP_PipelineBuilder_Marker",
+    "path": "Game/WeaponsNTools/PipelineBuilder/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PipelineBuilder_Crosshair",
+    "path": "Game/WeaponsNTools/PipelineBuilder/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PipelineBuilder_Widget",
+    "path": "Game/WeaponsNTools/PipelineBuilder/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_PipelineBuilder_Widget_Small",
     "path": "Game/WeaponsNTools/PipelineBuilder/"
   },
   {
     "type": "WPN",
     "name": "WPN_PipelineBuilder",
     "path": "Game/WeaponsNTools/PipelineBuilder/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Pistol_A",
+    "path": "Game/WeaponsNTools/Pistol/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Pistol_AmmoCount2",
+    "path": "Game/WeaponsNTools/Pistol/"
   },
   {
     "type": "WPN",
@@ -5185,6 +10420,36 @@
     "path": "Game/WeaponsNTools/Pistol/Overclocks/OC"
   },
   {
+    "type": "ABP",
+    "name": "ABP_PlasmaCarbine",
+    "path": "Game/WeaponsNTools/PlasmaCarbine/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PlasmaCarbineShot",
+    "path": "Game/WeaponsNTools/PlasmaCarbine/"
+  },
+  {
+    "type": "PRJ",
+    "name": "PRJ_PlasmaCarbineShot_Big",
+    "path": "Game/WeaponsNTools/PlasmaCarbine/"
+  },
+  {
+    "type": "WPN",
+    "name": "WPN_PlasmaCarbine",
+    "path": "Game/WeaponsNTools/PlasmaCarbine/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_PlasmaCarbine_AmmoCounter",
+    "path": "Game/WeaponsNTools/PlasmaCarbine/UI/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_HeavyWeapon_PlatformGun",
+    "path": "Game/WeaponsNTools/PlatformGun/"
+  },
+  {
     "type": "PRJ",
     "name": "PRJ_PlatformMaker",
     "path": "Game/WeaponsNTools/PlatformGun/"
@@ -5195,9 +10460,24 @@
     "path": "Game/WeaponsNTools/PlatformGun/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_Pistol_B",
+    "path": "Game/WeaponsNTools/Revolver/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Revolver_AmmoCount",
+    "path": "Game/WeaponsNTools/Revolver/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_Revolver",
     "path": "Game/WeaponsNTools/Revolver/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_Shotgun_A",
+    "path": "Game/WeaponsNTools/SawedOffShotgun/"
   },
   {
     "type": "BP",
@@ -5210,6 +10490,11 @@
     "path": "Game/WeaponsNTools/SawedOffShotgun/"
   },
   {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_SawedOffShotgun_AmmoCount",
+    "path": "Game/WeaponsNTools/SawedOffShotgun/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_SawedOffShotgun",
     "path": "Game/WeaponsNTools/SawedOffShotgun/"
@@ -5217,11 +10502,6 @@
   {
     "type": "BP",
     "name": "BP_EletrocutedSentry",
-    "path": "Game/WeaponsNTools/SentryGun/"
-  },
-  {
-    "type": "BP",
-    "name": "BP_SentryLoadoutProxy",
     "path": "Game/WeaponsNTools/SentryGun/"
   },
   {
@@ -5275,8 +10555,28 @@
     "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
+    "type": "HUD",
+    "name": "HUD_SentryGunManager",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_SentryGunWidget",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_SentryTrackingIcon",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
+  },
+  {
     "type": "PRJ",
     "name": "PRJ_SentryOvercharge_Projectile",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_SentryGun_AmmoCount",
     "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
@@ -5285,14 +10585,24 @@
     "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
+    "type": "ABP",
+    "name": "ABP_SentryGun_Engineer",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_SentryGun_Engineer_Heavy",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
+  },
+  {
     "type": "BP",
     "name": "BP_Minehead_Sentry",
     "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
-    "type": "BP",
-    "name": "BP_ShieldGenerator_LoadoutProxy",
-    "path": "Game/WeaponsNTools/ShieldGenerator/"
+    "type": "ABP",
+    "name": "ABP_SentryGun_MineHead",
+    "path": "Game/WeaponsNTools/SentryGun/SentryGun"
   },
   {
     "type": "BP",
@@ -5308,6 +10618,21 @@
     "type": "WPN",
     "name": "WPN_ShieldRegeneratorItem",
     "path": "Game/WeaponsNTools/ShieldGenerator/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_SMG_A",
+    "path": "Game/WeaponsNTools/SMG/"
+  },
+  {
+    "type": "BP",
+    "name": "BP_SMG_ElectrifiedPlatforms",
+    "path": "Game/WeaponsNTools/SMG/"
+  },
+  {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_SMG_AmmoCount",
+    "path": "Game/WeaponsNTools/SMG/"
   },
   {
     "type": "WPN",
@@ -5355,6 +10680,11 @@
     "path": "Game/WeaponsNTools/SupplyPod/"
   },
   {
+    "type": "ABP",
+    "name": "ABP_BarrelDispenser",
+    "path": "Game/WeaponsNTools/SupplyPod/Assets/SupplyPod"
+  },
+  {
     "type": "BP",
     "name": "BP_Snowball",
     "path": "Game/WeaponsNTools/Throwable/Snowball/"
@@ -5368,6 +10698,11 @@
     "type": "BP",
     "name": "BP_SnowPile",
     "path": "Game/WeaponsNTools/Throwable/Snowball/"
+  },
+  {
+    "type": "ABP",
+    "name": "ABP_ZipLineGun_A_AnimBlueprint",
+    "path": "Game/WeaponsNTools/ZipLineGun/"
   },
   {
     "type": "BP",
@@ -5390,8 +10725,188 @@
     "path": "Game/WeaponsNTools/ZipLineGun/"
   },
   {
+    "type": "WeaponDisplay",
+    "name": "WeaponDisplay_Zipline_AmmoCount2",
+    "path": "Game/WeaponsNTools/ZipLineGun/"
+  },
+  {
     "type": "WPN",
     "name": "WPN_ZipLineGun",
     "path": "Game/WeaponsNTools/ZipLineGun/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_AngleIndicator",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CoolDownBar",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosshairManager",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_Basic01",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_Basic02",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_BasicDot",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Crosshair_GrapplingGun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Crosshair_LaserPointer",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_PickAxe",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_HitIndicator",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroBurstPistol",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroDualMachinePistols",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroLineCutter",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroNewAssaultRifle",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroNewGrenadeLauncher",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroNewPistol",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CroNew_GrapplingGun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosAutocannon",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosCryospray",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosMicroMissileLauncher",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosNewFlameThrower",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosNewMinigun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosNewRevolver",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosNewSuperShotgun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrosNew_EngSMG",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_Drills",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_FlareGun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_NewSawedOffShotgunDynamic",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_CrossHair_PlatformGun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Crosshair_ZiplineGun",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Cro_BoltActionRifle",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Cro_ChargeBlaster",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Cro_GooCannon",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "HUD",
+    "name": "HUD_Cro_PlasmaCarbine",
+    "path": "Game/WeaponsNTools/"
+  },
+  {
+    "type": "UI",
+    "name": "UI_SimpleAngleIndicator",
+    "path": "Game/WeaponsNTools/"
   }
 ]

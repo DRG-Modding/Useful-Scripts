@@ -59,6 +59,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 			Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
 	
 			// Run stub filler operation
+			if (OpenDialogMenu()) { StubFillerOperation::FillStubs(LoadFile()); }
 		}
 	} 
 	else
@@ -66,6 +67,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 		Utils::OpenMessageDialog(EAppMsgType::Ok, "Running stub filler operation.");
 		
 		// Run stub filler operation
+		if (OpenDialogMenu()) { StubFillerOperation::FillStubs(LoadFile()); }
 	}
 }
 

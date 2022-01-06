@@ -7,11 +7,14 @@
 #include "AssetToolsModule.h"
 #include "Misc/Paths.h"
 #include "Engine/Blueprint.h"
+#include "Blueprint/UserWidget.h"
 #include "Engine/DataAsset.h"
 #include "Factories/BlueprintFactory.h"
 #include "Factories/BlueprintFunctionLibraryFactory.h"
 #include "Factories/DataAssetFactory.h"
 #include "Factories/Factory.h"
+#include "Factories/AnimBlueprintFactory.h"
+#include "UMGEditor/Classes/WidgetBlueprintFactory.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 
 struct FInfo

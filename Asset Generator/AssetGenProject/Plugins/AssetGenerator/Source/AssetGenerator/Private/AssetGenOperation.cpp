@@ -4,6 +4,13 @@ TArray<FInfo> AssetGenOperation::Objects;
 
 UClass* AssetGenOperation::GetAssetClass(FString AssetType)
 {
+    if (AssetType == "Announcement" || AssetType == "Basic" || AssetType == "HUD" || AssetType == "ITEM" 
+    	|| AssetType == "LCD" || AssetType == "MENU" || AssetType == "Options" || AssetType == "Popup" 
+    	|| AssetType == "TOOLTIP" || AssetType == "UI" || AssetType == "WeaponDisplay" || AssetType == "Widget" 
+    	|| AssetType == "WND") {
+    	return UWidget::StaticClass();
+    	// return UUserWidget::StaticClass(); 
+    }
 	if (AssetType == "BP" || AssetType == "ENE" || AssetType == "OBJ" || AssetType == "PRJ" || AssetType == "WPN")
 	{
 		return UBlueprint::StaticClass();
@@ -16,12 +23,21 @@ UClass* AssetGenOperation::GetAssetClass(FString AssetType)
 	{
 		return UDataAsset::StaticClass();
 	}
+	if (AssetType == "ABP") {
+        return UAnimationAsset::StaticClass();
+    }
 	UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Unknown asset type: %s"), *AssetType);
 	return nullptr;
 }
 
 UFactory* AssetGenOperation::GetAssetFactory(FString AssetType)
 {
+	if (AssetType == "Announcement" || AssetType == "Basic" || AssetType == "HUD" || AssetType == "ITEM" 
+		|| AssetType == "LCD" || AssetType == "MENU" || AssetType == "Options" || AssetType == "Popup" 
+		|| AssetType == "TOOLTIP" || AssetType == "UI" || AssetType == "WeaponDisplay" || AssetType == "Widget" 
+		|| AssetType == "WND") {
+		return NewObject<UWidgetBlueprintFactory>(); 
+    }
 	if (AssetType == "BP" || AssetType == "ENE" || AssetType == "OBJ" || AssetType == "PRJ" || AssetType == "WPN")
 	{
 		return NewObject<UBlueprintFactory>();
@@ -35,6 +51,9 @@ UFactory* AssetGenOperation::GetAssetFactory(FString AssetType)
 	{
 		return NewObject<UDataAssetFactory>();
 	}
+	if (AssetType == "ABP") {
+        return NewObject<UAnimBlueprintFactory>();
+    }
 	UE_LOG(LogTemp, Warning, TEXT("AssetGenOperation: Unknown asset type: %s"), *AssetType);
 	return nullptr;
 }
@@ -64,7 +83,6 @@ void AssetGenOperation::GenerateAssets(const FString JsonString)
 	// Create assets in the Content for each object
 	for (int i = 0; i < Objects.Num(); i++)
 	{
-		// FString Path = FPaths::ProjectContentDir() + Objects[i].Path;
 		FString Path = FString(UTF8_TO_TCHAR("/")) + Objects[i].Path;
 		UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Asset path: %s"), *Path);
 		FString Name = Objects[i].Name;

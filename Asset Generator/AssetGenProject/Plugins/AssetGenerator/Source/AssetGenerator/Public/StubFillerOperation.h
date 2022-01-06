@@ -23,7 +23,7 @@ struct FPropertyInfo
 	FString Type;
 };
 
-struct FInfo
+struct FAssetInfo
 {
 	FString Name;
 	FString Inherits;
@@ -37,17 +37,16 @@ enum class EType
 {
 	Event,
 	Function,
-	Property,
 	Delegate
 };
 
 class StubFillerOperation
 {
 private:
-	static void ParseFunction(TArray<TSharedPtr<FJsonValue>> FunctionType, FInfo &Info, const EType InfoType);
+	static void ParseFunction(TArray<TSharedPtr<FJsonValue>> FunctionType, FAssetInfo &Info, const EType InfoType);
 	static void ParseJSON(const FString JsonString);
 
-	static TArray<FInfo> Objects;
+	static TArray<FAssetInfo> Objects;
 	
 public:
 	static void FillStubs(const FString JsonString);

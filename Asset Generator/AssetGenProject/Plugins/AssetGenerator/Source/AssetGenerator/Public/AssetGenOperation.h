@@ -9,11 +9,11 @@ private:
 	static TArray<FAssetInfo> Objects;
 	int ObjectIndex = 0;
 
-	FName GetAssetFName();
-	const TCHAR* GetPackageName();
-	UBlueprint* CreateBlueprint(UClass* ParentClass, UPackage* Package);
-	void CreateAssetPackage();
+	static FName GetAssetFName();
+	static const TCHAR* GetPackageName();
+	static UBlueprint* CreateBlueprint(UClass* ParentClass, UPackage* Package);
+	static void CreateAssetPackage();
 	
 public:
-	static void GenerateAssets();
+	static void GenerateAssets(const FString JsonString);
 };

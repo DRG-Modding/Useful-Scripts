@@ -47,7 +47,10 @@ class ParseJSON
 private:
 	static void ParseFunction(TArray<TSharedPtr<FJsonValue>> FunctionType, FAssetInfo &Info, const EType InfoType);
 	static void ParseObject(const FString JsonString);
+	static void ParseOld(const FString JsonString);
 
 	static TArray<FAssetInfo> Objects;
-	
+
+public:
+	static TArray<FAssetInfo> GetObjects(const FString JsonString);
 };

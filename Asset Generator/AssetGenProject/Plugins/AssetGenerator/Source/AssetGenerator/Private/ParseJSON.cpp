@@ -72,3 +72,27 @@ void ParseJSON::ParseObject(const FString JsonString)
     	}
     } else { UE_LOG(LogTemp, Error, TEXT("JSON Parse: Failed to deserialise!")); }
 }
+
+void ParseJSON::ParseOld(const FString JsonString)
+{
+	TArray<TSharedPtr<FJsonValue>> Json;
+	TSharedRef<TJsonReader<>> JsonReader = TJsonReaderFactory<>::Create(JsonString);
+	if (FJsonSerializer::Deserialize<>(JsonReader, Json, FJsonSerializer::EFlags::None)) 
+	{
+		for (int i = 0; i < Json.Num(); i++)
+		{
+			FAssetInfo Info;
+			const TSharedPtr<FJsonObject> JsonObject = Json[i]->AsObject();
+			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("type")), Info.Type);
+			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("name")), Info.Name);
+			JsonObject->TryGetStringField(FString(UTF8_TO_TCHAR("path")), Info.Path);
+			Objects.Add(Info);
+		}
+	} else { UE_LOG(LogTemp, Error, TEXT("JSON Parse: Failed to deserialise!")); }
+}
+
+TArray<FAssetInfo> ParseJSON::GetObjects(const FString JsonString)
+{
+	ParseOld(JsonString);
+	return Objects;
+}

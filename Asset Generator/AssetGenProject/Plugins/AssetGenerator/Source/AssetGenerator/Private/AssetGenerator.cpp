@@ -46,7 +46,7 @@ void FAssetGeneratorModule::PluginButtonClicked()
 	                                       EAppReturnType::Yes))
 	{
 		// Run asset generator operation
-		if (OpenDialogMenu()) { }
+		if (OpenDialogMenu()) { AssetGenOperation::GenerateAssets(LoadFile()); }
 		
 		// Allow user to cancel next operation
 		if (Utils::GetSelectedButtonFromDialog(R"(Successfully finished creation of assets in given locations.

@@ -1,4 +1,5 @@
 ﻿#include "AssetGenOperation.h"
+#include "ParseJson.h"
 #include "AssetGenUtils.h"
 #include "AssetRegistryModule.h"
 #include "AssetToolsModule.h"
@@ -18,12 +19,14 @@
 
 FName AssetGenOperation::GetAssetFName()
 {
-	return FName(Objects[ObjectIndex].Name);
+	// return FName(Objects[ObjectIndex].Name);
+	return "";
 }
 
 const TCHAR* AssetGenOperation::GetPackageName()
 {
-	return *Objects[ObjectIndex].Path;
+	// return *Objects[ObjectIndex].Path;
+	return nullptr;
 }
 
 UBlueprint* AssetGenOperation::CreateBlueprint(UClass* ParentClass, UPackage* Package)
@@ -55,11 +58,14 @@ void AssetGenOperation::CreateAssetPackage() {
 	// MarkAssetChanged();
 }
 
-void AssetGenOperation::GenerateAssets()
+void AssetGenOperation::GenerateAssets(const FString JsonString)
 {
+	Objects = ParseJSON::GetObjects(JsonString);
+	
 	// Create assets in the Content for each object
 	for (int i = 0; i < Objects.Num(); i++)
 	{
+		// ObjectIndex = i;
 		FString Path = FString(UTF8_TO_TCHAR("/")) + Objects[i].Path;
 		UE_LOG(LogTemp, Display, TEXT("AssetGenOperation: Asset path: %s"), *Path);
 		FString Name = Objects[i].Name;

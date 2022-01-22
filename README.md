@@ -6,6 +6,7 @@ If you would like to contribute, and are not a member of the organisation, pleas
 If you are a member of the org, please make a folder to categorise what your script does and add a readme inside that explains how to use it/them (if not already inside the scripts).
 
 ### Scripts list:
+* [Asset Generator](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Asset%20Generator) - Written by Buckminsterfullerene
 * [Auto-rename Jukebox Songs](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Auto-rename%20Jukebox%20Songs) - Written by Earthcomputer
 * [DRGPacker V2](https://github.com/DRG-Modding/Useful-Scripts/tree/main/DRGPackerV2) - Written by Henri J. Norden
 * [Empty Content Hierarchy Generator](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Empty%20Content%20Hierarchy%20Generator) - Written by Elythnwaen

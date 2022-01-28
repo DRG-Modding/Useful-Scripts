@@ -8,6 +8,7 @@ If you are a member of the org, please make a folder to categorise what your scr
 ### Scripts list:
 * [Asset Generator](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Asset%20Generator) - Written by Buckminsterfullerene
 * [Auto-rename Jukebox Songs](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Auto-rename%20Jukebox%20Songs) - Written by Earthcomputer
+* [DRG Modding Automation Scripts](https://github.com/DRG-Modding/Useful-Scripts/tree/main/DRGModdingAutomationScripts) - Written by Samamstar
 * [DRGPacker V2](https://github.com/DRG-Modding/Useful-Scripts/tree/main/DRGPackerV2) - Written by Henri J. Norden
 * [Empty Content Hierarchy Generator](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Empty%20Content%20Hierarchy%20Generator) - Written by Elythnwaen
 * [Soundclass Hierarchy Scripts](https://github.com/DRG-Modding/Useful-Scripts/tree/main/Soundclass%20Hierarchy) - Written by Buckminsterfullerene & Earthcomputer

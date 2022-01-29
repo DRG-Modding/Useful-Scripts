@@ -24,9 +24,9 @@ for /f "tokens=1,2 delims==" %%g in (Config.ini) do (
 	)
 )
 
-::call CookUEProject.bat noPause
+call CookUEProject.bat noPause
 
-::call PackageMod.bat noPause
+call PackageMod.bat noPause
 
 cd Temp
 

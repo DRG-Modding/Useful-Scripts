@@ -25,3 +25,22 @@ if not exist PakBlackList.ini (
 	copy nul PakBlackList.ini
 	
 )
+if not exist ModIOConfig.ini (
+	echo making ModIOConfig
+	copy nul ModIOConfig.ini
+	(
+		echo Token=
+		echo ModID=
+		echo MajorVersion=1
+		echo MinorVersion=0
+		echo AutoIncrementVersion=true
+		echo AddVersionToModName=true
+		echo ChangeLog=
+		echo Verbose=false
+		echo AskForChangelog=true
+		echo GameID=2475
+		echo ZipLocation=.
+		echo LastZip=
+		echo LastPak=
+	) > ModIOConfig.ini
+)

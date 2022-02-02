@@ -77,7 +77,7 @@ if not %errorlevel%==0 (
 if /I %AskForChangelog%==true (
 	set /P ChangelogInput=Enter Changelog ^(This can be disabled in ModIOConfig^.ini^):
 ) else (
-	set ChangelogInput=%ChangeLog%
+	set ChangelogInput=%Changelog%
 )
 
 ::Make call to mod.io api to upload mod

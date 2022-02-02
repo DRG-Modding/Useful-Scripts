@@ -35,9 +35,9 @@ if not exist ModIOConfig.ini (
 		echo MinorVersion=0
 		echo AutoIncrementVersion=true
 		echo AddVersionToModName=true
-		echo ChangeLog=
-		echo Verbose=false
 		echo AskForChangelog=true
+		echo Changelog=
+		echo Verbose=false
 		echo GameID=2475
 		echo ZipLocation=.
 		echo LastZip=

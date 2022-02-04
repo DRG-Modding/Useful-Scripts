@@ -33,7 +33,7 @@ if not exist "%SteamInstall%\FSD.exe" set err=1
 if not exist "%UnrealEngineLocation%\Engine\Binaries\Win64\UE4Editor.exe" set err=1
 if not exist "%ProjectFolder%\%ProjectFile%" set err=1
 
-if err==1 GOTO errHandling
+if %err%==1 GOTO errHandling
 
 
 ::There's probably a better way to pass an argument to disable pausing, but Oh well

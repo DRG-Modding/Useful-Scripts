@@ -5,19 +5,24 @@ setlocal EnableDelayedExpansion
 pushd %~dp0
 
 if not exist Config.ini call MakeDefaultConfigFiles.bat
-
+if not exist ModIOConfig.ini (
+	call MakeDefaultConfigFiles.bat
+	echo ModIOConfig not found^, new config genereated^, you MUST specify variables for this to work properly ^(see readme^.md^)
+	pause
+	exit 2
+)
 ::Find variables in config.ini
 for /f "tokens=1,2 delims==" %%g in (Config.ini) do (
-	::Variables modname and ProjectFile need to be treated differently, all other variables in Config.ini are paths
+	REM Variables modname and ProjectFile need to be treated differently, all other variables in Config.ini are paths
 	if %%g==ModName (
 		set ModName=%%h
 	) else if %%g==ProjectFile (
-		::Resolve to path w/ drive letter
+		REM Resolve to path w/ drive letter
 		set ProjectFolder=%%~dph
-		::Resolve to file name w/ extension
+		REM Resolve to file name w/ extension
 		set ProjectFile=%%~nxh
 	) else (
-		::Resolve to path w/ drive letter
+		REM Resolve to path w/ drive letter
 		set %%g=%%~dph
 	)
 )

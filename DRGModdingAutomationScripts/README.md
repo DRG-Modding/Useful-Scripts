@@ -75,3 +75,7 @@ Uploads the already cooked and packaged mod in FSD\Mods defined in `Config.ini` 
 
 ### ModIOQuickTestMod.bat
 Cooks, packages and uploads the mod to mod.io (essentially `QuickTestMod.bat` + `ModIOUpload.bat` but does not store files in the game directory)
+
+# Credits
+Samamstar for original bats
+Dr-Turtle for the mod.io integration system

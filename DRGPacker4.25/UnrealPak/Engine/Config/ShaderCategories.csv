@@ -1,0 +1,8 @@
+# This file maps shader paths to shader categories
+# - Its a list of key/value pairs, with the key being the category.
+# - Paths are matched top to bottom, first hit takes precendence
+# - A similar file exists in ProjectDir/Config, which takes precendence over this file
+"EditorMaterials", "Engine/EditorMaterials" 
+"EngineMaterials", "Engine/EngineMaterials" 
+"Engine", "Engine" 
+"Game", "Game"

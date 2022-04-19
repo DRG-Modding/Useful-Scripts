@@ -1,16 +1,13 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-::Set active directory to the dir the bat is in
+rem Set active directory to main automation dir 
 pushd %~dp0
+cd ..
 
-call VerifyVars.bat noPause
-
-::Find variables in config.ini
-for /f "tokens=1,2 delims==" %%g in (Config.ini) do (
-	if %%g==SteamInstall set SteamInstall=%%h
-	if %%g==ModName set ModName=%%h
-)
+call UtilityBats/MakeDefaultConfigFiles.bat NoPause
+call UtilityBats/LoadVars.bat
+call UtilityBats/VerifyVars.bat noPause
 
 call CookUEProject.bat noPause
 
@@ -25,5 +22,5 @@ REM echo copying over new mod pak
 REM move "%cd%\Temp\%ModName%.pak" "%SteamInstall%\FSD\Mods\%ModName%\"
 
 echo uploading to mod.io
-"%cd%\ModIOUpload.bat" noPause UseTempPak
+"%cd%\ModIO\ModIOUpload.bat" noPause UseTempPak
 pause

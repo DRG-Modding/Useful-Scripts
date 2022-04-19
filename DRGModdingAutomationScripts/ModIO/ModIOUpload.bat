@@ -1,29 +1,13 @@
 @echo off
 setlocal enableDelayedExpansion
 
-::Set active directory to the dir the bat is in
+rem Set active directory to main automation dir 
 pushd %~dp0
+cd ..
 
-call VerifyVars.bat noPause
-
-::Find variables in config.ini
-for /f "tokens=1,2 delims==" %%g in (Config.ini) do (
-	REM Variables modname and ProjectFile need to be treated differently, all other variables in Config.ini are paths
-	if %%g==ModName (
-		set ModName=%%h
-		set PakName=%%h.pak
-	) else if %%g==ProjectFile (
-		REM Resolve to path w/ drive letter
-		set ProjectFolder=%%~dph
-		REM Resolve to file name w/ extension
-		set ProjectFile=%%~nxh
-	) else (
-		REM Resolve qualified path name
-		set %%g=%%~fh
-	)
-)
-::Find variables in ModIOConfig.ini
-for /f "delims=" %%g in (ModIOConfig.ini) do (set "%%g")
+call UtilityBats/MakeDefaultConfigFiles.bat NoPause
+call UtilityBats/LoadVars.bat
+call UtilityBats/VerifyVars.bat noPause
 
 ::If verbose is enabled, -v will be added to tar and curl commands
 if /I %Verbose%==true (
@@ -115,7 +99,7 @@ if not "%1"=="noPause" (
 ::Called whenever a value needs to be saved to config
 :SaveToConfig
 	(
-		for /F "tokens=1,2 delims==" %%g in (ModIOConfig.ini) do (
+		for /F "tokens=1,2 delims==" %%g in (Configs/LocalModIOConfig.ini) do (
 			set LineWasSet=false
 			if /I %%g==MinorVersion (
 				if /I %AutoIncrementVersion%==true (
@@ -144,6 +128,6 @@ if not "%1"=="noPause" (
 			echo !line!
 		)
 	) > TempModIOConfig.ini
-	del ModIOConfig.ini
-	rename TempModIOConfig.ini ModIOConfig.ini
+	del Configs/LocalModIOConfig.ini
+	move TempModIOConfig.ini Configs/LocalModIOConfig.ini
 	exit /B 0

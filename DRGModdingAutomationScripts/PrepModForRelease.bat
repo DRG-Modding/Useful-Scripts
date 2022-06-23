@@ -14,10 +14,10 @@ call UtilityBats/PackageMod.bat noPause
 
 cd Temp
 
-tar -a -cf %ModName%.zip %ModName%.pak
+tar -a -cf "%ModName%.zip" "%ModName%.pak"
 
 set /p ReleaseName=Please enter a suffix for this release:
 
-ren %ModName%.zip %ModName%%ReleaseName%.zip
+ren "%ModName%.zip" "%ModName%%ReleaseName%.zip"
 
 pause

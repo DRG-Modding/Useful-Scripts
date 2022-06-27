@@ -5,8 +5,8 @@ rem Set active directory to main automation dir
 pushd %~dp0
 cd ..
 
-call UtilityBats/CopyWhitelistedFiles.bat noPause
-call UtilityBats/StripBlacklistedFiles.bat noPause
+call UtilityBats/CopyWhitelistedFiles.bat --noPause
+call UtilityBats/StripBlacklistedFiles.bat --noPause
 
 ::Make input text file
 echo making input text file

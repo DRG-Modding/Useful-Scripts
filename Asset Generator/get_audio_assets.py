@@ -8,6 +8,7 @@ PATH = USER_PATH + r'Content/Audio/SoundControl'
 OUTPUT_PATH = r'F:/Github Projects/Other/DRG Modding Org/Useful-Scripts/Asset Generator/Audio Assets/' 
 
 def output():
+    music_libraries = []
     concurrencies = []
     attenuations = []
     reverbs = []
@@ -18,6 +19,8 @@ def output():
         for asset_file in files:
             if asset_file.endswith('.uasset'):
                 print(asset_file)
+                if asset_file.startswith('ML_'):
+                    music_libraries.append(asset_file.split('.')[0])
                 if asset_file.startswith('SoundConcurrency'):
                     concurrencies.append(asset_file.split('.')[0])
                 if _path.endswith('\\AttenuationGroups'):
@@ -32,6 +35,9 @@ def output():
                     submixes.append(asset_file.split('\\')[-1].split('.')[0])
 
     with open(OUTPUT_PATH + 'audio_assets.txt', 'w+') as file:
+        for ml in music_libraries:
+            file.write(ml + '\n')
+        file.write('\n')
     # with open(OUTPUT_PATH + 'concurrencies.txt', 'w+') as file:
         for concurrency in concurrencies:
             file.write(concurrency + '\n')

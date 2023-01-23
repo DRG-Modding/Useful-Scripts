@@ -136,7 +136,6 @@ def run_rules(name):
                 modify_project_file(name, os.path.join(root, file), 0, False, "(const) ((\w+)\*\&)", "", "", True, r"\2")
 
 def generate_build_files(name):
-    # Running F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="F:/DRG Modding/Project Generator/Test1/FSD.uproject" -game -rocket -progress -log="F:\DRG Modding\Project Generator\Test1/Saved/Logs/UnrealVersionSelector-2023.01.23-14.49.22.log"
     print("============================================================")
     print("                    GENERATING BUILD FILES                  ")
     print("============================================================")
@@ -152,7 +151,6 @@ def generate_build_files(name):
     ])
 
 def compile_project(name):
-    # Running F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="F:/DRG Modding/Project Generator/0bf3519b-552a-451d-8ecc-5d72269dea65/FSD.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
     print("============================================================")
     print("                    COMPILING PROJECT                       ")
     print("============================================================")
@@ -171,8 +169,6 @@ def copy_template_to_repo(name):
     print("============================================================")
     print("               COPYING TEMPLATE TO GITHUB REPO              ")
     print("============================================================")
-    # First, delete the following folders in the GITHUB_REPO folder: Binaries, Plugins, Source, Saved, Intermediate, FSD.sln, FSD.uproject
-    # Check that they exist first
     files_to_delete = ["Binaries", "Plugins", "Source", "Saved", "Intermediate", "FSD.sln", "FSD.uproject"]
     files_to_copy = ["Binaries", "Plugins", "Source", "FSD.sln", "FSD.uproject"]
     for file in files_to_delete:
@@ -181,7 +177,6 @@ def copy_template_to_repo(name):
             else: shutil.rmtree(os.path.join(GITHUB_REPO, file))
             print("Deleted " + file)
     
-    # Copy the template to the GITHUB_REPO folder
     for file in files_to_copy:
         file_path = os.path.join(OUTPUT_DIR_START, name, file)
         if os.path.exists(file_path):

@@ -9,8 +9,11 @@ EDITOR_EXE= r"F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/Win64/UE4Editor-Cmd.exe"
 UBT_EXE = r"F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe"
 PROJECT_GEN_UPROJECT = r"F:/DRG Modding/Project Generator/UE4GameProjectGenerator4.27/GameProjectGenerator.uproject"
 HEADER_DUMP = r"C:/Program Files (x86)/Steam/steamapps/common/Deep Rock Galactic/FSD/Binaries/Win64/UHTHeaderDump"
+PAK_FILE = r"C:/Program Files (x86)/Steam/steamapps/common/Deep Rock Galactic/FSD/Content/Paks/FSD-WindowsNoEditor.pak"
+UNPACKED_FILES = r"F:/DRG Modding/DRGPacker"
 PROJECT_FILE = r"F:/DRG Modding/DRGPacker/_unpacked/FSD/FSD.uproject"
 PLUGIN_MANIFEST = r"F:/DRG Modding/DRGPacker/_unpacked/FSD/Plugins/FSD.upluginmanifest"
+VERSION_CONFIG = r"F:/DRG Modding/DRGPacker/_unpacked/FSD/Config/DefaultGame.ini"
 OUTPUT_DIR_START = r"F:/DRG Modding/Project Generator"
 MODIO_SOURCES_DIR = r"F:/DRG Modding/Project Generator/Modio"
 GITHUB_REPO = r"F:/Github Projects/Other/DRG Modding Org/FSD-Template"
@@ -27,6 +30,40 @@ def get_project_name():
     uuid = str(uuid4()).replace("-", "")
     uuid = re.sub(r"\d", "", uuid)
     return uuid[:8]
+
+def unpack_files():
+    print("============================================================")
+    print("                    UNPACKING FILES                         ")
+    print("============================================================")
+    print("Deleting old unpacked files...")
+    os.system(
+        "rmdir " +
+        '"' +
+        os.path.join(UNPACKED_FILES, "_unpacked") +
+        '"' +
+        " /S /Q"
+    )
+
+    subprocess.run([
+        os.path.join(UNPACKED_FILES, "_Unpack.bat"),
+        os.path.join(PAK_FILE)
+    ])
+
+    print("Renaming unpacked folder...")
+    os.rename(
+        os.path.join(UNPACKED_FILES, "FSD-WindowsNoEditor"),
+        os.path.join(UNPACKED_FILES, "_unpacked")
+    )
+
+def get_game_version():
+    print("============================================================")
+    print("                    GET GAME VERSION                        ")
+    print("============================================================")
+    with open(VERSION_CONFIG, "r") as f:
+        for line in f:
+            if line.startswith("ProjectVersion="):
+                print("Game version is v" + line.split("=")[1].strip())
+                return "v" + line.split("=")[1].strip()
 
 def run_project_gen(name):
     print("============================================================")
@@ -169,14 +206,15 @@ def copy_template_to_repo(name):
     print("============================================================")
     print("               COPYING TEMPLATE TO GITHUB REPO              ")
     print("============================================================")
+    # We are deleting the files first otherwise we will keep old files that the devs deleted 
     files_to_delete = ["Binaries", "Plugins", "Source", "Saved", "Intermediate", "FSD.sln", "FSD.uproject"]
-    files_to_copy = ["Binaries", "Plugins", "Source", "FSD.sln", "FSD.uproject"]
     for file in files_to_delete:
         if os.path.exists(os.path.join(GITHUB_REPO, file)):
             if os.path.isfile(os.path.join(GITHUB_REPO, file)): os.remove(os.path.join(GITHUB_REPO, file))
             else: shutil.rmtree(os.path.join(GITHUB_REPO, file))
             print("Deleted " + file)
     
+    files_to_copy = ["Binaries", "Plugins", "Source", "FSD.sln", "FSD.uproject"]
     for file in files_to_copy:
         file_path = os.path.join(OUTPUT_DIR_START, name, file)
         if os.path.exists(file_path):
@@ -184,15 +222,56 @@ def copy_template_to_repo(name):
             else: shutil.copytree(file_path, os.path.join(GITHUB_REPO, file))
             print("Copied " + file)
 
+def check_tag_name(tag):
+    print("============================================================")
+    print("                     CHECK TAG NAME                         ")
+    print("============================================================")
+    # If the tag is the same as the latest tag, then add -patch1 to the tag
+    # If the tag is the same as the latest tag + -patch1, then increment the number
+    latest_tag = subprocess.run(["git", "describe", "--tags", "--abbrev=0"], cwd=GITHUB_REPO, stdout=subprocess.PIPE).stdout.decode("utf-8").strip()
+    if latest_tag == tag: tag += "-patch1"
+    elif latest_tag == tag + "-patch1": tag = tag + "-patch" + str(int(latest_tag.split("-patch")[1]) + 1)
+    print(tag)
+    return tag
+
+def git_commit(commit_message, commit_tag, tag_message):
+    print("============================================================")
+    print("                       GIT COMMIT                           ")
+    print("============================================================")
+    subprocess.run(["git", "add", "."], cwd=GITHUB_REPO)
+    subprocess.run(["git", "commit", "-m", commit_message], cwd=GITHUB_REPO)
+    subprocess.run(["git", "tag", "-a", commit_tag, "HEAD", "-m", tag_message], cwd=GITHUB_REPO)
+
+def git_push(commit_tag):
+    print("============================================================")
+    print("                       GIT PUSH                             ")
+    print("============================================================")
+    subprocess.run(["git", "push", "origin", commit_tag], cwd=GITHUB_REPO)
+
+def git_diff():
+    print("============================================================")
+    print("                       GIT DIFF                             ")
+    print("============================================================")
+    subprocess.run(["git", "diff", "HEAD~1", "HEAD", "-U0", "--", ":!*.dll"], cwd=GITHUB_REPO, stdout=open(os.path.join(GITHUB_REPO, "changes.diff"), "w"))
+    print("Changes saved to changes.diff")
+
 def main():
     if not check_drive_space(): return
     name = get_project_name()
+    commit_message = input("Commit message: ")
+    tag_message = input("Primary game version: ")
+    version = get_game_version()
+    version = check_tag_name(version)
+    unpack_files()
     run_project_gen(name)
     copy_modio_sources(name)
     run_rules(name)
     generate_build_files(name)
     compile_project(name)
     copy_template_to_repo(name)
+    git_commit(commit_message, version, tag_message)
+    git_push(version)
+    git_diff()
 
 if __name__ == "__main__":
     main()

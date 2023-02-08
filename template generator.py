@@ -2,6 +2,7 @@ import os
 import subprocess
 import re
 import datetime
+import time
 import shutil
 from uuid import uuid4
 
@@ -44,16 +45,13 @@ def unpack_files():
         " /S /Q"
     )
 
+    print("Unpacking files...")
     subprocess.run([
-        os.path.join(UNPACKED_FILES, "_Unpack.bat"),
-        os.path.join(PAK_FILE)
-    ])
-
-    print("Renaming unpacked folder...")
-    os.rename(
-        os.path.join(UNPACKED_FILES, "FSD-WindowsNoEditor"),
+        os.path.join(UNPACKED_FILES, "repak.exe"),
+        "unpack",
+        os.path.join(PAK_FILE),
         os.path.join(UNPACKED_FILES, "_unpacked")
-    )
+    ])
 
 def get_game_version():
     print("============================================================")
@@ -242,12 +240,6 @@ def git_commit(commit_message, commit_tag, tag_message):
     subprocess.run(["git", "commit", "-m", commit_message], cwd=GITHUB_REPO)
     subprocess.run(["git", "tag", "-a", commit_tag, "HEAD", "-m", tag_message], cwd=GITHUB_REPO)
 
-def git_push(commit_tag):
-    print("============================================================")
-    print("                       GIT PUSH                             ")
-    print("============================================================")
-    subprocess.run(["git", "push", "origin", commit_tag], cwd=GITHUB_REPO)
-
 def git_diff():
     print("============================================================")
     print("                       GIT DIFF                             ")
@@ -255,23 +247,35 @@ def git_diff():
     subprocess.run(["git", "diff", "HEAD~1", "HEAD", "-U0", "--", ":!*.dll"], cwd=GITHUB_REPO, stdout=open(os.path.join(GITHUB_REPO, "changes.diff"), "w"))
     print("Changes saved to changes.diff")
 
+def git_push(commit_tag):
+    print("============================================================")
+    print("                       GIT PUSH                             ")
+    print("============================================================")
+    subprocess.run(["git", "push", "origin"], cwd=GITHUB_REPO)
+    subprocess.run(["git", "push", "origin", commit_tag], cwd=GITHUB_REPO)
+
 def main():
     if not check_drive_space(): return
     name = get_project_name()
     commit_message = input("Commit message: ")
-    tag_message = input("Primary game version: ")
-    version = get_game_version()
-    version = check_tag_name(version)
+    tag_message = input("Primary game version (e.g. U37P11): ")
+    
+    start_time = time.time()
     unpack_files()
     run_project_gen(name)
     copy_modio_sources(name)
     run_rules(name)
     generate_build_files(name)
     compile_project(name)
+    print("--- Compiled in %s seconds ---" % (time.time() - start_time))
+    
+    if (input("Compiled successfully? (y/n): ") != "y"): return # because I'm too lazy to find a proper way to check if the compilation was successful
     copy_template_to_repo(name)
+    version = get_game_version()
+    version = check_tag_name(version)
     git_commit(commit_message, version, tag_message)
-    git_push(version)
     git_diff()
+    git_push(version)
 
 if __name__ == "__main__":
     main()

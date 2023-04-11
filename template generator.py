@@ -2,7 +2,6 @@ import os
 import subprocess
 import re
 import datetime
-import time
 import shutil
 from uuid import uuid4
 
@@ -16,8 +15,8 @@ PROJECT_FILE = r"F:/DRG Modding/DRGPacker/_unpacked/FSD/FSD.uproject"
 PLUGIN_MANIFEST = r"F:/DRG Modding/DRGPacker/_unpacked/FSD/Plugins/FSD.upluginmanifest"
 VERSION_CONFIG = r"F:/DRG Modding/DRGPacker/_unpacked/FSD/Config/DefaultGame.ini"
 OUTPUT_DIR_START = r"F:/DRG Modding/Project Generator"
-MODIO_SOURCES_DIR = r"F:/DRG Modding/Project Generator/Modio"
 GITHUB_REPO = r"F:/Github Projects/Other/DRG Modding Org/FSD-Template"
+TEST_COOK_OUTPUT = r"F:/DRG Modding/Project Generator/Output"
 
 def check_drive_space():
     _, _, free = shutil.disk_usage(os.path.splitdrive(OUTPUT_DIR_START)[0])
@@ -30,7 +29,7 @@ def check_drive_space():
 def get_project_name():
     uuid = str(uuid4()).replace("-", "")
     uuid = re.sub(r"\d", "", uuid)
-    return uuid[:8]
+    return uuid[:12]
 
 def unpack_files():
     print("============================================================")
@@ -96,8 +95,8 @@ def copy_modio_sources(name):
 
     # Copy the new sources from Modio Source to template/Plugins/Modio
     subprocess.run([
-        "xcopy", 
-        MODIO_SOURCES_DIR,
+        "xcopy",
+        os.path.join(OUTPUT_DIR_START, "Modio"),
         os.path.join(OUTPUT_DIR_START, name, "Plugins", "Modio"),
         "/E",
         "/I",
@@ -161,8 +160,8 @@ def run_rules(name):
     # ShowroomStage.cpp, line 16
     modify_project_file(name, "ShowroomStage.cpp", 15, True, '\t//this->SceneCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("SceneCapture"));\n', "Private")
 
-    # GameFunctionLibrary.cpp, line 46
-    modify_project_file(name, "GameFunctionLibrary.cpp", 45, True, '\treturn true;\n', "Private")
+    # GameFunctionLibrary.cpp, line 27
+    modify_project_file(name, "GameFunctionLibrary.cpp", 26, True, '\treturn true;\n', "Private")
 
     # Search every file in both modules and accessors for the following regex string: (const) ((\w+)\*\&) and replace it with $2
     for root, _, files in os.walk(os.path.join(OUTPUT_DIR_START, name, "Source")):
@@ -200,19 +199,43 @@ def compile_project(name):
         "-NoHotReloadFromIDE"
     ])
 
+def test_cook_project(name):
+    print("============================================================")
+    print("                    COOKING PROJECT                         ")
+    print("============================================================")
+    # Copy the Config folder from the directory above to the project directory
+    shutil.copytree(os.path.join(OUTPUT_DIR_START, "Config"), os.path.join(OUTPUT_DIR_START, name, "Config"))
+    
+    date = datetime.datetime.now().strftime("%Y.%m.%d-%H.%M.%S")
+    subprocess.run([
+        EDITOR_EXE,
+        os.path.join(OUTPUT_DIR_START, name, "FSD.uproject"),
+        "-run=Cook",
+        "-TargetPlatform=WindowsNoEditor",
+        "-fileopenlog",
+        "-ddc=InstalledDerivedDataBackendGraph",
+        "-unversioned",
+        "-abslog=" + os.path.join(OUTPUT_DIR_START, name, "Saved/Logs/Cook-" + str(date) + ".txt"),
+        "-stdout",
+        "-CrashForUAT",
+        "-unattended",
+        "-NoLogTimes",
+        "-UTF8Output"
+    ])
+
 def copy_template_to_repo(name):
     print("============================================================")
     print("               COPYING TEMPLATE TO GITHUB REPO              ")
     print("============================================================")
     # We are deleting the files first otherwise we will keep old files that the devs deleted 
-    files_to_delete = ["Binaries", "Plugins", "Source", "Saved", "Intermediate", "FSD.sln", "FSD.uproject"]
+    files_to_delete = ["Binaries", "Plugins", "Source", "Saved", "Intermediate", "Config", "FSD.sln", "FSD.uproject"]
     for file in files_to_delete:
         if os.path.exists(os.path.join(GITHUB_REPO, file)):
             if os.path.isfile(os.path.join(GITHUB_REPO, file)): os.remove(os.path.join(GITHUB_REPO, file))
             else: shutil.rmtree(os.path.join(GITHUB_REPO, file))
             print("Deleted " + file)
     
-    files_to_copy = ["Binaries", "Plugins", "Source", "FSD.sln", "FSD.uproject"]
+    files_to_copy = ["Binaries", "Plugins", "Source", "Config", "FSD.sln", "FSD.uproject"]
     for file in files_to_copy:
         file_path = os.path.join(OUTPUT_DIR_START, name, file)
         if os.path.exists(file_path):
@@ -244,7 +267,7 @@ def git_diff():
     print("============================================================")
     print("                       GIT DIFF                             ")
     print("============================================================")
-    subprocess.run(["git", "diff", "HEAD~1", "HEAD", "-U0", "--", ":!*.dll"], cwd=GITHUB_REPO, stdout=open(os.path.join(GITHUB_REPO, "changes.diff"), "w"))
+    subprocess.run(["git", "diff", "HEAD~1", "HEAD", "-U0", "--", ":!*.dll", ":!Binaries/"], cwd=GITHUB_REPO, stdout=open(os.path.join(GITHUB_REPO, "changes.diff"), "w"))
     print("Changes saved to changes.diff")
 
 def git_push(commit_tag):
@@ -260,22 +283,33 @@ def main():
     commit_message = input("Commit message: ")
     tag_message = input("Primary game version (e.g. U37P11): ")
     
-    start_time = time.time()
     unpack_files()
     run_project_gen(name)
     copy_modio_sources(name)
     run_rules(name)
     generate_build_files(name)
     compile_project(name)
-    print("--- Compiled in %s seconds ---" % (time.time() - start_time))
     
     if (input("Compiled successfully? (y/n): ") != "y"): return # because I'm too lazy to find a proper way to check if the compilation was successful
+    
+    test_cook_project(name)
+
     copy_template_to_repo(name)
     version = get_game_version()
     version = check_tag_name(version)
     git_commit(commit_message, version, tag_message)
     git_diff()
-    git_push(version)
+    # git_push(version)
+
+def ue4ss_test(): # just for testing if ue4ss changes still allows the project to compile
+    if not check_drive_space(): return
+    name = get_project_name()
+    run_project_gen(name)
+    copy_modio_sources(name)
+    run_rules(name)
+    generate_build_files(name)
+    compile_project(name)
 
 if __name__ == "__main__":
     main()
+    #ue4ss_test()

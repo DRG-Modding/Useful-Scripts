@@ -103,6 +103,12 @@ def copy_modio_sources(name):
         "/Y"
     ])
 
+def copy_config_files(name):
+    print("============================================================")
+    print("                COPYING CONFIG FILES                        ")
+    print("============================================================")
+    shutil.copytree(os.path.join(OUTPUT_DIR_START, "Config"), os.path.join(OUTPUT_DIR_START, name, "Config"))
+
 def change_lines(file_name, line_num, text, is_replace, is_regex = False, match_group = ""):
     if not os.path.exists(file_name): return
     lines = open(file_name, 'r').readlines()
@@ -148,8 +154,8 @@ def run_rules(name):
     # HealthComponentBase.h, line 117
     modify_project_file(name, "HealthComponentBase.h", 116, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
-    # HealthComponent.h, line 98
-    modify_project_file(name, "HealthComponent.h", 97, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # HealthComponent.h, line 101
+    modify_project_file(name, "HealthComponent.h", 100, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
     # EnemyHealthComponent.h, line 39
     modify_project_file(name, "EnemyHealthComponent.h", 38, True, "\t//UFUNCTION(BlueprintCallable)\n")
@@ -277,29 +283,35 @@ def git_push(commit_tag):
     subprocess.run(["git", "push", "origin"], cwd=GITHUB_REPO)
     subprocess.run(["git", "push", "origin", commit_tag], cwd=GITHUB_REPO)
 
+def wait(stage):
+    input("Press enter to continue to next stage: [" + stage + "]")
+
 def main():
     if not check_drive_space(): return
     name = get_project_name()
-    commit_message = input("Commit message: ")
-    tag_message = input("Primary game version (e.g. U37P11): ")
     
     unpack_files()
     run_project_gen(name)
     copy_modio_sources(name)
+    copy_config_files(name)
     run_rules(name)
     generate_build_files(name)
     compile_project(name)
-    
-    if (input("Compiled successfully? (y/n): ") != "y"): return # because I'm too lazy to find a proper way to check if the compilation was successful
-    
-    test_cook_project(name)
 
+    wait("copy template to repo")
+    print("Project name: " + name)
     copy_template_to_repo(name)
+
     version = get_game_version()
     version = check_tag_name(version)
+    tag_message = input("Primary game version (e.g. U37P11): ")
+    commit_message = input("Commit message (e.g. MAJOR): ") + " - " + tag_message
+
+    wait("git commit")
     git_commit(commit_message, version, tag_message)
-    git_diff()
-    # git_push(version)
+    
+    wait("git push")
+    git_push(version)
 
 def ue4ss_test(): # just for testing if ue4ss changes still allows the project to compile
     if not check_drive_space(): return

@@ -7,6 +7,7 @@ from uuid import uuid4
 
 EDITOR_EXE= r"F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/Win64/UE4Editor-Cmd.exe"
 UBT_EXE = r"F:/UNEPIC GAMES/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe"
+UAT_EXE = r"F:/UNEPIC GAMES/UE_4.27/Engine/Build/BatchFiles/RunUAT.bat"
 PROJECT_GEN_UPROJECT = r"F:/DRG Modding/Project Generator/UE4GameProjectGenerator4.27/GameProjectGenerator.uproject"
 HEADER_DUMP = r"C:/Program Files (x86)/Steam/steamapps/common/Deep Rock Galactic/FSD/Binaries/Win64/UHTHeaderDump"
 PAK_FILE = r"C:/Program Files (x86)/Steam/steamapps/common/Deep Rock Galactic/FSD/Content/Paks/FSD-WindowsNoEditor.pak"
@@ -148,8 +149,8 @@ def run_rules(name):
     modify_project_file(name, "FSDProjectileMovementComponent.h", 10, False, "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnProjectileOutOfPropulsion);\n")
     modify_project_file(name, "FSDProjectileMovementComponent.h", 11, False, "\n")
 
-    # SubHealthComponent.h, line 56
-    modify_project_file(name, "SubHealthComponent.h", 55, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # SubHealthComponent.h, line 59
+    modify_project_file(name, "SubHealthComponent.h", 58, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
     # HealthComponentBase.h, line 117
     modify_project_file(name, "HealthComponentBase.h", 116, True, "\t//UFUNCTION(BlueprintCallable)\n")
@@ -209,24 +210,30 @@ def test_cook_project(name):
     print("============================================================")
     print("                    COOKING PROJECT                         ")
     print("============================================================")
-    # Copy the Config folder from the directory above to the project directory
-    shutil.copytree(os.path.join(OUTPUT_DIR_START, "Config"), os.path.join(OUTPUT_DIR_START, name, "Config"))
     
-    date = datetime.datetime.now().strftime("%Y.%m.%d-%H.%M.%S")
+    # [UE4Root]/Engine/Build/BatchFiles/RunUAT.bat BuildCookRun -nocompileeditor -installed -nop4 -project="F:/DRG Modding/Project Generator/deafdabfea/FSD.uproject" -cook -stage -archive -archivedirectory="F:/DRG Modding/MODS/_TESTING/Template Gen" -package -ue4exe="F:\UNEPIC GAMES\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -ddc=InstalledDerivedDataBackendGraph -prereqs -nodebuginfo -targetplatform=Win64 -build -target=FSDGame -clientconfig=Shipping -utf8output -unattended
     subprocess.run([
-        EDITOR_EXE,
-        os.path.join(OUTPUT_DIR_START, name, "FSD.uproject"),
-        "-run=Cook",
-        "-TargetPlatform=WindowsNoEditor",
-        "-fileopenlog",
+        UAT_EXE,
+        "BuildCookRun",
+        "-nocompileeditor",
+        "-installed",
+        "-nop4",
+        "-project=" + os.path.join(OUTPUT_DIR_START, name, "FSD.uproject"),
+        "-cook",
+        "-stage",
+        "-archive",
+        "-archivedirectory=" + TEST_COOK_OUTPUT,
+        "-package",
+        "-ue4exe=" + EDITOR_EXE,
         "-ddc=InstalledDerivedDataBackendGraph",
-        "-unversioned",
-        "-abslog=" + os.path.join(OUTPUT_DIR_START, name, "Saved/Logs/Cook-" + str(date) + ".txt"),
-        "-stdout",
-        "-CrashForUAT",
-        "-unattended",
-        "-NoLogTimes",
-        "-UTF8Output"
+        "-prereqs",
+        "-nodebuginfo",
+        "-targetplatform=Win64",
+        "-build",
+        "-target=FSDGame",
+        "-clientconfig=Shipping",
+        "-utf8output",
+        "-unattended"
     ])
 
 def copy_template_to_repo(name):
@@ -297,6 +304,7 @@ def main():
     run_rules(name)
     generate_build_files(name)
     compile_project(name)
+    test_cook_project(name)
 
     wait("copy template to repo")
     print("Project name: " + name)

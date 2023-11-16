@@ -120,7 +120,9 @@ def change_lines(file_name, line_num, text, is_replace, is_regex = False, match_
                 lines[i] = re.sub(text, match_group, line)
                 print("Replaced line " + str(i) + " with " + match_group + " in " + file_name)
     else:
-        if is_replace: lines[line_num] = text
+        if is_replace:
+            line_num -= 1
+            lines[line_num] = text
         else: lines.insert(line_num, text)
         print("Replaced line " + str(line_num) + " with " + text + " in " + file_name)
     
@@ -140,37 +142,39 @@ def run_rules(name):
     print("                RUNNING THROUGH FIX RULES                   ")
     print("============================================================")
 
+    # Re-add GameplayTasks and OnlineSubsystem to FSD.Build.cs
+    change_lines(os.path.join(OUTPUT_DIR_START, name, "Source", "FSD", "FSD.Build.cs"), 20, '\t\t\t"GameplayTasks",\n', False)
+    change_lines(os.path.join(OUTPUT_DIR_START, name, "Source", "FSD", "FSD.Build.cs"), 25, '\t\t\t"OnlineSubsystem",\n', False)
+
     # CharacterSightSensor.h
     modify_project_file(name, "CharacterSightSensor.h", 7, False, "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCharacterSightSensorDelegate);\n")
     modify_project_file(name, "CharacterSightSensor.h", 8, False, "\n")
 
     # FSDProjectileMovementComponent.h
-    modify_project_file(name, "FSDProjectileMovementComponent.h", 9, False, "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnProjectilePenetrateDelegate);\n")
-    modify_project_file(name, "FSDProjectileMovementComponent.h", 10, False, "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnProjectileOutOfPropulsion);\n")
-    modify_project_file(name, "FSDProjectileMovementComponent.h", 11, False, "\n")
+    modify_project_file(name, "FSDProjectileMovementComponent.h", 8, False, "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnProjectilePenetrateDelegate);\n")
+    modify_project_file(name, "FSDProjectileMovementComponent.h", 9, False, "DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnProjectileOutOfPropulsion);\n")
+    modify_project_file(name, "FSDProjectileMovementComponent.h", 10, False, "\n")
 
-    # SubHealthComponent.h, line 59
-    modify_project_file(name, "SubHealthComponent.h", 58, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # SubHealthComponent.h, line 60
+    modify_project_file(name, "SubHealthComponent.h", 60, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
-    # HealthComponentBase.h, line 117
-    modify_project_file(name, "HealthComponentBase.h", 116, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # HealthComponentBase.h, line 118
+    modify_project_file(name, "HealthComponentBase.h", 118, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
-    # HealthComponent.h, line 101
-    modify_project_file(name, "HealthComponent.h", 100, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # HealthComponent.h, line 102
+    modify_project_file(name, "HealthComponent.h", 102, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
-    # EnemyHealthComponent.h, line 39
-    modify_project_file(name, "EnemyHealthComponent.h", 38, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # EnemyHealthComponent.h, line 40
+    modify_project_file(name, "EnemyHealthComponent.h", 40, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
-    # FriendlyHealthComponent.h, line 33
-    modify_project_file(name, "FriendlyHealthComponent.h", 32, True, "\t//UFUNCTION(BlueprintCallable)\n")
+    # FriendlyHealthComponent.h, line 34
+    modify_project_file(name, "FriendlyHealthComponent.h", 34, True, "\t//UFUNCTION(BlueprintCallable)\n")
 
-    # ShowroomStage.cpp, line 16
-    modify_project_file(name, "ShowroomStage.cpp", 15, True, '\t//this->SceneCapture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("SceneCapture"));\n', "Private")
-
-    # GameFunctionLibrary.cpp, line 27
+    # GameFunctionLibrary.cpp, line 26
     modify_project_file(name, "GameFunctionLibrary.cpp", 26, True, '\treturn true;\n', "Private")
 
     # Search every file in both modules and accessors for the following regex string: (const) ((\w+)\*\&) and replace it with $2
+    # UE does not like const reference pointers in UFUNCTIONs
     for root, _, files in os.walk(os.path.join(OUTPUT_DIR_START, name, "Source")):
         for file in files:
             if file.endswith(".h") or file.endswith(".cpp"):
@@ -211,7 +215,6 @@ def test_cook_project(name):
     print("                    COOKING PROJECT                         ")
     print("============================================================")
     
-    # [UE4Root]/Engine/Build/BatchFiles/RunUAT.bat BuildCookRun -nocompileeditor -installed -nop4 -project="F:/DRG Modding/Project Generator/deafdabfea/FSD.uproject" -cook -stage -archive -archivedirectory="F:/DRG Modding/MODS/_TESTING/Template Gen" -package -ue4exe="F:\UNEPIC GAMES\UE_4.27\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -ddc=InstalledDerivedDataBackendGraph -prereqs -nodebuginfo -targetplatform=Win64 -build -target=FSDGame -clientconfig=Shipping -utf8output -unattended
     subprocess.run([
         UAT_EXE,
         "BuildCookRun",
@@ -291,31 +294,37 @@ def git_push(commit_tag):
     subprocess.run(["git", "push", "origin", commit_tag], cwd=GITHUB_REPO)
 
 def wait(stage):
-    input("Press enter to continue to next stage: [" + stage + "]")
+    input("Press enter to continue to next stage: [" + stage + "] ")
 
 def main():
     if not check_drive_space(): return
     name = get_project_name()
+    print("Project name: " + name)
     
-    unpack_files()
+    if input("Refresh unpacked files? [y/n] ") == 'y': unpack_files()
+    
     run_project_gen(name)
     copy_modio_sources(name)
     copy_config_files(name)
     run_rules(name)
+
+    wait("generate build files")
     generate_build_files(name)
     compile_project(name)
+    
+    wait("cook project")
     test_cook_project(name)
 
     wait("copy template to repo")
-    print("Project name: " + name)
     copy_template_to_repo(name)
 
     version = get_game_version()
     version = check_tag_name(version)
     tag_message = input("Primary game version (e.g. U37P11): ")
-    commit_message = input("Commit message (e.g. MAJOR): ") + " - " + tag_message
+    semver = input("PATCH, MINOR or MAJOR version?").upper() + " - " + tag_message
+    commit_message = semver + " - " + input("Commit message (e.g. UE4SS update): ") 
 
-    wait("git commit")
+    wait("git commit - REMEMBER TO BE LOGGED INTO THE RIGHT GITHUB ACCOUNT ON GITKRAKEN YOU ABSOLUTE BABOON")
     git_commit(commit_message, version, tag_message)
     
     wait("git push")

@@ -173,6 +173,10 @@ def run_rules(name):
     # GameFunctionLibrary.cpp, line 26
     modify_project_file(name, "GameFunctionLibrary.cpp", 26, True, '\treturn true;\n', "Private")
 
+    # Fix Collision component setting in FriendlyParasite.cpp, lines 6 and 7
+    modify_project_file(name, "FriendlyParasite.cpp", 6, True, "AFriendlyParasite::AFriendlyParasite(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {\n")
+    modify_project_file(name, "FriendlyParasite.cpp", 7, True, "\tthis->Collision = CreateDefaultSubobject<USphereComponent>(TEXT(\"Collision\"));\n")
+
     # Search every file in both modules and accessors for the following regex string: (const) ((\w+)\*\&) and replace it with $2
     # UE does not like const reference pointers in UFUNCTIONs
     for root, _, files in os.walk(os.path.join(OUTPUT_DIR_START, name, "Source")):
